@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T12:54:27.938Z",
+  "generatedAt": "2026-08-23T13:30:03.237Z",
   "dateLabel": "Sunday, August 23, 2026",
   "sourceCount": 7,
   "allSourceNames": [
@@ -17,27 +17,11 @@
     "Unite.AI"
   ],
   "mode": "excerpt",
-  "glossaryEvery": 3,
   "glossary": [
     {
       "term": "Large Language Model (LLM)",
       "definition": "A large language model is an AI system trained on huge amounts of text so it gets very good at predicting what word should come next in a sentence. Think of it like the autocomplete on your phone keyboard, but instead of guessing one word from a few you typed, it has read a giant slice of the internet and can guess entire paragraphs, essays, or answers. That one trick, done at massive scale, is what lets it write, summarize, translate, and hold a conversation. ChatGPT, Claude, and Gemini are all built on top of an LLM.",
       "wikiUrl": "https://en.wikipedia.org/wiki/Large_language_model"
-    },
-    {
-      "term": "Attention (Mechanism)",
-      "definition": "Attention is the part of a transformer that decides which words in a sentence matter most to understanding any given word. In the sentence \"The trophy didn't fit in the suitcase because it was too big,\" attention is how a model figures out that \"it\" refers to the trophy, not the suitcase, by weighing which earlier words are most relevant. It works a bit like a spotlight operator at a play, dimming the words that don't matter right now and shining light on the ones that do.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Attention_(machine_learning)"
-    },
-    {
-      "term": "AI Agent",
-      "definition": "An AI agent is a system that can autonomously take a sequence of actions, like browsing the web, running code, or calling other software, to accomplish a goal, rather than just replying to a single prompt with text. The difference is like asking a assistant one question and reading their answer, versus handing them a task, \"book me a flight to Chicago next week,\" and letting them independently search sites, compare prices, and complete the booking on their own.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/AI_agent"
-    },
-    {
-      "term": "Data Center",
-      "definition": "A data center is a facility packed with servers and, for AI purposes, GPUs, that provides the raw computing power behind training and running AI models. If an AI model is the recipe, a data center is the industrial kitchen, rows of powerful \"stoves\" running around the clock, that actually cooks it at scale. The recent AI boom has triggered a global wave of new data center construction, along with the enormous power and water demand that comes with it.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Data_center"
     }
   ],
   "items": [

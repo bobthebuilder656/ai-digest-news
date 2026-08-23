@@ -71,9 +71,8 @@ function itemCard(item, storyNumber) {
 function glossaryCard(entry) {
   return `
       <li class="card glossary-card">
-        <span class="hole hole-left" aria-hidden="true"></span>
-        <span class="hole hole-right" aria-hidden="true"></span>
-        <span class="tab glossary-tab">Glossary</span>
+        <span class="tab glossary-tab">Today&#39;s Term</span>
+        <p class="glossary-intro">One new AI word a day, explained simply &mdash; it adds up.</p>
         <h2 class="headline">${escapeHtml(entry.term)}</h2>
         <div class="summary">
             <p>${escapeHtml(entry.definition)}</p>
@@ -85,29 +84,23 @@ function glossaryCard(entry) {
               <path d="M2 9L9 2M9 2H3.5M9 2V7.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </a>
-          <span class="time">Term of the day</span>
+          <span class="time">That&#39;s today&#39;s digest</span>
         </div>
       </li>`;
 }
 
-// Interleaves a glossary card after every Nth story. Presentation concern,
-// so it lives here rather than in the data-fetching script.
-function buildSlides(items, glossaryPicks, every) {
-  const slides = [];
-  const queue = glossaryPicks.slice();
-  items.forEach((item, i) => {
-    slides.push(itemCard(item, i + 1));
-    if (every > 0 && (i + 1) % every === 0 && queue.length) {
-      slides.push(glossaryCard(queue.shift()));
-    }
-  });
+// The glossary term always renders last, after every story, so it never
+// interrupts news-scanning and its position is predictable every day.
+function buildSlides(items, glossaryPicks) {
+  const slides = items.map((item, i) => itemCard(item, i + 1));
+  glossaryPicks.forEach((pick) => slides.push(glossaryCard(pick)));
   return slides;
 }
 
 function renderDigest(digest) {
-  const { dateLabel, items, sourceCount, mode, allSourceNames, glossary, glossaryEvery } = digest;
+  const { dateLabel, items, sourceCount, mode, allSourceNames, glossary } = digest;
 
-  const slides = buildSlides(items, glossary || [], glossaryEvery || 3);
+  const slides = buildSlides(items, glossary || []);
   const slideMarkup = slides.join('\n');
   const modeNote =
     mode === 'ai'
@@ -240,7 +233,21 @@ function renderDigest(digest) {
     box-shadow: 0 1px 0 var(--border);
   }
 
-  .glossary-card { border-color: var(--accent); border-style: dashed; }
+  .glossary-card {
+    grid-column: 1 / -1;
+    border-color: var(--accent);
+    border-style: dashed;
+    background: color-mix(in srgb, var(--accent) 6%, var(--card));
+    max-width: 620px;
+    margin: 0.5rem auto 0;
+  }
+
+  .glossary-intro {
+    margin: 0 0 0.9rem;
+    font-family: var(--font-mono);
+    font-size: 0.76rem;
+    color: var(--ink-faint);
+  }
 
   .hole {
     position: absolute;
@@ -444,8 +451,10 @@ function renderDigest(digest) {
       <span class="stat">${items.length} stories</span>
       <span class="dot">&middot;</span>
       <span class="stat">${sourceCount} sources</span>
+      <span class="dot">&middot;</span>
+      <span class="stat">1 term to learn</span>
     </div>
-    <span class="swipe-hint">Swipe up for the next story</span>
+    <span class="swipe-hint">Swipe up for the next story &mdash; today's term closes it out</span>
   </header>
 
   <ol class="stack" id="stack">

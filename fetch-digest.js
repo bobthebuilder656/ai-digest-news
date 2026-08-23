@@ -353,7 +353,7 @@ async function summarizeAll(items) {
 // ---------- glossary ----------
 
 const GLOSSARY_PATH = path.join(__dirname, 'glossary.json');
-const GLOSSARY_EVERY = 3;
+const GLOSSARY_TERMS_PER_DAY = 1;
 
 function glossarySearchVariants(term) {
   const m = term.match(/^(.*?)\s*\(([^)]+)\)\s*$/);
@@ -421,8 +421,7 @@ async function main() {
   const dateLabel = now.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
 
   const glossary = JSON.parse(fs.readFileSync(GLOSSARY_PATH, 'utf8'));
-  const glossarySlotCount = Math.floor(withSummaries.length / GLOSSARY_EVERY);
-  const glossaryPicks = selectGlossaryTerms(withSummaries, glossary, glossarySlotCount);
+  const glossaryPicks = selectGlossaryTerms(withSummaries, glossary, GLOSSARY_TERMS_PER_DAY);
 
   const digest = {
     generatedAt: now.toISOString(),
@@ -430,7 +429,6 @@ async function main() {
     sourceCount: usedSources.size,
     allSourceNames: sources.map((s) => s.name),
     mode: overallMode,
-    glossaryEvery: GLOSSARY_EVERY,
     glossary: glossaryPicks,
     items: withSummaries.map((it) => ({
       title: it.title,

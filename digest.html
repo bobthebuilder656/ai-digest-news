@@ -123,7 +123,21 @@
     box-shadow: 0 1px 0 var(--border);
   }
 
-  .glossary-card { border-color: var(--accent); border-style: dashed; }
+  .glossary-card {
+    grid-column: 1 / -1;
+    border-color: var(--accent);
+    border-style: dashed;
+    background: color-mix(in srgb, var(--accent) 6%, var(--card));
+    max-width: 620px;
+    margin: 0.5rem auto 0;
+  }
+
+  .glossary-intro {
+    margin: 0 0 0.9rem;
+    font-family: var(--font-mono);
+    font-size: 0.76rem;
+    color: var(--ink-faint);
+  }
 
   .hole {
     position: absolute;
@@ -327,8 +341,10 @@
       <span class="stat">12 stories</span>
       <span class="dot">&middot;</span>
       <span class="stat">7 sources</span>
+      <span class="dot">&middot;</span>
+      <span class="stat">1 term to learn</span>
     </div>
-    <span class="swipe-hint">Swipe up for the next story</span>
+    <span class="swipe-hint">Swipe up for the next story &mdash; today's term closes it out</span>
   </header>
 
   <ol class="stack" id="stack">
@@ -390,25 +406,6 @@
         </div>
       </li>
 
-      <li class="card glossary-card">
-        <span class="hole hole-left" aria-hidden="true"></span>
-        <span class="hole hole-right" aria-hidden="true"></span>
-        <span class="tab glossary-tab">Glossary</span>
-        <h2 class="headline">Large Language Model (LLM)</h2>
-        <div class="summary">
-            <p>A large language model is an AI system trained on huge amounts of text so it gets very good at predicting what word should come next in a sentence. Think of it like the autocomplete on your phone keyboard, but instead of guessing one word from a few you typed, it has read a giant slice of the internet and can guess entire paragraphs, essays, or answers. That one trick, done at massive scale, is what lets it write, summarize, translate, and hold a conversation. ChatGPT, Claude, and Gemini are all built on top of an LLM.</p>
-        </div>
-        <div class="card-footer">
-          <a class="read-link" href="https://en.wikipedia.org/wiki/Large_language_model" target="_blank" rel="noopener noreferrer">
-            Go deeper on Wikipedia
-            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M2 9L9 2M9 2H3.5M9 2V7.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </a>
-          <span class="time">Term of the day</span>
-        </div>
-      </li>
-
       <li class="card">
         <span class="hole hole-left" aria-hidden="true"></span>
         <span class="hole hole-right" aria-hidden="true"></span>
@@ -466,25 +463,6 @@
         </div>
       </li>
 
-      <li class="card glossary-card">
-        <span class="hole hole-left" aria-hidden="true"></span>
-        <span class="hole hole-right" aria-hidden="true"></span>
-        <span class="tab glossary-tab">Glossary</span>
-        <h2 class="headline">Attention (Mechanism)</h2>
-        <div class="summary">
-            <p>Attention is the part of a transformer that decides which words in a sentence matter most to understanding any given word. In the sentence &quot;The trophy didn&#39;t fit in the suitcase because it was too big,&quot; attention is how a model figures out that &quot;it&quot; refers to the trophy, not the suitcase, by weighing which earlier words are most relevant. It works a bit like a spotlight operator at a play, dimming the words that don&#39;t matter right now and shining light on the ones that do.</p>
-        </div>
-        <div class="card-footer">
-          <a class="read-link" href="https://en.wikipedia.org/wiki/Attention_(machine_learning)" target="_blank" rel="noopener noreferrer">
-            Go deeper on Wikipedia
-            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M2 9L9 2M9 2H3.5M9 2V7.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </a>
-          <span class="time">Term of the day</span>
-        </div>
-      </li>
-
       <li class="card">
         <span class="hole hole-left" aria-hidden="true"></span>
         <span class="hole hole-right" aria-hidden="true"></span>
@@ -539,25 +517,6 @@
             </svg>
           </a>
           <span class="time">2:55 AM</span>
-        </div>
-      </li>
-
-      <li class="card glossary-card">
-        <span class="hole hole-left" aria-hidden="true"></span>
-        <span class="hole hole-right" aria-hidden="true"></span>
-        <span class="tab glossary-tab">Glossary</span>
-        <h2 class="headline">AI Agent</h2>
-        <div class="summary">
-            <p>An AI agent is a system that can autonomously take a sequence of actions, like browsing the web, running code, or calling other software, to accomplish a goal, rather than just replying to a single prompt with text. The difference is like asking a assistant one question and reading their answer, versus handing them a task, &quot;book me a flight to Chicago next week,&quot; and letting them independently search sites, compare prices, and complete the booking on their own.</p>
-        </div>
-        <div class="card-footer">
-          <a class="read-link" href="https://en.wikipedia.org/wiki/AI_agent" target="_blank" rel="noopener noreferrer">
-            Go deeper on Wikipedia
-            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M2 9L9 2M9 2H3.5M9 2V7.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </a>
-          <span class="time">Term of the day</span>
         </div>
       </li>
 
@@ -619,28 +578,27 @@
       </li>
 
       <li class="card glossary-card">
-        <span class="hole hole-left" aria-hidden="true"></span>
-        <span class="hole hole-right" aria-hidden="true"></span>
-        <span class="tab glossary-tab">Glossary</span>
-        <h2 class="headline">Data Center</h2>
+        <span class="tab glossary-tab">Today&#39;s Term</span>
+        <p class="glossary-intro">One new AI word a day, explained simply &mdash; it adds up.</p>
+        <h2 class="headline">Large Language Model (LLM)</h2>
         <div class="summary">
-            <p>A data center is a facility packed with servers and, for AI purposes, GPUs, that provides the raw computing power behind training and running AI models. If an AI model is the recipe, a data center is the industrial kitchen, rows of powerful &quot;stoves&quot; running around the clock, that actually cooks it at scale. The recent AI boom has triggered a global wave of new data center construction, along with the enormous power and water demand that comes with it.</p>
+            <p>A large language model is an AI system trained on huge amounts of text so it gets very good at predicting what word should come next in a sentence. Think of it like the autocomplete on your phone keyboard, but instead of guessing one word from a few you typed, it has read a giant slice of the internet and can guess entire paragraphs, essays, or answers. That one trick, done at massive scale, is what lets it write, summarize, translate, and hold a conversation. ChatGPT, Claude, and Gemini are all built on top of an LLM.</p>
         </div>
         <div class="card-footer">
-          <a class="read-link" href="https://en.wikipedia.org/wiki/Data_center" target="_blank" rel="noopener noreferrer">
+          <a class="read-link" href="https://en.wikipedia.org/wiki/Large_language_model" target="_blank" rel="noopener noreferrer">
             Go deeper on Wikipedia
             <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
               <path d="M2 9L9 2M9 2H3.5M9 2V7.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </a>
-          <span class="time">Term of the day</span>
+          <span class="time">That&#39;s today&#39;s digest</span>
         </div>
       </li>
   </ol>
 
   <div class="progress-bar">
     <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
-    <span class="progress-count" id="progressCount">1 / 16</span>
+    <span class="progress-count" id="progressCount">1 / 13</span>
   </div>
 
   <footer class="colophon">
