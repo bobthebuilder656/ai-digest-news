@@ -1,0 +1,14 @@
+[
+  { "name": "TechCrunch", "feedUrl": "https://techcrunch.com/category/artificial-intelligence/feed/", "format": "rss" },
+  { "name": "VentureBeat", "feedUrl": "https://venturebeat.com/category/ai/feed/", "format": "rss" },
+  { "name": "The Verge", "feedUrl": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "format": "atom" },
+  { "name": "Ars Technica", "feedUrl": "https://arstechnica.com/tag/ai/feed/", "format": "rss" },
+  { "name": "Wired", "feedUrl": "https://www.wired.com/feed/tag/ai/latest/rss", "format": "rss" },
+  { "name": "MIT Technology Review", "feedUrl": "https://www.technologyreview.com/topic/artificial-intelligence/feed/", "format": "rss" },
+  { "name": "AI News", "feedUrl": "https://www.artificialintelligence-news.com/feed/", "format": "rss" },
+  { "name": "AI Business", "feedUrl": "https://aibusiness.com/rss.xml", "format": "rss" },
+  { "name": "The Decoder", "feedUrl": "https://the-decoder.com/feed/", "format": "rss" },
+  { "name": "SiliconANGLE", "feedUrl": "https://siliconangle.com/category/ai/feed/", "format": "rss" },
+  { "name": "The Register", "feedUrl": "https://www.theregister.com/software/ai_ml/headlines.atom", "format": "rss" },
+  { "name": "Unite.AI", "feedUrl": "https://www.unite.ai/feed/", "format": "rss" }
+]
