@@ -270,7 +270,6 @@
     }
 
     .stack .card {
-      height: 100%;
       min-height: 100%;
       scroll-snap-align: start;
       scroll-snap-stop: always;
@@ -338,6 +337,25 @@
         <span class="hole hole-left" aria-hidden="true"></span>
         <span class="hole hole-right" aria-hidden="true"></span>
         <span class="tab" style="background:#5c3f78">01 &middot; The Decoder</span>
+        <h2 class="headline">An AI boss fired its first employee but only after humans reminded it of its own rules</h2>
+        <div class="summary">
+            <p>Andon Labs&#39; AI agent Luna fired a human employee at a San Francisco store for the first time but needed a clear push from the operators to do it. When the scenario was replayed with seven models, more capable AIs recommended termination more consistently, while weaker ones hesitated. When it came to hiring, nearly all models were uncritical. AI agent Luna has been running a store in San Francisco since April and just fired an employee for the first time.</p>
+        </div>
+        <div class="card-footer">
+          <a class="read-link" href="https://the-decoder.com/an-ai-boss-fired-its-first-employee-but-only-after-humans-reminded-it-of-its-own-rules/" target="_blank" rel="noopener noreferrer">
+            Read the full story
+            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M2 9L9 2M9 2H3.5M9 2V7.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+          <span class="time">6:01 PM</span>
+        </div>
+      </li>
+
+      <li class="card">
+        <span class="hole hole-left" aria-hidden="true"></span>
+        <span class="hole hole-right" aria-hidden="true"></span>
+        <span class="tab" style="background:#5c3f78">02 &middot; The Decoder</span>
         <h2 class="headline">AI is becoming AI&#39;s biggest customer as agentic token usage jumps 14x on OpenRouter</h2>
         <div class="summary">
             <p>AI agents have consumed more tokens than humans on OpenRouter since February 6, 2025. Agentic usage has grown 14x since then, while human usage is up just 2.8x. Nearly 70 percent of agent token consumption comes from cheap cached prompts, though, so actual costs are rising far more slowly than the raw numbers suggest. AI is using more and more AI.</p>
@@ -350,25 +368,6 @@
             </svg>
           </a>
           <span class="time">3:32 PM</span>
-        </div>
-      </li>
-
-      <li class="card">
-        <span class="hole hole-left" aria-hidden="true"></span>
-        <span class="hole hole-right" aria-hidden="true"></span>
-        <span class="tab" style="background:#5c3f78">02 &middot; The Decoder</span>
-        <h2 class="headline">AI could make scientists do more work less well, not less work better, study argues</h2>
-        <div class="summary">
-            <p>Even if language models worked perfectly, they could make research worse, not better. A new theoretical study argues that because AI saves time, researchers&#39; remaining hours become more valuable and get funneled into starting new projects instead of improving existing ones. In two out of three modeled scenarios, the quality of individual publications drops. Language models are supposed to speed up science at every stage, from developing hypotheses to analyzing data to writing papers.</p>
-        </div>
-        <div class="card-footer">
-          <a class="read-link" href="https://the-decoder.com/ai-could-make-scientists-do-more-work-less-well-not-less-work-better-study-argues/" target="_blank" rel="noopener noreferrer">
-            Read the full story
-            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-              <path d="M2 9L9 2M9 2H3.5M9 2V7.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </a>
-          <span class="time">2:31 PM</span>
         </div>
       </li>
 
@@ -397,7 +396,7 @@
         <span class="tab glossary-tab">Glossary</span>
         <h2 class="headline">Large Language Model (LLM)</h2>
         <div class="summary">
-            <p>A large language model is an AI system trained on huge amounts of text to predict what word comes next. That simple trick, done at massive scale, lets it write, summarize, translate, and answer questions in fluent language. ChatGPT, Claude, and Gemini are all built on LLMs.</p>
+            <p>A large language model is an AI system trained on huge amounts of text so it gets very good at predicting what word should come next in a sentence. Think of it like the autocomplete on your phone keyboard, but instead of guessing one word from a few you typed, it has read a giant slice of the internet and can guess entire paragraphs, essays, or answers. That one trick, done at massive scale, is what lets it write, summarize, translate, and hold a conversation. ChatGPT, Claude, and Gemini are all built on top of an LLM.</p>
         </div>
         <div class="card-footer">
           <a class="read-link" href="https://en.wikipedia.org/wiki/Large_language_model" target="_blank" rel="noopener noreferrer">
@@ -473,7 +472,7 @@
         <span class="tab glossary-tab">Glossary</span>
         <h2 class="headline">Attention (Mechanism)</h2>
         <div class="summary">
-            <p>Attention is the part of a transformer that decides which words in a sentence matter most to understanding any given word. It&#39;s how a model figures out that &quot;it&quot; in a sentence refers back to &quot;the dog&quot; three words earlier, for example.</p>
+            <p>Attention is the part of a transformer that decides which words in a sentence matter most to understanding any given word. In the sentence &quot;The trophy didn&#39;t fit in the suitcase because it was too big,&quot; attention is how a model figures out that &quot;it&quot; refers to the trophy, not the suitcase, by weighing which earlier words are most relevant. It works a bit like a spotlight operator at a play, dimming the words that don&#39;t matter right now and shining light on the ones that do.</p>
         </div>
         <div class="card-footer">
           <a class="read-link" href="https://en.wikipedia.org/wiki/Attention_(machine_learning)" target="_blank" rel="noopener noreferrer">
@@ -549,7 +548,7 @@
         <span class="tab glossary-tab">Glossary</span>
         <h2 class="headline">AI Agent</h2>
         <div class="summary">
-            <p>An AI agent is a system that can autonomously take a sequence of actions, like browsing the web, running code, or calling other software, to accomplish a goal, rather than just replying to a single prompt with text.</p>
+            <p>An AI agent is a system that can autonomously take a sequence of actions, like browsing the web, running code, or calling other software, to accomplish a goal, rather than just replying to a single prompt with text. The difference is like asking a assistant one question and reading their answer, versus handing them a task, &quot;book me a flight to Chicago next week,&quot; and letting them independently search sites, compare prices, and complete the booking on their own.</p>
         </div>
         <div class="card-footer">
           <a class="read-link" href="https://en.wikipedia.org/wiki/AI_agent" target="_blank" rel="noopener noreferrer">
@@ -625,7 +624,7 @@
         <span class="tab glossary-tab">Glossary</span>
         <h2 class="headline">Data Center</h2>
         <div class="summary">
-            <p>A data center is a facility packed with servers and, for AI purposes, GPUs, that provides the raw computing power behind training and running AI models. The recent boom in AI has triggered a global wave of new data center construction, and the power demand that comes with it.</p>
+            <p>A data center is a facility packed with servers and, for AI purposes, GPUs, that provides the raw computing power behind training and running AI models. If an AI model is the recipe, a data center is the industrial kitchen, rows of powerful &quot;stoves&quot; running around the clock, that actually cooks it at scale. The recent AI boom has triggered a global wave of new data center construction, along with the enormous power and water demand that comes with it.</p>
         </div>
         <div class="card-footer">
           <a class="read-link" href="https://en.wikipedia.org/wiki/Data_center" target="_blank" rel="noopener noreferrer">

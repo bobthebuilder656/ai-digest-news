@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T11:03:51.432Z",
+  "generatedAt": "2026-08-23T12:54:27.938Z",
   "dateLabel": "Sunday, August 23, 2026",
   "sourceCount": 7,
   "allSourceNames": [
@@ -21,39 +21,39 @@
   "glossary": [
     {
       "term": "Large Language Model (LLM)",
-      "definition": "A large language model is an AI system trained on huge amounts of text to predict what word comes next. That simple trick, done at massive scale, lets it write, summarize, translate, and answer questions in fluent language. ChatGPT, Claude, and Gemini are all built on LLMs.",
+      "definition": "A large language model is an AI system trained on huge amounts of text so it gets very good at predicting what word should come next in a sentence. Think of it like the autocomplete on your phone keyboard, but instead of guessing one word from a few you typed, it has read a giant slice of the internet and can guess entire paragraphs, essays, or answers. That one trick, done at massive scale, is what lets it write, summarize, translate, and hold a conversation. ChatGPT, Claude, and Gemini are all built on top of an LLM.",
       "wikiUrl": "https://en.wikipedia.org/wiki/Large_language_model"
     },
     {
       "term": "Attention (Mechanism)",
-      "definition": "Attention is the part of a transformer that decides which words in a sentence matter most to understanding any given word. It's how a model figures out that \"it\" in a sentence refers back to \"the dog\" three words earlier, for example.",
+      "definition": "Attention is the part of a transformer that decides which words in a sentence matter most to understanding any given word. In the sentence \"The trophy didn't fit in the suitcase because it was too big,\" attention is how a model figures out that \"it\" refers to the trophy, not the suitcase, by weighing which earlier words are most relevant. It works a bit like a spotlight operator at a play, dimming the words that don't matter right now and shining light on the ones that do.",
       "wikiUrl": "https://en.wikipedia.org/wiki/Attention_(machine_learning)"
     },
     {
       "term": "AI Agent",
-      "definition": "An AI agent is a system that can autonomously take a sequence of actions, like browsing the web, running code, or calling other software, to accomplish a goal, rather than just replying to a single prompt with text.",
+      "definition": "An AI agent is a system that can autonomously take a sequence of actions, like browsing the web, running code, or calling other software, to accomplish a goal, rather than just replying to a single prompt with text. The difference is like asking a assistant one question and reading their answer, versus handing them a task, \"book me a flight to Chicago next week,\" and letting them independently search sites, compare prices, and complete the booking on their own.",
       "wikiUrl": "https://en.wikipedia.org/wiki/AI_agent"
     },
     {
       "term": "Data Center",
-      "definition": "A data center is a facility packed with servers and, for AI purposes, GPUs, that provides the raw computing power behind training and running AI models. The recent boom in AI has triggered a global wave of new data center construction, and the power demand that comes with it.",
+      "definition": "A data center is a facility packed with servers and, for AI purposes, GPUs, that provides the raw computing power behind training and running AI models. If an AI model is the recipe, a data center is the industrial kitchen, rows of powerful \"stoves\" running around the clock, that actually cooks it at scale. The recent AI boom has triggered a global wave of new data center construction, along with the enormous power and water demand that comes with it.",
       "wikiUrl": "https://en.wikipedia.org/wiki/Data_center"
     }
   ],
   "items": [
+    {
+      "title": "An AI boss fired its first employee but only after humans reminded it of its own rules",
+      "link": "https://the-decoder.com/an-ai-boss-fired-its-first-employee-but-only-after-humans-reminded-it-of-its-own-rules/",
+      "source": "The Decoder",
+      "publishedAt": "2026-08-23T12:31:59.000Z",
+      "summary": "Andon Labs' AI agent Luna fired a human employee at a San Francisco store for the first time but needed a clear push from the operators to do it. When the scenario was replayed with seven models, more capable AIs recommended termination more consistently, while weaker ones hesitated. When it came to hiring, nearly all models were uncritical. AI agent Luna has been running a store in San Francisco since April and just fired an employee for the first time."
+    },
     {
       "title": "AI is becoming AI's biggest customer as agentic token usage jumps 14x on OpenRouter",
       "link": "https://the-decoder.com/ai-is-becoming-ais-biggest-customer-as-agentic-token-usage-jumps-14x-on-openrouter/",
       "source": "The Decoder",
       "publishedAt": "2026-08-23T10:02:00.000Z",
       "summary": "AI agents have consumed more tokens than humans on OpenRouter since February 6, 2025. Agentic usage has grown 14x since then, while human usage is up just 2.8x. Nearly 70 percent of agent token consumption comes from cheap cached prompts, though, so actual costs are rising far more slowly than the raw numbers suggest. AI is using more and more AI."
-    },
-    {
-      "title": "AI could make scientists do more work less well, not less work better, study argues",
-      "link": "https://the-decoder.com/ai-could-make-scientists-do-more-work-less-well-not-less-work-better-study-argues/",
-      "source": "The Decoder",
-      "publishedAt": "2026-08-23T09:01:17.000Z",
-      "summary": "Even if language models worked perfectly, they could make research worse, not better. A new theoretical study argues that because AI saves time, researchers' remaining hours become more valuable and get funneled into starting new projects instead of improving existing ones. In two out of three modeled scenarios, the quality of individual publications drops. Language models are supposed to speed up science at every stage, from developing hypotheses to analyzing data to writing papers."
     },
     {
       "title": "Harvard’s $699 startup bootcamp offers AI avatars of its instructors",

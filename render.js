@@ -387,7 +387,6 @@ function renderDigest(digest) {
     }
 
     .stack .card {
-      height: 100%;
       min-height: 100%;
       scroll-snap-align: start;
       scroll-snap-stop: always;

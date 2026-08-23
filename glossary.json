@@ -1,192 +1,192 @@
 [
   {
     "term": "Large Language Model (LLM)",
-    "definition": "A large language model is an AI system trained on huge amounts of text to predict what word comes next. That simple trick, done at massive scale, lets it write, summarize, translate, and answer questions in fluent language. ChatGPT, Claude, and Gemini are all built on LLMs.",
+    "definition": "A large language model is an AI system trained on huge amounts of text so it gets very good at predicting what word should come next in a sentence. Think of it like the autocomplete on your phone keyboard, but instead of guessing one word from a few you typed, it has read a giant slice of the internet and can guess entire paragraphs, essays, or answers. That one trick, done at massive scale, is what lets it write, summarize, translate, and hold a conversation. ChatGPT, Claude, and Gemini are all built on top of an LLM.",
     "wikiTitle": "Large language model"
   },
   {
     "term": "Generative AI",
-    "definition": "Generative AI refers to systems that create new content, text, images, audio, video, or code, rather than just analyzing or classifying existing data. It's the umbrella term that covers chatbots, image generators, and everything in between.",
+    "definition": "Generative AI is the umbrella term for any AI that creates new content, text, images, audio, video, or code, rather than just sorting or analyzing things that already exist. A spam filter that sorts email into \"junk\" or \"not junk\" is not generative; a tool that writes you a brand new email from scratch is. It's called \"generative\" because it generates something that didn't exist a moment ago, the way a chef generates a new dish from raw ingredients rather than just plating a dish someone else already cooked.",
     "wikiTitle": "Generative AI"
   },
   {
     "term": "Artificial General Intelligence (AGI)",
-    "definition": "AGI describes a hypothetical AI that can understand or learn any intellectual task a human can, rather than being good at one narrow thing. No system today is widely agreed to have reached it, but it's a common reference point in debates about AI's future.",
+    "definition": "AGI describes a hypothetical AI that can understand or learn any intellectual task a human can, rather than being narrowly good at one thing. Today's AI is more like a brilliant specialist: a chess engine is unbeatable at chess but can't hold a conversation, and a chatbot can hold a conversation but can't drive a car. AGI would be more like a generalist who can pick up any of those skills. No system today is widely agreed to have reached it, but it's the north-star reference point in most debates about where AI is headed.",
     "wikiTitle": "Artificial general intelligence"
   },
   {
     "term": "Machine Learning",
-    "definition": "Machine learning is the broader field of teaching computers to find patterns in data and improve at a task without being explicitly programmed with rules for it. Modern AI, including LLMs, is a product of machine learning techniques.",
+    "definition": "Machine learning is the broader field of teaching computers to spot patterns in data and get better at a task through experience, instead of a programmer writing out every rule by hand. It's the difference between hard-coding \"if the email contains the word 'lottery,' mark it spam\" versus showing the computer thousands of real spam and non-spam emails and letting it work out the patterns itself. Modern AI, including every LLM, is a product built on machine learning techniques.",
     "wikiTitle": "Machine learning"
   },
   {
     "term": "Neural Network",
-    "definition": "A neural network is a computing structure loosely inspired by neurons in the brain: layers of simple units that pass signals to each other, adjusting the strength of those connections as they learn from examples. It's the basic architecture underneath almost all modern AI.",
+    "definition": "A neural network is a computing structure loosely inspired by neurons in the brain: layers of simple units that pass signals to each other, strengthening or weakening those connections as they learn from examples. Picture a huge grid of light switches, wired together in layers, where training slowly adjusts which switches influence which other switches until the whole grid reliably lights up the correct \"answer\" pattern for a given input. It's the basic architecture underneath almost all modern AI, from image recognition to language models.",
     "wikiTitle": "Neural network (machine learning)"
   },
   {
     "term": "Deep Learning",
-    "definition": "Deep learning is machine learning using neural networks with many layers stacked on top of each other. The extra depth lets these networks learn much more complex patterns, which is what made today's AI boom in image recognition and language possible.",
+    "definition": "Deep learning is machine learning using neural networks with many layers stacked on top of each other, rather than just one or two. Each extra layer lets the network build on what the previous one learned, similar to how a first layer might notice edges in a photo, the next layer combines edges into shapes, and a later layer combines shapes into \"this is a face.\" That extra depth is what made today's boom in image recognition, speech, and language possible.",
     "wikiTitle": "Deep learning"
   },
   {
     "term": "Transformer",
-    "definition": "The transformer is the neural network design, introduced in 2017, that made modern LLMs possible. Its key trick is processing an entire piece of text at once and weighing how every word relates to every other word, instead of reading strictly left to right.",
+    "definition": "The transformer is the neural network design, introduced in 2017, that made modern LLMs possible. Its key trick is reading an entire piece of text at once and weighing how every word relates to every other word, instead of reading strictly left to right like a person following a line with their finger. Imagine reading a mystery novel and being able to instantly cross-reference every earlier clue at once, rather than only remembering the last page, that's roughly the advantage a transformer has over older, word-by-word AI designs.",
     "wikiTitle": "Transformer (deep learning)"
   },
   {
     "term": "Attention (Mechanism)",
-    "definition": "Attention is the part of a transformer that decides which words in a sentence matter most to understanding any given word. It's how a model figures out that \"it\" in a sentence refers back to \"the dog\" three words earlier, for example.",
+    "definition": "Attention is the part of a transformer that decides which words in a sentence matter most to understanding any given word. In the sentence \"The trophy didn't fit in the suitcase because it was too big,\" attention is how a model figures out that \"it\" refers to the trophy, not the suitcase, by weighing which earlier words are most relevant. It works a bit like a spotlight operator at a play, dimming the words that don't matter right now and shining light on the ones that do.",
     "wikiTitle": "Attention (machine learning)"
   },
   {
     "term": "Fine-Tuning",
-    "definition": "Fine-tuning is taking an already-trained AI model and training it further on a smaller, specific dataset so it gets better at a particular task or domain, like legal writing or customer support. It's much cheaper than training a model from scratch.",
+    "definition": "Fine-tuning is taking an already-trained AI model and training it further on a smaller, specific dataset so it gets better at a particular task or domain, like legal writing, customer support, or a company's internal jargon. It's the AI equivalent of hiring a smart, broadly educated generalist and then sending them through a few weeks of specialized on-the-job training, instead of educating a brand new specialist from kindergarten onward. It's far cheaper and faster than training a model from scratch.",
     "wikiTitle": "Fine-tuning (deep learning)"
   },
   {
     "term": "Prompt Engineering",
-    "definition": "Prompt engineering is the practice of carefully wording your instructions to an AI model to get better, more reliable results. It ranges from simple tricks like \"think step by step\" to elaborate templates used in production software.",
+    "definition": "Prompt engineering is the practice of carefully wording your instructions to an AI model to get better, more reliable results. It's similar to learning how to phrase a request to a very literal-minded assistant: \"summarize this in three bullet points for a 10-year-old\" tends to get a much more useful answer than just \"summarize this.\" It ranges from simple tricks like asking the model to \"think step by step\" to elaborate, carefully tested prompt templates used inside real production software.",
     "wikiTitle": "Prompt engineering"
   },
   {
     "term": "Reinforcement Learning",
-    "definition": "Reinforcement learning is a training method where an AI learns by trial and error, taking actions and getting rewarded or penalized based on the outcome, similar to how a dog learns tricks through treats. It's used both in robotics and in shaping how chatbots respond.",
+    "definition": "Reinforcement learning is a training method where an AI learns by trial and error: it takes an action, and gets rewarded or penalized depending on the outcome. It's essentially how you'd train a dog with treats, the dog doesn't understand English instructions, but it learns \"sit\" earns a treat and jumping on the guest doesn't, purely from repeated feedback. It's used both in robotics, like a robot learning to walk, and in shaping how chatbots respond to people.",
     "wikiTitle": "Reinforcement learning"
   },
   {
     "term": "RLHF (Reinforcement Learning from Human Feedback)",
-    "definition": "RLHF is the technique labs use to make raw language models behave more helpfully and safely: humans rate different AI responses, and the model is retrained to produce more of the highly-rated kind. It's a major reason chatbots feel conversational rather than just predicting text.",
+    "definition": "RLHF is the technique AI labs use to make a raw, freshly-trained language model actually behave helpfully and safely. Human reviewers look at pairs of AI responses to the same question and pick the better one, and the model is retrained to produce more answers like the ones humans preferred. Think of it as a talented but very literal new employee, submitted their first drafts to an editor over and over until their instincts started matching what people actually wanted. It's a major reason today's chatbots feel conversational and considerate rather than just spitting out raw predicted text.",
     "wikiTitle": "Reinforcement learning from human feedback"
   },
   {
     "term": "Retrieval-Augmented Generation (RAG)",
-    "definition": "RAG is a technique where an AI model looks up relevant documents from an external source before answering, instead of relying only on what it memorized during training. It helps models give more current and accurate answers, and lets them cite sources.",
+    "definition": "RAG is a technique where an AI model looks up relevant documents from an outside source, like a company's internal files or a live web search, before writing its answer, instead of relying purely on what it memorized during training. It's the difference between a student answering an exam question entirely from memory versus being allowed to quickly check a textbook first. It helps models give more current, accurate answers and lets them cite exactly where the information came from.",
     "wikiTitle": "Retrieval-augmented generation"
   },
   {
     "term": "Hallucination",
-    "definition": "In AI, a hallucination is when a model confidently states something false, like a fake citation or an invented fact, because it's generating plausible-sounding text rather than actually retrieving verified information. It's one of the central unsolved problems in deploying LLMs reliably.",
+    "definition": "In AI, a hallucination is when a model confidently states something false, a fake statistic, a made-up citation, or an invented fact, because it's generating plausible-sounding text rather than actually retrieving something it verified. It's less like lying, which implies knowing the truth and hiding it, and more like a very confident student improvising a convincing-sounding answer on an exam question they never actually studied. It remains one of the central unsolved problems in trusting LLMs for anything high-stakes.",
     "wikiTitle": "Hallucination (artificial intelligence)"
   },
   {
     "term": "Multimodal AI",
-    "definition": "A multimodal AI system can work with more than one type of input or output, such as understanding both text and images, or generating both text and audio, instead of being limited to just one format.",
+    "definition": "A multimodal AI system can work with more than one type of input or output, understanding both text and images, for example, or generating text plus audio, instead of being limited to just one format. Show it a photo of your fridge and ask \"what can I cook with this,\" and a multimodal model can actually look at the picture and reason about the ingredients, the way a person glances at the fridge and starts planning dinner, rather than needing everything typed out in words first.",
     "wikiTitle": "Multimodal learning"
   },
   {
     "term": "Embedding",
-    "definition": "An embedding is a way of converting a word, sentence, or image into a list of numbers that captures its meaning, so that similar concepts end up numerically close together. It's the mathematical backbone behind AI search and recommendation features.",
+    "definition": "An embedding is a way of converting a word, sentence, or image into a long list of numbers that captures its meaning, arranged so that similar concepts end up numerically close together. Imagine plotting every word in the dictionary on a giant map where \"king\" and \"queen\" end up as close neighbors, and \"queen\" and \"bicycle\" end up on opposite sides of the map. That numerical map is the mathematical backbone behind AI search, recommendations, and how models compare meaning rather than just exact spelling.",
     "wikiTitle": "Word embedding"
   },
   {
     "term": "Vector Database",
-    "definition": "A vector database stores those numerical embeddings and can quickly find the ones most similar to a given query. It's the piece of infrastructure that lets an AI product search \"by meaning\" rather than by exact keyword match.",
+    "definition": "A vector database stores those numerical embeddings and can quickly find the ones most similar to a given query, out of millions or billions of entries. It's like a librarian who, instead of matching your exact search words, understands the gist of what you're after and pulls the books that are actually about that topic. It's the piece of infrastructure that lets an AI product search \"by meaning\" instead of by exact keyword match.",
     "wikiTitle": "Vector database"
   },
   {
     "term": "Semantic Search",
-    "definition": "Semantic search finds results based on meaning and intent rather than matching the exact words you typed. Ask for \"cheap laptops for students\" and it can surface a page about \"budget-friendly notebooks for college,\" because it understands the concepts are related.",
+    "definition": "Semantic search finds results based on meaning and intent rather than matching the exact words you typed. Search for \"cheap laptops for students\" and it can surface a page titled \"budget-friendly notebooks for college,\" because it understands those phrases mean roughly the same thing, the way a helpful shop assistant understands what you're actually looking for even if you don't use the exact product name.",
     "wikiTitle": "Semantic search"
   },
   {
     "term": "Diffusion Model",
-    "definition": "A diffusion model generates images (or audio) by starting with random noise and gradually refining it, step by step, into a coherent picture that matches a text prompt. It's the technique behind most modern AI image generators.",
+    "definition": "A diffusion model generates images (or audio) by starting from random visual noise, like TV static, and gradually refining it, step by step, into a coherent picture that matches a text prompt. It's a bit like a sculptor starting with a rough, shapeless block and slowly chiseling away until a specific figure emerges, except the \"chiseling\" is dozens of small AI-guided cleanup passes. It's the technique behind most modern AI image generators, like Midjourney and DALL-E.",
     "wikiTitle": "Diffusion model"
   },
   {
     "term": "Synthetic Data",
-    "definition": "Synthetic data is artificially generated information, often produced by another AI model, used to train or test systems when real-world data is scarce, expensive, or sensitive to use directly.",
+    "definition": "Synthetic data is artificially generated information, often produced by another AI model, used to train or test systems when real-world data is scarce, expensive, or too sensitive to use directly. It's similar to a flight simulator: pilots train on realistic but fake scenarios because letting them practice emergency landings on real planes with real passengers would be far too risky and expensive.",
     "wikiTitle": "Synthetic data"
   },
   {
     "term": "Knowledge Distillation",
-    "definition": "Knowledge distillation is training a smaller, faster \"student\" AI model to mimic the behavior of a larger, more capable \"teacher\" model. It's how companies produce cheaper, quicker models that still perform reasonably close to their flagship versions.",
+    "definition": "Knowledge distillation is training a smaller, faster \"student\" AI model to mimic the behavior of a larger, more capable \"teacher\" model. Think of a senior expert teaching an apprentice their best shortcuts and judgment calls, so the apprentice can work almost as well without needing the same decades of raw experience. It's how companies produce cheaper, quicker models that still perform reasonably close to their flagship, much larger versions.",
     "wikiTitle": "Knowledge distillation"
   },
   {
     "term": "Mixture of Experts (MoE)",
-    "definition": "A mixture-of-experts model is built from many smaller specialized sub-networks, and only activates the few most relevant ones for any given input rather than running the whole model every time. This makes very large models cheaper to run without losing much capability.",
+    "definition": "A mixture-of-experts model is built from many smaller specialized sub-networks, and for any given question it only activates the few most relevant ones instead of running the entire model every time. It works like a hospital: when you walk in with a broken arm, the whole staff doesn't examine you, you get routed to the orthopedist. That routing means very large AI models can stay affordable to run, since most of the model stays idle for any single request.",
     "wikiTitle": "Mixture of experts"
   },
   {
     "term": "Zero-Shot Learning",
-    "definition": "Zero-shot means an AI model can perform a task it was never specifically trained or shown examples for, relying purely on general knowledge picked up during training. Asking an LLM to write in a style it's never been explicitly taught is a zero-shot request.",
+    "definition": "Zero-shot means an AI model can perform a task it was never specifically trained or shown examples for, relying purely on general knowledge it already picked up. Asking an LLM to write a limerick about your job for the first time, with no examples given, and having it just do a reasonable job, is a zero-shot request, similar to asking a well-read friend to improvise something in a style they've never formally practiced, but have absorbed enough from general reading to fake convincingly.",
     "wikiTitle": "Zero-shot learning"
   },
   {
     "term": "Few-Shot Learning",
-    "definition": "Few-shot means giving an AI model a handful of examples of what you want directly in your prompt, so it can pick up the pattern on the spot without any retraining.",
+    "definition": "Few-shot means giving an AI model a handful of examples of exactly what you want directly in your prompt, so it can pick up the pattern on the spot without any retraining. It's like showing a new employee two or three correctly filled-out forms before asking them to fill out the next one themselves, rather than making them guess the format cold.",
     "wikiTitle": "Few-shot learning"
   },
   {
     "term": "Chain of Thought",
-    "definition": "Chain of thought is when an AI model works through a problem in visible, step-by-step reasoning before giving a final answer, similar to \"showing your work\" in math class. It tends to improve accuracy on complex problems and is central to how today's \"reasoning\" models work.",
+    "definition": "Chain of thought is when an AI model works through a problem in visible, step-by-step reasoning before giving a final answer, similar to \"showing your work\" in a math class instead of just writing down the final number. Forcing that step-by-step process tends to noticeably improve accuracy on complex problems, and it's central to how today's \"reasoning\" AI models, which pause and work through problems before responding, actually operate.",
     "wikiTitle": "Chain of thought"
   },
   {
     "term": "Foundation Model",
-    "definition": "A foundation model is a large, general-purpose AI model trained on broad data, meant to be adapted afterward for many different specific tasks rather than built for just one purpose. GPT, Claude, and Gemini are all foundation models.",
+    "definition": "A foundation model is a large, general-purpose AI model trained on broad data, meant to be adapted afterward for many different specific tasks rather than built for just one purpose. It's the AI equivalent of a general-purpose engine that can be dropped into a car, a boat, or a generator, rather than a part custom-built for only one machine. GPT, Claude, and Gemini are all foundation models that get fine-tuned or wrapped into many different products.",
     "wikiTitle": "Foundation model"
   },
   {
     "term": "AI Alignment",
-    "definition": "AI alignment is the effort to make sure an AI system's actual behavior matches what its developers and users actually intend and value, especially as systems become more capable and autonomous. It covers everything from a chatbot refusing harmful requests to long-term safety research.",
+    "definition": "AI alignment is the effort to make sure an AI system's actual behavior matches what its developers and users truly intend and value, especially as systems become more capable and autonomous. It's similar to raising a very powerful, very literal-minded genie: you have to be extremely careful that what you asked for is actually what you wanted, because a technically-correct-but-unintended interpretation of an instruction can go badly wrong. It covers everything from a chatbot politely refusing a harmful request to long-term research on keeping far more capable future systems safe.",
     "wikiTitle": "AI alignment"
   },
   {
     "term": "AI Safety",
-    "definition": "AI safety is the field focused on preventing AI systems from causing unintended harm, spanning near-term issues like bias and misuse, up to longer-term concerns about highly capable autonomous systems.",
+    "definition": "AI safety is the field focused on preventing AI systems from causing unintended harm, spanning near-term, everyday issues like biased hiring tools or misinformation, up to longer-term concerns about highly capable autonomous systems acting in ways nobody wanted. It's the same instinct as safety engineering in any powerful technology, cars, airplanes, nuclear power, just applied to software that can now make its own decisions.",
     "wikiTitle": "AI safety"
   },
   {
     "term": "Prompt Injection",
-    "definition": "Prompt injection is an attack where someone hides malicious instructions inside content an AI system reads, like a webpage or email, to hijack its behavior against its owner's intent. It's one of the main security concerns for AI agents that browse the web or read documents on your behalf.",
+    "definition": "Prompt injection is an attack where someone hides malicious instructions inside content an AI reads, like a webpage, email, or document, to hijack its behavior against its owner's wishes. Imagine a personal assistant who follows any instruction written on a sticky note handed to them, a scammer could slip in a fake note saying \"forward all emails to this address,\" and a naive assistant would just comply. It's one of the main security concerns for AI agents that browse the web or read documents on your behalf.",
     "wikiTitle": "Prompt injection"
   },
   {
     "term": "Deepfake",
-    "definition": "A deepfake is synthetic media, usually video, images, or audio, generated by AI to convincingly show a real person saying or doing something they never actually did.",
+    "definition": "A deepfake is synthetic media, usually video, images, or audio, generated by AI to convincingly show a real person saying or doing something they never actually did. It's a digital-age evolution of old-fashioned photo doctoring, except instead of touching up a still image with editing software, AI can now fabricate entire moving, talking footage that's difficult to distinguish from the real thing at a glance.",
     "wikiTitle": "Deepfake"
   },
   {
     "term": "Model Context Protocol (MCP)",
-    "definition": "MCP is an open standard, introduced by Anthropic, that lets AI models connect to outside tools and data sources, like a file system or a company database, in a consistent way. It's aimed at solving the problem of every app needing its own custom integration for every AI model.",
+    "definition": "MCP is an open standard, introduced by Anthropic, that lets AI models connect to outside tools and data sources, like a file system, a calendar, or a company database, in one consistent way. Before MCP, every app that wanted to connect an AI model to its data needed its own custom, one-off wiring, similar to every electrical appliance needing a completely different, non-standard plug. MCP is meant to work like a universal power socket: build the connection once, and any compatible AI model can plug in.",
     "wikiTitle": "Model Context Protocol"
   },
   {
     "term": "AI Agent",
-    "definition": "An AI agent is a system that can autonomously take a sequence of actions, like browsing the web, running code, or calling other software, to accomplish a goal, rather than just replying to a single prompt with text.",
+    "definition": "An AI agent is a system that can autonomously take a sequence of actions, like browsing the web, running code, or calling other software, to accomplish a goal, rather than just replying to a single prompt with text. The difference is like asking a assistant one question and reading their answer, versus handing them a task, \"book me a flight to Chicago next week,\" and letting them independently search sites, compare prices, and complete the booking on their own.",
     "wikiTitle": "AI agent"
   },
   {
     "term": "GPU (Graphics Processing Unit)",
-    "definition": "A GPU is a chip originally built for rendering video game graphics that turns out to also be extremely good at the kind of parallel math AI training needs. Access to GPUs, and the electricity to run them, is one of the biggest bottlenecks and cost centers in AI right now.",
+    "definition": "A GPU is a chip originally built for rendering video game graphics that turns out to also be extremely good at the kind of repetitive, parallel math AI training needs. A regular computer processor is like one extremely skilled worker doing tasks one at a time very quickly; a GPU is like thousands of less specialized workers all doing simple tasks simultaneously, which happens to be exactly the kind of work training a neural network requires. Access to GPUs, and the electricity to run them, is one of the biggest bottlenecks and cost centers in AI right now.",
     "wikiTitle": "Graphics processing unit"
   },
   {
     "term": "Data Center",
-    "definition": "A data center is a facility packed with servers and, for AI purposes, GPUs, that provides the raw computing power behind training and running AI models. The recent boom in AI has triggered a global wave of new data center construction, and the power demand that comes with it.",
+    "definition": "A data center is a facility packed with servers and, for AI purposes, GPUs, that provides the raw computing power behind training and running AI models. If an AI model is the recipe, a data center is the industrial kitchen, rows of powerful \"stoves\" running around the clock, that actually cooks it at scale. The recent AI boom has triggered a global wave of new data center construction, along with the enormous power and water demand that comes with it.",
     "wikiTitle": "Data center"
   },
   {
     "term": "Context Window",
-    "definition": "The context window is the amount of text an AI model can \"see\" and consider at once, including your prompt, any documents, and the conversation history. Once a conversation exceeds it, the model starts losing track of earlier details.",
+    "definition": "The context window is the amount of text an AI model can \"see\" and consider at once, including your prompt, any documents you've shared, and the conversation history so far. It's like a person's short-term memory during a conversation: once you're past a certain point, earlier details start slipping away, and once a conversation exceeds the context window, the model genuinely stops being able to \"remember\" the earliest parts of it.",
     "wikiTitle": "Context window"
   },
   {
     "term": "Open-Weight Model",
-    "definition": "An open-weight model is one whose trained parameters are published for anyone to download and run themselves, as opposed to \"closed\" models only accessible through a company's paid API. It doesn't necessarily mean the training data or code is public too.",
+    "definition": "An open-weight model is one whose trained internal parameters are published for anyone to download and run themselves, as opposed to a \"closed\" model only accessible by paying to send requests to a company's servers. It's the difference between being handed the actual recipe and ingredients to cook a dish yourself at home, versus only being able to order that dish from the restaurant. Open weights don't necessarily mean the training data or code used to build the model is public too.",
     "wikiTitle": "Open weights"
   },
   {
     "term": "Quantization",
-    "definition": "Quantization shrinks an AI model by storing its internal numbers with less precision, trading a small amount of accuracy for a model that's significantly smaller and faster to run, sometimes even on a phone.",
+    "definition": "Quantization shrinks an AI model by storing its internal numbers with less precision, trading a small amount of accuracy for a model that's significantly smaller and faster to run, sometimes even on a phone. It's similar to saving a photo as a smaller, more compressed file: some fine detail is lost, but for most everyday purposes it still looks essentially the same while taking up a fraction of the space.",
     "wikiTitle": "Model compression"
   },
   {
     "term": "API (Application Programming Interface)",
-    "definition": "An API is the standard way software talks to other software. When an app says it's \"powered by GPT-4\" or \"powered by Claude,\" it usually means the app sends requests to that AI company's API rather than running the model itself.",
+    "definition": "An API is the standard way one piece of software talks to another. When an app says it's \"powered by GPT-4\" or \"powered by Claude,\" it usually means the app sends a request over the internet to that AI company's API and gets an answer back, rather than running the model itself. Think of an API as a restaurant menu and waiter: you don't need to know how the kitchen actually works, you just place an order in an agreed format and get the result back.",
     "wikiTitle": "API"
   }
 ]
