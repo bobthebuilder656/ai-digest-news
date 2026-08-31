@@ -34,8 +34,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.nor
           git add digest.html digest.json glossary-history.json
-          git diff --staged --quiet || git commit -m "Update d)"
-          git push
+          git diff --staged --quiet || git commit -m "Update d
+          git push origin HEAD:main
 
       - name: Prepare Pages output
         run: |
