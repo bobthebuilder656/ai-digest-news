@@ -135,6 +135,38 @@ async function fetchSource(source) {
 const MIN_ACCEPTABLE = 10;
 const AGE_WINDOWS_HOURS = [MAX_AGE_HOURS, 72, 96]; // widen only if we're short on fresh stories
 
+// Words too common in AI headlines to signal "same story," on top of normal
+// stopwords. Filtering these out means two titles mostly overlap on the
+// words that actually identify the story (company names, product names).
+const GENERIC_WORDS = new Set([
+  'this', 'that', 'with', 'from', 'have', 'will', 'your', 'their', 'about',
+  'into', 'over', 'after', 'says', 'said', 'report', 'reports', 'study',
+  'week', 'today', 'first', 'latest', 'major', 'using', 'uses', 'used',
+  'announce', 'announces', 'announced', 'launch', 'launches', 'launched',
+  'release', 'releases', 'released', 'artificial', 'intelligence', 'model',
+  'models', 'agent', 'agents', 'agentic', 'company', 'companies', 'startup',
+  'startups', 'platform', 'million', 'billion', 'percent', 'reveals',
+]);
+
+function significantWords(title) {
+  return new Set(
+    title
+      .toLowerCase()
+      .replace(/[^a-z0-9\s]/g, ' ')
+      .split(/\s+/)
+      .filter((w) => w.length > 3 && !GENERIC_WORDS.has(w))
+  );
+}
+
+function jaccardSimilarity(a, b) {
+  if (a.size === 0 || b.size === 0) return 0;
+  let intersection = 0;
+  for (const w of a) if (b.has(w)) intersection++;
+  return intersection / (a.size + b.size - intersection);
+}
+
+const DUPLICATE_TITLE_SIMILARITY = 0.35;
+
 function pickWithWindow(bySource, windowHours) {
   const now = Date.now();
   const pools = bySource.map((items) =>
@@ -145,6 +177,7 @@ function pickWithWindow(bySource, windowHours) {
   );
 
   const selected = [];
+  const selectedWordSets = [];
   const seenLinks = new Set();
   const seenTitles = new Set();
   const perSourceCount = new Map();
@@ -159,7 +192,15 @@ function pickWithWindow(bySource, windowHours) {
       if (seenLinks.has(candidate.link) || seenTitles.has(titleKey)) continue;
       const count = perSourceCount.get(candidate.source) || 0;
       if (count >= PER_SOURCE_CAP) continue;
+
+      const words = significantWords(candidate.title);
+      const coversSameStory = selectedWordSets.some(
+        (existing) => jaccardSimilarity(words, existing) >= DUPLICATE_TITLE_SIMILARITY
+      );
+      if (coversSameStory) continue;
+
       selected.push(candidate);
+      selectedWordSets.push(words);
       seenLinks.add(candidate.link);
       seenTitles.add(titleKey);
       perSourceCount.set(candidate.source, count + 1);
@@ -353,6 +394,7 @@ async function summarizeAll(items) {
 // ---------- glossary ----------
 
 const GLOSSARY_PATH = path.join(__dirname, 'glossary.json');
+const GLOSSARY_HISTORY_PATH = path.join(__dirname, 'glossary-history.json');
 const GLOSSARY_TERMS_PER_DAY = 1;
 
 function glossarySearchVariants(term) {
@@ -371,30 +413,49 @@ function glossaryTermMatches(term, text) {
   return false;
 }
 
-function selectGlossaryTerms(items, glossary, count) {
-  if (count <= 0) return [];
-  const corpus = items.map((it) => `${it.title} ${it.summary}`).join(' \n ');
-  const relevant = glossary.filter((g) => glossaryTermMatches(g.term, corpus));
-
-  const dayOfYear = Math.floor(
-    (Date.now() - new Date(new Date().getFullYear(), 0, 0).getTime()) / 86400000
-  );
-  const offset = dayOfYear % glossary.length;
-  const rotated = glossary.slice(offset).concat(glossary.slice(0, offset));
-
-  const picked = [];
-  const used = new Set();
-  for (const g of [...relevant, ...rotated]) {
-    if (picked.length >= count) break;
-    if (used.has(g.term)) continue;
-    used.add(g.term);
-    picked.push(g);
+function loadGlossaryHistory() {
+  try {
+    const data = JSON.parse(fs.readFileSync(GLOSSARY_HISTORY_PATH, 'utf8'));
+    return Array.isArray(data.shownTerms) ? data.shownTerms : [];
+  } catch (err) {
+    return [];
   }
-  return picked.map((g) => ({
-    term: g.term,
-    definition: g.definition,
-    wikiUrl: `https://en.wikipedia.org/wiki/${encodeURIComponent(g.wikiTitle.replace(/ /g, '_'))}`,
-  }));
+}
+
+function saveGlossaryHistory(shownTerms) {
+  fs.writeFileSync(GLOSSARY_HISTORY_PATH, JSON.stringify({ shownTerms }, null, 2));
+}
+
+// Picks terms nobody has seen yet in the current cycle, preferring ones
+// relevant to today's news. Once every term has been shown once, the cycle
+// resets — this guarantees no repeats until the full glossary is exhausted.
+function selectGlossaryTerms(items, glossary, count, shownTerms) {
+  if (count <= 0) return { picks: [], shownTerms };
+  const corpus = items.map((it) => `${it.title} ${it.summary}`).join(' \n ');
+
+  let history = shownTerms.slice();
+  const picked = [];
+
+  for (let i = 0; i < count; i++) {
+    let eligible = glossary.filter((g) => !history.includes(g.term));
+    if (eligible.length === 0) {
+      history = [];
+      eligible = glossary.slice();
+    }
+    const relevant = eligible.filter((g) => glossaryTermMatches(g.term, corpus));
+    const pick = relevant.find((g) => !picked.some((p) => p.term === g.term)) || eligible[0];
+    picked.push(pick);
+    history.push(pick.term);
+  }
+
+  return {
+    picks: picked.map((g) => ({
+      term: g.term,
+      definition: g.definition,
+      wikiUrl: `https://en.wikipedia.org/wiki/${encodeURIComponent(g.wikiTitle.replace(/ /g, '_'))}`,
+    })),
+    shownTerms: history,
+  };
 }
 
 // ---------- main ----------
@@ -421,7 +482,9 @@ async function main() {
   const dateLabel = now.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
 
   const glossary = JSON.parse(fs.readFileSync(GLOSSARY_PATH, 'utf8'));
-  const glossaryPicks = selectGlossaryTerms(withSummaries, glossary, GLOSSARY_TERMS_PER_DAY);
+  const glossaryHistory = loadGlossaryHistory();
+  const glossaryResult = selectGlossaryTerms(withSummaries, glossary, GLOSSARY_TERMS_PER_DAY, glossaryHistory);
+  saveGlossaryHistory(glossaryResult.shownTerms);
 
   const digest = {
     generatedAt: now.toISOString(),
@@ -429,7 +492,7 @@ async function main() {
     sourceCount: usedSources.size,
     allSourceNames: sources.map((s) => s.name),
     mode: overallMode,
-    glossary: glossaryPicks,
+    glossary: glossaryResult.picks,
     items: withSummaries.map((it) => ({
       title: it.title,
       link: it.link,

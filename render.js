@@ -116,12 +116,12 @@ function renderDigest(digest) {
 <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@400;600;700&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #efe9dc;
-    --card: #fffdf6;
-    --ink: #241f17;
-    --ink-muted: #5c5344;
-    --ink-faint: #8a806c;
-    --border: #cdbd94;
+    --bg: #d9dedc;
+    --card: #f7faf8;
+    --ink: #1d2624;
+    --ink-muted: #4d5852;
+    --ink-faint: #7c8983;
+    --border: #b6c0bb;
     --accent: #9c3b2e;
     --font-display: 'Zilla Slab', Georgia, 'Times New Roman', serif;
     --font-body: 'Work Sans', -apple-system, Segoe UI, sans-serif;
@@ -130,23 +130,23 @@ function renderDigest(digest) {
 
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
-      --bg: #1c1712;
-      --card: #262019;
-      --ink: #f3ead9;
-      --ink-muted: #b7ab90;
-      --ink-faint: #8b7f68;
-      --border: #3c3226;
+      --bg: #151a18;
+      --card: #1f2624;
+      --ink: #e7ece8;
+      --ink-muted: #a8b3ac;
+      --ink-faint: #78827c;
+      --border: #333d38;
       --accent: #e0604c;
     }
   }
 
   :root[data-theme="dark"] {
-    --bg: #1c1712;
-    --card: #262019;
-    --ink: #f3ead9;
-    --ink-muted: #b7ab90;
-    --ink-faint: #8b7f68;
-    --border: #3c3226;
+    --bg: #151a18;
+    --card: #1f2624;
+    --ink: #e7ece8;
+    --ink-muted: #a8b3ac;
+    --ink-faint: #78827c;
+    --border: #333d38;
     --accent: #e0604c;
   }
 
