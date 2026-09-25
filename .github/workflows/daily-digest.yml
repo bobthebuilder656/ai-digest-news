@@ -2,7 +2,16 @@ name: Daily AI Digest
 
 on:
   schedule:
-    - cron: '30 2 * * *' # 08:00 IST daily (02:30 UTC)
+    # GitHub's free-tier scheduled workflows queue and run late, not at the
+    # exact minute requested — verified over 15 consecutive days here, this
+    # one consistently fired ~4h48m-5h39m (avg ~5h14m) after a 02:30 UTC
+    # schedule. Scheduling 21:16 UTC (previous day) instead compensates for
+    # that average delay so the real run lands close to 02:30 UTC / 08:00
+    # IST. This is a best-effort compensation based on observed data, not a
+    # guarantee — GitHub doesn't promise exact scheduled-run timing, so
+    # re-check actual run times periodically (repo's Actions tab) and
+    # adjust if the delay drifts.
+    - cron: '16 21 * * *'
   workflow_dispatch: {}
 
 permissions:
@@ -32,9 +41,9 @@ jobs:
       - name: Commit refreshed digest
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.nor
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add digest.html digest.json glossary-history.json
-          git diff --staged --quiet || git commit -m "Update d
+          git diff --staged --quiet || git commit -m "Update digest"
           git push origin HEAD:main
 
       - name: Prepare Pages output
