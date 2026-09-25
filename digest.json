@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-31T09:22:13.314Z",
-  "dateLabel": "Monday, August 31, 2026",
-  "sourceCount": 6,
+  "generatedAt": "2026-09-25T23:56:15.085Z",
+  "dateLabel": "Friday, September 25, 2026",
+  "sourceCount": 8,
   "allSourceNames": [
     "TechCrunch",
     "VentureBeat",
@@ -19,95 +19,95 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "Attention (Mechanism)",
-      "definition": "Attention is the part of a transformer that decides which words in a sentence matter most to understanding any given word. In the sentence \"The trophy didn't fit in the suitcase because it was too big,\" attention is how a model figures out that \"it\" refers to the trophy, not the suitcase, by weighing which earlier words are most relevant. It works a bit like a spotlight operator at a play, dimming the words that don't matter right now and shining light on the ones that do.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Attention_(machine_learning)"
+      "term": "Machine Learning",
+      "definition": "Machine learning is the broader field of teaching computers to spot patterns in data and get better at a task through experience, instead of a programmer writing out every rule by hand. It's the difference between hard-coding \"if the email contains the word 'lottery,' mark it spam\" versus showing the computer thousands of real spam and non-spam emails and letting it work out the patterns itself. Modern AI, including every LLM, is a product built on machine learning techniques.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Machine_learning"
     }
   ],
   "items": [
     {
-      "title": "OpenAI and rival AI labs are buying tens of thousands of Mac minis to train computer-use agents",
-      "link": "https://the-decoder.com/openai-and-rival-ai-labs-are-buying-tens-of-thousands-of-mac-minis-to-train-computer-use-agents/",
-      "source": "The Decoder",
-      "publishedAt": "2026-08-31T08:55:12.000Z",
-      "summary": "According to The Information, OpenAI has purchased tens of thousands of Mac minis and Mac Studios to train computer agents. Anthropic also relies on Apple hardware. Demand is so high that the most powerful models have been sold out for months. Apple’s Mac revenue rose by nearly 29 percent to $10.4 billion in the June quarter."
-    },
-    {
-      "title": "DiDi Starts Driverless Trials With R2 Robotaxi in Beijing and Guangzhou",
-      "link": "https://www.unite.ai/didi-starts-driverless-trials-with-r2-robotaxi-in-beijing-and-guangzhou/",
-      "source": "Unite.AI",
-      "publishedAt": "2026-08-31T07:25:01.000Z",
-      "summary": "DiDi Autonomous Driving began fully driverless passenger service trials with its next-generation Robotaxi, the R2, on August 31, 2026, making the vehicle bookable through the DiDi App in selected demonstration areas of Beijing and Guangzhou, the company announced. The R2 is jointly developed by DiDi Autonomous Driving and GAC Aion. DiDi described the vehicle as purpose-built for Robotaxi service and designed for global deployment, with upgrades in autonomous driving performance and cabin experience over the prior generation. The R2 runs on DiDi Autonomous Driving’s Level 4 full-stack software and hardware."
-    },
-    {
-      "title": "The U.S. is building barriers around drones and robots, but China has scale to get around them",
-      "link": "https://techcrunch.com/2026/08/30/the-u-s-is-building-barriers-around-drones-and-robots-china-still-has-scale/",
+      "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
+      "link": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
       "source": "TechCrunch",
-      "publishedAt": "2026-08-31T02:34:00.000Z",
-      "summary": "S. is shutting out more foreign-made drones and robots. China’s scale means the global competition may simply move elsewhere. In July and August, Washington tightened restrictions on foreign-made advanced robotic systems and imposed steep tariffs on imported drones and their components, both moves citing national-security concerns. The drone tariffs take effect in September, with additional component tariffs following in 2027."
+      "publishedAt": "2026-09-25T23:11:10.000Z",
+      "summary": "Boom Supersonic CEO Blake Scholl said its new stationary power plants were no longer in Crusoe's near-term plans. Crusoe, a Denver-based AI data center startup that recently raised $3.9 billion , has ended plans to use a new line of stationary power plants developed by fellow Denver company Boom Supersonic. Founded in 2018 as a bitcoin miner that ran on excess natural gas from oil fields, Crusoe has since become one of the biggest builders of AI data centers , including a massive campus in Abilene, Texas, that supplies computing power to OpenAI. Boom Supersonic, which is developing a supersonic passenger jet called Overture, launched a new business last year to sell a version of the engine it’s developing for that jet as natural gas-fired stationary power plants."
     },
     {
-      "title": "Musk’s faster path to more gas turbines comes with pollution problem",
-      "link": "https://techcrunch.com/2026/08/30/musks-faster-path-to-more-gas-turbines-comes-with-pollution-problem/",
+      "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
+      "link": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
       "source": "TechCrunch",
-      "publishedAt": "2026-08-30T16:54:25.000Z",
-      "summary": "Elon Musk says a secretive new SpaceX foundry will let him cast his own turbine blades and get gas power online 18 months faster than anyone else — but it's a bet on a fuel source that's already triggering lawsuits and health studies everywhere his (and others') turbines have gone in. Elon Musk says he’s found a way to solve one of AI’s biggest bottlenecks by making a hard-to-manufacture turbine part himself. “SpaceX and Tesla are each building 100GW/year of solar production capacity as fast as possible,” Musk wrote on X on Saturday, “but natural gas will still be needed to supplement and bootstrap solar for several years. The limiting factor for nat gas turbine production is casting the blades & vanes."
+      "publishedAt": "2026-09-25T22:20:47.000Z",
+      "summary": "AI agents operating in OpenAI's research environment posted user images on public image-hosting sites without the lab's knowledge. After images that users uploaded to OpenAI models were included in training data, AI agents operating in the company’s research environment posted them on public image hosting sites. Fifty-three “user-provided images” were “posted to image-hosting sites as links that weren’t publicly listed,” the company said for the first time; the images could still be discovered even if the links were not publicly listed. The news came in a post collecting public statements from the lab’s on-going review of incidents in which its models escaped the company’s scrutiny , accessed the open internet, and misbehaved in various ways."
     },
     {
-      "title": "Texas Governor Abbott blocks funding for more Flock cameras",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/986541/texas-governor-abbott-flock-cameras",
-      "source": "The Verge",
-      "publishedAt": "2026-08-30T15:35:10.000Z",
-      "summary": "As backlash grows over Flock's AI surveillance cameras, Texas Governor Greg Abbott has frozen state spending on them. The move came just ahead of the publication of a Texas Tribune investigation that revealed the state spent over $30 million on Flock cameras. That money was primarily raised by tacking a $1 fee onto insurance policies, allegedly to help fight catalytic converter theft. Flock cameras have increasingly drawn ire from across the political spectrum as they've become the subject of privacy concerns."
-    },
-    {
-      "title": "Why the next wave of AI startups won’t optimize infrastructure – until they have to",
-      "link": "https://siliconangle.com/2026/08/30/why-the-next-wave-of-ai-startups-wont-optimize-infrastructure-until-they-have-to/",
+      "title": "What to expect at NetApp INSIGHT: Join theCUBE Sept. 30",
+      "link": "https://siliconangle.com/2026/09/25/unified-storage-data-ai-netappinsight/",
       "source": "SiliconANGLE",
-      "publishedAt": "2026-08-30T14:53:26.000Z",
-      "summary": "For most AI startups, infrastructure isn’t the first problem to solve; speed is. At the earliest stages, success is defined by how quickly a team can move from idea to product, from prototype to traction. The constraints are immediate and unforgiving: limited runway, small teams, and the constant pressure to prove value before the next funding milestone. Startups don’t win at the earliest stage by minimizing cost per token or optimizing silicon performance."
+      "publishedAt": "2026-09-25T22:07:38.000Z",
+      "summary": "As artificial intelligence goes into production, unified storage could be the glue that keeps everything together. , a leader in enterprise data storage, wants to lift the burden of AI on enterprise infrastructure. UPDATED 18:07 EDT / SEPTEMBER 25 2026 As artificial intelligence goes into production, unified storage could be the glue that keeps everything together. Data management has proven to be one of the biggest hurdles for AI adopters, so NetApp’s unified storage solutions aims to lay the groundwork for smoother AI workflows."
     },
     {
-      "title": "Four safeguards to stop your AI agents from going rogue",
-      "link": "https://siliconangle.com/2026/08/30/four-safeguards-to-stop-your-ai-agents-from-going-rogue/",
-      "source": "SiliconANGLE",
-      "publishedAt": "2026-08-30T14:53:22.000Z",
-      "summary": "Artificial intelligence agents are moving from experimentation to production, and with this shift, the stakes are rising. A coding agent at PocketOS recently deleted an entire production database. An agent at Meta exposed sensitive user data for two hours. An Instagram support chatbot allowed hackers to hijack thousands of accounts. And last month, researchers tricked a GitHub agent into leaking private repository data."
+      "title": "Thieves Stole ‘Nvidia’ Trailers. They Got 20 Tons of Sand",
+      "link": "https://www.wired.com/story/thieves-stole-nvidia-trailers-they-got-20-tons-of-sand/",
+      "source": "Wired",
+      "publishedAt": "2026-09-25T20:30:40.000Z",
+      "summary": "They wanted the silicon. They got the sand. On Thursday morning, a top executive at self-driving truck developer PlusAI received an unexpected congratulatory text message from an acquaintance. “I have been proud of you for your adventure and success at Plus. Just saw two of your trucks near my work place!"
     },
     {
-      "title": "AI sentiment is turning sour as employee reviews reveal growing frustration across the workforce",
-      "link": "https://the-decoder.com/ai-sentiment-is-turning-sour-as-employee-reviews-reveal-growing-frustration-across-the-workforce/",
+      "title": "AI was supposed to hit new grads hard. So far, unemployment data says otherwise.",
+      "link": "https://arstechnica.com/ai/2026/09/ai-was-supposed-to-hit-new-grads-hard-so-far-unemployment-data-says-otherwise/",
+      "source": "Ars Technica",
+      "publishedAt": "2026-09-25T19:11:05.000Z",
+      "summary": "Last month, we shared word of a Stanford University study that found entry-level employment in so-called \"AI-impacted\" occupations lagging well behind that in other fields. \" As AI gets good enough to at least perform the \"relatively standardized tasks\" in many entry-level office jobs, they argue, firms could reduce new hiring for simpler roles rather than laying off more experienced long-term employees. There's some reason to believe 2026's graduating job seekers might be more at risk of AI displacement than those graduating just a year or two prior. The CESifo researchers point to a recent sharp increase in the number of firms \"replacing a large number of employee tasks with AI\" in a Census survey, as well as broad increases in AI spending per employee and ChatGPT Enterprise token use in the last 12 months."
+    },
+    {
+      "title": "Pentagon was right to slap Anthropic with a security supply chain risk label, federal court says",
+      "link": "https://the-decoder.com/pentagon-was-right-to-slap-anthropic-with-a-security-supply-chain-risk-label-federal-court-says/",
       "source": "The Decoder",
-      "publishedAt": "2026-08-30T13:12:19.000Z",
-      "summary": "An analysis of Glassdoor reviews shows that positive AI comments have dropped from 81 to 43 percent since 2019. Executives rate AI mostly positive, while insurance claims workers rate it almost entirely negative. Fear of job loss is just one complaint among many. Forced adoption, surveillance, and unrealistic productivity expectations weigh just as heavily. An analysis of employer reviews on Glassdoor shows that workers are becoming more critical of AI in the workplace."
+      "publishedAt": "2026-09-25T18:40:22.000Z",
+      "summary": "A federal appeals court has upheld the Pentagon's decision to bar Anthropic from military contracts. Defense Secretary Hegseth argues the company's safety restrictions could jeopardize military operations. Anthropic says the designation has already cost it billions. A federal appeals court in Washington has upheld the Pentagon's decision to bar AI startup Anthropic from military contracts."
     },
     {
-      "title": "What Is Agentic AI? How Systems Plan, Use Tools, and Complete Tasks",
-      "link": "https://www.unite.ai/what-is-agentic-ai/",
-      "source": "Unite.AI",
-      "publishedAt": "2026-08-30T12:00:02.000Z",
-      "summary": "Agentic AI systems do more than generate an answer: they pursue goals through a loop of planning, tool use, observation, and adaptation. Here is how that loop works, where agents add value, and what keeps them under control. Agentic AI is artificial intelligence that can pursue a goal by deciding what to do next, using tools, observing the result, and adjusting its approach. Instead of producing one response and stopping, an agent operates through a control loop until it completes the task, reaches a limit, or hands the work back to a person."
+      "title": "Microsoft stops insisting you need a \"Copilot+ PC\"",
+      "link": "https://arstechnica.com/gadgets/2026/09/microsoft-stops-insisting-you-need-a-copilot-pc/",
+      "source": "Ars Technica",
+      "publishedAt": "2026-09-25T17:57:37.000Z",
+      "summary": "” The marketing initiative was aimed at making it easy for people to know which Windows systems were approved to run AI-accelerated workloads locally. But Copilot+ PC branding is nowhere to be found on the new Surface PCs Microsoft announced this week. Speaking with Windows Central , Brett Ostrum, corporate VP of Surface, said that the new Surface computers “are not called Copilot+ PCs” despite meeting the label’s requirements. Microsoft’s new Surface laptops forgo Copilot+ PC branding."
     },
     {
-      "title": "Why the Hottest New Wearables Want to Be Ignored",
-      "link": "https://www.wired.com/story/why-the-hottest-new-wearables-want-to-be-ignored/",
-      "source": "Wired",
-      "publishedAt": "2026-08-30T10:30:00.000Z",
-      "summary": "Burnt out on wrist buzzes and notification overload? A new crop of minimalist wearables promises to collect your health data without demanding your attention. There’s a new kind of gadget on shelves, designed for you to ignore it 99 percent of the time—it only needs attention when its battery is low. I'm talking about the screen-free wearable ."
-    },
-    {
-      "title": "Sony Music Publishing and Warner Chappell are suing Anthropic",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/986438/sony-music-warner-chappell-anthropic-lawsuit-copyright",
+      "title": "Meta makes the Muse filesystem even more accessible",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem",
       "source": "The Verge",
-      "publishedAt": "2026-08-29T18:19:53.000Z",
-      "summary": "Sony Music Publishing and Warner Chappell have filed suit against Anthropic in the US District Court for the Northern District of California seeking damages for \"tens of thousands\" copyrighted works. The companies are asking for up to $150,000 per work, plus up to $25,000 for each instance when identifiable copyright data was stripped. In total, the damages could amount to several billion dollars if a court finds in Sony and Warner's favor and awards the maximum amount. This is just the latest high-profile suit against Anthropic, which recently settled a suit brought by the publishing industry for $1.5 billion ."
+      "publishedAt": "2026-09-25T16:49:53.000Z",
+      "summary": "Yesterday, with a little prodding, it was discovered that Meta's Muse would expose its filesystem to curious users. The files offered a fascinating peek under the hood of an AI chatbot, and appeared to expose details we weren't meant to see, not least because Muse itself told people, including us, it wasn't supposed to reveal them. But today Muse will eagerly offer up the contents of its file system when you ask for it. That appears to be because, as Meta's Nat Friedman later said, this is the \" intended behavior."
     },
     {
-      "title": "The Cybersecurity Apocalypse Is Coming in ‘Months,’ AI Giants Warn",
-      "link": "https://www.wired.com/story/security-news-this-week-the-cybersecurity-apocalypse-is-coming-in-months-ai-giants-warn/",
-      "source": "Wired",
-      "publishedAt": "2026-08-29T10:30:00.000Z",
-      "summary": "Plus: Hackers target over 100 US water systems, ICE puts in an order for robot dogs, and you’ll never guess what “MrChildPorn” was arrested for. You may have noticed that Flock Safety’s automatic license plate reader cameras—and the cops who misuse them—are getting a lot of coverage lately. This week, WIRED found a particularly wild case : A cop in Alpharetta, Georgia, was accused of searching for the license plate of a coworker dozens of times after an affair between the two ended, according to internal documents obtained by WIRED. The same police department where the former lovers worked also shared the data captured from its Flock cameras with more than 2,000 police departments, colleges, and other organizations across the United States, and accessed data from more than 1,300 entities in exchange."
+      "title": "Sony and UMG are suing Suno again",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1000758/suno-sony-umg-lawsuit-ai-music",
+      "source": "The Verge",
+      "publishedAt": "2026-09-25T15:51:56.000Z",
+      "summary": "Sony and Universal Music Group filed yet another suit against Suno. The labels claim its new v6 model still infringes on their copyrights because it's trained on user outputs from previous models, which were themselves trained on unlicensed music ripped from YouTube and other sources. Sony and UMG are notable holdouts who did not sign a licensing agreement with Suno. Sony and UMG’s latest lawsuit against Suno accuses the company of ‘model laundering’ Sony and UMG’s latest lawsuit against Suno accuses the company of ‘model laundering’ Sony and Universal Music Group filed yet another suit against Suno."
+    },
+    {
+      "title": "Prompt: AI agents can act. It’s unclear if enterprises can stop them.",
+      "link": "https://aibusiness.com/agentic-ai/ai-agents-can-unclear-if-enterprises-can-stop-them-",
+      "source": "AI Business",
+      "publishedAt": "2026-09-25T15:29:24.000Z",
+      "summary": "As AI agents gain more authority to act on their own, recent incidents are exposing gaps in how enterprises monitor, control and intervene when agents cross established boundaries."
+    },
+    {
+      "title": "China leads dexterous hand supply for humanoids",
+      "link": "https://aibusiness.com/robotics/china-leads-dexterous-hand-supply",
+      "source": "AI Business",
+      "publishedAt": "2026-09-25T12:38:36.000Z",
+      "summary": "Chinese firms supplied nearly all dexterous hands for humanoid robots in early 2026, but Western players are starting to close in."
+    },
+    {
+      "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
+      "link": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-09-25T09:16:25.000Z",
+      "summary": "The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request . The program, called Polygraph+ or Polygraph Next, will focus on scoring algorithms that use artificial intelligence and machine learning and on a technique called “standoff sensing,” which refers to the ability to take physiological readings without attaching a device to a subject’s person. According to details of the budget document, which were first reported by Inside Defense , the project will “modernize federal polygraph and credibility assessment technologies” to improve their accuracy and reliability. But the project may be just the latest in a long line of failed attempts to use technology to detect lies."
     }
   ]
 }
