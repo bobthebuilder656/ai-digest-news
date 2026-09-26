@@ -472,7 +472,7 @@ ${slideMarkup}
   </div>
 
   <footer class="colophon">
-    ${escapeHtml(modeNote)} ${escapeHtml(rosterNote)} Generated ${escapeHtml(dateLabel)}.
+    ${escapeHtml(modeNote)} ${escapeHtml(rosterNote)} Generated <span class="generated-at" data-ts="${escapeHtml(generatedAt)}">${escapeHtml(dateLabel)}</span>.
   </footer>
 </div>
 
@@ -509,17 +509,22 @@ ${slideMarkup}
   // Server-rendered dates/times default to IST — GitHub's build runner has
   // no idea where any given reader actually is, so IST (the publisher's
   // own timezone) is the best static fallback for a reader with JS off.
-  // Once this loads in a real browser, reformat every timestamp using
-  // *that* browser's own local timezone instead — a reader in the US sees
-  // US time, a reader in India sees IST, etc. This also self-corrects the
-  // "shows yesterday's date near midnight" class of bug for every reader
-  // individually, without the server ever needing to know who's asking.
+  // Once this loads in a real browser, the masthead shows the reader's own
+  // *today* (from their clock, not the build time — a US reader opening an
+  // 08:00 IST build the next morning should see their own date, not the
+  // previous evening's), and every timestamp is reformatted in that
+  // browser's local timezone.
   try {
-    var dateEl = document.querySelector('.masthead-date[data-ts]');
+    var dateOpts = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    var dateEl = document.querySelector('.masthead-date');
     if (dateEl) {
-      var d = new Date(dateEl.getAttribute('data-ts'));
-      if (!isNaN(d.getTime())) {
-        dateEl.textContent = d.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+      dateEl.textContent = new Date().toLocaleDateString('en-US', dateOpts);
+    }
+    var genEl = document.querySelector('.generated-at[data-ts]');
+    if (genEl) {
+      var g = new Date(genEl.getAttribute('data-ts'));
+      if (!isNaN(g.getTime())) {
+        genEl.textContent = g.toLocaleDateString('en-US', dateOpts) + ', ' + g.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZoneName: 'short' });
       }
     }
     var timeEls = document.querySelectorAll('.time[data-ts]');

@@ -155,6 +155,10 @@ async function checkTimezoneRendering() {
   // says tomorrow" danger window — this is the exact kind of instant that
   // silently produced the wrong date before the 2026-09-26 fix.
   const DANGER_TS = '2026-01-15T23:56:00.000Z';
+  // The reader's "now", ~20h after the build: the local date here differs
+  // from the build's local date in some zones (e.g. Los Angeles), so a
+  // masthead that shows the build date instead of the reader's today fails.
+  const VIEW_TS = '2026-01-16T20:00:00.000Z';
 
   const digest = {
     dateLabel: new Date(DANGER_TS).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Kolkata' }),
@@ -201,16 +205,17 @@ async function checkTimezoneRendering() {
   for (const tz of TIMEZONES) {
     const ctx = await browser.newContext({ timezoneId: tz });
     const page = await ctx.newPage();
+    await page.clock.setFixedTime(new Date(VIEW_TS));
     await page.goto(url, { waitUntil: 'load' });
     await page.waitForTimeout(150);
 
     const shownDate = await page.locator('.masthead-date').textContent();
     const shownTime = await page.locator('.time').first().textContent();
 
-    const expectedDate = new Date(DANGER_TS).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: tz });
+    const expectedDate = new Date(VIEW_TS).toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: tz });
     const expectedTime = new Date(DANGER_TS).toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: tz });
 
-    log(area, `[${tz}] shows that visitor's own correct local date`, shownDate === expectedDate, `got "${shownDate}", expected "${expectedDate}"`);
+    log(area, `[${tz}] shows that visitor's own current local date`, shownDate === expectedDate, `got "${shownDate}", expected "${expectedDate}"`);
     log(area, `[${tz}] shows that visitor's own correct local time`, shownTime === expectedTime, `got "${shownTime}", expected "${expectedTime}"`);
 
     await ctx.close();
