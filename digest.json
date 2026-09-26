@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-25T23:56:15.085Z",
-  "dateLabel": "Friday, September 25, 2026",
+  "generatedAt": "2026-09-26T07:11:14.788Z",
+  "dateLabel": "Saturday, September 26, 2026",
   "sourceCount": 8,
   "allSourceNames": [
     "TechCrunch",
@@ -19,32 +19,32 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "Machine Learning",
-      "definition": "Machine learning is the broader field of teaching computers to spot patterns in data and get better at a task through experience, instead of a programmer writing out every rule by hand. It's the difference between hard-coding \"if the email contains the word 'lottery,' mark it spam\" versus showing the computer thousands of real spam and non-spam emails and letting it work out the patterns itself. Modern AI, including every LLM, is a product built on machine learning techniques.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Machine_learning"
+      "term": "AI Agent",
+      "definition": "An AI agent is a system that can autonomously take a sequence of actions, like browsing the web, running code, or calling other software, to accomplish a goal, rather than just replying to a single prompt with text. The difference is like asking a assistant one question and reading their answer, versus handing them a task, \"book me a flight to Chicago next week,\" and letting them independently search sites, compare prices, and complete the booking on their own.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/AI_agent"
     }
   ],
   "items": [
+    {
+      "title": "At Meta Connect, the company’s smart glasses were everywhere",
+      "link": "https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-09-26T01:08:57.000Z",
+      "summary": "The company behind Facebook and Instagram wants to keep consumers connected to the digital world via its ever-growing line of smart glasses. If there was one thing that was obvious from Meta Connect this year, it’s that the social media giant is all-in on its burgeoning line of smart glasses. Indeed, the glasses were pretty much everywhere at the annual event, where Meta shows off its newest hardware and AI products. Both Meta staff and the flocks of influencers who frequent the event seemed to arrive with the glasses glued to their faces."
+    },
+    {
+      "title": "What to expect at Dell’s AI Leadership Symposium: Join theCUBE Sept. 29",
+      "link": "https://siliconangle.com/2026/09/25/dell-ai-infrastructure-leadership-symposium-dellaileadershipsymposium/",
+      "source": "SiliconANGLE",
+      "publishedAt": "2026-09-26T00:55:38.000Z",
+      "summary": "Enterprise AI is moving past experimentation, and the infrastructure decisions behind it are becoming business decisions. As companies put AI into production, the conversation is expanding beyond models and GPUs to the data, infrastructure and operating models required to support AI at scale. Dell Technologies Inc. UPDATED 20:55 EDT / SEPTEMBER 25 2026 Enterprise AI is moving past experimentation, and the infrastructure decisions behind it are becoming business decisions."
+    },
     {
       "title": "Crusoe abandons $1.25B plan to use Boom turbines at AI data centers",
       "link": "https://techcrunch.com/2026/09/25/crusoe-abandons-1-25b-plan-to-use-boom-turbines-at-ai-data-centers/",
       "source": "TechCrunch",
       "publishedAt": "2026-09-25T23:11:10.000Z",
-      "summary": "Boom Supersonic CEO Blake Scholl said its new stationary power plants were no longer in Crusoe's near-term plans. Crusoe, a Denver-based AI data center startup that recently raised $3.9 billion , has ended plans to use a new line of stationary power plants developed by fellow Denver company Boom Supersonic. Founded in 2018 as a bitcoin miner that ran on excess natural gas from oil fields, Crusoe has since become one of the biggest builders of AI data centers , including a massive campus in Abilene, Texas, that supplies computing power to OpenAI. Boom Supersonic, which is developing a supersonic passenger jet called Overture, launched a new business last year to sell a version of the engine it’s developing for that jet as natural gas-fired stationary power plants."
-    },
-    {
-      "title": "Unsecured OpenAI agents posted 53 user images on the internet without the lab’s knowledge",
-      "link": "https://techcrunch.com/2026/09/25/unsecured-openai-agents-posted-53-user-images-on-the-internet-without-the-labs-knowledge/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-09-25T22:20:47.000Z",
-      "summary": "AI agents operating in OpenAI's research environment posted user images on public image-hosting sites without the lab's knowledge. After images that users uploaded to OpenAI models were included in training data, AI agents operating in the company’s research environment posted them on public image hosting sites. Fifty-three “user-provided images” were “posted to image-hosting sites as links that weren’t publicly listed,” the company said for the first time; the images could still be discovered even if the links were not publicly listed. The news came in a post collecting public statements from the lab’s on-going review of incidents in which its models escaped the company’s scrutiny , accessed the open internet, and misbehaved in various ways."
-    },
-    {
-      "title": "What to expect at NetApp INSIGHT: Join theCUBE Sept. 30",
-      "link": "https://siliconangle.com/2026/09/25/unified-storage-data-ai-netappinsight/",
-      "source": "SiliconANGLE",
-      "publishedAt": "2026-09-25T22:07:38.000Z",
-      "summary": "As artificial intelligence goes into production, unified storage could be the glue that keeps everything together. , a leader in enterprise data storage, wants to lift the burden of AI on enterprise infrastructure. UPDATED 18:07 EDT / SEPTEMBER 25 2026 As artificial intelligence goes into production, unified storage could be the glue that keeps everything together. Data management has proven to be one of the biggest hurdles for AI adopters, so NetApp’s unified storage solutions aims to lay the groundwork for smoother AI workflows."
+      "summary": "Boom Supersonic CEO Blake Scholl said the company's new stationary power plants were no longer in Crusoe's near-term plans. Crusoe, a Denver-based AI data center startup that recently raised $3.9 billion , has ended plans to use a new line of stationary power plants developed by fellow Denver company Boom Supersonic. Founded in 2018 as a bitcoin miner that ran on excess natural gas from oil fields, Crusoe has since become one of the biggest builders of AI data centers , including a massive campus in Abilene, Texas, that supplies computing power to OpenAI. Boom Supersonic, which is developing a supersonic passenger jet called Overture, launched a new business last year to sell a version of the engine it’s developing for that jet as natural gas-fired stationary power plants."
     },
     {
       "title": "Thieves Stole ‘Nvidia’ Trailers. They Got 20 Tons of Sand",
