@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-26T17:36:24.155Z",
-  "dateLabel": "Saturday, September 26, 2026",
+  "generatedAt": "2026-09-26T23:36:37.306Z",
+  "dateLabel": "Sunday, September 27, 2026",
   "sourceCount": 8,
   "allSourceNames": [
     "TechCrunch",
@@ -19,18 +19,32 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "Large Language Model (LLM)",
-      "definition": "A large language model is an AI system trained on huge amounts of text so it gets very good at predicting what word should come next in a sentence. Think of it like the autocomplete on your phone keyboard, but instead of guessing one word from a few you typed, it has read a giant slice of the internet and can guess entire paragraphs, essays, or answers. That one trick, done at massive scale, is what lets it write, summarize, translate, and hold a conversation. ChatGPT, Claude, and Gemini are all built on top of an LLM.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Large_language_model"
+      "term": "Generative AI",
+      "definition": "Generative AI is the umbrella term for any AI that creates new content, text, images, audio, video, or code, rather than just sorting or analyzing things that already exist. A spam filter that sorts email into \"junk\" or \"not junk\" is not generative; a tool that writes you a brand new email from scratch is. It's called \"generative\" because it generates something that didn't exist a moment ago, the way a chef generates a new dish from raw ingredients rather than just plating a dish someone else already cooked.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Generative_AI"
     }
   ],
   "items": [
     {
-      "title": "Two-thirds of IT leaders report AI results, but few would interrupt the CEO's vacation over them",
-      "link": "https://the-decoder.com/two-thirds-of-it-leaders-report-ai-results-but-few-would-interrupt-the-ceos-vacation-over-them/",
+      "title": "Insurers claim AI is already increasing healthcare costs",
+      "link": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-09-26T21:02:06.000Z",
+      "summary": "Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period. Hospitals’ use of artificial intelligence tools as they submit insurance claims led to an additional $942 million in healthcare spending over a two-year period, according to an analysis by the Blue Cross Blue Shield Association . ” The New York Times pointed the analysis as just the latest sign that AI is contributing to an increase in healthcare costs . While battles between hospitals and insurers over treatments and payments are nothing new, the NYT said the use of AI on both sides seems to be making it worse."
+    },
+    {
+      "title": "Former Ukrainian Defense Minister Fedorov pitches a private-sector robot army",
+      "link": "https://the-decoder.com/former-ukrainian-defense-minister-fedorov-pitches-a-private-sector-robot-army/",
       "source": "The Decoder",
-      "publishedAt": "2026-09-26T17:27:52.000Z",
-      "summary": "Speaking to 160 IT vice presidents in Las Vegas, tech entrepreneur Azeem Azhar asked who had measurable AI results. Two-thirds raised their hands. Then he asked who had results good enough to interrupt the CEO's summer vacation. Only eight did. Whether that slow pace of progress justifies the massive investments is one of the key questions in the AI bubble debate."
+      "publishedAt": "2026-09-26T19:10:20.000Z",
+      "summary": "Former Ukrainian Defense Minister Mykhailo Fedorov has announced \"Army of Robots,\" a private combat robotics initiative. The robots would handle casualty evacuation, mine clearance, and combat. Drones already account for 95 percent of target engagements, he says. Drones now account for more than 95 percent of all target engagements, according to former Ukrainian Defense Minister Mykhailo Fedorov."
+    },
+    {
+      "title": "OpenAI pauses training of its ‘most capable models’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+      "source": "The Verge",
+      "publishedAt": "2026-09-26T16:34:59.000Z",
+      "summary": "As reports of OpenAI's models breaking containment , hacking sites, and generally getting out of control pile up, the company has made the decision to pause training of its most powerful models. The decision was made after a model being tested within a sandbox exploited a loophole to gain internet access . The incident happened on September 20th, and \"All training, evaluation, and inference with tool-use\" remains paused as of Saturday evening, September 25th. In addition, OpenAI revealed on Friday that its agents had inappropriately uploaded 53nimages from ChatGPT users to image-hosting sites."
     },
     {
       "title": "I created an interactive digital avatar of myself — and you can talk to it",
@@ -52,13 +66,6 @@
       "source": "Wired",
       "publishedAt": "2026-09-26T10:30:00.000Z",
       "summary": "Meta says Muse is just for adults, though its cuddly, Labubu-like mascot—and upcoming Tamagotchi-style AI device—may be disarming for users of all ages. Meta’s Muse mascot is named Jolly. It's an adorable, cuddly representation of Meta’s AI agent that you can dress however you want—like a doll. At the company’s recent Meta Connect event , CEO Mark Zuckerberg’s furry Muse donned a toga and laurel wreath."
-    },
-    {
-      "title": "At Meta Connect, the company’s smart glasses were everywhere",
-      "link": "https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-09-26T01:08:57.000Z",
-      "summary": "The company behind Facebook and Instagram wants to keep consumers connected to the digital world via its ever-growing line of smart glasses. If there was one thing that was obvious from Meta Connect this year, it’s that the social media giant is all-in on its burgeoning line of smart glasses. Indeed, the glasses were pretty much everywhere at the annual event, where Meta shows off its newest hardware and AI products. Both Meta staff and the flocks of influencers who frequent the event seemed to arrive with the glasses glued to their faces."
     },
     {
       "title": "What to expect at Dell’s AI Leadership Symposium: Join theCUBE Sept. 29",
@@ -87,13 +94,6 @@
       "source": "Ars Technica",
       "publishedAt": "2026-09-25T17:57:37.000Z",
       "summary": "” The marketing initiative was aimed at making it easy for people to know which Windows systems were approved to run AI-accelerated workloads locally. But Copilot+ PC branding is nowhere to be found on the new Surface PCs Microsoft announced this week. Speaking with Windows Central , Brett Ostrum, corporate VP of Surface, said that the new Surface computers “are not called Copilot+ PCs” despite meeting the label’s requirements. Microsoft’s new Surface laptops forgo Copilot+ PC branding."
-    },
-    {
-      "title": "Meta makes the Muse filesystem even more accessible",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem",
-      "source": "The Verge",
-      "publishedAt": "2026-09-25T16:49:53.000Z",
-      "summary": "Yesterday, with a little prodding, it was discovered that Meta's Muse would expose its filesystem to curious users. The files offered a fascinating peek under the hood of an AI chatbot, and appeared to expose details we weren't meant to see, not least because Muse itself told people, including us, it wasn't supposed to reveal them. But today Muse will eagerly offer up the contents of its file system when you ask for it. That appears to be because, as Meta's Nat Friedman later said, this is the \" intended behavior."
     },
     {
       "title": "Prompt: AI agents can act. It’s unclear if enterprises can stop them.",
