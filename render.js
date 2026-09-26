@@ -68,7 +68,7 @@ function itemCard(item, storyNumber) {
               <path d="M2 9L9 2M9 2H3.5M9 2V7.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>
           </a>
-          <span class="time">${escapeHtml(formatTime(item.publishedAt))}</span>
+          <span class="time" data-ts="${escapeHtml(item.publishedAt.toISOString())}">${escapeHtml(formatTime(item.publishedAt))}</span>
         </div>
       </li>`;
 }
@@ -103,7 +103,7 @@ function buildSlides(items, glossaryPicks) {
 }
 
 function renderDigest(digest) {
-  const { dateLabel, items, sourceCount, mode, allSourceNames, glossary } = digest;
+  const { dateLabel, generatedAt, items, sourceCount, mode, allSourceNames, glossary } = digest;
 
   const slides = buildSlides(items, glossary || []);
   const slideMarkup = slides.join('\n');
@@ -451,7 +451,7 @@ function renderDigest(digest) {
     <span class="eyebrow">AI Digest News</span>
     <h1>Today in AI</h1>
     <div class="masthead-sub">
-      <span class="masthead-date">${escapeHtml(dateLabel)}</span>
+      <span class="masthead-date" data-ts="${escapeHtml(generatedAt)}">${escapeHtml(dateLabel)}</span>
       <span class="dot">&middot;</span>
       <span class="stat">${items.length} stories</span>
       <span class="dot">&middot;</span>
@@ -503,6 +503,34 @@ ${slideMarkup}
   });
 
   update();
+})();
+
+(function () {
+  // Server-rendered dates/times default to IST — GitHub's build runner has
+  // no idea where any given reader actually is, so IST (the publisher's
+  // own timezone) is the best static fallback for a reader with JS off.
+  // Once this loads in a real browser, reformat every timestamp using
+  // *that* browser's own local timezone instead — a reader in the US sees
+  // US time, a reader in India sees IST, etc. This also self-corrects the
+  // "shows yesterday's date near midnight" class of bug for every reader
+  // individually, without the server ever needing to know who's asking.
+  try {
+    var dateEl = document.querySelector('.masthead-date[data-ts]');
+    if (dateEl) {
+      var d = new Date(dateEl.getAttribute('data-ts'));
+      if (!isNaN(d.getTime())) {
+        dateEl.textContent = d.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+      }
+    }
+    var timeEls = document.querySelectorAll('.time[data-ts]');
+    for (var i = 0; i < timeEls.length; i++) {
+      var el = timeEls[i];
+      var t = new Date(el.getAttribute('data-ts'));
+      if (!isNaN(t.getTime())) {
+        el.textContent = t.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+      }
+    }
+  } catch (e) { /* if this throws for any reason, the server-rendered IST fallback stays visible, which is still correct and readable */ }
 })();
 </script>
 `;
