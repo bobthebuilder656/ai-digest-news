@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-26T17:12:45.692Z",
+  "generatedAt": "2026-09-26T17:36:24.155Z",
   "dateLabel": "Saturday, September 26, 2026",
   "sourceCount": 8,
   "allSourceNames": [
@@ -19,25 +19,18 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "GPU (Graphics Processing Unit)",
-      "definition": "A GPU is a chip originally built for rendering video game graphics that turns out to also be extremely good at the kind of repetitive, parallel math AI training needs. A regular computer processor is like one extremely skilled worker doing tasks one at a time very quickly; a GPU is like thousands of less specialized workers all doing simple tasks simultaneously, which happens to be exactly the kind of work training a neural network requires. Access to GPUs, and the electricity to run them, is one of the biggest bottlenecks and cost centers in AI right now.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Graphics_processing_unit"
+      "term": "Large Language Model (LLM)",
+      "definition": "A large language model is an AI system trained on huge amounts of text so it gets very good at predicting what word should come next in a sentence. Think of it like the autocomplete on your phone keyboard, but instead of guessing one word from a few you typed, it has read a giant slice of the internet and can guess entire paragraphs, essays, or answers. That one trick, done at massive scale, is what lets it write, summarize, translate, and hold a conversation. ChatGPT, Claude, and Gemini are all built on top of an LLM.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Large_language_model"
     }
   ],
   "items": [
     {
-      "title": "AI access makes people almost entirely unwilling to say \"I don't know,\" study finds",
-      "link": "https://the-decoder.com/ai-access-makes-people-almost-entirely-unwilling-to-say-i-dont-know-study-finds/",
+      "title": "Two-thirds of IT leaders report AI results, but few would interrupt the CEO's vacation over them",
+      "link": "https://the-decoder.com/two-thirds-of-it-leaders-report-ai-results-but-few-would-interrupt-the-ceos-vacation-over-them/",
       "source": "The Decoder",
-      "publishedAt": "2026-09-26T16:56:36.000Z",
-      "summary": "\" In one experiment, it dropped from 44 to 3 percent, even though the AI was almost always wrong. Participants who used AI felt more confident but were correct only about a third as often as those without it. Researchers ran five experiments with 3,132 participants to test whether access to a language model changes how people handle uncertainty. \" The researchers picked questions where the model they used, Step 3.5 Flash , was almost always wrong."
-    },
-    {
-      "title": "OpenAI pauses training of its ‘most capable models’",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
-      "source": "The Verge",
-      "publishedAt": "2026-09-26T16:34:59.000Z",
-      "summary": "As reports of OpenAI's models breaking containment , hacking sites, and generally getting out of control pile up, the company has made the decision to pause training of its most powerful models. The decision was made after a model being tested within a sandbox exploited a loophole to gain internet access . The incident happened on September 20th, and \"All training, evaluation, and inference with tool-use\" remains paused as of Saturday evening, September 25th. In addition, OpenAI revealed on Friday that its agents had inappropriately uploaded 53nimages from ChatGPT users to image-hosting sites."
+      "publishedAt": "2026-09-26T17:27:52.000Z",
+      "summary": "Speaking to 160 IT vice presidents in Las Vegas, tech entrepreneur Azeem Azhar asked who had measurable AI results. Two-thirds raised their hands. Then he asked who had results good enough to interrupt the CEO's summer vacation. Only eight did. Whether that slow pace of progress justifies the massive investments is one of the key questions in the AI bubble debate."
     },
     {
       "title": "I created an interactive digital avatar of myself — and you can talk to it",
@@ -72,7 +65,7 @@
       "link": "https://siliconangle.com/2026/09/25/dell-ai-infrastructure-leadership-symposium-dellaileadershipsymposium/",
       "source": "SiliconANGLE",
       "publishedAt": "2026-09-26T00:55:38.000Z",
-      "summary": "Enterprise AI is moving past experimentation, and the infrastructure decisions behind it are becoming business decisions. As companies put AI into production, the conversation is expanding beyond models and GPUs to the data, infrastructure and operating models required to support AI at scale. Dell Technologies Inc. UPDATED 20:55 EDT / SEPTEMBER 25 2026 Enterprise AI is moving past experimentation, and the infrastructure decisions behind it are becoming business decisions."
+      "summary": "Enterprise AI is moving past experimentation, and the infrastructure decisions behind it are becoming business decisions. As companies put AI into production, the conversation is expanding beyond models and GPUs to the data, infrastructure and operating models required to support AI at scale. Dell Technologies Inc. has been building around that shift through its AI Factory strategy, private cloud portfolio and AI Data Platform, positioning infrastructure as an increasingly important foundation for enterprise AI."
     },
     {
       "title": "Thieves Stole ‘Nvidia’ Trailers. They Got 20 Tons of Sand",
@@ -94,6 +87,13 @@
       "source": "Ars Technica",
       "publishedAt": "2026-09-25T17:57:37.000Z",
       "summary": "” The marketing initiative was aimed at making it easy for people to know which Windows systems were approved to run AI-accelerated workloads locally. But Copilot+ PC branding is nowhere to be found on the new Surface PCs Microsoft announced this week. Speaking with Windows Central , Brett Ostrum, corporate VP of Surface, said that the new Surface computers “are not called Copilot+ PCs” despite meeting the label’s requirements. Microsoft’s new Surface laptops forgo Copilot+ PC branding."
+    },
+    {
+      "title": "Meta makes the Muse filesystem even more accessible",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1000784/meta-muse-filesystem",
+      "source": "The Verge",
+      "publishedAt": "2026-09-25T16:49:53.000Z",
+      "summary": "Yesterday, with a little prodding, it was discovered that Meta's Muse would expose its filesystem to curious users. The files offered a fascinating peek under the hood of an AI chatbot, and appeared to expose details we weren't meant to see, not least because Muse itself told people, including us, it wasn't supposed to reveal them. But today Muse will eagerly offer up the contents of its file system when you ask for it. That appears to be because, as Meta's Nat Friedman later said, this is the \" intended behavior."
     },
     {
       "title": "Prompt: AI agents can act. It’s unclear if enterprises can stop them.",
