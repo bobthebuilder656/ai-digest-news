@@ -1,3 +1,5 @@
 node_modules/
 dist/
 .github/workflows/daily-digest.yml
+tests/last-run.json
+tests/.tz-check-tmp.html

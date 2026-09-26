@@ -1,0 +1,12 @@
+{
+  "name": "ai-news-digest-checks",
+  "private": true,
+  "description": "Reusable static + live regression checks for the ai-news-digest pipeline.",
+  "scripts": {
+    "check": "node check.js"
+  },
+  "devDependencies": {
+    "js-yaml": "^4.1.0",
+    "playwright": "^1.63.0"
+  }
+}
