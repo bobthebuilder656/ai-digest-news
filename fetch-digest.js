@@ -255,9 +255,16 @@ async function extractArticleParagraphs(url) {
     const articleMatch = html.match(/<article\b[\s\S]*?<\/article>/i);
     const scope = articleMatch ? articleMatch[0] : html;
     const paragraphs = scope.match(/<p\b[^>]*>[\s\S]*?<\/p>/gi) || [];
+    // A <p> with no closing punctuation is a heading/dek/caption, not prose
+    // (e.g. The Verge repeats its dek as two unpunctuated <p>s). Joined into
+    // the article text, it fuses with the next real sentence and shows up
+    // as the headline repeated several times in the summary.
+    const seen = new Set();
     return paragraphs
       .map((p) => stripReadMoreTeaser(stripTags(p)))
-      .filter((t) => t.split(' ').length > 6 && !isBoilerplate(t));
+      .filter((t) => t.split(' ').length > 6 && !isBoilerplate(t))
+      .filter((t) => /[.!?]["'”’)\]]*$/.test(t))
+      .filter((t) => !seen.has(t) && seen.add(t));
   } catch (err) {
     return [];
   }
