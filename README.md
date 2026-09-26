@@ -4,7 +4,9 @@ A free, self-updating daily digest of AI news, published as a single web page.
 
 **Live site:** https://bobthebuilder656.github.io/ai-digest-news/
 
-Every morning it gathers the latest AI stories from 12 well-known tech publications, picks the most important ones, writes a short summary of each, and publishes them as an easy-to-swipe set of cards. Each day also ends with one plain-English explanation of an AI term that appeared in the news, so readers learn a little as they go.
+Built this because keeping up with AI news felt overwhelming — either too much noise or too many platforms to check. Every morning it gathers the latest AI stories from 12 well-known tech publications, picks the most important ones, writes a short summary of each, and publishes them as an easy-to-swipe set of cards. Each day also ends with one plain-English explanation of an AI term that appeared in the news, so readers learn a little as they go.
+
+Ideal for anyone who feels overwhelmed by AI news or has to jump across multiple sites just to stay updated.
 
 ## Features
 
