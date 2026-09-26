@@ -479,7 +479,13 @@ async function main() {
   const overallMode = withSummaries.some((it) => it.summaryMode === 'ai') ? 'ai' : 'excerpt';
 
   const now = new Date();
-  const dateLabel = now.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+  // The runner (GitHub Actions) runs on UTC, but this digest is dated for
+  // an India-based audience. IST is UTC+5:30, so for part of the day (UTC
+  // evening, which is already the next calendar day in IST) the two
+  // clocks disagree on what "today" is. Without an explicit timeZone here,
+  // a run landing in that window gets labeled with UTC's date instead of
+  // the IST date readers actually see it on.
+  const dateLabel = now.toLocaleDateString('en-US', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Kolkata' });
 
   const glossary = JSON.parse(fs.readFileSync(GLOSSARY_PATH, 'utf8'));
   const glossaryHistory = loadGlossaryHistory();

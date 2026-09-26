@@ -10,7 +10,12 @@ function escapeHtml(str) {
 }
 
 function formatTime(date) {
-  return date.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' });
+  // This HTML is generated once, server-side, on GitHub's UTC runner, and
+  // never re-rendered in the reader's own browser/timezone — so without an
+  // explicit timeZone, every story's displayed time is silently off by
+  // 5:30 (IST's offset from UTC) for every reader, every day, not just an
+  // edge case.
+  return date.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit', timeZone: 'Asia/Kolkata' });
 }
 
 // 8 fixed, deliberately dark/saturated "folder tab" colors. They're solid
