@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-09-26T23:36:37.306Z",
-  "dateLabel": "Sunday, September 27, 2026",
+  "generatedAt": "2026-09-27T23:47:41.547Z",
+  "dateLabel": "Monday, September 28, 2026",
   "sourceCount": 8,
   "allSourceNames": [
     "TechCrunch",
@@ -19,46 +19,53 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "Generative AI",
-      "definition": "Generative AI is the umbrella term for any AI that creates new content, text, images, audio, video, or code, rather than just sorting or analyzing things that already exist. A spam filter that sorts email into \"junk\" or \"not junk\" is not generative; a tool that writes you a brand new email from scratch is. It's called \"generative\" because it generates something that didn't exist a moment ago, the way a chef generates a new dish from raw ingredients rather than just plating a dish someone else already cooked.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Generative_AI"
+      "term": "Hallucination",
+      "definition": "In AI, a hallucination is when a model confidently states something false, a fake statistic, a made-up citation, or an invented fact, because it's generating plausible-sounding text rather than actually retrieving something it verified. It's less like lying, which implies knowing the truth and hiding it, and more like a very confident student improvising a convincing-sounding answer on an exam question they never actually studied. It remains one of the central unsolved problems in trusting LLMs for anything high-stakes.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)"
     }
   ],
   "items": [
     {
-      "title": "Insurers claim AI is already increasing healthcare costs",
-      "link": "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-09-26T21:02:06.000Z",
-      "summary": "Blue Cross Blue Shield says hospital use of AI tools led to an additional $942M in healthcare spending over a two-year period. Hospitals’ use of artificial intelligence tools as they submit insurance claims led to an additional $942 million in healthcare spending over a two-year period, according to an analysis by the Blue Cross Blue Shield Association . ” The New York Times pointed the analysis as just the latest sign that AI is contributing to an increase in healthcare costs . While battles between hospitals and insurers over treatments and payments are nothing new, the NYT said the use of AI on both sides seems to be making it worse."
+      "title": "Researcher links 16,000 scans of a UN statistics portal to OpenAI agents",
+      "link": "https://siliconangle.com/2026/09/27/researcher-links-16000-scans-of-a-u-n-statistics-portal-to-openai-agents/",
+      "source": "SiliconANGLE",
+      "publishedAt": "2026-09-27T22:30:58.000Z",
+      "summary": "An independent researcher has tied more than 16,000 scans of a United Nations statistics portal to artificial intelligence agents the researcher considers highly likely to have been run by OpenAI Group PBC. When the portal turned requests away, the agents used proxies and encoding tricks to get the data anyway. In a blog post published Saturday , engineer Rowan Howard-Jones said the scanning lasted from April 13 until June 19. The target was the United Nations Conference on Trade and Development’s statistics site, UNCTADstat."
     },
     {
-      "title": "Former Ukrainian Defense Minister Fedorov pitches a private-sector robot army",
-      "link": "https://the-decoder.com/former-ukrainian-defense-minister-fedorov-pitches-a-private-sector-robot-army/",
+      "title": "Engram is a sampler that turns broken AI hallucinations into music",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music",
+      "source": "The Verge",
+      "publishedAt": "2026-09-27T20:46:36.000Z",
+      "summary": "Music startup Thoughtful Things has just launched the Kickstarter campaign for its first instrument, Engram . It's a sampler and groovebox that uses AI to mangle incoming audio and even hallucinate completely new sounds. This isn't Suno in a box, though. This isn't a \"push-button, get-song\" device, aimed at creating something that sounds ready for top-40 radio."
+    },
+    {
+      "title": "Anthropic’s CEO is about to have dinner with President Trump",
+      "link": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-09-27T20:34:28.000Z",
+      "summary": "This will be the first one-on-one meeting between Dario Amodei and Donald Trump Anthropic CEO Dario Amodei seems to be everywhere this weekend: He was lampooned on the season premiere of Saturday Night Live , and tonight, he’s set to have dinner with President Donald Trump at the White House. Axios first broke the news of Amodei’s dinner plans , which TechCrunch subsequently confirmed with a source familiar with his plans. ” Even before the current back-and-forth, Amodei and Anthropic have to had a fraught relationship with Trump’s administration."
+    },
+    {
+      "title": "Can Muse overcome Meta’s trust issues?",
+      "link": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-09-27T19:57:30.000Z",
+      "summary": "On Equity, we discussed how Meta's AI announcement managed to steal the spotlight from OpenAI and Anthropic. Meta’s new AI agent Muse took the spotlight at the company’s annual Connect event, where CEO Mark Zuckerberg made it clear that Facebook’s parent company plans to push AI features everywhere . On the latest episode of TechCrunch’s Equity podcast , Kirsten Korosec, Sean O’Kane, and I discussed Meta’s AI announcements seemed to steal the spotlight during a week of new model launches from OpenAI and Anthropic. With other big AI companies focused on coding and enterprise tools, it was a little surprising to see Meta move in the opposite direction, with a consumer focus and a cute, Tamagotchi-style AI device that Meta insists is for adults only ."
+    },
+    {
+      "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
+      "source": "The Verge",
+      "publishedAt": "2026-09-27T17:21:07.000Z",
+      "summary": "The United Nations logo on a gate outside the UN headquarters in New York. | AFP via Getty Images Security researcher Rowan Howard-Jones says that OpenAI agents scanned the UN Conference on Trade and Development's (UNCTAD) statistics site over 16,000 times between April and June . While the incident doesn't quite rise to the level of the Hugging Face hack , or the recent attacks on US government sites , it's yet another concerning example of AI agents going outside the normal bounds to accomplish a task. According to Howard-Jones, the agents were likely tasked with retrieving publicly available data related to the Productive Capacities Index (PCI) through the UNCTADstat API."
+    },
+    {
+      "title": "AI agents do more of the work in model development, but humans still make the decisions",
+      "link": "https://the-decoder.com/ai-agents-do-more-of-the-work-in-model-development-but-humans-still-make-the-decisions/",
       "source": "The Decoder",
-      "publishedAt": "2026-09-26T19:10:20.000Z",
-      "summary": "Former Ukrainian Defense Minister Mykhailo Fedorov has announced \"Army of Robots,\" a private combat robotics initiative. The robots would handle casualty evacuation, mine clearance, and combat. Drones already account for 95 percent of target engagements, he says. Drones now account for more than 95 percent of all target engagements, according to former Ukrainian Defense Minister Mykhailo Fedorov."
-    },
-    {
-      "title": "OpenAI pauses training of its ‘most capable models’",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
-      "source": "The Verge",
-      "publishedAt": "2026-09-26T16:34:59.000Z",
-      "summary": "As reports of OpenAI's models breaking containment , hacking sites, and generally getting out of control pile up, the company has made the decision to pause training of its most powerful models. The decision was made after a model being tested within a sandbox exploited a loophole to gain internet access . The incident happened on September 20th, and \"All training, evaluation, and inference with tool-use\" remains paused as of Saturday evening, September 25th. In addition, OpenAI revealed on Friday that its agents had inappropriately uploaded 53nimages from ChatGPT users to image-hosting sites."
-    },
-    {
-      "title": "I created an interactive digital avatar of myself — and you can talk to it",
-      "link": "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-09-26T14:00:00.000Z",
-      "summary": "After obtaining an interactive avatar and training it to discuss venture fraud, I have mixed feelings about making AI clones of ourselves. When Alexandru Voica, head of corporate affairs at the video-generation startup Synthesia, sent me a link this summer to the newest addition to their PR team, I was surprised. It was an interactive virtual avatar of him, trained to answer common press questions about Synthesia, like what it does and how it works. The day before, I was on a panel where PR people asked me if I minded pitches that used AI-generated text."
-    },
-    {
-      "title": "Can Cloudflare CEO Matthew Prince save the web from AI?",
-      "link": "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
-      "source": "The Verge",
-      "publishedAt": "2026-09-26T14:00:00.000Z",
-      "summary": "Today, I’m talking with Matthew Prince, who is CEO of Cloudflare. This episode is part of a two-part series on the future of business. Matthew last joined us on the show about two and a half years ago, at what we thought then was a wild pivot point for the internet — and now it turns out things are even wilder because of AI, and Matthew and Cloudflare are right at the center of it. Cloudflare found in June that bots made up more than half of internet traffic."
+      "publishedAt": "2026-09-27T15:18:39.000Z",
+      "summary": "A research team analyzed 769 task logs from building its own AI model. AI agents supplied up to 55 percent of method proposals, but humans made more than 85 percent of final decisions. A third of the tasks wouldn't have been attempted without AI. The authors warn that more agent activity doesn't mean more autonomy."
     },
     {
       "title": "Meta’s Muse Is Adults-Only. Why Does It Look Like a Kids’ Toy?",
@@ -66,13 +73,6 @@
       "source": "Wired",
       "publishedAt": "2026-09-26T10:30:00.000Z",
       "summary": "Meta says Muse is just for adults, though its cuddly, Labubu-like mascot—and upcoming Tamagotchi-style AI device—may be disarming for users of all ages. Meta’s Muse mascot is named Jolly. It's an adorable, cuddly representation of Meta’s AI agent that you can dress however you want—like a doll. At the company’s recent Meta Connect event , CEO Mark Zuckerberg’s furry Muse donned a toga and laurel wreath."
-    },
-    {
-      "title": "What to expect at Dell’s AI Leadership Symposium: Join theCUBE Sept. 29",
-      "link": "https://siliconangle.com/2026/09/25/dell-ai-infrastructure-leadership-symposium-dellaileadershipsymposium/",
-      "source": "SiliconANGLE",
-      "publishedAt": "2026-09-26T00:55:38.000Z",
-      "summary": "Enterprise AI is moving past experimentation, and the infrastructure decisions behind it are becoming business decisions. As companies put AI into production, the conversation is expanding beyond models and GPUs to the data, infrastructure and operating models required to support AI at scale. Dell Technologies Inc. has been building around that shift through its AI Factory strategy, private cloud portfolio and AI Data Platform, positioning infrastructure as an increasingly important foundation for enterprise AI."
     },
     {
       "title": "Thieves Stole ‘Nvidia’ Trailers. They Got 20 Tons of Sand",
