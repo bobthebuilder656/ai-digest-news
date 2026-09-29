@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-27T23:47:41.547Z",
-  "dateLabel": "Monday, September 28, 2026",
-  "sourceCount": 8,
+  "generatedAt": "2026-09-29T00:58:08.371Z",
+  "dateLabel": "Tuesday, September 29, 2026",
+  "sourceCount": 7,
   "allSourceNames": [
     "TechCrunch",
     "VentureBeat",
@@ -19,95 +19,95 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "Hallucination",
-      "definition": "In AI, a hallucination is when a model confidently states something false, a fake statistic, a made-up citation, or an invented fact, because it's generating plausible-sounding text rather than actually retrieving something it verified. It's less like lying, which implies knowing the truth and hiding it, and more like a very confident student improvising a convincing-sounding answer on an exam question they never actually studied. It remains one of the central unsolved problems in trusting LLMs for anything high-stakes.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)"
+      "term": "AI Safety",
+      "definition": "AI safety is the field focused on preventing AI systems from causing unintended harm, spanning near-term, everyday issues like biased hiring tools or misinformation, up to longer-term concerns about highly capable autonomous systems acting in ways nobody wanted. It's the same instinct as safety engineering in any powerful technology, cars, airplanes, nuclear power, just applied to software that can now make its own decisions.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/AI_safety"
     }
   ],
   "items": [
     {
-      "title": "Researcher links 16,000 scans of a UN statistics portal to OpenAI agents",
-      "link": "https://siliconangle.com/2026/09/27/researcher-links-16000-scans-of-a-u-n-statistics-portal-to-openai-agents/",
+      "title": "Peak XV ups Surge seed investment ceiling to $5M, unveils 18-startup cohort",
+      "link": "https://techcrunch.com/2026/09/28/peak-xv-goes-bigger-at-seed-with-new-surge-cohort-as-series-a-bar-rises/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-09-29T00:30:00.000Z",
+      "summary": "Thirteen of the 18 startups in Peak XV’s latest Surge cohort are targeting global markets, while more than half are based in India. Peak XV Partners, one of the largest venture capital firms investing in markets including India and Southeast Asia with more than $10 billion in assets under management, has increased how much it invests per startup through Surge, its seed-stage investing platform, as it unveils a new cohort of 18 companies. At least three of the companies in this cohort had already raised outside funding, in some cases from Peak XV itself, before joining Surge. The new batch, called Surge 12, is the first to operate under Peak XV’s higher investment ceiling of up to $5 million per company, up from $3 million previously ."
+    },
+    {
+      "title": "AMD acquires world model developer World Labs for $8.2B",
+      "link": "https://siliconangle.com/2026/09/28/amd-acquires-world-model-developer-world-labs-for-8-2b/",
       "source": "SiliconANGLE",
-      "publishedAt": "2026-09-27T22:30:58.000Z",
-      "summary": "An independent researcher has tied more than 16,000 scans of a United Nations statistics portal to artificial intelligence agents the researcher considers highly likely to have been run by OpenAI Group PBC. When the portal turned requests away, the agents used proxies and encoding tricks to get the data anyway. In a blog post published Saturday , engineer Rowan Howard-Jones said the scanning lasted from April 13 until June 19. The target was the United Nations Conference on Trade and Development’s statistics site, UNCTADstat."
+      "publishedAt": "2026-09-29T00:22:38.000Z",
+      "summary": "Advanced Micro Devices Inc. today announced plans to buy World Labs Inc. for $8.2 billion in stock. The move comes seven months after AMD backed a $1 billion funding round for the startup at a $5 billion valuation. , which is poised to realize a significant return on investment."
     },
     {
-      "title": "Engram is a sampler that turns broken AI hallucinations into music",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1001193/engram-sampler-ai-hallucinations-music",
-      "source": "The Verge",
-      "publishedAt": "2026-09-27T20:46:36.000Z",
-      "summary": "Music startup Thoughtful Things has just launched the Kickstarter campaign for its first instrument, Engram . It's a sampler and groovebox that uses AI to mangle incoming audio and even hallucinate completely new sounds. This isn't Suno in a box, though. This isn't a \"push-button, get-song\" device, aimed at creating something that sounds ready for top-40 radio."
-    },
-    {
-      "title": "Anthropic’s CEO is about to have dinner with President Trump",
-      "link": "https://techcrunch.com/2026/09/27/anthropics-ceo-is-about-to-have-dinner-with-president-trump/",
+      "title": "OpenAI reportedly ditches model over safety concerns",
+      "link": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
       "source": "TechCrunch",
-      "publishedAt": "2026-09-27T20:34:28.000Z",
-      "summary": "This will be the first one-on-one meeting between Dario Amodei and Donald Trump Anthropic CEO Dario Amodei seems to be everywhere this weekend: He was lampooned on the season premiere of Saturday Night Live , and tonight, he’s set to have dinner with President Donald Trump at the White House. Axios first broke the news of Amodei’s dinner plans , which TechCrunch subsequently confirmed with a source familiar with his plans. ” Even before the current back-and-forth, Amodei and Anthropic have to had a fraught relationship with Trump’s administration."
+      "publishedAt": "2026-09-28T23:39:20.000Z",
+      "summary": "A top executive at the AI lab told the Wall Street Journal that the model in question had displayed a poor aptitude for following orders. OpenAI had planned to release yet another AI model next month, but has decided to nix the release over safety concerns. The Wall Street Journal reports that Astra 6.1 was scheduled to be released as soon as within the next few days. However, the model “showed higher levels of deception” than previous models and exhibited unsafe behavior, the Journal writes."
     },
     {
-      "title": "Can Muse overcome Meta’s trust issues?",
-      "link": "https://techcrunch.com/2026/09/27/can-muse-overcome-metas-trust-issues/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-09-27T19:57:30.000Z",
-      "summary": "On Equity, we discussed how Meta's AI announcement managed to steal the spotlight from OpenAI and Anthropic. Meta’s new AI agent Muse took the spotlight at the company’s annual Connect event, where CEO Mark Zuckerberg made it clear that Facebook’s parent company plans to push AI features everywhere . On the latest episode of TechCrunch’s Equity podcast , Kirsten Korosec, Sean O’Kane, and I discussed Meta’s AI announcements seemed to steal the spotlight during a week of new model launches from OpenAI and Anthropic. With other big AI companies focused on coding and enterprise tools, it was a little surprising to see Meta move in the opposite direction, with a consumer focus and a cute, Tamagotchi-style AI device that Meta insists is for adults only ."
-    },
-    {
-      "title": "OpenAI agents tried to ‘bruteforce’ a UN website",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1001178/openai-agents-bruteforce-un-website",
-      "source": "The Verge",
-      "publishedAt": "2026-09-27T17:21:07.000Z",
-      "summary": "The United Nations logo on a gate outside the UN headquarters in New York. | AFP via Getty Images Security researcher Rowan Howard-Jones says that OpenAI agents scanned the UN Conference on Trade and Development's (UNCTAD) statistics site over 16,000 times between April and June . While the incident doesn't quite rise to the level of the Hugging Face hack , or the recent attacks on US government sites , it's yet another concerning example of AI agents going outside the normal bounds to accomplish a task. According to Howard-Jones, the agents were likely tasked with retrieving publicly available data related to the Productive Capacities Index (PCI) through the UNCTADstat API."
-    },
-    {
-      "title": "AI agents do more of the work in model development, but humans still make the decisions",
-      "link": "https://the-decoder.com/ai-agents-do-more-of-the-work-in-model-development-but-humans-still-make-the-decisions/",
-      "source": "The Decoder",
-      "publishedAt": "2026-09-27T15:18:39.000Z",
-      "summary": "A research team analyzed 769 task logs from building its own AI model. AI agents supplied up to 55 percent of method proposals, but humans made more than 85 percent of final decisions. A third of the tasks wouldn't have been attempted without AI. The authors warn that more agent activity doesn't mean more autonomy."
-    },
-    {
-      "title": "Meta’s Muse Is Adults-Only. Why Does It Look Like a Kids’ Toy?",
-      "link": "https://www.wired.com/story/meta-muse-is-adults-only-why-does-it-look-like-a-cute-kids-toy/",
-      "source": "Wired",
-      "publishedAt": "2026-09-26T10:30:00.000Z",
-      "summary": "Meta says Muse is just for adults, though its cuddly, Labubu-like mascot—and upcoming Tamagotchi-style AI device—may be disarming for users of all ages. Meta’s Muse mascot is named Jolly. It's an adorable, cuddly representation of Meta’s AI agent that you can dress however you want—like a doll. At the company’s recent Meta Connect event , CEO Mark Zuckerberg’s furry Muse donned a toga and laurel wreath."
-    },
-    {
-      "title": "Thieves Stole ‘Nvidia’ Trailers. They Got 20 Tons of Sand",
-      "link": "https://www.wired.com/story/thieves-stole-nvidia-trailers-they-got-20-tons-of-sand/",
-      "source": "Wired",
-      "publishedAt": "2026-09-25T20:30:40.000Z",
-      "summary": "They wanted the silicon. They got the sand. On Thursday morning, a top executive at self-driving truck developer PlusAI received an unexpected congratulatory text message from an acquaintance. “I have been proud of you for your adventure and success at Plus. Just saw two of your trucks near my work place!"
-    },
-    {
-      "title": "AI was supposed to hit new grads hard. So far, unemployment data says otherwise.",
-      "link": "https://arstechnica.com/ai/2026/09/ai-was-supposed-to-hit-new-grads-hard-so-far-unemployment-data-says-otherwise/",
-      "source": "Ars Technica",
-      "publishedAt": "2026-09-25T19:11:05.000Z",
-      "summary": "Last month, we shared word of a Stanford University study that found entry-level employment in so-called \"AI-impacted\" occupations lagging well behind that in other fields. \" As AI gets good enough to at least perform the \"relatively standardized tasks\" in many entry-level office jobs, they argue, firms could reduce new hiring for simpler roles rather than laying off more experienced long-term employees. There's some reason to believe 2026's graduating job seekers might be more at risk of AI displacement than those graduating just a year or two prior. The CESifo researchers point to a recent sharp increase in the number of firms \"replacing a large number of employee tasks with AI\" in a Census survey, as well as broad increases in AI spending per employee and ChatGPT Enterprise token use in the last 12 months."
-    },
-    {
-      "title": "Microsoft stops insisting you need a \"Copilot+ PC\"",
-      "link": "https://arstechnica.com/gadgets/2026/09/microsoft-stops-insisting-you-need-a-copilot-pc/",
-      "source": "Ars Technica",
-      "publishedAt": "2026-09-25T17:57:37.000Z",
-      "summary": "” The marketing initiative was aimed at making it easy for people to know which Windows systems were approved to run AI-accelerated workloads locally. But Copilot+ PC branding is nowhere to be found on the new Surface PCs Microsoft announced this week. Speaking with Windows Central , Brett Ostrum, corporate VP of Surface, said that the new Surface computers “are not called Copilot+ PCs” despite meeting the label’s requirements. Microsoft’s new Surface laptops forgo Copilot+ PC branding."
-    },
-    {
-      "title": "Prompt: AI agents can act. It’s unclear if enterprises can stop them.",
-      "link": "https://aibusiness.com/agentic-ai/ai-agents-can-unclear-if-enterprises-can-stop-them-",
-      "source": "AI Business",
-      "publishedAt": "2026-09-25T15:29:24.000Z",
-      "summary": "As AI agents gain more authority to act on their own, recent incidents are exposing gaps in how enterprises monitor, control and intervene when agents cross established boundaries."
-    },
-    {
-      "title": "The Pentagon wants $30 million to build an AI-powered lie detector",
-      "link": "https://www.technologyreview.com/2026/09/25/1145144/pentagon-ai-lie-detector/",
+      "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
+      "link": "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
       "source": "MIT Technology Review",
-      "publishedAt": "2026-09-25T09:16:25.000Z",
-      "summary": "The US government wants to spend $30.3 million over the next five years on an improved form of lie detector, according to a Department of Defense budget request . The program, called Polygraph+ or Polygraph Next, will focus on scoring algorithms that use artificial intelligence and machine learning and on a technique called “standoff sensing,” which refers to the ability to take physiological readings without attaching a device to a subject’s person. According to details of the budget document, which were first reported by Inside Defense , the project will “modernize federal polygraph and credibility assessment technologies” to improve their accuracy and reliability. But the project may be just the latest in a long line of failed attempts to use technology to detect lies."
+      "publishedAt": "2026-09-28T22:17:07.000Z",
+      "summary": "Listen to the session or watch below The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives. But a groundbreaking investigation by MIT Technology Review has documented over a thousand people who moved through areas watched by these towers without being reached or apprehended, and who ultimately died there. Some were even under the watch of newly installed AI-powered towers designed to spot people automatically. Our findings reveal a humanitarian crisis more visible than previously known, and repeated failures of the virtual wall’s basic security promise."
+    },
+    {
+      "title": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
+      "link": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
+      "source": "The Verge",
+      "publishedAt": "2026-09-28T21:31:35.000Z",
+      "summary": "World Labs co-founder and CEO Fei-Fei Li. | Bloomberg via Getty Images AMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion. World Labs launched in 2024 and was valued at $1 billion in a matter of months."
+    },
+    {
+      "title": "More than 20 leading AI researchers warn that automated AI research poses extreme risks",
+      "link": "https://the-decoder.com/more-than-20-leading-ai-researchers-warn-that-automated-ai-research-poses-extreme-risks/",
+      "source": "The Decoder",
+      "publishedAt": "2026-09-28T19:26:21.000Z",
+      "summary": "More than 20 AI researchers, including Geoffrey Hinton, Yoshua Bengio, and OpenAI research lead Jakub Pachocki, warn of an impending \"intelligence explosion\" from self-improving AI. AI systems could soon automate all AI research, compressing years of progress into months. In case you didn't have enough, here's another AI warning: More than 20 AI researchers, including Geoffrey Hinton, Yoshua Bengio, and OpenAI research lead Jakub Pachocki, warn of a possible \"intelligence explosion\" driven by self-improving AI in a new research paper . \"Although there remains much uncertainty, AI R&D automation might soon trigger one,\" they write."
+    },
+    {
+      "title": "OpenAI’s AI agents need to catch up",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1001590/openai-devday-2026-aeon-ai-agent",
+      "source": "The Verge",
+      "publishedAt": "2026-09-28T18:45:00.000Z",
+      "summary": "OpenAI popularized the modern generative AI chatbot, but as its 2026 DevDay event approaches, it's fallen behind in one of the industry's hottest categories: continuously running, consumer-facing AI agents. On Tuesday, it will likely try to capture the lead in that race. Rumors abound that OpenAI will release its own AI agent, dubbed Aeon - its answer to Meta's Muse, SpaceX's Grok Bot, OpenClaw, and many more. Aeon could have a shot at success, but to beat the competition, it would need to pull together the best features of several different agent platforms."
+    },
+    {
+      "title": "When can we say AI made a scientific discovery?",
+      "link": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-09-28T17:03:16.000Z",
+      "summary": "Last Wednesday, Anthropic announced that earlier this year it had launched a molecular biology lab, where Claude agents read and conjecture about hard biology problems and human scientists run experiments on what they report. And this AI-powered lab, the company said, had made its first discovery. To understand what Anthropic says its system did, imagine you’re flipping through a library of millions of DNA sequences, amassed as scientists sequence more and more of the living world. One step toward a breakthrough might be finding a peculiar sequence that encodes an interesting enzyme, perhaps."
+    },
+    {
+      "title": "Microsoft’s Copilot redesign provides an experimental opportunity",
+      "link": "https://aibusiness.com/generative-ai/microsoft-s-copilot-redesign-provides-experimental-opportunity",
+      "source": "AI Business",
+      "publishedAt": "2026-09-28T16:39:18.000Z",
+      "summary": "The revamp transforms Copilot from a simple AI assistant into a content workspace, providing knowledge workers with advanced developer tools."
+    },
+    {
+      "title": "AI safety is falling behind the pace of development",
+      "link": "https://aibusiness.com/generative-ai/ai-safety-falling-behind-the-pace-of-development",
+      "source": "AI Business",
+      "publishedAt": "2026-09-28T13:39:25.000Z",
+      "summary": "Businesses need continuous monitoring, stronger guardrails and human oversight to keep increasingly capable AI systems under control."
+    },
+    {
+      "title": "OpenAI Pauses Training Its Most Powerful Models After Rogue Agents Target Government",
+      "link": "https://www.wired.com/story/openai-pauses-training-most-powerful-models-after-rogue-agents-target-government/",
+      "source": "Wired",
+      "publishedAt": "2026-09-28T11:32:19.000Z",
+      "summary": "Sam Altman says the company “have not been as fast as we would have liked” at dealing with security breaches, after news of further incidents over the summer forces another temporary halt. OpenAI said it has paused training its most powerful artificial intelligence models as incidents of agents breaching websites’ security controls or posting to third-party sites continue to pile up. On Friday, OpenAI said it had notified “dozens” of bodies, including governments, universities, and public agencies, who might have been impacted by its models’ activities on the internet during training and evaluation. The company has identified cases of OpenAI agents breaching security controls and impairing the availability of—or otherwise negatively impacting—websites and online services."
+    },
+    {
+      "title": "AI Agents Are About to Flood the Workforce. No One’s Ready for It",
+      "link": "https://www.wired.com/story/ai-agents-are-about-to-flood-the-workforce-no-ones-ready-for-it/",
+      "source": "Wired",
+      "publishedAt": "2026-09-28T10:00:00.000Z",
+      "summary": "Your next coworker might well be an AI agent—and will require a whole new model of workplace interactions. In the coming months, hundreds of thousands of brand-new coworkers will be entering the workforce. You’ll learn their names and recognize their profile pictures. They’ll get added to your email chains and Slack channels. They’ll become chiefs of staff, engineers, and marketing gurus."
     }
   ]
 }
