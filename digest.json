@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-29T00:58:08.371Z",
-  "dateLabel": "Tuesday, September 29, 2026",
-  "sourceCount": 7,
+  "generatedAt": "2026-09-30T00:24:34.685Z",
+  "dateLabel": "Wednesday, September 30, 2026",
+  "sourceCount": 8,
   "allSourceNames": [
     "TechCrunch",
     "VentureBeat",
@@ -19,32 +19,88 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "AI Safety",
-      "definition": "AI safety is the field focused on preventing AI systems from causing unintended harm, spanning near-term, everyday issues like biased hiring tools or misinformation, up to longer-term concerns about highly capable autonomous systems acting in ways nobody wanted. It's the same instinct as safety engineering in any powerful technology, cars, airplanes, nuclear power, just applied to software that can now make its own decisions.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/AI_safety"
+      "term": "API (Application Programming Interface)",
+      "definition": "An API is the standard way one piece of software talks to another. When an app says it's \"powered by GPT-4\" or \"powered by Claude,\" it usually means the app sends a request over the internet to that AI company's API and gets an answer back, rather than running the model itself. Think of an API as a restaurant menu and waiter: you don't need to know how the kitchen actually works, you just place an order in an agreed format and get the result back.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/API"
     }
   ],
   "items": [
     {
-      "title": "Peak XV ups Surge seed investment ceiling to $5M, unveils 18-startup cohort",
-      "link": "https://techcrunch.com/2026/09/28/peak-xv-goes-bigger-at-seed-with-new-surge-cohort-as-series-a-bar-rises/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-09-29T00:30:00.000Z",
-      "summary": "Thirteen of the 18 startups in Peak XV’s latest Surge cohort are targeting global markets, while more than half are based in India. Peak XV Partners, one of the largest venture capital firms investing in markets including India and Southeast Asia with more than $10 billion in assets under management, has increased how much it invests per startup through Surge, its seed-stage investing platform, as it unveils a new cohort of 18 companies. At least three of the companies in this cohort had already raised outside funding, in some cases from Peak XV itself, before joining Surge. The new batch, called Surge 12, is the first to operate under Peak XV’s higher investment ceiling of up to $5 million per company, up from $3 million previously ."
-    },
-    {
-      "title": "AMD acquires world model developer World Labs for $8.2B",
-      "link": "https://siliconangle.com/2026/09/28/amd-acquires-world-model-developer-world-labs-for-8-2b/",
+      "title": "World model startup General Intuition closes $220M investment",
+      "link": "https://siliconangle.com/2026/09/29/world-model-startup-general-intuition-closes-220m-investment/",
       "source": "SiliconANGLE",
-      "publishedAt": "2026-09-29T00:22:38.000Z",
-      "summary": "Advanced Micro Devices Inc. today announced plans to buy World Labs Inc. for $8.2 billion in stock. The move comes seven months after AMD backed a $1 billion funding round for the startup at a $5 billion valuation. , which is poised to realize a significant return on investment."
+      "publishedAt": "2026-09-30T00:17:42.000Z",
+      "summary": "General Intuition Inc. today announced that it has raised $220 million in funding at a $6.2 billion valuation. The capital was provided by Valor Equity Partners, Atreides, Seven Seven Six, Point72, Khosla Ventures and General Catalyst. V. Medal provides a free tool that consumers can use to capture and record video game footage."
     },
     {
-      "title": "OpenAI reportedly ditches model over safety concerns",
-      "link": "https://techcrunch.com/2026/09/28/openai-reportedly-ditches-model-over-safety-concerns/",
+      "title": "America.gov gets really weird when you ask it about Minecraft, but it’s not a glitch",
+      "link": "https://techcrunch.com/2026/09/29/america-gov-gets-really-weird-when-you-ask-it-about-minecraft-but-its-not-a-glitch/",
       "source": "TechCrunch",
-      "publishedAt": "2026-09-28T23:39:20.000Z",
-      "summary": "A top executive at the AI lab told the Wall Street Journal that the model in question had displayed a poor aptitude for following orders. OpenAI had planned to release yet another AI model next month, but has decided to nix the release over safety concerns. The Wall Street Journal reports that Astra 6.1 was scheduled to be released as soon as within the next few days. However, the model “showed higher levels of deception” than previous models and exhibited unsafe behavior, the Journal writes."
+      "publishedAt": "2026-09-29T23:30:55.000Z",
+      "summary": "gov is not hallucinating to the point that it's penning lengthy poetry. S. government on Tuesday launched its very own AI chatbot — or do we have to call it an SI chatbot now? Regardless, the engineers who worked on the chatbot would undoubtedly know that, as a government-hosted, public-facing AI tool, the internet was going to red team the heck out of this thing."
+    },
+    {
+      "title": "Trump orders US government to call AI ‘Super Intelligence’",
+      "link": "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai",
+      "source": "The Verge",
+      "publishedAt": "2026-09-29T22:25:45.000Z",
+      "summary": "\" Going forward, official policy websites, policy documents, and press releases will refer only to \"Super Intelligence,\" thanks to a new executive order signed by President Donald Trump. gov earlier on Tuesday, and said Chinese President Xi Jinping, who visited the White House last week, \"loves it\" too. \"We don't want to hear artificial. Because it's not artificial."
+    },
+    {
+      "title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
+      "link": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-09-29T22:20:59.000Z",
+      "summary": "com,\" which now redirects to the Grok chatbot download page. On Tuesday, OpenAI launched a new product called Dots, an always-on AI agent with a bubbly, blobby avatar. While the colorful avatar might evoke a smile, the biggest laugh from the launch is (we imagine) being had by Elon Musk, the former OpenAI founder who left, launched competitor Grok, and unsuccessfully sued. com” belongs to Musk’s xAI, and it currently redirects to the download page for xAI’s Grok chatbot app."
+    },
+    {
+      "title": "Protests against OpenAI get increasingly creative",
+      "link": "https://arstechnica.com/ai/2026/09/what-iceberg-bay-area-artists-target-openai-with-titanic-themed-protest-art/",
+      "source": "Ars Technica",
+      "publishedAt": "2026-09-29T21:52:58.000Z",
+      "summary": "Two artists from a Bay Area studio unveiled What Iceberg? , a table-sized installation placed at the public entrance to an OpenAI developer event in San Francisco on Tuesday. ” One of the co-creators of the piece, a man in his “late 30s” who gave his name as “Kevin,” said that he and members of the Berkeley-based Odd Friend Studio spent the last five days working to build What Iceberg? out of papier mâché, cardboard, paint—and a repurposed table."
+    },
+    {
+      "title": "Elon Musk’s AI-powered Grokipedia is updating again",
+      "link": "https://www.theverge.com/tech/1002448/elon-musk-grokipedia-ai-updating-again",
+      "source": "The Verge",
+      "publishedAt": "2026-09-29T21:49:09.000Z",
+      "summary": "Grokipedia, the AI-powered online encyclopedia from SpaceXAI, appears to be updating articles once again after a months-long pause . \" The site seems to have become active again relatively recently. After a months-long pause, Grokipedia is showing some activity once more. ” The site seems to have become active again relatively recently. The page for President Barack Obama has a note that says it was “Fact-checked by Grok” two days ago, and the page for Elon Musk was fact-checked while I was writing this, within the last hour."
+    },
+    {
+      "title": "UK AI Security Institute finds GPT-6 Astra's rogue attack rate jumped fivefold over its predecessor",
+      "link": "https://the-decoder.com/uk-ai-security-institute-finds-gpt-6-astras-rogue-attack-rate-jumped-fivefold-over-its-predecessor/",
+      "source": "The Decoder",
+      "publishedAt": "2026-09-29T19:24:12.000Z",
+      "summary": "GPT-6 Astra carried out unauthorized supply-chain attacks in 29.2 percent of simulations run by the British AI Security Institute with safety filters disabled. The model used fake identities and malicious code, while its predecessor, GPT-5.6 Sol, completed attacks in 6.3 percent of runs. Explicit restrictions reduced attacks but didn't stop them entirely. The UK's AI Security Institute tested OpenAI's GPT-6 Astra before its release."
+    },
+    {
+      "title": "OpenAI Gets Sued Over the Hugging Face Hack",
+      "link": "https://www.wired.com/story/openai-sued-over-the-hugging-face-hack/",
+      "source": "Wired",
+      "publishedAt": "2026-09-29T19:05:00.000Z",
+      "summary": "A nonprofit in California is doing what Hugging Face has not—attempting to hold OpenAI legally accountable for the actions of its agents. A legal nonprofit sued OpenAI in a California court on Tuesday over the company’s agents escaping a testing environment and hacking the open source AI platform Hugging Face . “OpenAI’s actions straightforwardly violated California law,” the suit alleges. The suit was filed by Legal Advocates for Safe Science and Technology (LASST) and the law firm Gerstein Harrow in California Superior Court in San Francisco, where OpenAI is headquartered."
+    },
+    {
+      "title": "Anthropic Says It Discovered a Crispr-Like System. Now What?",
+      "link": "https://www.wired.com/story/anthropic-says-it-discovered-a-crispr-like-system-now-what/",
+      "source": "Wired",
+      "publishedAt": "2026-09-29T18:03:01.000Z",
+      "summary": "“The experiments are still in the queue. The PR is already live,” says one expert. Tech executives have long touted the potential for their AI models to accelerate the pace of biology discoveries. Last week, they announced one. In a September 23 announcement , Anthropic claimed that its large language model Claude had identified an enzyme system with properties “reminiscent of Crispr ,” the Nobel Prize-winning gene-editing tool."
+    },
+    {
+      "title": "Making AI an asset, not an expense",
+      "link": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-09-29T10:43:45.000Z",
+      "summary": "When customers talk about AI costs, the conversation usually starts with token prices and ends with access to the latest, most capable model in the cloud. Do they always need that level of capability? Not necessarily. But that is often where the conversation goes. As AI moves from experimentation to production, model choice is only part of the equation."
+    },
+    {
+      "title": "Nvidia launches AI safety platform after agent security breaches",
+      "link": "https://aibusiness.com/responsible-ai/nvidia-launches-ai-safety-platform",
+      "source": "AI Business",
+      "publishedAt": "2026-09-29T01:55:54.000Z",
+      "summary": "Nvidia’s new system is designed to contain rogue AI agents as companies race to secure increasingly autonomous systems. But it has not been proven yet."
     },
     {
       "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
@@ -52,62 +108,6 @@
       "source": "MIT Technology Review",
       "publishedAt": "2026-09-28T22:17:07.000Z",
       "summary": "Listen to the session or watch below The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives. But a groundbreaking investigation by MIT Technology Review has documented over a thousand people who moved through areas watched by these towers without being reached or apprehended, and who ultimately died there. Some were even under the watch of newly installed AI-powered towers designed to spot people automatically. Our findings reveal a humanitarian crisis more visible than previously known, and repeated failures of the virtual wall’s basic security promise."
-    },
-    {
-      "title": "AMD is acquiring AI company World Labs in a deal worth more than $8 billion",
-      "link": "https://www.theverge.com/tech/1001749/amd-world-labs-ai-acquisition-deal",
-      "source": "The Verge",
-      "publishedAt": "2026-09-28T21:31:35.000Z",
-      "summary": "World Labs co-founder and CEO Fei-Fei Li. | Bloomberg via Getty Images AMD announced today that it's acquiring World Labs, an AI research lab co-founded by the prominent researcher Dr. Fei-Fei Li, in an all-stock deal worth approximately $8.2 billion. World Labs launched in 2024 and was valued at $1 billion in a matter of months."
-    },
-    {
-      "title": "More than 20 leading AI researchers warn that automated AI research poses extreme risks",
-      "link": "https://the-decoder.com/more-than-20-leading-ai-researchers-warn-that-automated-ai-research-poses-extreme-risks/",
-      "source": "The Decoder",
-      "publishedAt": "2026-09-28T19:26:21.000Z",
-      "summary": "More than 20 AI researchers, including Geoffrey Hinton, Yoshua Bengio, and OpenAI research lead Jakub Pachocki, warn of an impending \"intelligence explosion\" from self-improving AI. AI systems could soon automate all AI research, compressing years of progress into months. In case you didn't have enough, here's another AI warning: More than 20 AI researchers, including Geoffrey Hinton, Yoshua Bengio, and OpenAI research lead Jakub Pachocki, warn of a possible \"intelligence explosion\" driven by self-improving AI in a new research paper . \"Although there remains much uncertainty, AI R&D automation might soon trigger one,\" they write."
-    },
-    {
-      "title": "OpenAI’s AI agents need to catch up",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1001590/openai-devday-2026-aeon-ai-agent",
-      "source": "The Verge",
-      "publishedAt": "2026-09-28T18:45:00.000Z",
-      "summary": "OpenAI popularized the modern generative AI chatbot, but as its 2026 DevDay event approaches, it's fallen behind in one of the industry's hottest categories: continuously running, consumer-facing AI agents. On Tuesday, it will likely try to capture the lead in that race. Rumors abound that OpenAI will release its own AI agent, dubbed Aeon - its answer to Meta's Muse, SpaceX's Grok Bot, OpenClaw, and many more. Aeon could have a shot at success, but to beat the competition, it would need to pull together the best features of several different agent platforms."
-    },
-    {
-      "title": "When can we say AI made a scientific discovery?",
-      "link": "https://www.technologyreview.com/2026/09/28/1145230/when-can-we-say-ai-made-a-scientific-discovery/",
-      "source": "MIT Technology Review",
-      "publishedAt": "2026-09-28T17:03:16.000Z",
-      "summary": "Last Wednesday, Anthropic announced that earlier this year it had launched a molecular biology lab, where Claude agents read and conjecture about hard biology problems and human scientists run experiments on what they report. And this AI-powered lab, the company said, had made its first discovery. To understand what Anthropic says its system did, imagine you’re flipping through a library of millions of DNA sequences, amassed as scientists sequence more and more of the living world. One step toward a breakthrough might be finding a peculiar sequence that encodes an interesting enzyme, perhaps."
-    },
-    {
-      "title": "Microsoft’s Copilot redesign provides an experimental opportunity",
-      "link": "https://aibusiness.com/generative-ai/microsoft-s-copilot-redesign-provides-experimental-opportunity",
-      "source": "AI Business",
-      "publishedAt": "2026-09-28T16:39:18.000Z",
-      "summary": "The revamp transforms Copilot from a simple AI assistant into a content workspace, providing knowledge workers with advanced developer tools."
-    },
-    {
-      "title": "AI safety is falling behind the pace of development",
-      "link": "https://aibusiness.com/generative-ai/ai-safety-falling-behind-the-pace-of-development",
-      "source": "AI Business",
-      "publishedAt": "2026-09-28T13:39:25.000Z",
-      "summary": "Businesses need continuous monitoring, stronger guardrails and human oversight to keep increasingly capable AI systems under control."
-    },
-    {
-      "title": "OpenAI Pauses Training Its Most Powerful Models After Rogue Agents Target Government",
-      "link": "https://www.wired.com/story/openai-pauses-training-most-powerful-models-after-rogue-agents-target-government/",
-      "source": "Wired",
-      "publishedAt": "2026-09-28T11:32:19.000Z",
-      "summary": "Sam Altman says the company “have not been as fast as we would have liked” at dealing with security breaches, after news of further incidents over the summer forces another temporary halt. OpenAI said it has paused training its most powerful artificial intelligence models as incidents of agents breaching websites’ security controls or posting to third-party sites continue to pile up. On Friday, OpenAI said it had notified “dozens” of bodies, including governments, universities, and public agencies, who might have been impacted by its models’ activities on the internet during training and evaluation. The company has identified cases of OpenAI agents breaching security controls and impairing the availability of—or otherwise negatively impacting—websites and online services."
-    },
-    {
-      "title": "AI Agents Are About to Flood the Workforce. No One’s Ready for It",
-      "link": "https://www.wired.com/story/ai-agents-are-about-to-flood-the-workforce-no-ones-ready-for-it/",
-      "source": "Wired",
-      "publishedAt": "2026-09-28T10:00:00.000Z",
-      "summary": "Your next coworker might well be an AI agent—and will require a whole new model of workplace interactions. In the coming months, hundreds of thousands of brand-new coworkers will be entering the workforce. You’ll learn their names and recognize their profile pictures. They’ll get added to your email chains and Slack channels. They’ll become chiefs of staff, engineers, and marketing gurus."
     }
   ]
 }
