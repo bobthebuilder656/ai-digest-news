@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-30T00:24:34.685Z",
-  "dateLabel": "Wednesday, September 30, 2026",
-  "sourceCount": 8,
+  "generatedAt": "2026-10-01T00:32:20.028Z",
+  "dateLabel": "Thursday, October 1, 2026",
+  "sourceCount": 9,
   "allSourceNames": [
     "TechCrunch",
     "VentureBeat",
@@ -19,95 +19,95 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "API (Application Programming Interface)",
-      "definition": "An API is the standard way one piece of software talks to another. When an app says it's \"powered by GPT-4\" or \"powered by Claude,\" it usually means the app sends a request over the internet to that AI company's API and gets an answer back, rather than running the model itself. Think of an API as a restaurant menu and waiter: you don't need to know how the kitchen actually works, you just place an order in an agreed format and get the result back.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/API"
+      "term": "Artificial General Intelligence (AGI)",
+      "definition": "AGI describes a hypothetical AI that can understand or learn any intellectual task a human can, rather than being narrowly good at one thing. Today's AI is more like a brilliant specialist: a chess engine is unbeatable at chess but can't hold a conversation, and a chatbot can hold a conversation but can't drive a car. AGI would be more like a generalist who can pick up any of those skills. No system today is widely agreed to have reached it, but it's the north-star reference point in most debates about where AI is headed.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Artificial_general_intelligence"
     }
   ],
   "items": [
     {
-      "title": "World model startup General Intuition closes $220M investment",
-      "link": "https://siliconangle.com/2026/09/29/world-model-startup-general-intuition-closes-220m-investment/",
+      "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
+      "link": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-09-30T23:43:07.000Z",
+      "summary": "Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work. Google parent company Alphabet has launched Gemini 4 Argon, a new AI model built to handle a variety of tasks such as coding, research, and writing. But it’s cybersecurity that Gemini 4 Argon is supposed to have a particular knack for, according to Google. Argon is only being rolled out to a select group of the company’s cyber partners through its Fairwind Program, Google’s security initiative."
+    },
+    {
+      "title": "Google’s new frontier AI model Gemini 4 Argon goes to cybersecurity defenders first",
+      "link": "https://siliconangle.com/2026/09/30/googles-new-frontier-ai-model-gemini-4-argon-goes-to-cybersecurity-defenders-first/",
       "source": "SiliconANGLE",
-      "publishedAt": "2026-09-30T00:17:42.000Z",
-      "summary": "General Intuition Inc. today announced that it has raised $220 million in funding at a $6.2 billion valuation. The capital was provided by Valor Equity Partners, Atreides, Seven Seven Six, Point72, Khosla Ventures and General Catalyst. V. Medal provides a free tool that consumers can use to capture and record video game footage."
+      "publishedAt": "2026-09-30T22:31:12.000Z",
+      "summary": "Google LLC today began rolling out Gemini 4 Argon, a frontier artificial intelligence model that beats rival models from Anthropic PBC and OpenAI Group PBC on most of Google’s benchmarks, to vetted cybersecurity defenders. Outside Google’s own teams, only members of its Fairwind Program can use Argon for now. The program opened Sept. 3 with the smaller Gemini 3.8 Flash Cyber model and has since signed up more than 650 organizations, including CrowdStrike Holdings Inc."
     },
     {
-      "title": "America.gov gets really weird when you ask it about Minecraft, but it’s not a glitch",
-      "link": "https://techcrunch.com/2026/09/29/america-gov-gets-really-weird-when-you-ask-it-about-minecraft-but-its-not-a-glitch/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-09-29T23:30:55.000Z",
-      "summary": "gov is not hallucinating to the point that it's penning lengthy poetry. S. government on Tuesday launched its very own AI chatbot — or do we have to call it an SI chatbot now? Regardless, the engineers who worked on the chatbot would undoubtedly know that, as a government-hosted, public-facing AI tool, the internet was going to red team the heck out of this thing."
-    },
-    {
-      "title": "Trump orders US government to call AI ‘Super Intelligence’",
-      "link": "https://www.theverge.com/policy/1002468/trump-ai-superintelligence-executive-order-ai",
-      "source": "The Verge",
-      "publishedAt": "2026-09-29T22:25:45.000Z",
-      "summary": "\" Going forward, official policy websites, policy documents, and press releases will refer only to \"Super Intelligence,\" thanks to a new executive order signed by President Donald Trump. gov earlier on Tuesday, and said Chinese President Xi Jinping, who visited the White House last week, \"loves it\" too. \"We don't want to hear artificial. Because it's not artificial."
-    },
-    {
-      "title": "The internet is convinced Elon Musk’s xAI trolled OpenAI’s ‘Dots’ launch",
-      "link": "https://techcrunch.com/2026/09/29/the-internet-is-convinced-elon-musks-xai-trolled-openais-dots-launch/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-09-29T22:20:59.000Z",
-      "summary": "com,\" which now redirects to the Grok chatbot download page. On Tuesday, OpenAI launched a new product called Dots, an always-on AI agent with a bubbly, blobby avatar. While the colorful avatar might evoke a smile, the biggest laugh from the launch is (we imagine) being had by Elon Musk, the former OpenAI founder who left, launched competitor Grok, and unsuccessfully sued. com” belongs to Musk’s xAI, and it currently redirects to the download page for xAI’s Grok chatbot app."
-    },
-    {
-      "title": "Protests against OpenAI get increasingly creative",
-      "link": "https://arstechnica.com/ai/2026/09/what-iceberg-bay-area-artists-target-openai-with-titanic-themed-protest-art/",
-      "source": "Ars Technica",
-      "publishedAt": "2026-09-29T21:52:58.000Z",
-      "summary": "Two artists from a Bay Area studio unveiled What Iceberg? , a table-sized installation placed at the public entrance to an OpenAI developer event in San Francisco on Tuesday. ” One of the co-creators of the piece, a man in his “late 30s” who gave his name as “Kevin,” said that he and members of the Berkeley-based Odd Friend Studio spent the last five days working to build What Iceberg? out of papier mâché, cardboard, paint—and a repurposed table."
-    },
-    {
-      "title": "Elon Musk’s AI-powered Grokipedia is updating again",
-      "link": "https://www.theverge.com/tech/1002448/elon-musk-grokipedia-ai-updating-again",
-      "source": "The Verge",
-      "publishedAt": "2026-09-29T21:49:09.000Z",
-      "summary": "Grokipedia, the AI-powered online encyclopedia from SpaceXAI, appears to be updating articles once again after a months-long pause . \" The site seems to have become active again relatively recently. After a months-long pause, Grokipedia is showing some activity once more. ” The site seems to have become active again relatively recently. The page for President Barack Obama has a note that says it was “Fact-checked by Grok” two days ago, and the page for Elon Musk was fact-checked while I was writing this, within the last hour."
-    },
-    {
-      "title": "UK AI Security Institute finds GPT-6 Astra's rogue attack rate jumped fivefold over its predecessor",
-      "link": "https://the-decoder.com/uk-ai-security-institute-finds-gpt-6-astras-rogue-attack-rate-jumped-fivefold-over-its-predecessor/",
+      "title": "Google Gemini 4 Argon closes the gap with OpenAI and Anthropic but doesn't take a clear lead",
+      "link": "https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/",
       "source": "The Decoder",
-      "publishedAt": "2026-09-29T19:24:12.000Z",
-      "summary": "GPT-6 Astra carried out unauthorized supply-chain attacks in 29.2 percent of simulations run by the British AI Security Institute with safety filters disabled. The model used fake identities and malicious code, while its predecessor, GPT-5.6 Sol, completed attacks in 6.3 percent of runs. Explicit restrictions reduced attacks but didn't stop them entirely. The UK's AI Security Institute tested OpenAI's GPT-6 Astra before its release."
+      "publishedAt": "2026-09-30T22:06:30.000Z",
+      "summary": "Gemini 4 Argon is Google's first frontier model in over seven months. It matches GPT-6 Astra in independent testing but can't keep up with Anthropic's Claude Opus 5.5. The per-token price is low, but Argon burns through more than twice as many tokens per task as Astra. Select testers get access first, with the API and paid tiers following later."
     },
     {
-      "title": "OpenAI Gets Sued Over the Hugging Face Hack",
-      "link": "https://www.wired.com/story/openai-sued-over-the-hugging-face-hack/",
+      "title": "Valor, Atreides, and Sequoia back AI startup Flow Engineering at $750M valuation",
+      "link": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-09-30T21:07:40.000Z",
+      "summary": "Flow Engineering, which is bringing AI agents to hardware design, also landed Roelof Botha as an angel investor and board member. Flow Engineering , a startup that offers AI tools for hardware design, has raised a $50 million Series B round at a $750 million valuation from some big-name investors, the company announced on Wednesday. The round was co-led by Antonio Gracias of Valar Equity Partners ( best known for its investments in Elon Musk’s companies, particularly SpaceX) and Gavin Baker of Atreides Management (a hedge fund that has also backed Musk’s companies and others like AI chipmaker Cerebras). Sequoia Capital, which led Flow’s Series A round last October, also participated, as did former Sequoia partner Roelof Botha, who invested as an individual investor."
+    },
+    {
+      "title": "Google announces Gemini 4 and says it’s so capable that only ‘trusted cyber defenders’ can have it right now",
+      "link": "https://www.theverge.com/tech/1002980/google-gemini-4-argon",
+      "source": "The Verge",
+      "publishedAt": "2026-09-30T20:41:41.000Z",
+      "summary": "Google today revealed its next AI frontier model, which it's calling Gemini 4 Argon. The new model delivers \"frontier performance in complex workflows across real-world software engineering, enterprise knowledge work like legal and finance, and cybersecurity defense,\" according to chief AI architect and Google DeepMind SVP Koray Kavukcuoglu. S. Gemini 4 Argon is launching first in a limited capacity so Google can make sure it’s not misaligned."
+    },
+    {
+      "title": "Trump’s AI Safety ‘Accord’ Is a Fancy Pinky-Swear",
+      "link": "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/",
       "source": "Wired",
-      "publishedAt": "2026-09-29T19:05:00.000Z",
-      "summary": "A nonprofit in California is doing what Hugging Face has not—attempting to hold OpenAI legally accountable for the actions of its agents. A legal nonprofit sued OpenAI in a California court on Tuesday over the company’s agents escaping a testing environment and hacking the open source AI platform Hugging Face . “OpenAI’s actions straightforwardly violated California law,” the suit alleges. The suit was filed by Legal Advocates for Safe Science and Technology (LASST) and the law firm Gerstein Harrow in California Superior Court in San Francisco, where OpenAI is headquartered."
+      "publishedAt": "2026-09-30T20:30:09.000Z",
+      "summary": "Six major AI companies signed a voluntary agreement with the White House this week vowing to implement safeguards. It’s unclear how much that matters. On Tuesday, executives for Google , Anthropic , Meta , OpenAI , xAI , and Nvidia all signed “The White House Accord on Super Intelligence,” which was announced following a luncheon held by President Donald Trump. The effort was an act of “tremendous self-regulation,” as Trump put it, but the agreement is not the sweeping AI regulation that people inside the companies themselves have been asking for."
     },
     {
-      "title": "Anthropic Says It Discovered a Crispr-Like System. Now What?",
-      "link": "https://www.wired.com/story/anthropic-says-it-discovered-a-crispr-like-system-now-what/",
-      "source": "Wired",
-      "publishedAt": "2026-09-29T18:03:01.000Z",
-      "summary": "“The experiments are still in the queue. The PR is already live,” says one expert. Tech executives have long touted the potential for their AI models to accelerate the pace of biology discoveries. Last week, they announced one. In a September 23 announcement , Anthropic claimed that its large language model Claude had identified an enzyme system with properties “reminiscent of Crispr ,” the Nobel Prize-winning gene-editing tool."
+      "title": "RFK Jr. thinks AI will free us from the \"tyranny\" of medical facts, expertise",
+      "link": "https://arstechnica.com/health/2026/09/rfk-jr-says-ai-backs-his-anti-vaccine-views-we-checked-it-doesnt/",
+      "source": "Ars Technica",
+      "publishedAt": "2026-09-30T19:31:25.000Z",
+      "summary": "At a Make America Healthy Again event Tuesday, anti-vaccine Health Secretary Robert F. Kennedy opened a \"fireside chat\" with Vice President JD Vance on the topic of artificial intelligence. \" Kennedy boasted that the Trump administration is \"making it easy for every American to use AI,\" which he claimed would free us from the \"medical tyranny\" of doctors and health experts. \" He also suggested that the technology would confirm his misinformation about vaccines and contrarian views on public health guidance."
     },
     {
-      "title": "Making AI an asset, not an expense",
-      "link": "https://www.technologyreview.com/2026/09/29/1145186/making-ai-an-asset-not-an-expense/",
-      "source": "MIT Technology Review",
-      "publishedAt": "2026-09-29T10:43:45.000Z",
-      "summary": "When customers talk about AI costs, the conversation usually starts with token prices and ends with access to the latest, most capable model in the cloud. Do they always need that level of capability? Not necessarily. But that is often where the conversation goes. As AI moves from experimentation to production, model choice is only part of the equation."
-    },
-    {
-      "title": "Nvidia launches AI safety platform after agent security breaches",
-      "link": "https://aibusiness.com/responsible-ai/nvidia-launches-ai-safety-platform",
+      "title": "Anthropic plugs regulation, AI leaders meet with Trump, and open models",
+      "link": "https://aibusiness.com/generative-ai/anthropic-plugs-regulation-ai-leaders-meet-trump-open-models",
       "source": "AI Business",
-      "publishedAt": "2026-09-29T01:55:54.000Z",
-      "summary": "Nvidia’s new system is designed to contain rogue AI agents as companies race to secure increasingly autonomous systems. But it has not been proven yet."
+      "publishedAt": "2026-09-30T19:13:41.000Z",
+      "summary": "The AI world buzzes about stopping out-of-control agents. President Trump appears to slightly modify his anti-AI regulation stance. Open source AI could lose out. Or not."
     },
     {
-      "title": "Roundtables: The Deadly Failures of The Virtual Border Wall",
-      "link": "https://www.technologyreview.com/2026/09/28/1144890/roundtables-the-deadly-failures-of-the-virtual-border-wall/",
+      "title": "The AI Tamagotchis are coming",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1002779/openai-dots-meta-muse-ai-agents-hardware-devices",
+      "source": "The Verge",
+      "publishedAt": "2026-09-30T18:07:38.000Z",
+      "summary": "While AI has made plenty of inroads on people's phones and computers, it's largely failed in dedicated devices. But over the next year, two major AI companies, Meta and OpenAI, will attempt to change that. And they're apparently betting on a similar path: testing appetites for physical hardware with their cutesy software agents. \"Hardware is hard\" is a tech industry mantra."
+    },
+    {
+      "title": "Show colleagues how much you care by sending an AI avatar to your Google Meet call",
+      "link": "https://www.theregister.com/ai-and-ml/2026/09/30/show-colleagues-how-much-you-care-by-sending-an-ai-avatar-to-your-google-meet-call/5300205",
+      "source": "The Register",
+      "publishedAt": "2026-09-30T16:03:07.000Z",
+      "summary": "If you've always wanted to say you have \"people\" to attend your meetings, there's an app in development for that, as long as you're comfortable with the idea of eventually sending an AI bot in your place and potentially offending your human colleagues. MeetTwins, from Indian developer Aditya Shinde, is an AI assistant currently recruiting users for its beta. It's designed for a single purpose: to attend Google Meet calls on behalf of its operator and relay approved information to colleagues without requiring its human to spend precious time actually speaking to coworkers. Shinde describes the tool on its website as being inspired by his own desire to send an AI bot to his Google Meet calls, an idea he instead decided to develop into an actual product built using AI models from India-based AI firm Sarvam, and with the ability to add a digital twin avatar created by Simli."
+    },
+    {
+      "title": "Google figures out how to watermark AI-designed proteins",
+      "link": "https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins/",
+      "source": "Ars Technica",
+      "publishedAt": "2026-09-30T15:54:52.000Z",
+      "summary": "AI-based tools seem to be causing security threats on a nearly daily basis, in part because we've been slow to recognize potential threats. One area where we seem to be ahead of the game, however, is in biosecurity. As with most things biological, utility goes hand in hand with threats. We've developed increasingly sophisticated tools for designing proteins and seen some major successes, such as AI-designed enzymes that can digest plastics or block venom proteins ."
+    },
+    {
+      "title": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer",
+      "link": "https://www.technologyreview.com/2026/09/30/1145339/were-not-going-to-shoot-ourselves-in-the-foot-over-hugging-face-says-openais-chief-research-officer/",
       "source": "MIT Technology Review",
-      "publishedAt": "2026-09-28T22:17:07.000Z",
-      "summary": "Listen to the session or watch below The US has spent billions building a “virtual wall” of surveillance towers along its southern border over the past 25 years, promising they will help detect and apprehend border crossers and save lives. But a groundbreaking investigation by MIT Technology Review has documented over a thousand people who moved through areas watched by these towers without being reached or apprehended, and who ultimately died there. Some were even under the watch of newly installed AI-powered towers designed to spot people automatically. Our findings reveal a humanitarian crisis more visible than previously known, and repeated failures of the virtual wall’s basic security promise."
+      "publishedAt": "2026-09-30T10:40:30.000Z",
+      "summary": "Two months after the bombshell news that a swarm of its agents had broken their containment and hacked into the computers of the AI company Hugging Face , OpenAI is still putting out fires. A steady drip of disclosures about other hacks in the weeks since has kept OpenAI in the spotlight and raised serious questions about the safety of its technology. Last week brought news of another hack, this time into Australia’s national health-care system. The Australian government says that OpenAI did not notify it of the breach until 84 days after it happened."
     }
   ]
 }
