@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-01T00:32:20.028Z",
-  "dateLabel": "Thursday, October 1, 2026",
+  "generatedAt": "2026-10-02T00:45:24.352Z",
+  "dateLabel": "Friday, October 2, 2026",
   "sourceCount": 9,
   "allSourceNames": [
     "TechCrunch",
@@ -19,53 +19,74 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "Artificial General Intelligence (AGI)",
-      "definition": "AGI describes a hypothetical AI that can understand or learn any intellectual task a human can, rather than being narrowly good at one thing. Today's AI is more like a brilliant specialist: a chess engine is unbeatable at chess but can't hold a conversation, and a chatbot can hold a conversation but can't drive a car. AGI would be more like a generalist who can pick up any of those skills. No system today is widely agreed to have reached it, but it's the north-star reference point in most debates about where AI is headed.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Artificial_general_intelligence"
+      "term": "Neural Network",
+      "definition": "A neural network is a computing structure loosely inspired by neurons in the brain: layers of simple units that pass signals to each other, strengthening or weakening those connections as they learn from examples. Picture a huge grid of light switches, wired together in layers, where training slowly adjusts which switches influence which other switches until the whole grid reliably lights up the correct \"answer\" pattern for a given input. It's the basic architecture underneath almost all modern AI, from image recognition to language models.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Neural_network_(machine_learning)"
     }
   ],
   "items": [
     {
-      "title": "Google releases Gemini 4 Argon, called its most powerful model yet",
-      "link": "https://techcrunch.com/2026/09/30/google-releases-gemini-4-argon-called-its-most-powerful-model-yet/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-09-30T23:43:07.000Z",
-      "summary": "Google has released its latest Gemini model, marketing it as a workhorse for coding and cybersecurity work. Google parent company Alphabet has launched Gemini 4 Argon, a new AI model built to handle a variety of tasks such as coding, research, and writing. But it’s cybersecurity that Gemini 4 Argon is supposed to have a particular knack for, according to Google. Argon is only being rolled out to a select group of the company’s cyber partners through its Fairwind Program, Google’s security initiative."
+      "title": "Meta expands Muse to small businesses",
+      "link": "https://aibusiness.com/agentic-ai/meta-expands-muse-to-small-businesses",
+      "source": "AI Business",
+      "publishedAt": "2026-10-01T23:57:15.000Z",
+      "summary": "The move comes as agentic AI plays an increasingly big part in business operations, sparking oversight concerns."
     },
     {
-      "title": "Google’s new frontier AI model Gemini 4 Argon goes to cybersecurity defenders first",
-      "link": "https://siliconangle.com/2026/09/30/googles-new-frontier-ai-model-gemini-4-argon-goes-to-cybersecurity-defenders-first/",
+      "title": "Report: Anthropic targets pre-Thanksgiving IPO launch, despite warning of AI’s ‘existential risks’",
+      "link": "https://siliconangle.com/2026/10/01/report-anthropic-targets-pre-thanksgiving-ipo-launch-despite-warning-of-ais-existential-risks/",
       "source": "SiliconANGLE",
-      "publishedAt": "2026-09-30T22:31:12.000Z",
-      "summary": "Google LLC today began rolling out Gemini 4 Argon, a frontier artificial intelligence model that beats rival models from Anthropic PBC and OpenAI Group PBC on most of Google’s benchmarks, to vetted cybersecurity defenders. Outside Google’s own teams, only members of its Fairwind Program can use Argon for now. The program opened Sept. 3 with the smaller Gemini 3.8 Flash Cyber model and has since signed up more than 650 organizations, including CrowdStrike Holdings Inc."
+      "publishedAt": "2026-10-01T23:43:54.000Z",
+      "summary": "Artificial intelligence giant Anthropic PBC is reportedly forging ahead with its plans to go public and has set a new target date of Nov. 9, according to a report from Bloomberg that cited anonymous sources familiar with the matter — meaning shares would start trading before Thanksgiving. The company, led by its Chief Executive Dario Amodei (pictured), hopes to begin formally marketing its initial public offering by the week of Nov. 9, but internal discussions about the exact timeline are still ongoing and could yet change."
     },
     {
-      "title": "Google Gemini 4 Argon closes the gap with OpenAI and Anthropic but doesn't take a clear lead",
-      "link": "https://the-decoder.com/google-gemini-4-argon-closes-the-gap-with-openai-and-anthropic-but-doesnt-take-a-clear-lead/",
-      "source": "The Decoder",
-      "publishedAt": "2026-09-30T22:06:30.000Z",
-      "summary": "Gemini 4 Argon is Google's first frontier model in over seven months. It matches GPT-6 Astra in independent testing but can't keep up with Anthropic's Claude Opus 5.5. The per-token price is low, but Argon burns through more than twice as many tokens per task as Astra. Select testers get access first, with the API and paid tiers following later."
-    },
-    {
-      "title": "Valor, Atreides, and Sequoia back AI startup Flow Engineering at $750M valuation",
-      "link": "https://techcrunch.com/2026/09/30/valor-atreides-and-sequoia-back-ai-startup-flow-engineering-at-750m-valuation/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-09-30T21:07:40.000Z",
-      "summary": "Flow Engineering, which is bringing AI agents to hardware design, also landed Roelof Botha as an angel investor and board member. Flow Engineering , a startup that offers AI tools for hardware design, has raised a $50 million Series B round at a $750 million valuation from some big-name investors, the company announced on Wednesday. The round was co-led by Antonio Gracias of Valar Equity Partners ( best known for its investments in Elon Musk’s companies, particularly SpaceX) and Gavin Baker of Atreides Management (a hedge fund that has also backed Musk’s companies and others like AI chipmaker Cerebras). Sequoia Capital, which led Flow’s Series A round last October, also participated, as did former Sequoia partner Roelof Botha, who invested as an individual investor."
-    },
-    {
-      "title": "Google announces Gemini 4 and says it’s so capable that only ‘trusted cyber defenders’ can have it right now",
-      "link": "https://www.theverge.com/tech/1002980/google-gemini-4-argon",
-      "source": "The Verge",
-      "publishedAt": "2026-09-30T20:41:41.000Z",
-      "summary": "Google today revealed its next AI frontier model, which it's calling Gemini 4 Argon. The new model delivers \"frontier performance in complex workflows across real-world software engineering, enterprise knowledge work like legal and finance, and cybersecurity defense,\" according to chief AI architect and Google DeepMind SVP Koray Kavukcuoglu. S. Gemini 4 Argon is launching first in a limited capacity so Google can make sure it’s not misaligned."
-    },
-    {
-      "title": "Trump’s AI Safety ‘Accord’ Is a Fancy Pinky-Swear",
-      "link": "https://www.wired.com/story/trumps-ai-safety-accord-is-a-fancy-pinky-swear/",
+      "title": "Whatever AI Safety Is, It’s Not This",
+      "link": "https://www.wired.com/story/whatever-ai-safety-looks-like-its-not-this/",
       "source": "Wired",
-      "publishedAt": "2026-09-30T20:30:09.000Z",
-      "summary": "Six major AI companies signed a voluntary agreement with the White House this week vowing to implement safeguards. It’s unclear how much that matters. On Tuesday, executives for Google , Anthropic , Meta , OpenAI , xAI , and Nvidia all signed “The White House Accord on Super Intelligence,” which was announced following a luncheon held by President Donald Trump. The effort was an act of “tremendous self-regulation,” as Trump put it, but the agreement is not the sweeping AI regulation that people inside the companies themselves have been asking for."
+      "publishedAt": "2026-10-01T22:10:42.000Z",
+      "summary": "Asking AI companies to self-regulate is a great way to pretend like you’ve accomplished something. Here’s a fun history lesson for you. Don’t worry, we’ll make it quick! In 1966, nearly 51,000 people died on US highways. The overwhelming evidence suggested that many lives could have been saved with modern seat belts , which by then had been around for several years."
+    },
+    {
+      "title": "Musk’s AI chatbot Grok reportedly encouraged Trump to capture Venezuela’s president",
+      "link": "https://techcrunch.com/2026/10/01/musks-ai-chatbot-grok-reportedly-encouraged-trump-to-capture-venezuelas-president/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-10-01T21:08:11.000Z",
+      "summary": "President Trump reportedly asked for Grok's opinion before invading Venezuela and capturing Nicolás Maduro. S. invaded Venezuela and captured its president, Nicolás Maduro, President Trump had a secret meeting with Elon Musk, Time magazine reports. This was roughly seven months after Musk left his role in the Trump administration at the Department of Government Efficiency (DOGE)."
+    },
+    {
+      "title": "Google’s new Guided Vision feature can help you read the fine print",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1003756/google-gemini-live-guided-vision",
+      "source": "The Verge",
+      "publishedAt": "2026-10-01T19:47:51.000Z",
+      "summary": "Guided Vision is launching in Gemini Live on compatible Android devices today to use AI to give real-time audio descriptions of anything you point your phone's camera at. By sharing your camera in Gemini Live, you can have Google's AI help with things like reading small text, describing your surroundings, finding or identifying objects around you, and describing details on specific objects. Like the VoiceOver Live Recognition feature Apple has added to the iPhone and Vision Pro , it's designed for people who are blind, have low vision, or want assistance in specific situations. People with low vision can use Guided Vision to have Gemini describe what’s nearby and ask follow-up questions."
+    },
+    {
+      "title": "ChatGPT can now virtually try on clothes for you",
+      "link": "https://techcrunch.com/2026/10/01/chatgpt-can-now-virtually-try-on-clothes-for-you/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-10-01T19:21:53.000Z",
+      "summary": "OpenAI is rolling out new shopping features for ChatGPT that let users virtually try on clothing and accessories using their own photos and save products they like to a Favorites library. OpenAI is again experimenting with how its conversational AI assistant, ChatGPT, can help users as they shop online. On Thursday, the company announced the global launch of two new shopping features, including a way to virtually try on clothing and accessories and a new favoriting function that can help users save products they like for later reference. The updates arrive at a time when AI assistants are exploring consumer use cases around shopping."
+    },
+    {
+      "title": "Nearly half of test subjects mistook Tavus' AI video avatar for a real person on a one-minute call",
+      "link": "https://the-decoder.com/nearly-half-of-test-subjects-mistook-tavus-ai-video-avatar-for-a-real-person-on-a-one-minute-call/",
+      "source": "The Decoder",
+      "publishedAt": "2026-10-01T18:03:40.000Z",
+      "summary": "\" The AI holds video calls in real time, processing facial expressions, tone of voice, and gestures. In a Tavus study, 48 percent of participants believed Griffin was a real person after a one-minute call. Previous systems maxed out at two percent. Tavus has introduced Griffin, what the company calls the first \"Human Interaction Model\" (HIM), a class of model designed to understand and carry on face-to-face conversations in real time."
+    },
+    {
+      "title": "Judge dismisses antitrust lawsuits over Google’s AI Overviews",
+      "link": "https://www.theverge.com/tech/1003589/google-ai-overviews-chegg-penske-lawsuits-dismissed",
+      "source": "The Verge",
+      "publishedAt": "2026-10-01T17:12:21.000Z",
+      "summary": "A federal judge has dismissed a pair of antitrust lawsuits filed by Chegg and Rolling Stone parent company Penske Media Corporation, which accused Google of driving away web traffic with its AI-powered search features, as reported earlier by Reuters . US District Judge Amit Mehta takes Google's side in a ruling on Wednesday , writing that PMC and Chegg's claims don't stand up to antitrust law. In lawsuits filed last year, Chegg and PMC accused Google of abusing its monopoly power by coercing publishers into supplying content for AI Overviews for free, or risk disappearing from search results. Rolling Stone’s parent company and Chegg claimed Google’s AI search features drove away traffic from their sites."
+    },
+    {
+      "title": "With most information hidden, the game Stratego had stumped AI—until now",
+      "link": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
+      "source": "Ars Technica",
+      "publishedAt": "2026-10-01T16:28:04.000Z",
+      "summary": "Deep Blue took down Garry Kasparov at chess in 1997, AlphaGo beat Lee Sedol at Go in 2016, and poker bots have been beating professionals for years. But one classic game called Stratego held out. Even DeepMind, with its exceptional budget, couldn't build a machine that reliably beat the best human players. Now, a team of researchers from Carnegie Mellon, MIT, New York University, and Stanford University has done it."
     },
     {
       "title": "RFK Jr. thinks AI will free us from the \"tyranny\" of medical facts, expertise",
@@ -75,32 +96,11 @@
       "summary": "At a Make America Healthy Again event Tuesday, anti-vaccine Health Secretary Robert F. Kennedy opened a \"fireside chat\" with Vice President JD Vance on the topic of artificial intelligence. \" Kennedy boasted that the Trump administration is \"making it easy for every American to use AI,\" which he claimed would free us from the \"medical tyranny\" of doctors and health experts. \" He also suggested that the technology would confirm his misinformation about vaccines and contrarian views on public health guidance."
     },
     {
-      "title": "Anthropic plugs regulation, AI leaders meet with Trump, and open models",
-      "link": "https://aibusiness.com/generative-ai/anthropic-plugs-regulation-ai-leaders-meet-trump-open-models",
-      "source": "AI Business",
-      "publishedAt": "2026-09-30T19:13:41.000Z",
-      "summary": "The AI world buzzes about stopping out-of-control agents. President Trump appears to slightly modify his anti-AI regulation stance. Open source AI could lose out. Or not."
-    },
-    {
-      "title": "The AI Tamagotchis are coming",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1002779/openai-dots-meta-muse-ai-agents-hardware-devices",
-      "source": "The Verge",
-      "publishedAt": "2026-09-30T18:07:38.000Z",
-      "summary": "While AI has made plenty of inroads on people's phones and computers, it's largely failed in dedicated devices. But over the next year, two major AI companies, Meta and OpenAI, will attempt to change that. And they're apparently betting on a similar path: testing appetites for physical hardware with their cutesy software agents. \"Hardware is hard\" is a tech industry mantra."
-    },
-    {
       "title": "Show colleagues how much you care by sending an AI avatar to your Google Meet call",
       "link": "https://www.theregister.com/ai-and-ml/2026/09/30/show-colleagues-how-much-you-care-by-sending-an-ai-avatar-to-your-google-meet-call/5300205",
       "source": "The Register",
       "publishedAt": "2026-09-30T16:03:07.000Z",
       "summary": "If you've always wanted to say you have \"people\" to attend your meetings, there's an app in development for that, as long as you're comfortable with the idea of eventually sending an AI bot in your place and potentially offending your human colleagues. MeetTwins, from Indian developer Aditya Shinde, is an AI assistant currently recruiting users for its beta. It's designed for a single purpose: to attend Google Meet calls on behalf of its operator and relay approved information to colleagues without requiring its human to spend precious time actually speaking to coworkers. Shinde describes the tool on its website as being inspired by his own desire to send an AI bot to his Google Meet calls, an idea he instead decided to develop into an actual product built using AI models from India-based AI firm Sarvam, and with the ability to add a digital twin avatar created by Simli."
-    },
-    {
-      "title": "Google figures out how to watermark AI-designed proteins",
-      "link": "https://arstechnica.com/science/2026/09/google-figures-out-how-to-watermark-ai-designed-proteins/",
-      "source": "Ars Technica",
-      "publishedAt": "2026-09-30T15:54:52.000Z",
-      "summary": "AI-based tools seem to be causing security threats on a nearly daily basis, in part because we've been slow to recognize potential threats. One area where we seem to be ahead of the game, however, is in biosecurity. As with most things biological, utility goes hand in hand with threats. We've developed increasingly sophisticated tools for designing proteins and seen some major successes, such as AI-designed enzymes that can digest plastics or block venom proteins ."
     },
     {
       "title": "“We’re not going to shoot ourselves in the foot” over hack fallout, says OpenAI’s chief research officer",
