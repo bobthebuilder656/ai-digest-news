@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-03T00:27:41.044Z",
-  "dateLabel": "Saturday, October 3, 2026",
-  "sourceCount": 8,
+  "generatedAt": "2026-10-03T23:45:45.987Z",
+  "dateLabel": "Sunday, October 4, 2026",
+  "sourceCount": 7,
   "allSourceNames": [
     "TechCrunch",
     "VentureBeat",
@@ -19,60 +19,67 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "Deep Learning",
-      "definition": "Deep learning is machine learning using neural networks with many layers stacked on top of each other, rather than just one or two. Each extra layer lets the network build on what the previous one learned, similar to how a first layer might notice edges in a photo, the next layer combines edges into shapes, and a later layer combines shapes into \"this is a face.\" That extra depth is what made today's boom in image recognition, speech, and language possible.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Deep_learning"
+      "term": "Foundation Model",
+      "definition": "A foundation model is a large, general-purpose AI model trained on broad data, meant to be adapted afterward for many different specific tasks rather than built for just one purpose. It's the AI equivalent of a general-purpose engine that can be dropped into a car, a boat, or a generator, rather than a part custom-built for only one machine. GPT, Claude, and Gemini are all foundation models that get fine-tuned or wrapped into many different products.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Foundation_model"
     }
   ],
   "items": [
     {
-      "title": "Sean Parker is rebuilding Stability AI around music",
-      "link": "https://techcrunch.com/2026/10/02/sean-parker-is-rebuilding-stability-ai-around-music/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-10-02T21:09:14.000Z",
-      "summary": "Sean Parker, who once taught the music industry what asking for forgiveness looks like, is now back with the labels' blessing and money. Sean Parker, the Napster co-founder, has jumped back into the music industry, and he tells The Information that he’s playing by the rules this time. ) Two years ago, he joined an $80 million rescue of Stability AI, the image-generator startup that nearly collapsed after overspending and internal turmoil led to founder Emad Mostaque’s ouster. Now Parker and his longtime friend Prem Akkaraju, who became CEO, are taking the wraps off what they’ve been building."
-    },
-    {
-      "title": "Meta open sources code to let you make Muse AI gadgets",
-      "link": "https://www.theverge.com/tech/1004330/meta-muse-ai-gadgets-home-link",
-      "source": "The Verge",
-      "publishedAt": "2026-10-02T21:08:37.000Z",
-      "summary": "Meta now lets you make your own Muse gadgets that feature the company's new AI agent with code that the company open sourced . The company suggests projects like loading Muse on a color E Ink display to show reminders, adding it to an HDMI stick so you can display Muse on a big screen, or putting Muse on a small touchscreen device to make what looks kind of like a DIY Muse Charm . \"Muse gadgets are open source devices you build yourself,\" Meta says. \"Program an off-the-shelf ESP32 board or set up a Raspberry Pi with our SDKs, then connect Muse to your displays, buttons, sensors, actuators, and whatever else you've got lying on your workbench."
-    },
-    {
-      "title": "CrowdStrike and CoreWeave bring AI security to machine speed",
-      "link": "https://siliconangle.com/2026/10/02/coreweave-crowdstrike-pair-attack-defense-models-fullyconnected/",
+      "title": "9 insights from ‘Private Tech Trailblazers’: Vertical AI becomes the growth engine",
+      "link": "https://siliconangle.com/2026/10/03/private-tech-trailblazers-vertical-ai-becomes-growth-engine-privatetechtrailblazersconference/",
       "source": "SiliconANGLE",
-      "publishedAt": "2026-10-02T20:41:42.000Z",
-      "summary": "AI-native cybersecurity requires defenses that can keep pace with attackers while protecting infrastructure that never stops running. That challenge is bringing security expertise and specialized computing closer together, with automation embedded throughout the systems enterprises use to train and run models. CrowdStrike’s fastest observed eCrime attacker breakout time in 2025 was 27 seconds, underscoring the urgency of faster response, according to Bartley Richardson (pictured, left), chief of AI at CrowdStrike Holdings Inc. Meeting that challenge requires computing capacity for both training and inference."
+      "publishedAt": "2026-10-03T20:08:45.000Z",
+      "summary": "The companies featured at the recent Bank of America Private Tech Trailblazers Conference point to where the next wave of AI growth is taking shape: specialized technology built around proprietary data, industry-specific workflows and, increasingly, purpose-built hardware. From restaurants and construction sites to hospitals, cross-border payments and defense, these companies are targeting defined problems where AI can produce measurable results. That specialization is becoming more important as foundation models become increasingly interchangeable. Competitive advantage is shifting toward domain-specific data, vertical integration, trust and the capital required to build at scale."
     },
     {
-      "title": "Apple will limit Mac disk access as AI agents ‘substantially’ increase risk",
-      "link": "https://www.theverge.com/tech/1004295/apple-limit-mac-disk-access-ai-agents",
-      "source": "The Verge",
-      "publishedAt": "2026-10-02T20:08:40.000Z",
-      "summary": "Apple will add new limits for \"full disk access\" on Mac in response to risks posed by AI agents, as reported earlier by TechCrunch . \" The change comes just weeks after Inc 's Jason Aten found that Meta's Muse AI somehow knew the contents of his messages , despite not giving the chatbot explicit permission to access them on his iPhone or Mac. Meta spokesperson Andy Stone pushed back on this report , saying access to Messages is \"entirely opt-in. Mac apps will soon need ‘very explicit user action’ to gain full disk access, according to Apple."
-    },
-    {
-      "title": "AI music generator Suno can now create spoken audio with matching background music",
-      "link": "https://the-decoder.com/ai-music-generator-suno-can-now-create-spoken-audio-with-matching-background-music/",
+      "title": "Apparently, OpenAI isn't trying to build \"magic intelligence in the sky\" anymore",
+      "link": "https://the-decoder.com/apparently-openai-isnt-trying-to-build-magic-intelligence-in-the-sky-anymore/",
       "source": "The Decoder",
-      "publishedAt": "2026-10-02T20:07:36.000Z",
-      "summary": "Suno is adding a feature called \"Speech\" to its AI music generator that creates spoken text with matching background music in a single audio track. The company says it's built for things like poems, meditations, and bedtime stories. Suno hasn't said how the model was trained. Suno, best known as an AI music generator, is adding a new feature called Speech."
+      "publishedAt": "2026-10-03T18:56:30.000Z",
+      "summary": "\" His comments follow reports on Anthropic's meetings with religious thinkers and a statement by Pope Leo XIV on AI. As recently as 2024, Altman himself spoke of building \"magic intelligence in the sky\" and feeling \"on the side of the angels\" working on AI. OpenAI CEO Sam Altman is pushing back against religious analogies tied to AI models. \" That same year, he said he hoped to be on God's side and felt \"on the side of the angels\" working on AI."
     },
     {
-      "title": "Affected by layoffs? Don’t miss this $75 deal for your TechCrunch Disrupt 2026 Expo+ Pass",
-      "link": "https://techcrunch.com/2026/10/02/disrupt-2026-layoff-expo-plus-passes-available-for-75-dollars/",
+      "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
+      "link": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
       "source": "TechCrunch",
-      "publishedAt": "2026-10-02T19:15:51.000Z",
-      "summary": "Your next opportunity could be one conversation away. Get your Expo+ Pass for just $75. Limited to the first 100 qualifying people. If you’ve been laid off, you can get a TechCrunch Disrupt 2026 Expo+ Pass for just $75 . m."
+      "publishedAt": "2026-10-03T18:43:57.000Z",
+      "summary": "The CEO of Amazon Web Services tried to push back against widespread suspicion of data centers. Amazon Web Services CEO Matt Garman said the company has stopped using nondisclosure agreements (NDAs) in its dealings with government agencies as it seeks approval to build new data centers. Garman’s statement is just one sentence in a longer blog post in which he tried to push back against widespread suspicion of data centers, and to make the case that they’re actually good for communities. NDAs are a significant piece of the broader data center backlash."
     },
     {
-      "title": "These AI Experts Want to Do High-Stakes Research Out in the Open",
-      "link": "https://www.wired.com/story/trillium-labs-wants-to-do-high-risk-ai-research-in-the-open/",
+      "title": "The Nvidia Shield TV Is 7 Years Old. It Just Got a $100 Price Hike",
+      "link": "https://www.wired.com/story/7-year-old-tv-now-100-dollars-more-expensive-thank-ai/",
       "source": "Wired",
-      "publishedAt": "2026-10-02T16:00:00.000Z",
-      "summary": "Many frontier labs keep their risky research locked away. Trillium Labs wants to show off its work when it comes to self-improvement and model behavior. Some big AI companies seem to think that the best way to keep models from becoming too chaotic or too mischievous is to keep them locked inside of labs. If only a chosen few can access them, the thinking goes, they can do less damage in the real world while researchers try to understand what they’re capable of."
+      "publishedAt": "2026-10-03T18:00:00.000Z",
+      "summary": "The price of anything with memory is skyrocketing thanks to AI. Aging streaming devices are no exception. The era of generative AI has upended technology supply chains, and there is one ironclad rule in 2026: If it has memory or storage, it’s getting more expensive. Even devices with years-old tech inside are still apparently subject to that unwritten rule."
+    },
+    {
+      "title": "Capcom is preparing for a ‘future where we create games together with AI’",
+      "link": "https://www.theverge.com/games/1004418/capcom-ai-game-development",
+      "source": "The Verge",
+      "publishedAt": "2026-10-03T16:49:10.000Z",
+      "summary": "Capcom's Pragmata might be all about the horrors of AI , but in practice the studio doesn't seem so down on the tech . \" During the talk he laid out the challenges facing studios producing games at the scale of Resident Evil, which can make even simple tasks extremely time consuming. ’ Capcom’s Pragmata might be all about the horrors of AI , but in practice the studio doesn’t seem so down on the tech . ” During the talk he laid out the challenges facing studios producing games at the scale of Resident Evil, which can make even simple tasks extremely time consuming."
+    },
+    {
+      "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
+      "link": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-10-03T16:30:01.000Z",
+      "summary": "By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job. In an essay published in The Atlantic , Robinson said he led the writing of safety reports that accompanied OpenAI’s major product launches. ” Coxon’s comments led to a broader debate about AI safety, with Anthropic CEO Dario Amodei unveiling a plan for more cautious AI development ; AI executives met with President Donald Trump this week and signed what appeared to be hastily written, non-binding  pledge to implement more safety controls . But in Robinson’s view, the debate needs to go beyond “specific rules or new laws,” addressing the overall culture at these companies."
+    },
+    {
+      "title": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
+      "link": "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
+      "source": "The Verge",
+      "publishedAt": "2026-10-03T15:00:00.000Z",
+      "summary": "Kakul Srivastava is the CEO of Splice, the sample platform countless producers rely on for one-shots and melodic loops. Samples pulled from the service have found their way into massive hits like Lisa's \" Money \" and \" Espresso \" by Sabrina Carpenter. ) Before that, Kakul held executive roles at Flickr, Yahoo, GitHub, and Adobe. Throughout her career, Kakul has found herself at the intersection of Silicon Valley and creatives."
+    },
+    {
+      "title": "Muse Creates Detailed Profiles of All Your Friends and Family",
+      "link": "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/",
+      "source": "Wired",
+      "publishedAt": "2026-10-03T12:00:00.000Z",
+      "summary": "Millions have downloaded Meta’s AI agent Muse. But getting it to do your bidding comes with privacy costs. Meta’s new personal assistant, Muse , has become a viral hit, with millions downloading the AI agent, connecting it to bank accounts, messages, or health data, and allowing it to complete tasks for them. But as Muse takes off among consumers, data from inside the app is providing insight into how it organizes and presents information to users."
     },
     {
       "title": "Redefining enterprise intelligence with autonomous AI",
@@ -89,13 +96,6 @@
       "summary": "AI is doing more junior-level work, forcing organizations to rethink how employees gain the experience and judgment they need to move into senior roles."
     },
     {
-      "title": "Trump’s Crazy AI Rebrand Was a Loyalty Test for Tech Execs—and It Worked",
-      "link": "https://www.wired.com/story/trumps-crazy-ai-rebrand-was-a-loyalty-test-for-tech-execs-and-it-worked/",
-      "source": "Wired",
-      "publishedAt": "2026-10-02T15:00:00.000Z",
-      "summary": "For years these billionaires gushed obsessively about AI. But they meekly went along when Trump cancelled the term. Seventy years ago last summer, a group of scientists met at Dartmouth College to discuss a wild idea—that machines might one day be capable of human-like thought processes. One of those scientists, John McCarthy, had suggested a name for the new field: artificial intelligence ."
-    },
-    {
       "title": "Don’t be fooled—LLMs don’t reason",
       "link": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
       "source": "MIT Technology Review",
@@ -103,11 +103,11 @@
       "summary": "On an afternoon in Seoul in March 2016, I watched a program I helped build put a stone on the fifth line of a Go board in what looked like a gift to its human opponent. Move 37 in game two of the five-game match looked so absurd that some commentators thought it was a programming glitch. It wasn’t. AlphaGo won the game, ultimately triumphing 4-1 over Lee Sedol, one of the greatest professional Go players of all time."
     },
     {
-      "title": "With most information hidden, the game Stratego had stumped AI—until now",
-      "link": "https://arstechnica.com/science/2026/10/ai-finally-beat-the-best-stratego-player-in-history-and-did-it-on-a-budget/",
-      "source": "Ars Technica",
-      "publishedAt": "2026-10-01T16:28:04.000Z",
-      "summary": "Deep Blue took down Garry Kasparov at chess in 1997, AlphaGo beat Lee Sedol at Go in 2016, and poker bots have been beating professionals for years. But one classic game called Stratego held out. Even DeepMind, with its exceptional budget, couldn't build a machine that reliably beat the best human players. Now, a team of researchers from Carnegie Mellon, MIT, New York University, and Stanford University has done it."
+      "title": "Nvidia agent safety push raises questions about who governs AI autonomy",
+      "link": "https://aibusiness.com/responsible-ai/nvidia-agent-safety-push-raises-questions",
+      "source": "AI Business",
+      "publishedAt": "2026-10-02T01:38:37.000Z",
+      "summary": "The AI chipmaker’s new safety platform adds controls around AI agents, while enterprises remain responsible for defining their authority and setting boundaries."
     }
   ]
 }
