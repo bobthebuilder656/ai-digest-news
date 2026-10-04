@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-03T23:45:45.987Z",
-  "dateLabel": "Sunday, October 4, 2026",
-  "sourceCount": 7,
+  "generatedAt": "2026-10-04T23:56:46.920Z",
+  "dateLabel": "Monday, October 5, 2026",
+  "sourceCount": 5,
   "allSourceNames": [
     "TechCrunch",
     "VentureBeat",
@@ -19,32 +19,67 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "Foundation Model",
-      "definition": "A foundation model is a large, general-purpose AI model trained on broad data, meant to be adapted afterward for many different specific tasks rather than built for just one purpose. It's the AI equivalent of a general-purpose engine that can be dropped into a car, a boat, or a generator, rather than a part custom-built for only one machine. GPT, Claude, and Gemini are all foundation models that get fine-tuned or wrapped into many different products.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Foundation_model"
+      "term": "Data Center",
+      "definition": "A data center is a facility packed with servers and, for AI purposes, GPUs, that provides the raw computing power behind training and running AI models. If an AI model is the recipe, a data center is the industrial kitchen, rows of powerful \"stoves\" running around the clock, that actually cooks it at scale. The recent AI boom has triggered a global wave of new data center construction, along with the enormous power and water demand that comes with it.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Data_center"
     }
   ],
   "items": [
+    {
+      "title": "Google froze its open source bug bounty program due to a ‘significant rise’ in AI submissions",
+      "link": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-10-04T20:31:07.000Z",
+      "summary": "AI slop seems to be overwhelming bug bounty programs. Blaming a “significant rise” in AI submissions, Google has paused its open source bug bounty program until next year. Last year, TechCrunch reported that cybersecurity experts were warning of that AI slop posed a serious risk to bug bounty programs . Looks like that’s the issue confronting Google’s Open Source Software Vulnerability Rewards Program, where researchers were rewarded for finding vulnerabilities in the company’s open source software."
+    },
+    {
+      "title": "Can ‘super intelligence’ and a non-binding safety pact solve AI’s image problem?",
+      "link": "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-10-04T20:08:34.000Z",
+      "summary": "On Equity, we discussed the Trump administration's attempts to rebrand AI. S. government isn’t calling it artificial intelligence anymore. Now it’s super intelligence. On the latest episode of TechCrunch’s Equity podcast , Kirsten Korosec, Sean O’Kane, and I discussed the motivation behind the meeting and what effect it might have on the AI industry."
+    },
+    {
+      "title": "Trump launches \"Super Intelligence Force\" that has nothing to do with actual superintelligence",
+      "link": "https://the-decoder.com/trump-launches-super-intelligence-force-that-has-nothing-to-do-with-actual-superintelligence/",
+      "source": "The Decoder",
+      "publishedAt": "2026-10-04T17:41:58.000Z",
+      "summary": "\" \"Superintelligence\" is his term for artificial intelligence. The unit is led by Director of National Intelligence Jay Clayton and other government officials, coordinates with AI companies, critical infrastructure operators, and interest groups. The group reports directly to the president. President Donald Trump has announced the creation of a \"Super Intelligence Force\" (SIF). \"Superintelligence\" is Trump's term for artificial intelligence."
+    },
+    {
+      "title": "NJ’s former Lt Gov is using AI to say he’s innocent of sexual harassment",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
+      "source": "The Verge",
+      "publishedAt": "2026-10-04T16:16:04.000Z",
+      "summary": "Well, if AI said it, it must be true. | Bloomberg via Getty Images New Jersey's lieutenant governor Dale Caldwell was forced to resign on September 25th after an investigation found he had sexually harassed a staffer and repeatedly violated ethics rules. The now-former Lt. governor has been making the media rounds trying to clear his name."
+    },
+    {
+      "title": "An AI couldn’t beat humans at StarCraft, so it decided to cheat",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+      "source": "The Verge",
+      "publishedAt": "2026-10-04T15:21:59.000Z",
+      "summary": "StarSkirmish pits AI-made StarCraft-playing bots against one another, as well as against human-made bots. OpenAI's GPT-6 Astra and Claude Opus 5.5 were essentially tied as the best-performing AI-made bots, but they couldn't top Stardust, the top-rated human-made bot. On Friday, GPT was facing off against Claude and the human-created bot Pluto, but according to Kotaku , it couldn't quite get an edge. So it resorted to a tactic that is becoming alarmingly common for modern AI models - it broke the rules ."
+    },
+    {
+      "title": "Google researchers find a way to keep self-improving AI agents from memorizing their tests",
+      "link": "https://the-decoder.com/google-researchers-find-a-way-to-keep-self-improving-ai-agents-from-memorizing-their-tests/",
+      "source": "The Decoder",
+      "publishedAt": "2026-10-04T12:40:37.000Z",
+      "summary": "Self-improving AI agents tend to memorize their test tasks, so their gains shrink or disappear on new ones. RRSI, a new method from Google researchers, reins in this effect and lifts scores on unseen benchmarks by up to 4.7 points while using about 30 percent fewer tokens than an unregularized version. AI agents that keep optimizing their own working environment quickly tend to overspecialize on their test tasks. A new method from Google Cloud AI Research and several universities aims to prevent that while also cutting compute costs."
+    },
+    {
+      "title": "Rural Data Centers Are in for a Big Federal Tax Break",
+      "link": "https://www.wired.com/story/rural-data-centers-are-in-for-a-big-federal-tax-break/",
+      "source": "Wired",
+      "publishedAt": "2026-10-04T10:00:00.000Z",
+      "summary": "Under the One Big Beautiful Bill Act,  data center projects in rural areas could be eligible for major tax benefits starting next year. Some hyperscalers do not seem eager to take the free cash. Welcome back to Power Play ! Each week, senior writer Molly Taft tackles a topic around this midterm season’s biggest issue: data centers."
+    },
     {
       "title": "9 insights from ‘Private Tech Trailblazers’: Vertical AI becomes the growth engine",
       "link": "https://siliconangle.com/2026/10/03/private-tech-trailblazers-vertical-ai-becomes-growth-engine-privatetechtrailblazersconference/",
       "source": "SiliconANGLE",
       "publishedAt": "2026-10-03T20:08:45.000Z",
       "summary": "The companies featured at the recent Bank of America Private Tech Trailblazers Conference point to where the next wave of AI growth is taking shape: specialized technology built around proprietary data, industry-specific workflows and, increasingly, purpose-built hardware. From restaurants and construction sites to hospitals, cross-border payments and defense, these companies are targeting defined problems where AI can produce measurable results. That specialization is becoming more important as foundation models become increasingly interchangeable. Competitive advantage is shifting toward domain-specific data, vertical integration, trust and the capital required to build at scale."
-    },
-    {
-      "title": "Apparently, OpenAI isn't trying to build \"magic intelligence in the sky\" anymore",
-      "link": "https://the-decoder.com/apparently-openai-isnt-trying-to-build-magic-intelligence-in-the-sky-anymore/",
-      "source": "The Decoder",
-      "publishedAt": "2026-10-03T18:56:30.000Z",
-      "summary": "\" His comments follow reports on Anthropic's meetings with religious thinkers and a statement by Pope Leo XIV on AI. As recently as 2024, Altman himself spoke of building \"magic intelligence in the sky\" and feeling \"on the side of the angels\" working on AI. OpenAI CEO Sam Altman is pushing back against religious analogies tied to AI models. \" That same year, he said he hoped to be on God's side and felt \"on the side of the angels\" working on AI."
-    },
-    {
-      "title": "Amazon responds to data center backlash, says it no longer uses NDAs",
-      "link": "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-10-03T18:43:57.000Z",
-      "summary": "The CEO of Amazon Web Services tried to push back against widespread suspicion of data centers. Amazon Web Services CEO Matt Garman said the company has stopped using nondisclosure agreements (NDAs) in its dealings with government agencies as it seeks approval to build new data centers. Garman’s statement is just one sentence in a longer blog post in which he tried to push back against widespread suspicion of data centers, and to make the case that they’re actually good for communities. NDAs are a significant piece of the broader data center backlash."
     },
     {
       "title": "The Nvidia Shield TV Is 7 Years Old. It Just Got a $100 Price Hike",
@@ -54,60 +89,11 @@
       "summary": "The price of anything with memory is skyrocketing thanks to AI. Aging streaming devices are no exception. The era of generative AI has upended technology supply chains, and there is one ironclad rule in 2026: If it has memory or storage, it’s getting more expensive. Even devices with years-old tech inside are still apparently subject to that unwritten rule."
     },
     {
-      "title": "Capcom is preparing for a ‘future where we create games together with AI’",
-      "link": "https://www.theverge.com/games/1004418/capcom-ai-game-development",
-      "source": "The Verge",
-      "publishedAt": "2026-10-03T16:49:10.000Z",
-      "summary": "Capcom's Pragmata might be all about the horrors of AI , but in practice the studio doesn't seem so down on the tech . \" During the talk he laid out the challenges facing studios producing games at the scale of Resident Evil, which can make even simple tasks extremely time consuming. ’ Capcom’s Pragmata might be all about the horrors of AI , but in practice the studio doesn’t seem so down on the tech . ” During the talk he laid out the challenges facing studios producing games at the scale of Resident Evil, which can make even simple tasks extremely time consuming."
-    },
-    {
-      "title": "OpenAI safety employee resigns, claiming the company’s ‘culture is broken’",
-      "link": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-10-03T16:30:01.000Z",
-      "summary": "By his own admission, David Robinson is “something of a cliché”: an employee at a leading AI company who issues a dire warning while resigning from their job. In an essay published in The Atlantic , Robinson said he led the writing of safety reports that accompanied OpenAI’s major product launches. ” Coxon’s comments led to a broader debate about AI safety, with Anthropic CEO Dario Amodei unveiling a plan for more cautious AI development ; AI executives met with President Donald Trump this week and signed what appeared to be hastily written, non-binding  pledge to implement more safety controls . But in Robinson’s view, the debate needs to go beyond “specific rules or new laws,” addressing the overall culture at these companies."
-    },
-    {
-      "title": "Splice CEO Kakul Srivastava thinks AI emails are killing conversations",
-      "link": "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
-      "source": "The Verge",
-      "publishedAt": "2026-10-03T15:00:00.000Z",
-      "summary": "Kakul Srivastava is the CEO of Splice, the sample platform countless producers rely on for one-shots and melodic loops. Samples pulled from the service have found their way into massive hits like Lisa's \" Money \" and \" Espresso \" by Sabrina Carpenter. ) Before that, Kakul held executive roles at Flickr, Yahoo, GitHub, and Adobe. Throughout her career, Kakul has found herself at the intersection of Silicon Valley and creatives."
-    },
-    {
-      "title": "Muse Creates Detailed Profiles of All Your Friends and Family",
-      "link": "https://www.wired.com/story/muse-creates-detailed-profiles-of-all-your-friends-and-family/",
-      "source": "Wired",
-      "publishedAt": "2026-10-03T12:00:00.000Z",
-      "summary": "Millions have downloaded Meta’s AI agent Muse. But getting it to do your bidding comes with privacy costs. Meta’s new personal assistant, Muse , has become a viral hit, with millions downloading the AI agent, connecting it to bank accounts, messages, or health data, and allowing it to complete tasks for them. But as Muse takes off among consumers, data from inside the app is providing insight into how it organizes and presents information to users."
-    },
-    {
-      "title": "Redefining enterprise intelligence with autonomous AI",
-      "link": "https://www.technologyreview.com/2026/10/02/1143774/redefining-enterprise-intelligence-with-autonomous-ai/",
-      "source": "MIT Technology Review",
-      "publishedAt": "2026-10-02T15:49:04.000Z",
-      "summary": "Enterprise AI is no longer a future ambition. It is in full operational flight. Model capabilities are advancing faster than most organizations can absorb, while the cost of performance continues to fall. Globally, AI investment is set to reach $2.5 trillion in 2026, up 44% from the previous year. For many enterprises, this investment has produced fragmentation."
-    },
-    {
-      "title": "Prompt: AI is removing rungs from the corporate career ladder",
-      "link": "https://aibusiness.com/generative-ai/prompt-ai-removing-rungs-from-corporate-career-ladder",
-      "source": "AI Business",
-      "publishedAt": "2026-10-02T15:10:32.000Z",
-      "summary": "AI is doing more junior-level work, forcing organizations to rethink how employees gain the experience and judgment they need to move into senior roles."
-    },
-    {
-      "title": "Don’t be fooled—LLMs don’t reason",
-      "link": "https://www.technologyreview.com/2026/10/02/1145639/dont-be-fooled-llms-dont-reason/",
-      "source": "MIT Technology Review",
-      "publishedAt": "2026-10-02T08:00:00.000Z",
-      "summary": "On an afternoon in Seoul in March 2016, I watched a program I helped build put a stone on the fifth line of a Go board in what looked like a gift to its human opponent. Move 37 in game two of the five-game match looked so absurd that some commentators thought it was a programming glitch. It wasn’t. AlphaGo won the game, ultimately triumphing 4-1 over Lee Sedol, one of the greatest professional Go players of all time."
-    },
-    {
-      "title": "Nvidia agent safety push raises questions about who governs AI autonomy",
-      "link": "https://aibusiness.com/responsible-ai/nvidia-agent-safety-push-raises-questions",
-      "source": "AI Business",
-      "publishedAt": "2026-10-02T01:38:37.000Z",
-      "summary": "The AI chipmaker’s new safety platform adds controls around AI agents, while enterprises remain responsible for defining their authority and setting boundaries."
+      "title": "Robotics AI developer FieldAI reportedly raising $700M in funding",
+      "link": "https://siliconangle.com/2026/10/02/robotics-ai-developer-fieldai-reportedly-raising-700m-in-funding/",
+      "source": "SiliconANGLE",
+      "publishedAt": "2026-10-03T00:30:26.000Z",
+      "summary": ", a startup that develops artificial intelligence models for robots, is reportedly seeking $700 million in funding. A source told Business Insider today that the round could value the company at $10 billion. That’s five times what FieldAI was worth last August. It’s believed the company has already signed a term sheet, a nonbinding preliminary version of a fundraising agreement."
     }
   ]
 }
