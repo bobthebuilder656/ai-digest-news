@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-06T01:45:18.467Z",
-  "dateLabel": "Tuesday, October 6, 2026",
+  "generatedAt": "2026-10-07T00:39:58.404Z",
+  "dateLabel": "Wednesday, October 7, 2026",
   "sourceCount": 8,
   "allSourceNames": [
     "TechCrunch",
@@ -19,46 +19,74 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "Context Window",
-      "definition": "The context window is the amount of text an AI model can \"see\" and consider at once, including your prompt, any documents you've shared, and the conversation history so far. It's like a person's short-term memory during a conversation: once you're past a certain point, earlier details start slipping away, and once a conversation exceeds the context window, the model genuinely stops being able to \"remember\" the earliest parts of it.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Context_window"
+      "term": "Retrieval-Augmented Generation (RAG)",
+      "definition": "RAG is a technique where an AI model looks up relevant documents from an outside source, like a company's internal files or a live web search, before writing its answer, instead of relying purely on what it memorized during training. It's the difference between a student answering an exam question entirely from memory versus being allowed to quickly check a textbook first. It helps models give more current, accurate answers and lets them cite exactly where the information came from.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
     }
   ],
   "items": [
     {
-      "title": "Reflection AI debuts open-source Beam model with 501B parameters",
-      "link": "https://siliconangle.com/2026/10/05/reflection-ai-debuts-open-source-beam-model-with-501b-parameters/",
+      "title": "Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product",
+      "link": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-10-06T22:34:03.000Z",
+      "summary": "Instead of helping marketers manage and optimize ad spend, the company is focusing on building the tools that generate the creative assets and campaigns. Melius , an AI platform for generating ad campaigns, images, and videos, announced on Tuesday that it raised a total of $25 million in funding, including a $20 million Series A led by CRV and a $5 million seed round led by General Catalyst. While the startup claims to have hit more than $1 million in annualized revenue within two months of coming out of stealth in July, co-founder Joowon Kim (pictured on right) admits that Melius didn’t hit it out of the park initially. When the New York-based company first launched over a year ago, Kim and his co-founders, Young Kim (pictured on left) and Arnav Ramu (pictured center) set out to build an AI-powered performance marketing tool."
+    },
+    {
+      "title": "Vinci reels in $250M for its engineering simulation platform",
+      "link": "https://siliconangle.com/2026/10/06/vinci-reels-in-250m-for-its-engineering-simulation-platform/",
       "source": "SiliconANGLE",
-      "publishedAt": "2026-10-06T00:46:33.000Z",
-      "summary": "Reflection AI Inc. today introduced Beam, an open-source large language model with 501 billion parameters. The launch comes a few months after the startup raised funding at a $25 billion valuation. Around the same time, Reflection AI reportedly inked a $6.3 billion deal with SpaceX Corp. to rent Nvidia GB300 NVL72 appliances."
+      "publishedAt": "2026-10-06T22:18:27.000Z",
+      "summary": "Vinci4D Inc. today announced that it has closed a $250 million funding round at a $1.5 billion valuation. Advent, Temasek and Xora jointly led the Series B deal. They were joined by several startup funds including AMD Ventures. Hardware engineers use simulations to find issues in their product designs."
     },
     {
-      "title": "Gemini Call for Me might tell your mom you’re running late",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1005177/google-gemini-call-for-me-expansion-rumors",
-      "source": "The Verge",
-      "publishedAt": "2026-10-05T23:09:55.000Z",
-      "summary": "Google may be expanding its \"Call for Me\" AI feature beyond business calls so you can use it to send messages to friends and family. \" Based on those examples, even with this expansion, Gemini would likely be limited to basic, text message-like calls. A rumored Android update would automate personal phone calls with Gemini AI. Google may be expanding its “Call for Me” AI feature beyond business calls so you can use it to send messages to friends and family."
+      "title": "OpenAI will watermark ChatGPT outputs by default—but only in the EU",
+      "link": "https://arstechnica.com/ai/2026/10/openai-will-watermark-chatgpt-outputs-by-default-but-only-in-the-eu/",
+      "source": "Ars Technica",
+      "publishedAt": "2026-10-06T20:50:32.000Z",
+      "summary": "OpenAI will begin automatically watermarking text generated with ChatGPT in the European Union, the company has announced. It will also offer the watermarking feature in other regions, but it will be off by default outside of the EU. The move in Europe is driven by a need to comply with the EU AI Act, which took effect in August. It requires marking content produced by AI models in a way that another tool can detect."
     },
     {
-      "title": "OpenAI will start watermarking ChatGPT’s text in the EU",
-      "link": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu/",
+      "title": "How AI decision models could change content moderation",
+      "link": "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/",
       "source": "TechCrunch",
-      "publishedAt": "2026-10-05T20:36:48.000Z",
-      "summary": "OpenAI will watermark ChatGPT and Codex text in the EU to comply with the AI Act. Editing can make the invisible marks harder to detect, it says. OpenAI will start adding an invisible watermark to text generated by ChatGPT and Codex in the European Union to comply with the EU AI Act, the company said Monday in a  blog post . The EU AI Act’s transparency rules , which took effect on August 2, require AI companies to mark AI-generated content in a way other systems can identify."
+      "publishedAt": "2026-10-06T20:35:20.000Z",
+      "summary": "On Tuesday, Musubi announced a lightweight decision model made for real-time moderation called PolicyLM-1.7B, released with open weights. As decision models spread across the industry, a company called Musubi has a new idea for how to put them to work: moderating content. The idea is to take a content policy written in plain English and apply it to messages in under 50 milliseconds. Musubi’s model is designed to be similar in cost and speed to the AI classifier systems that power moderation on most social platforms — but because it has the flexibility of a modern LLM, it can apply complex policies without special training."
     },
     {
-      "title": "This startup is issuing AI-generated acne prescriptions",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1005075/nolla-health-acne-ai-prescriptions",
+      "title": "Google claims EmbeddingGemma 2 outperforms rival embedding models twice its size",
+      "link": "https://the-decoder.com/google-claims-embeddinggemma-2-outperforms-rival-embedding-models-twice-its-size/",
+      "source": "The Decoder",
+      "publishedAt": "2026-10-06T19:47:27.000Z",
+      "summary": "Google released EmbeddingGemma 2, an open model with 740 million parameters that converts text, images, video, audio, and code into vectors. It runs on-device, needs only about 191 MB of RAM, and outperforms some competing models twice its size, according to Google. Paired with a small open model like Gemma 4, it can run offline RAG apps without sending data to external servers. At 740 million parameters, Google says it's the most compact model of its kind and outperforms competing models up to twice its size on multimodal embedding benchmarks."
+    },
+    {
+      "title": "‘Artificial’ Roasts AI’s Creators—and Sends a Dark Warning About Its Dangers",
+      "link": "https://www.wired.com/story/artificial-roasts-ais-creators-and-sends-a-dark-warning-about-its-dangers/",
+      "source": "Wired",
+      "publishedAt": "2026-10-06T18:45:39.000Z",
+      "summary": "From their dorky parties to their weird walks, the movie holds OpenAI CEO Sam Altman and other stakeholders with contempt, while demonstrating their recklessness. Artificial , the new comedy-drama about OpenAI and the artificial intelligence arms race, is a movie of weird walks. As OpenAI cofounder Ilya Sutskever, Russian actor Yuri Borisov clomps around, like a geeky Frankensteinian monster. As the controversial OpenAI CEO Sam Altman, Andrew Garfield bounces and skips boyishly—a gait that Altman himself recently commended for its accuracy."
+    },
+    {
+      "title": "OpenAI Is Pissing Off a Bunch of Mathematicians—Again",
+      "link": "https://www.wired.com/story/openai-is-pissing-off-a-bunch-of-mathematicians-again/",
+      "source": "Wired",
+      "publishedAt": "2026-10-06T17:28:33.000Z",
+      "summary": "“There’s a perception of mobster behavior” from leading AI companies, one mathematician tells WIRED as OpenAI prepares to release more than 100 new solutions to unsolved problems. In August, OpenAI convened around 40 mathematicians to discuss what to do if AI outpaces human capabilities in the field. The company hinted that its powerful models had solved hundreds of long-standing math problems, say people who were in attendance, but company representatives assured attendees it would not release the solutions all at once—an assurance OpenAI spokesperson Lindsay McCallum says the company is “not aware of”—and, worried by how the community might react, sought advice on how to publish the findings. Attendees responded with “a mixture of excitement and dread,” but the meeting was a promising first step, recalls Northwestern University mathematician Bryna Kra."
+    },
+    {
+      "title": "We can’t just change the definition of ‘recording’",
+      "link": "https://www.theverge.com/column/1005697/we-cant-just-change-the-definition-of-recording",
       "source": "The Verge",
-      "publishedAt": "2026-10-05T20:14:57.000Z",
-      "summary": "People in Utah can now use AI to get a prescription for acne treatment. On Monday, healthcare startup Nolla Health announced that users in the state can scan their faces using its app, allowing its AI system to analyze acne severity and autonomously write a prescription, as reported earlier by Bloomberg . The service is launching as a pilot program with gradually loosening physician oversight. Two physicians will approve each AI-generated prescription before they're issued for the first 100 patients, but will start reviewing them only after they're prescribed for up to 500 patients."
+      "publishedAt": "2026-10-06T16:29:44.000Z",
+      "summary": "With AI hardware, tech companies are pushing the definition of what does and doesn't constitute a recording. For most of gadget history, it'd be reasonable to assume that a device with a microphone or camera is either recording you or it isn't; it's either on or off, without much gray area. Microphones capture sound. Cameras capture images."
     },
     {
-      "title": "Reflection debuts Beam, an open-weight AI model to rival Chinese models at lower compute cost",
-      "link": "https://techcrunch.com/2026/10/05/reflection-debuts-beam-a-open-weight-ai-model-to-rival-chinese-models-at-lower-compute-cost/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-10-05T19:33:53.000Z",
-      "summary": "Reflection is aiming Beam and future models at enterprises and sovereign nations. The pitch is to build “AI factories,” a product that would let institutions build their own customized, local AI system by training Reflection’s AI models on their own proprietary data. Reflection AI is officially unveiling Beam, its first frontier, open-weight AI model. ai."
+      "title": "Google is about to remove free access to Gemini Flash and Pro",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
+      "source": "The Verge",
+      "publishedAt": "2026-10-06T13:19:01.000Z",
+      "summary": "Starting on October 9th, anyone using Google Gemini on a free plan will be limited to the Flash Lite model . Free users can currently choose from Gemini Flash Lite, Flash, and Pro, but now you'll need a $4.99/month Google AI Plus subscription to access the standard Flash model. However, that subscription is also getting a downgrade - it will soon no longer include Gemini Pro. Google says AI Plus subscribers will receive an email letting them know when they'll lose access to it."
     },
     {
       "title": "Command-line tool quickly removes Apple Intelligence from macOS 27",
@@ -66,20 +94,6 @@
       "source": "Ars Technica",
       "publishedAt": "2026-10-05T19:14:44.000Z",
       "summary": "A new tool is allowing Mac users the ability again to easily turn off Apple Intelligence with one click and free up to 12GB of storage. Unlike with previous versions of macOS, macOS 27 Golden Gate doesn’t have a toggle for turning off Apple Intelligence. That makes disabling AI features that you may not want more difficult. It also means that the AI models necessary for running Apple Intelligence will take up space on your disk , even if you don’t use them or if you go through your settings to individually find and disable AI capabilities."
-    },
-    {
-      "title": "Meta and Microsoft pull back from Claude as Anthropic transforms from partner into competitor",
-      "link": "https://the-decoder.com/meta-and-microsoft-pull-back-from-claude-as-anthropic-transforms-from-partner-into-competitor/",
-      "source": "The Decoder",
-      "publishedAt": "2026-10-05T18:59:19.000Z",
-      "summary": "Meta and Microsoft, two of Anthropic's biggest enterprise customers, are sharply cutting their use of Claude. Microsoft slashed the monthly per-employee budget in its cloud division from $100,000 to $10,000, while Meta halved its Claude Code users to 30,000. Both companies are pushing their own AI tools instead. For Anthropic, that reliance on a few major clients is turning into a strategic risk."
-    },
-    {
-      "title": "Reka AI's omni-model Rho-1 handles text, images, video, and robot control in a single model",
-      "link": "https://the-decoder.com/reka-ais-omni-model-rho-1-handles-text-images-video-and-robot-control-in-a-single-model/",
-      "source": "The Decoder",
-      "publishedAt": "2026-10-05T18:26:05.000Z",
-      "summary": "Reka AI's Rho-1 is a 19-billion-parameter omni-model that processes and generates text, images, video, and robot control actions in a single neural network. Trained on 320 H100 GPUs in about three months, it uses a fraction of the compute today's top models need. Instead of routing tasks to specialized systems, Rho-1 runs all modalities as tokens in one shared context window. Reka AI has released a research preview of Rho-1."
     },
     {
       "title": "Connecting AI agents to enterprise knowledge",
@@ -94,20 +108,6 @@
       "source": "AI Business",
       "publishedAt": "2026-10-05T14:00:00.000Z",
       "summary": "Physical AI is moving beyond traditional robotics into real enterprise tasks, but enterprises still face big challenges integrating and scaling robotic systems."
-    },
-    {
-      "title": "Bringing predictive analytics to the agentic AI era",
-      "link": "https://www.technologyreview.com/2026/10/05/1143813/bringing-predictive-analytics-to-the-agentic-ai-era/",
-      "source": "MIT Technology Review",
-      "publishedAt": "2026-10-05T13:29:32.000Z",
-      "summary": "In 2026, the question for enterprise AI is no longer whether predictive models can outperform statistical forecasts—that argument is settled. The big question now is how to enable predictive systems to act on their own conclusions without drifting from business intent. The frontier has moved from prediction to autonomous decision making, and the gap between leaders and laggards is widening accordingly. “Enterprises are done with a backward-looking point of view; they want to be more forward-thinking,” says Vishal Gupta, partner at research firm Everest Group."
-    },
-    {
-      "title": "Rural Data Centers Are in for a Big Federal Tax Break",
-      "link": "https://www.wired.com/story/rural-data-centers-are-in-for-a-big-federal-tax-break/",
-      "source": "Wired",
-      "publishedAt": "2026-10-04T10:00:00.000Z",
-      "summary": "Under the One Big Beautiful Bill Act,  data center projects in rural areas could be eligible for major tax benefits starting next year. Some hyperscalers do not seem eager to take the free cash. Welcome back to Power Play ! Each week, senior writer Molly Taft tackles a topic around this midterm season’s biggest issue: data centers."
     }
   ]
 }
