@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-07T00:39:58.404Z",
-  "dateLabel": "Wednesday, October 7, 2026",
+  "generatedAt": "2026-10-08T00:58:04.229Z",
+  "dateLabel": "Thursday, October 8, 2026",
   "sourceCount": 8,
   "allSourceNames": [
     "TechCrunch",
@@ -19,25 +19,88 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "Retrieval-Augmented Generation (RAG)",
-      "definition": "RAG is a technique where an AI model looks up relevant documents from an outside source, like a company's internal files or a live web search, before writing its answer, instead of relying purely on what it memorized during training. It's the difference between a student answering an exam question entirely from memory versus being allowed to quickly check a textbook first. It helps models give more current, accurate answers and lets them cite exactly where the information came from.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
+      "term": "Transformer",
+      "definition": "The transformer is the neural network design, introduced in 2017, that made modern LLMs possible. Its key trick is reading an entire piece of text at once and weighing how every word relates to every other word, instead of reading strictly left to right like a person following a line with their finger. Imagine reading a mystery novel and being able to instantly cross-reference every earlier clue at once, rather than only remembering the last page, that's roughly the advantage a transformer has over older, word-by-word AI designs.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Transformer_(deep_learning)"
     }
   ],
   "items": [
     {
-      "title": "Ex-Ramp engineers raise $20M for platform Melius after scrapping their first product",
-      "link": "https://techcrunch.com/2026/10/06/ex-ramp-engineers-raise-20m-for-platform-melius-after-scrapping-their-first-product/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-10-06T22:34:03.000Z",
-      "summary": "Instead of helping marketers manage and optimize ad spend, the company is focusing on building the tools that generate the creative assets and campaigns. Melius , an AI platform for generating ad campaigns, images, and videos, announced on Tuesday that it raised a total of $25 million in funding, including a $20 million Series A led by CRV and a $5 million seed round led by General Catalyst. While the startup claims to have hit more than $1 million in annualized revenue within two months of coming out of stealth in July, co-founder Joowon Kim (pictured on right) admits that Melius didn’t hit it out of the park initially. When the New York-based company first launched over a year ago, Kim and his co-founders, Young Kim (pictured on left) and Arnav Ramu (pictured center) set out to build an AI-powered performance marketing tool."
+      "title": "With GPT-6, ChatGPT’s responses are much more visually appealing and interactive",
+      "link": "https://siliconangle.com/2026/10/07/with-gpt-6-chatgpts-responses-are-much-more-visually-appealing-and-interactive/",
+      "source": "SiliconANGLE",
+      "publishedAt": "2026-10-08T00:49:33.000Z",
+      "summary": "OpenAI Group PBC says ChatGPT is moving away from its traditional wall-of-text responses and giving users a more interactive user interface to play with. In a media briefing today, the company said its GPT-6 models will now be able to access an “Intelligent UI” that will allow the chatbot to generate more visual outputs when it deems necessary, replacing words with graphics, tappable buttons, forms and charts” that will provide a much more interactive experience. ChatGPT will determine for itself when an answer needs a more visually appealing response and interactive elements for the user to explore a topic more deeply. In such instances, the model will integrate these directly with its response."
     },
     {
-      "title": "Vinci reels in $250M for its engineering simulation platform",
-      "link": "https://siliconangle.com/2026/10/06/vinci-reels-in-250m-for-its-engineering-simulation-platform/",
-      "source": "SiliconANGLE",
-      "publishedAt": "2026-10-06T22:18:27.000Z",
-      "summary": "Vinci4D Inc. today announced that it has closed a $250 million funding round at a $1.5 billion valuation. Advent, Temasek and Xora jointly led the Series B deal. They were joined by several startup funds including AMD Ventures. Hardware engineers use simulations to find issues in their product designs."
+      "title": "Nous Research confirms it hit $1.5B valuation, launches AI agents for business users",
+      "link": "https://techcrunch.com/2026/10/07/nous-research-confirms-it-hit-1-5b-valuation-launches-ai-agents-for-business-users/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-10-07T20:48:45.000Z",
+      "summary": "The developer of Hermes Agent raised a $90 million Series B. Nous Research , the startup developing the open source Hermes Agent, has raised a $90 million Series B at a $1.5 billion valuation, confirming TechCrunch’s earlier reporting . The round was led by Robot Ventures, with participation from other backers including Nvidia, Union Square Ventures, Menlo Ventures, Samsung, and 1789 Capital, where Donald Trump Jr. is a partner."
+    },
+    {
+      "title": "Microsoft releases new Nvidia-chip AI PCs with revamped Windows 11",
+      "link": "https://techcrunch.com/2026/10/07/microsoft-releases-new-nvidia-chip-ai-pcs-with-revamped-windows-11/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-10-07T20:22:37.000Z",
+      "summary": "Microsoft revealed the specs and price for its Surface Laptop Ultra, AI PCs that run on Nvidia chips that are designed to run AI models and agents. Back in June, Nvidia announced that it had secured agreements with Microsoft and a host of other PC makers to develop AI- and agent-ready PCs for Windows based on its RTX Spark chip, but details on the machines were scant at the time. On Wednesday, at an event held in San Francisco during the city’s Tech Week, Microsoft revealed the specs and price for its new Surface Laptop Ultra . The PC comes in two base models, one that starts at $2,600 and one with a more powerful chip that starts at $3,700."
+    },
+    {
+      "title": "Reflection Beam aims U.S. open-weight AI model at Chinese rivals",
+      "link": "https://aibusiness.com/generative-ai/reflection-beam-aims-u-s-open-weight-ai-model-chinese-rivals",
+      "source": "AI Business",
+      "publishedAt": "2026-10-07T19:46:55.000Z",
+      "summary": "Nvidia-backed open source startup makes splashy entrance. S. K-8 education."
+    },
+    {
+      "title": "ChatGPT’s ‘Intelligent UI’ update fills its responses with pictures, charts, and buttons",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1007276/openai-chatgpt-intelligent-ui-gpt-6",
+      "source": "The Verge",
+      "publishedAt": "2026-10-07T19:10:42.000Z",
+      "summary": "OpenAI is launching a new Intelligent UI feature in ChatGPT that allows the chatbot to answer your questions with interactive visuals. The update, which is rolling out to all users alongside GPT-6, gives ChatGPT the ability to combine a text response with diagrams, charts, forms, tappable buttons, and more. In a blog post explaining the change , OpenAI says it trained GPT-6 when to generate interactive visuals over text, as well as how to format them in its response. With GPT-6, the chatbot’s responses can include interactive responses directly inside your conversation."
+    },
+    {
+      "title": "ChatGPT with GPT-6 ditches mostly text output for interactive UI with charts, buttons, and mini apps",
+      "link": "https://the-decoder.com/chatgpt-with-gpt-6-ditches-mostly-text-output-for-interactive-ui-with-charts-buttons-and-mini-apps/",
+      "source": "The Decoder",
+      "publishedAt": "2026-10-07T19:06:40.000Z",
+      "summary": "OpenAI is rolling out GPT-6 with \"Intelligent UI,\" a feature that turns answers into interactive interfaces with charts, buttons, and forms. The model can now respond while still thinking, cutting wait times by 44 percent. Paying customers get GPT-6 Sol, free users get GPT-6 Luna. OpenAI is rolling out GPT-6 with a new feature called \"Intelligent UI\" for all ChatGPT users."
+    },
+    {
+      "title": "These Researchers Made AI Drive a Toyota Corolla to Get In-N-Out",
+      "link": "https://www.wired.com/story/ai-is-driving-cars-now-oh-boy/",
+      "source": "Wired",
+      "publishedAt": "2026-10-07T18:45:00.000Z",
+      "summary": "Three engineers put GPT, Claude, and Grok in charge of a real car. Only one of them was successful. Aditya Ramabadran, Simon Mahns, and Tobias Gessler, three AI engineers at a startup called Axiom , recently fancied In-N-Out Burger for lunch. They weren’t about to drive themselves, though. Sitting in a 2024 Toyota Corolla near the Bay Area restaurant’s drive-thru lane, they opened a laptop and asked OpenAI’s GPT-6 Astra to take the wheel."
+    },
+    {
+      "title": "Everything announced at Microsoft’s Surface Laptop Ultra event",
+      "link": "https://www.theverge.com/tech/1007147/microsoft-surface-laptop-ultra-windows-event-everything-announced",
+      "source": "The Verge",
+      "publishedAt": "2026-10-07T18:42:22.000Z",
+      "summary": "Microsoft just wrapped up a big Windows and Surface-focused keynote in San Francisco. The biggest announcement was arguably the release details about the Surface Laptop Ultra , its new laptop that’s powered by Nvidia’s RTX Spark Arm-based chip. The machine will start at $2,599 for a configuration with an 8-core CPU, 24GB of RAM, and 512GB of storage, and it will be released on October 16th. The laptop also has built-in magnetic USB-C charging instead of the proprietary Surface Connect magnetic charging port."
+    },
+    {
+      "title": "The New ChatGPT Is More Show Than Tell",
+      "link": "https://www.wired.com/story/openai-chatgpt-intelligent-ui-is-more-show-than-tell/",
+      "source": "Wired",
+      "publishedAt": "2026-10-07T18:00:00.000Z",
+      "summary": "OpenAI is updating ChatGPT for all users with an “Intelligent UI” that’s more visual—generating interactive elements as part of the chatbot’s outputs. When you ask a chatbot a question, you’ll often get a wall of text back, maybe with an image or two pulled from the web. That may no longer be the case soon, as OpenAI overhauls how ChatGPT answers prompts. On Wednesday, OpenAI unveiled an “Intelligent UI” update for ChatGPT that generates visual, custom elements—when helpful—for answering a user's questions."
+    },
+    {
+      "title": "The context factor for AI agents",
+      "link": "https://aibusiness.com/generative-ai/the-context-factor-for-ai-agents",
+      "source": "AI Business",
+      "publishedAt": "2026-10-07T17:07:38.000Z",
+      "summary": "Process Intelligence helps organizations provide AI agents with the right context and data needed to know how their businesses run."
+    },
+    {
+      "title": "COSMIC shuts the door on AI code as GNOME debates letting bug reports in",
+      "link": "https://www.theregister.com/software/2026/10/07/cosmic-shuts-the-door-on-ai-code-as-gnome-debates-letting-bug-reports-in/5301141",
+      "source": "The Register",
+      "publishedAt": "2026-10-07T08:09:00.000Z",
+      "summary": "System76 is banning AI-generated content from contributions to the COSMIC desktop. Some GNOME sub-projects also restrict AI-generated contributions, but one developer is urging them to make an exception for vulnerability reports. The COSMIC desktop project has changed its contributors' guidelines. \" In other words, you can teach yourself using AI, you can find bugs with AI, but if you want to submit your code for inclusion in COSMIC, you can't use AI to write the code, its docs or notes, or even the submission requests."
     },
     {
       "title": "OpenAI will watermark ChatGPT outputs by default—but only in the EU",
@@ -45,69 +108,6 @@
       "source": "Ars Technica",
       "publishedAt": "2026-10-06T20:50:32.000Z",
       "summary": "OpenAI will begin automatically watermarking text generated with ChatGPT in the European Union, the company has announced. It will also offer the watermarking feature in other regions, but it will be off by default outside of the EU. The move in Europe is driven by a need to comply with the EU AI Act, which took effect in August. It requires marking content produced by AI models in a way that another tool can detect."
-    },
-    {
-      "title": "How AI decision models could change content moderation",
-      "link": "https://techcrunch.com/2026/10/06/how-ai-decision-models-could-change-content-moderation/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-10-06T20:35:20.000Z",
-      "summary": "On Tuesday, Musubi announced a lightweight decision model made for real-time moderation called PolicyLM-1.7B, released with open weights. As decision models spread across the industry, a company called Musubi has a new idea for how to put them to work: moderating content. The idea is to take a content policy written in plain English and apply it to messages in under 50 milliseconds. Musubi’s model is designed to be similar in cost and speed to the AI classifier systems that power moderation on most social platforms — but because it has the flexibility of a modern LLM, it can apply complex policies without special training."
-    },
-    {
-      "title": "Google claims EmbeddingGemma 2 outperforms rival embedding models twice its size",
-      "link": "https://the-decoder.com/google-claims-embeddinggemma-2-outperforms-rival-embedding-models-twice-its-size/",
-      "source": "The Decoder",
-      "publishedAt": "2026-10-06T19:47:27.000Z",
-      "summary": "Google released EmbeddingGemma 2, an open model with 740 million parameters that converts text, images, video, audio, and code into vectors. It runs on-device, needs only about 191 MB of RAM, and outperforms some competing models twice its size, according to Google. Paired with a small open model like Gemma 4, it can run offline RAG apps without sending data to external servers. At 740 million parameters, Google says it's the most compact model of its kind and outperforms competing models up to twice its size on multimodal embedding benchmarks."
-    },
-    {
-      "title": "‘Artificial’ Roasts AI’s Creators—and Sends a Dark Warning About Its Dangers",
-      "link": "https://www.wired.com/story/artificial-roasts-ais-creators-and-sends-a-dark-warning-about-its-dangers/",
-      "source": "Wired",
-      "publishedAt": "2026-10-06T18:45:39.000Z",
-      "summary": "From their dorky parties to their weird walks, the movie holds OpenAI CEO Sam Altman and other stakeholders with contempt, while demonstrating their recklessness. Artificial , the new comedy-drama about OpenAI and the artificial intelligence arms race, is a movie of weird walks. As OpenAI cofounder Ilya Sutskever, Russian actor Yuri Borisov clomps around, like a geeky Frankensteinian monster. As the controversial OpenAI CEO Sam Altman, Andrew Garfield bounces and skips boyishly—a gait that Altman himself recently commended for its accuracy."
-    },
-    {
-      "title": "OpenAI Is Pissing Off a Bunch of Mathematicians—Again",
-      "link": "https://www.wired.com/story/openai-is-pissing-off-a-bunch-of-mathematicians-again/",
-      "source": "Wired",
-      "publishedAt": "2026-10-06T17:28:33.000Z",
-      "summary": "“There’s a perception of mobster behavior” from leading AI companies, one mathematician tells WIRED as OpenAI prepares to release more than 100 new solutions to unsolved problems. In August, OpenAI convened around 40 mathematicians to discuss what to do if AI outpaces human capabilities in the field. The company hinted that its powerful models had solved hundreds of long-standing math problems, say people who were in attendance, but company representatives assured attendees it would not release the solutions all at once—an assurance OpenAI spokesperson Lindsay McCallum says the company is “not aware of”—and, worried by how the community might react, sought advice on how to publish the findings. Attendees responded with “a mixture of excitement and dread,” but the meeting was a promising first step, recalls Northwestern University mathematician Bryna Kra."
-    },
-    {
-      "title": "We can’t just change the definition of ‘recording’",
-      "link": "https://www.theverge.com/column/1005697/we-cant-just-change-the-definition-of-recording",
-      "source": "The Verge",
-      "publishedAt": "2026-10-06T16:29:44.000Z",
-      "summary": "With AI hardware, tech companies are pushing the definition of what does and doesn't constitute a recording. For most of gadget history, it'd be reasonable to assume that a device with a microphone or camera is either recording you or it isn't; it's either on or off, without much gray area. Microphones capture sound. Cameras capture images."
-    },
-    {
-      "title": "Google is about to remove free access to Gemini Flash and Pro",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1005451/google-gemini-free-flash-lite-only",
-      "source": "The Verge",
-      "publishedAt": "2026-10-06T13:19:01.000Z",
-      "summary": "Starting on October 9th, anyone using Google Gemini on a free plan will be limited to the Flash Lite model . Free users can currently choose from Gemini Flash Lite, Flash, and Pro, but now you'll need a $4.99/month Google AI Plus subscription to access the standard Flash model. However, that subscription is also getting a downgrade - it will soon no longer include Gemini Pro. Google says AI Plus subscribers will receive an email letting them know when they'll lose access to it."
-    },
-    {
-      "title": "Command-line tool quickly removes Apple Intelligence from macOS 27",
-      "link": "https://arstechnica.com/apple/2026/10/command-line-tool-quickly-removes-apple-intelligence-from-macos-27/",
-      "source": "Ars Technica",
-      "publishedAt": "2026-10-05T19:14:44.000Z",
-      "summary": "A new tool is allowing Mac users the ability again to easily turn off Apple Intelligence with one click and free up to 12GB of storage. Unlike with previous versions of macOS, macOS 27 Golden Gate doesn’t have a toggle for turning off Apple Intelligence. That makes disabling AI features that you may not want more difficult. It also means that the AI models necessary for running Apple Intelligence will take up space on your disk , even if you don’t use them or if you go through your settings to individually find and disable AI capabilities."
-    },
-    {
-      "title": "Connecting AI agents to enterprise knowledge",
-      "link": "https://www.technologyreview.com/2026/10/05/1145580/connecting-ai-agents-to-enterprise-knowledge/",
-      "source": "MIT Technology Review",
-      "publishedAt": "2026-10-05T15:47:52.000Z",
-      "summary": "For all the data that AI systems continually amass and analyze, enterprise AI agents often suffer from a curious shortcoming: a lack of knowledge. More than data, knowledge is the understanding of what the data means in the context of individual organizations. AI agents need this understanding to reason about situations, make decisions, and ultimately take actions. Without sufficient knowledge, agents are prone to making flawed and unreliable decisions."
-    },
-    {
-      "title": "Physical AI moves beyond traditional robotics",
-      "link": "https://aibusiness.com/automation/physical-ai-moves-beyond-traditional-robotics",
-      "source": "AI Business",
-      "publishedAt": "2026-10-05T14:00:00.000Z",
-      "summary": "Physical AI is moving beyond traditional robotics into real enterprise tasks, but enterprises still face big challenges integrating and scaling robotic systems."
     }
   ]
 }

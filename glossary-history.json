@@ -15,6 +15,7 @@
     "Foundation Model",
     "Data Center",
     "Context Window",
-    "Retrieval-Augmented Generation (RAG)"
+    "Retrieval-Augmented Generation (RAG)",
+    "Transformer"
   ]
 }
