@@ -16,6 +16,7 @@
     "Data Center",
     "Context Window",
     "Retrieval-Augmented Generation (RAG)",
-    "Transformer"
+    "Transformer",
+    "Open-Weight Model"
   ]
 }
