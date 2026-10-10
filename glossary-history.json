@@ -17,6 +17,7 @@
     "Context Window",
     "Retrieval-Augmented Generation (RAG)",
     "Transformer",
-    "Open-Weight Model"
+    "Open-Weight Model",
+    "Fine-Tuning"
   ]
 }
