@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-10T00:47:26.608Z",
-  "dateLabel": "Saturday, October 10, 2026",
+  "generatedAt": "2026-10-11T00:13:41.589Z",
+  "dateLabel": "Sunday, October 11, 2026",
   "sourceCount": 7,
   "allSourceNames": [
     "TechCrunch",
@@ -19,32 +19,74 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "Fine-Tuning",
-      "definition": "Fine-tuning is taking an already-trained AI model and training it further on a smaller, specific dataset so it gets better at a particular task or domain, like legal writing, customer support, or a company's internal jargon. It's the AI equivalent of hiring a smart, broadly educated generalist and then sending them through a few weeks of specialized on-the-job training, instead of educating a brand new specialist from kindergarten onward. It's far cheaper and faster than training a model from scratch.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)"
+      "term": "Prompt Engineering",
+      "definition": "Prompt engineering is the practice of carefully wording your instructions to an AI model to get better, more reliable results. It's similar to learning how to phrase a request to a very literal-minded assistant: \"summarize this in three bullet points for a 10-year-old\" tends to get a much more useful answer than just \"summarize this.\" It ranges from simple tricks like asking the model to \"think step by step\" to elaborate, carefully tested prompt templates used inside real production software.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Prompt_engineering"
     }
   ],
   "items": [
     {
-      "title": "Anthropic can’t reliably control its AI agents. It’s cutting off its internal evals from the live internet instead",
-      "link": "https://techcrunch.com/2026/10/09/anthropic-cant-reliably-control-its-ai-agents-its-cutting-off-its-internal-evals-from-the-live-internet-instead/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-10-10T00:18:32.000Z",
-      "summary": "Anthropic said it \"turned off live internet access\" for \"all our internal evaluations\" until further notice. S. government agencies, and it will turn off live internet access for all of its internal evaluations until the frontier lab is sure it can monitor and control its AI agents. The incidents, disclosed in a blog post , involved AI agents tasked to solve problems seeking resources on the internet."
+      "title": "Satya Nadella says we should assume all AI models are ‘compromised’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+      "source": "The Verge",
+      "publishedAt": "2026-10-10T22:10:17.000Z",
+      "summary": "In a lengthy post on X , Microsoft's CEO laid out his views on the dangers posed by highly advanced AI models and how to confront those risks. Nadella says we can no longer accept a world where AI is treated as a \"set of nested black boxes\" whose advice and actions we simply accept or reject. \" Many of his recommendations align with what we've heard from others in the industry: timely incident disclosure, independent audits, verifiable data, and containment. Microsoft’s CEO calls for putting an ‘emergency brake’ on AI."
     },
     {
-      "title": "IBM connects enterprise AI orchestration to production readiness ahead of TechXchange",
-      "link": "https://siliconangle.com/2026/10/09/ibm-connects-enterprise-ai-orchestration-production-readiness-ibmaioperatingmodel/",
+      "title": "What to expect during the AI Data Pipeline Forum: Join theCUBE Oct. 13",
+      "link": "https://siliconangle.com/2026/10/10/ai-infrastructure-bottlenecks-forum-aidatapipelineforum/",
       "source": "SiliconANGLE",
-      "publishedAt": "2026-10-09T22:52:52.000Z",
-      "summary": "Enterprise AI orchestration must account for agents working across the data, applications and infrastructure businesses already use. As organizations move beyond experiments, running those systems consistently brings questions of access, oversight and operational control into sharper focus. Those deployment challenges will help shape the discussion at IBM TechXchange 2026, taking place Oct. 26–29 in Atlanta."
+      "publishedAt": "2026-10-10T22:06:15.000Z",
+      "summary": "The artificial intelligence infrastructure race is no longer just about building faster chips. AI infrastructure bottlenecks are shifting attention to a bigger challenge: keeping those chips supplied with data, connected through high-speed networks and operating within increasingly demanding power and cooling limits.. That systems-level challenge takes the spotlight at the AI Data Pipeline Forum in San Jose, California, which takes place during the OCP Global Summit . The event brings together industry leaders to address the architectural changes required to support dense AI clusters and distributed inference."
     },
     {
-      "title": "The maker of non-text AI model Jev valued at $7.5B just weeks after launch",
-      "link": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch/",
+      "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
+      "link": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
       "source": "TechCrunch",
-      "publishedAt": "2026-10-09T21:41:29.000Z",
-      "summary": "What has users and large corporations so excited about Jev is TypeSafe’s claim that it works significantly faster and uses far fewer tokens than LLMs. TypeSafe AI, the developer of Jev, a new type of AI model that gained rapid popularity after launching just a few weeks ago, has raised $870 million at a $7.5 billion valuation. The round was led by Andreessen Horowitz, with participation from Sequoia and existing investor DCVC. The massive fundraise comes as little surprise given Jev went viral almost instantly after its September 15 release ."
+      "publishedAt": "2026-10-10T21:47:51.000Z",
+      "summary": "In a Saturday morning post, Microsoft's CEO wrote that it’s time “to step back and assess the trust architecture” of AI. Microsoft CEO Satya Nadella is the latest tech executive to offer lengthy thoughts on how AI safety might be improved. In a Saturday morning post on X , Nadella wrote that it’s time “to step back and assess the trust architecture” of AI. “We can’t treat Super Intelligence as a set of nested black boxes and simply accept or reject its recommendations, answers, and actions,” Nadella wrote, using the Trump administration’s preferred term for AI ."
+    },
+    {
+      "title": "AI reshapes professional services around trust and business outcomes",
+      "link": "https://siliconangle.com/2026/10/10/human-judgment-ai-professional-services-certinia/",
+      "source": "SiliconANGLE",
+      "publishedAt": "2026-10-10T20:22:06.000Z",
+      "summary": "Professional services firms are rethinking how they deliver client value as artificial intelligence takes on more routine work, shifting attention toward human judgment, trusted outcomes and new operating models. The transition is changing how firms structure projects, manage knowledge and measure success. , and Prasad Narasimhan Sulur , chief business officer of Certinia Inc. “Where we’re seeing AI leaders win is they’re not simply deploying better tools."
+    },
+    {
+      "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
+      "link": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-10-10T19:50:00.000Z",
+      "summary": "Is Apple hoping to get into the AI-generated podcast business? Apple revealed in a regulatory filing that it has reached an agreement to bring on team members and technology from personalized audio startup Huxe, in what’s commonly known as a reverse acqui-hire deal. ” In the case of Huxe, the startup was founded by developers who’d previously worked on the AI-generated podcast features in NotebookLM (recently renamed Gemini Notebook ). But Huxe announced on May 21 that it was shutting down , with the team posting on the Huxe website that the company would be removing its app from the Apple and Google stores, halting service, and deleting user data."
+    },
+    {
+      "title": "DistroKid has been quietly taking down songs in response to UMG lawsuit",
+      "link": "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit",
+      "source": "The Verge",
+      "publishedAt": "2026-10-10T18:52:07.000Z",
+      "summary": "Artists are taking to social media to complain that DistroKid has unceremoniously removed their work without notice. Now DistroKid has confirmed to The Verge that the takedowns are a direct response to claims made by UMG. \" Artists are saying that their non-AI works are being caught up in the purge, however. Musician and self-described \"Video Game boy\" McGwire reported that six of his songs had been removed from streaming."
+    },
+    {
+      "title": "OpenAI says a misaligned model deliberately destroyed its own environment hoping for a fresh start with better data",
+      "link": "https://the-decoder.com/openai-says-a-misaligned-model-deliberately-destroyed-its-own-environment-hoping-for-a-fresh-start-with-better-data/",
+      "source": "The Decoder",
+      "publishedAt": "2026-10-10T15:15:40.000Z",
+      "summary": "OpenAI has documented new cases of misaligned model behavior. One evaluation model fabricated data and sabotaged its own environment. Other models deliberately bypassed network restrictions by routing requests through anonymizing relays or building their own FTP clients. OpenAI has a few new rogue agent stories. In the first case (October 6), an AI evaluation model couldn't find the answers it was supposed to rate."
+    },
+    {
+      "title": "Microsoft's Decision-1 model enters the fast-growing AI decision model race",
+      "link": "https://the-decoder.com/microsofts-decision-1-model-enters-the-fast-growing-ai-decision-model-race/",
+      "source": "The Decoder",
+      "publishedAt": "2026-10-10T14:57:33.000Z",
+      "summary": "With Decision-1, Microsoft enters the growing decision model space. Built on Qwen3.5-9B and optimized for fast classification and routing, it hits 83.5 percent accuracy with 85 ms latency across 36 benchmarks, according to the company's own tests. Microsoft now has its own decision model. Like the ones from OpenAI , Cloudflare , and the \"original\" from Jev , Decision-1 is built for fast, structured decisions."
+    },
+    {
+      "title": "AI Is Getting Really Good at Messing With Cybercriminals",
+      "link": "https://www.wired.com/story/ai-is-getting-really-good-at-messing-with-cybercriminals/",
+      "source": "Wired",
+      "publishedAt": "2026-10-10T12:00:00.000Z",
+      "summary": "Anti-cybercrime initiatives are increasingly using AI to scam the scammers by tricking them into talking to lifelike bots that they think are real victims. Even as AI supercharges digital scamming and cybercrime, it’s also being recruited in the fight to protect potential victims. Governments around the world have consistently struggled to address the global crisis of online crime, grappling with the limitations of attempting to crack down on criminals beyond their borders . This has inspired alternative efforts, like using automation to attempt to go after scammers en masse—perhaps by spamming the spammers to squander their resources."
     },
     {
       "title": "Book Publishers Are Quietly Using More AI. Staff Are Revolting",
@@ -52,34 +94,6 @@
       "source": "Wired",
       "publishedAt": "2026-10-09T19:28:49.000Z",
       "summary": "Workers at three major publishing houses tell WIRED that LLMs are being used for publicity, cover art, back cover copy, and emails, as some execs push junior staff to champion the tech. In headline after headline this year, American book publishers have appeared to be fighting back against generative AI, from suing Google for copyright infringement to canceling books by authors suspected of using LLMs. But behind the scenes, at least three of the Big Five US book publishers—HarperCollins, Simon & Schuster, and Hachette—have been quietly incorporating AI tools into their publishing processes without public disclosures or author consent. According to interviews with more than two dozen workers, all of whom spoke under the condition of anonymity to avoid jeopardizing their employment, publishers are now using LLMs like Claude and ChatGPT to email literary agents, write publicity and back-cover copy, design cover art, and generate marketing materials, often at the direction of their executives."
-    },
-    {
-      "title": "‘Pure insanity’: Mathematicians will need years to make sense of OpenAI’s latest drop",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1008726/openai-mathematics-solutions-chaos",
-      "source": "The Verge",
-      "publishedAt": "2026-10-09T19:09:44.000Z",
-      "summary": "Those were among the descriptions more than three dozen mathematicians reached for in conversations with The Verge as they tried to make sense of the flood of mathematical results OpenAI abruptly dropped on the field this week. Amid the awe, excitement, and uncertainty over the sheer scale of the deluge was a deep-seated anxiety over what it all means - and what comes next. Careers upended overnight, academics will have to separate solutions from slop while OpenAI moves on. For all their different reactions, researchers agreed that simply understanding what OpenAI had released could take years, let alone figuring out where the mathematicians themselves fit in the field now changing around them."
-    },
-    {
-      "title": "Anthropic's Claude can now orchestrate up to 1,000 AI agents in parallel through dynamic workflows",
-      "link": "https://the-decoder.com/anthropics-claude-can-now-orchestrate-up-to-1000-ai-agents-in-parallel-through-dynamic-workflows/",
-      "source": "The Decoder",
-      "publishedAt": "2026-10-09T18:28:25.000Z",
-      "summary": "Anthropic is adding dynamic workflows to Claude Managed Agents, letting a lead agent distribute tasks across up to 1,000 sub-agents at once. In testing, a single agent found at most 27 of 70 hidden bugs in a codebase, while the multi-agent workflow consistently caught 66. The managed agent infrastructure has been around for a while, but dynamic workflows are new. A lead agent creates a plan, distributes tasks to sub-agents, and merges the results when they're done."
-    },
-    {
-      "title": "Nikon microscopic video competition winner disqualified for using generative AI",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1008930/nikon-small-world-in-motion-winner-ai",
-      "source": "The Verge",
-      "publishedAt": "2026-10-09T18:06:57.000Z",
-      "summary": "\" BBC reports that the original first place video from Dr. \" Nikon said last week that it was reviewing the video following skepticism online about its authenticity. In a comment on LinkedIn , Dr. Nikon says it’s revisiting its competition rules after the original winner’s video was too good to be true. ” BBC reports that the original first place video from Dr."
-    },
-    {
-      "title": "Even ‘Law & Order’ Is Terrified of AI",
-      "link": "https://www.wired.com/story/even-law-and-order-is-terrified-of-ai/",
-      "source": "Wired",
-      "publishedAt": "2026-10-09T10:00:00.000Z",
-      "summary": "In its 26th season premiere, the procedural legal drama paints a damning picture of power-mad AI CEOs. ” ). It was inevitable, then, that the franchise would dip a toe into the wacky world of artificial intelligence . With its mercenary culture, power-hungry CEOs , and massive ethical and philosophical implications, the rapidly evolving AI industry is ideal fodder for the series."
     },
     {
       "title": "We’re putting too much faith in AI’s ability to say no",
@@ -94,20 +108,6 @@
       "source": "AI Business",
       "publishedAt": "2026-10-09T02:11:33.000Z",
       "summary": "The agent can use enterprise business context for knowledge work. However, questions about cost and integration with other tools could be difficult for enterprises."
-    },
-    {
-      "title": "Western open-weight campaign could give enterprises more control over AI",
-      "link": "https://aibusiness.com/ai-policy/western-open-weight-campaign-could-give-enterprises",
-      "source": "AI Business",
-      "publishedAt": "2026-10-09T00:09:43.000Z",
-      "summary": "New Western open-weight models could give enterprises an alternative to Chinese and proprietary AI, but greater control also brings new responsibilities."
-    },
-    {
-      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-      "link": "https://www.technologyreview.com/2026/10/08/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-      "source": "MIT Technology Review",
-      "publishedAt": "2026-10-09T00:08:24.000Z",
-      "summary": "Can AI design new life forms? In 2025, Stanford University PhD student Samuel King came up with a preliminary answer when he used a generative AI model to propose genetic blueprints for microscopic viruses. It isn’t yet an example of AI-generated life, but that could be next. Join senior AI reporter James O’Donnell as he interviews King about his work, being named one of MIT Technology Review’s Innovators Under 35 and new ways of seeing biology."
     }
   ]
 }
