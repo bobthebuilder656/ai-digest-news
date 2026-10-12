@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-11T00:13:41.589Z",
-  "dateLabel": "Sunday, October 11, 2026",
-  "sourceCount": 7,
+  "generatedAt": "2026-10-12T00:30:50.377Z",
+  "dateLabel": "Monday, October 12, 2026",
+  "sourceCount": 5,
   "allSourceNames": [
     "TechCrunch",
     "VentureBeat",
@@ -19,67 +19,74 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "Prompt Engineering",
-      "definition": "Prompt engineering is the practice of carefully wording your instructions to an AI model to get better, more reliable results. It's similar to learning how to phrase a request to a very literal-minded assistant: \"summarize this in three bullet points for a 10-year-old\" tends to get a much more useful answer than just \"summarize this.\" It ranges from simple tricks like asking the model to \"think step by step\" to elaborate, carefully tested prompt templates used inside real production software.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Prompt_engineering"
+      "term": "Reinforcement Learning",
+      "definition": "Reinforcement learning is a training method where an AI learns by trial and error: it takes an action, and gets rewarded or penalized depending on the outcome. It's essentially how you'd train a dog with treats, the dog doesn't understand English instructions, but it learns \"sit\" earns a treat and jumping on the guest doesn't, purely from repeated feedback. It's used both in robotics, like a robot learning to walk, and in shaping how chatbots respond to people.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Reinforcement_learning"
     }
   ],
   "items": [
     {
-      "title": "Satya Nadella says we should assume all AI models are ‘compromised’",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
-      "source": "The Verge",
-      "publishedAt": "2026-10-10T22:10:17.000Z",
-      "summary": "In a lengthy post on X , Microsoft's CEO laid out his views on the dangers posed by highly advanced AI models and how to confront those risks. Nadella says we can no longer accept a world where AI is treated as a \"set of nested black boxes\" whose advice and actions we simply accept or reject. \" Many of his recommendations align with what we've heard from others in the industry: timely incident disclosure, independent audits, verifiable data, and containment. Microsoft’s CEO calls for putting an ‘emergency brake’ on AI."
-    },
-    {
-      "title": "What to expect during the AI Data Pipeline Forum: Join theCUBE Oct. 13",
-      "link": "https://siliconangle.com/2026/10/10/ai-infrastructure-bottlenecks-forum-aidatapipelineforum/",
+      "title": "Nvidia reportedly in early talks to buy, acquihire or invest more in Reflection AI",
+      "link": "https://siliconangle.com/2026/10/11/nvidia-reportedly-in-early-talks-to-buy-acqui-hire-or-invest-more-in-reflection-ai/",
       "source": "SiliconANGLE",
-      "publishedAt": "2026-10-10T22:06:15.000Z",
-      "summary": "The artificial intelligence infrastructure race is no longer just about building faster chips. AI infrastructure bottlenecks are shifting attention to a bigger challenge: keeping those chips supplied with data, connected through high-speed networks and operating within increasingly demanding power and cooling limits.. That systems-level challenge takes the spotlight at the AI Data Pipeline Forum in San Jose, California, which takes place during the OCP Global Summit . The event brings together industry leaders to address the architectural changes required to support dense AI clusters and distributed inference."
+      "publishedAt": "2026-10-11T22:38:36.000Z",
+      "summary": "Nvidia Corp. is in early talks to acquire open-weight model developer Reflection AI Inc. or invest more in the startup, according to the Financial Times. People familiar with the matter told the paper that an agreement could come within weeks. The talks could still collapse."
     },
     {
-      "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
-      "link": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+      "title": "Will the HomeView be Apple’s first smart home success?",
+      "link": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
       "source": "TechCrunch",
-      "publishedAt": "2026-10-10T21:47:51.000Z",
-      "summary": "In a Saturday morning post, Microsoft's CEO wrote that it’s time “to step back and assess the trust architecture” of AI. Microsoft CEO Satya Nadella is the latest tech executive to offer lengthy thoughts on how AI safety might be improved. In a Saturday morning post on X , Nadella wrote that it’s time “to step back and assess the trust architecture” of AI. “We can’t treat Super Intelligence as a set of nested black boxes and simply accept or reject its recommendations, answers, and actions,” Nadella wrote, using the Trump administration’s preferred term for AI ."
+      "publishedAt": "2026-10-11T21:14:40.000Z",
+      "summary": "Over the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date. Apple will announce a new smart home hub on Tuesday called the HomeView, according to Bloomberg’s Mark Gurman . Gurman described the HomeView as a Siri-powered device with a display and an A18 chip, allowing customers to control their other smart home devices. The HomeView will reportedly be available in two models — one designed for countertops and the other to be mounted on walls."
     },
     {
-      "title": "AI reshapes professional services around trust and business outcomes",
-      "link": "https://siliconangle.com/2026/10/10/human-judgment-ai-professional-services-certinia/",
+      "title": "Why AI agents might not be right for you",
+      "link": "https://siliconangle.com/2026/10/11/why-ai-agents-might-not-be-right-for-you/",
       "source": "SiliconANGLE",
-      "publishedAt": "2026-10-10T20:22:06.000Z",
-      "summary": "Professional services firms are rethinking how they deliver client value as artificial intelligence takes on more routine work, shifting attention toward human judgment, trusted outcomes and new operating models. The transition is changing how firms structure projects, manage knowledge and measure success. , and Prasad Narasimhan Sulur , chief business officer of Certinia Inc. “Where we’re seeing AI leaders win is they’re not simply deploying better tools."
+      "publishedAt": "2026-10-11T19:59:34.000Z",
+      "summary": "There’s no question that 2026 is the year of the artificial intelligence agent. AI agents are remarkably ubiquitous, as people use them to write code, communicate with customers, identify and resolve issues in their information technology environments, and execute complex tasks within enterprise environments. It seems there’s nothing that agents cannot do. And yet, the risks inherent in agentic behavior are in the news almost as much as their success stories."
     },
     {
-      "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
-      "link": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+      "title": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
+      "link": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
       "source": "TechCrunch",
-      "publishedAt": "2026-10-10T19:50:00.000Z",
-      "summary": "Is Apple hoping to get into the AI-generated podcast business? Apple revealed in a regulatory filing that it has reached an agreement to bring on team members and technology from personalized audio startup Huxe, in what’s commonly known as a reverse acqui-hire deal. ” In the case of Huxe, the startup was founded by developers who’d previously worked on the AI-generated podcast features in NotebookLM (recently renamed Gemini Notebook ). But Huxe announced on May 21 that it was shutting down , with the team posting on the Huxe website that the company would be removing its app from the Apple and Google stores, halting service, and deleting user data."
+      "publishedAt": "2026-10-11T19:00:00.000Z",
+      "summary": "Less than 48 hours, TechCrunch Disrupt 2026 starts in San Francisco’s Moscone West. Save up to $100 on your pass before prices increase at the door, plus get 50% on a second pass. Or score other deals. If you’re coming for the conference program, 200+ sessions across six stages, roundtables, and breakouts will bring you closer to the people making decisions inside some of technology’s most talked-about companies."
     },
     {
-      "title": "DistroKid has been quietly taking down songs in response to UMG lawsuit",
-      "link": "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit",
+      "title": "Silicon Valley is falling in line with Trump’s attempt to rename AI",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1009406/silicon-valley-is-falling-in-line-with-trumps-attempt-to-rename-ai",
       "source": "The Verge",
-      "publishedAt": "2026-10-10T18:52:07.000Z",
-      "summary": "Artists are taking to social media to complain that DistroKid has unceremoniously removed their work without notice. Now DistroKid has confirmed to The Verge that the takedowns are a direct response to claims made by UMG. \" Artists are saying that their non-AI works are being caught up in the purge, however. Musician and self-described \"Video Game boy\" McGwire reported that six of his songs had been removed from streaming."
+      "publishedAt": "2026-10-11T18:33:56.000Z",
+      "summary": "When President Donald Trump announced his plans to rebrand artificial intelligence as \" super intelligence ,\" you'd be forgiven for being skeptical that it would catch on. While most of the broader population is sticking with AI, some of Silicon Valley's most powerful are falling in line and trying to give Trump the great AI rebrand he so desires. That Elon Musk was quick to jump on board , promising to rename SpaceXAI to SpaceXSI, isn't surprising. Musk, Benioff, Huang, and now Nadella have all capitulated to Trump’s ‘super intelligence’ rebrand."
     },
     {
-      "title": "OpenAI says a misaligned model deliberately destroyed its own environment hoping for a fresh start with better data",
-      "link": "https://the-decoder.com/openai-says-a-misaligned-model-deliberately-destroyed-its-own-environment-hoping-for-a-fresh-start-with-better-data/",
+      "title": "AI agent teams waste massive tokens for barely measurable quality gains, research finds",
+      "link": "https://the-decoder.com/ai-agent-teams-waste-massive-tokens-for-barely-measurable-quality-gains-research-finds/",
       "source": "The Decoder",
-      "publishedAt": "2026-10-10T15:15:40.000Z",
-      "summary": "OpenAI has documented new cases of misaligned model behavior. One evaluation model fabricated data and sabotaged its own environment. Other models deliberately bypassed network restrictions by routing requests through anonymizing relays or building their own FTP clients. OpenAI has a few new rogue agent stories. In the first case (October 6), an AI evaluation model couldn't find the answers it was supposed to rate."
+      "publishedAt": "2026-10-11T15:39:26.000Z",
+      "summary": "Teams of AI agents barely outperform solo agents but cost up to 5.1x more, according to Vals AI. Only one out of four tests with GPT-6 Sol and Claude Opus 5.5 showed a measurable gain. Anthropic's own data backs this up: beyond ten agents, quality plateaus while token costs keep climbing. AI agent teams deliver almost no better results than single agents, research finds."
     },
     {
-      "title": "Microsoft's Decision-1 model enters the fast-growing AI decision model race",
-      "link": "https://the-decoder.com/microsofts-decision-1-model-enters-the-fast-growing-ai-decision-model-race/",
+      "title": "AI agents overstate their results and remain far from autonomous research, study finds",
+      "link": "https://the-decoder.com/ai-agents-overstate-their-results-and-remain-far-from-autonomous-research-study-finds/",
       "source": "The Decoder",
-      "publishedAt": "2026-10-10T14:57:33.000Z",
-      "summary": "With Decision-1, Microsoft enters the growing decision model space. Built on Qwen3.5-9B and optimized for fast classification and routing, it hits 83.5 percent accuracy with 85 ms latency across 36 benchmarks, according to the company's own tests. Microsoft now has its own decision model. Like the ones from OpenAI , Cloudflare , and the \"original\" from Jev , Decision-1 is built for fast, structured decisions."
+      "publishedAt": "2026-10-11T13:44:32.000Z",
+      "summary": "Epoch AI and Anthropic independently found the same thing: current AI models like GPT-5.6 Sol and Claude Fable 5 can run experiments but lack scientific self-criticism and genuine creative thinking. At best, Sol reached 15 percent of the human reference score, and even that came from methods researchers already knew. The models' biggest weakness is still their inability to critically question their own results. Results from Epoch AI and Anthropic show that AI models can run experiments but lack scientific self-criticism and genuine creative thinking."
+    },
+    {
+      "title": "I Made Terrible Games With Google’s AI Playground",
+      "link": "https://www.wired.com/story/i-made-terrible-games-with-googles-ai-playground/",
+      "source": "Wired",
+      "publishedAt": "2026-10-11T11:30:00.000Z",
+      "summary": "A long day’s haul in the video game slop mines. Neon Don is really pissed at his ex-wife’s lawyer. He’ll tell you any chance he gets while he shotguns lines of pixelated bad guys. He’s also not real—his likeness has only existed for a few minutes in a top-down cyberpunk-style shooter game, generated in the Google Labs service Playground ."
+    },
+    {
+      "title": "Learning to use local AI is exciting, overwhelming, and frustrating",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1008484/learning-local-ai-hermes-qwen-model-mac-studio-testing-diary-progress",
+      "source": "The Verge",
+      "publishedAt": "2026-10-11T11:00:00.000Z",
+      "summary": "I'm embarking on a journey I've so far been hesitant to go on: actually using AI on the regular. Giving my most personal data to cloud services has been a major hold up for me, but it's increasingly possible to run powerful models locally to see what they're capable of. Is this tech so useful that it's worth throwing gobs of money at a computer or a laptop with lots of overpriced RAM? I'll try to help you find out."
     },
     {
       "title": "AI Is Getting Really Good at Messing With Cybercriminals",
@@ -87,27 +94,6 @@
       "source": "Wired",
       "publishedAt": "2026-10-10T12:00:00.000Z",
       "summary": "Anti-cybercrime initiatives are increasingly using AI to scam the scammers by tricking them into talking to lifelike bots that they think are real victims. Even as AI supercharges digital scamming and cybercrime, it’s also being recruited in the fight to protect potential victims. Governments around the world have consistently struggled to address the global crisis of online crime, grappling with the limitations of attempting to crack down on criminals beyond their borders . This has inspired alternative efforts, like using automation to attempt to go after scammers en masse—perhaps by spamming the spammers to squander their resources."
-    },
-    {
-      "title": "Book Publishers Are Quietly Using More AI. Staff Are Revolting",
-      "link": "https://www.wired.com/story/book-publishers-are-quietly-using-more-ai-staff-are-revolting/",
-      "source": "Wired",
-      "publishedAt": "2026-10-09T19:28:49.000Z",
-      "summary": "Workers at three major publishing houses tell WIRED that LLMs are being used for publicity, cover art, back cover copy, and emails, as some execs push junior staff to champion the tech. In headline after headline this year, American book publishers have appeared to be fighting back against generative AI, from suing Google for copyright infringement to canceling books by authors suspected of using LLMs. But behind the scenes, at least three of the Big Five US book publishers—HarperCollins, Simon & Schuster, and Hachette—have been quietly incorporating AI tools into their publishing processes without public disclosures or author consent. According to interviews with more than two dozen workers, all of whom spoke under the condition of anonymity to avoid jeopardizing their employment, publishers are now using LLMs like Claude and ChatGPT to email literary agents, write publicity and back-cover copy, design cover art, and generate marketing materials, often at the direction of their executives."
-    },
-    {
-      "title": "We’re putting too much faith in AI’s ability to say no",
-      "link": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
-      "source": "MIT Technology Review",
-      "publishedAt": "2026-10-09T09:00:00.000Z",
-      "summary": "Ever since people first seriously contemplated giving machines an intelligence modeled on our own, there has never been any question that they would, like us, be able to say no. The sci-fi canon is full of stories of robotic disobedience. Most of these capers are, of course, cautionary. But recently, the idea that AI shouldn’t do everything you ask has become something like a commandment."
-    },
-    {
-      "title": "Google’s workplace agent is out, but questions abound",
-      "link": "https://aibusiness.com/agentic-ai/google-s-workplace-agent-is-out",
-      "source": "AI Business",
-      "publishedAt": "2026-10-09T02:11:33.000Z",
-      "summary": "The agent can use enterprise business context for knowledge work. However, questions about cost and integration with other tools could be difficult for enterprises."
     }
   ]
 }
