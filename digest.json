@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-13T02:33:40.765Z",
-  "dateLabel": "Tuesday, October 13, 2026",
-  "sourceCount": 7,
+  "generatedAt": "2026-10-14T00:16:40.915Z",
+  "dateLabel": "Wednesday, October 14, 2026",
+  "sourceCount": 8,
   "allSourceNames": [
     "TechCrunch",
     "VentureBeat",
@@ -19,18 +19,88 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "RLHF (Reinforcement Learning from Human Feedback)",
-      "definition": "RLHF is the technique AI labs use to make a raw, freshly-trained language model actually behave helpfully and safely. Human reviewers look at pairs of AI responses to the same question and pick the better one, and the model is retrained to produce more answers like the ones humans preferred. Think of it as a talented but very literal new employee, submitted their first drafts to an editor over and over until their instincts started matching what people actually wanted. It's a major reason today's chatbots feel conversational and considerate rather than just spitting out raw predicted text.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback"
+      "term": "Multimodal AI",
+      "definition": "A multimodal AI system can work with more than one type of input or output, understanding both text and images, for example, or generating text plus audio, instead of being limited to just one format. Show it a photo of your fridge and ask \"what can I cook with this,\" and a multimodal model can actually look at the picture and reason about the ingredients, the way a person glances at the fridge and starts planning dinner, rather than needing everything typed out in words first.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Multimodal_learning"
     }
   ],
   "items": [
     {
-      "title": "Intel, Broadcom CEOs flag AI industry challenges at financial event",
-      "link": "https://siliconangle.com/2026/10/12/intel-broadcom-ceos-flag-ai-industry-challenges-trends-at-financial-event/",
+      "title": "Imago Platform uses graphs to improve AI knowledge management",
+      "link": "https://siliconangle.com/2026/10/13/imago-platform-uses-graphs-improve-ai-knowledge-management-neo4jdatatoknowledge/",
       "source": "SiliconANGLE",
-      "publishedAt": "2026-10-13T00:11:17.000Z",
-      "summary": "Intel Corp. , have flagged capital access as a potential challenge for the artificial intelligence sector. The executives shared their observations today during a financial conference in Singapore. Intel and Broadcom are two of the AI industry’s most important chip suppliers. The former company’s central processing units are in high demand because AI agents need them to run their tools."
+      "publishedAt": "2026-10-13T23:20:44.000Z",
+      "summary": "AI-powered knowledge management systems face a fundamental challenge when businesses need accurate answers rather than plausible ones. Imago Platform Ltd. encountered that problem while developing an application to help customers navigate complicated product warranty policies. Imago’s first client, a lighting and electrical business, needed help resolving warranty claims across manufacturers with widely varying policies. The company ingested a large collection of PDF documents, but its AI model struggled to produce consistently accurate answers."
+    },
+    {
+      "title": "An OpenAI Employee Allegedly Used a Chatbot to Help Plant a Recording Device at the Office",
+      "link": "https://www.wired.com/story/an-openai-employee-allegedly-used-a-chatbot-to-help-plant-a-recording-device-at-the-office/",
+      "source": "Wired",
+      "publishedAt": "2026-10-13T23:17:59.000Z",
+      "summary": "Chatbot prompts reveal the engineer’s alleged efforts to set up a covert listening device days before one was found in a meeting room used by high-level executives. An engineer at OpenAI allegedly concealed an audio recording device in a piece of toilet paper and attached it behind a monitor inside an executive conference room at one of the company’s San Francisco offices, according to a criminal complaint unsealed on Tuesday. Abdulrahman Alfozan, who federal prosecutors describe as a 35-year-old Saudi Arabian national and US permanent resident, allegedly spent several weeks querying an unspecified “productivity agent” and an “AI chatbot” to plan his alleged surveillance operation. He used an internal OpenAI tool to ask about meetings scheduled in the targeted conference room."
+    },
+    {
+      "title": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
+      "link": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-10-13T23:13:31.000Z",
+      "summary": "Max Hodak, the former president and co-founder of Neuralink, detailed on stage at TechCrunch Disrupt how his company's work with PRIMA is part of its path toward a novel brain-computer interface (BCI). Science Corporation CEO Max Hodak announced that the company has implanted its vision-restoring chip , PRIMA, into its first patient with Stargardt disease, an inherited eye disease that gradually destroys central vision. Hodak, the former president and co-founder of Neuralink, the brain implant company, explained on stage at TechCrunch Disrupt how the company’s work with PRIMA fits into its broader pursuit of a novel brain-computer interface (BCI). “The retina is part of the central nervous system,” Hodak said on stage."
+    },
+    {
+      "title": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
+      "link": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-10-13T23:05:34.000Z",
+      "summary": "Cerebras CEO Andrew Feldman predicts a future where personal AI assistants become as commonplace as household appliances, running partly on local devices and partly in the cloud. Cerebras Systems CEO and co-founder Andrew Feldman believes we’re nearing a future where everyone will have an AI appliance in their own home. ” He pointed to the advances in consumer AI agents, like Meta’s Muse and Instinct, the startup now valued at $10 billion, as examples of how AI is finding its footing with everyday users. As for home AI?"
+    },
+    {
+      "title": "OpenAI employee arrested for allegedly planting a bug in a conference room",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1010642/openai-employee-arrested-recording-device",
+      "source": "The Verge",
+      "publishedAt": "2026-10-13T20:45:25.000Z",
+      "summary": "An OpenAI engineer was arrested after the company said it discovered a \"sophisticated recording device\" hidden in one of its offices. The employee was identified as Abdulrahman Alfozan, a 35-year-old Saudi national. Alfozan is charged with using or endeavoring to use a device to intercept oral communications, according to a press release from the Department of Justice . The recording device was apparently discovered plugged into a TV’s USB port in an executive meeting room."
+    },
+    {
+      "title": "Shopify opens its catalog up to more AI agents",
+      "link": "https://www.theverge.com/news/1010365/shopify-opens-its-catalog-up-to-more-ai-agents",
+      "source": "The Verge",
+      "publishedAt": "2026-10-13T19:42:42.000Z",
+      "summary": "CANADA - 2025/07/20: In this photo illustration, the Shopify logo is seen displayed on a smartphone screen. (Photo Illustration by Thomas Fuller/SOPA Images/LightRocket via Getty Images) More AI agents will soon be able to browse and purchase from Shopify listings, marking an expansion of the company's agentic commerce ambitions. Shopify announced Tuesday it will let shoppers configure their AI agents to purchase products on their behalf, giving more agents access to over a billion listings in Shopify's catalog. ) In September, Shopify announced it was partnering with Meta to allow its Muse agent to browse and purchase items on a human's behalf; now, shoppers can use any agent without a partnership integration."
+    },
+    {
+      "title": "OpenAI and Anthropic Tell British Lawmakers: Regulate Us",
+      "link": "https://www.wired.com/story/openai-and-anthropic-tell-british-lawmakers-regulate-us/",
+      "source": "Wired",
+      "publishedAt": "2026-10-13T19:35:29.000Z",
+      "summary": "AI leaders joined whistleblowers and security leaders at a sweeping parliamentary session, while a few hundred meters away Britain’s spy chief warned AI could be used to create new bioweapons. Representatives for OpenAI and Anthropic told a British parliamentary hearing that voluntary pledges were no longer enough to ensure safety and that new laws should be introduced, deepening a public schism with Google DeepMind and Meta , both of which declined to back new legislation. The Business, Innovation, Science, and Trade Committee, comprising a cross-party panel of MPs, held an evidence session on Tuesday with appearances from four frontier AI firms, four former staff of the firms turned whistleblowers and senior British civil servants. “The rules should be binding,” Anthropic’s head of Europe Liam Booth-Smith told the committee, when asked if the company’s view was that AI safety now needs a statutory framework ."
+    },
+    {
+      "title": "406 scientists demand AI models be cut off from the internet immediately",
+      "link": "https://the-decoder.com/406-scientists-demand-ai-models-be-cut-off-from-the-internet-immediately/",
+      "source": "The Decoder",
+      "publishedAt": "2026-10-13T18:50:44.000Z",
+      "summary": "406 scientists, including Geoffrey Hinton, Yoshua Bengio, and Stuart Russell, are demanding that companies immediately disconnect AI models from the internet. Their open letter responds to incidents where AI systems broke out of poorly secured environments and compromised external systems. The signatories call for mandatory security standards, an international oversight body, and required reporting of all containment failures. An open letter signed by 406 scientists calls for more AI safety research and stricter isolation of AI models from external networks."
+    },
+    {
+      "title": "Meta joins enterprise agent race with Muse Wonder, facing a trust gap",
+      "link": "https://aibusiness.com/agentic-ai/meta-joins-enterprise-agent-race-with-muse-wonder",
+      "source": "AI Business",
+      "publishedAt": "2026-10-13T12:55:58.000Z",
+      "summary": "The company’s new releases point to an AI market becoming more personal, with agents and models completing tasks, but enterprises still aren’t ready for this new phase of AI."
+    },
+    {
+      "title": "Open models have real benefits. Do they outweigh the risks?",
+      "link": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-10-13T10:00:00.000Z",
+      "summary": "MIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from the series here . Late last month, Anthropic released a report arguing that the model GLM-5.3 poses a major cyberattack risk. ai, is freely available for anyone to download and modify."
+    },
+    {
+      "title": "AI labs are buying data from dead startups to train their models",
+      "link": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-10-13T09:00:00.000Z",
+      "summary": "When Keelan Miskell began winding down his crypto startup this year, he didn’t think its data was worth much: the users were anonymous, the company just a few years old. But he’s since turned the firm’s digital archives into real money. He’s netted roughly $25,000 for his code base and a still-pending amount (likely around $15,000) for the workspace data in Google, Notion, Figma, and Slack. “At least all that stuff we were doing for two and a half years is worth something to someone somewhere,” he says."
     },
     {
       "title": "Epic Games reportedly pivoting to \"AI first\" game development model",
@@ -38,62 +108,6 @@
       "source": "Ars Technica",
       "publishedAt": "2026-10-12T20:59:50.000Z",
       "summary": "Epic Games is shifting to an \"AI first\" development strategy for its collaboration with the Walt Disney Company, letting AI models write all the code and guide all the artwork for an upcoming shooter. That's according to a Bloomberg report , which cites unnamed people familiar with the project who commented on the significant pivot in internal development at the Unreal Engine maker. Human developers will be tasked with managing and guiding code and art assets generated by models such as Anthropic's Claude, according to internal Epic employee messages viewed by Bloomberg. That means \"no more hand-written code\" and art assets \"generated with full AI workflows,\" according to the report."
-    },
-    {
-      "title": "Humanoid bottlenecks emerge amid US-China tensions",
-      "link": "https://aibusiness.com/automation/humanoid-bottlenecks-emerge",
-      "source": "AI Business",
-      "publishedAt": "2026-10-12T18:33:58.000Z",
-      "summary": "-China tensions could make it harder for Western manufacturers to secure alternatives to Chinese suppliers."
-    },
-    {
-      "title": "Sakana AI's self-improving model gets better at solving and judging, but can't catch its own blind spots",
-      "link": "https://the-decoder.com/sakana-ais-self-improving-model-gets-better-at-solving-and-judging-but-cant-catch-its-own-blind-spots/",
-      "source": "The Decoder",
-      "publishedAt": "2026-10-12T17:58:54.000Z",
-      "summary": "Sakana AI's MASS method lets one language model improve itself by solving tasks, judging results, and refining workflows, reaching a win rate of nearly 70 percent against the base model after two rounds. But when the model misses the same errors across all three roles, it can mistake them for progress and reinforce them during training. The study finds gains across all three roles, but shared blind spots can let errors pass as progress and feed into the next training cycle. Researchers from Sakana AI and UC Berkeley have introduced \"Multi-Agent Self-Supervision\" (MASS), a method for recursive self-improvement (RSI)."
-    },
-    {
-      "title": "Meta releases its first frontier model, Muse Wonder",
-      "link": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-10-12T17:56:56.000Z",
-      "summary": "Where Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and said to be more capable, with higher benchmark scores and better results on complex tasks like coding. Meta’s Superintelligence Lab released a pair of new state-of-the-art models on Monday, Muse Wonder and Muse Wonder Full, representing the company’s first attempt at a frontier model. According to Meta’s testing (presented in the model card ), Wonder and Wonder Full achieve comparable benchmark scores to Fable 5.1 and GPT-6 Astra. “Together, they mark the next step on our scaling ladder and a major leap toward personal superintelligence,” Meta’s blog post about the models reads."
-    },
-    {
-      "title": "Elon Musk Bragged About His Grok Lego Star Wars Haul. Then X Users Punked Him",
-      "link": "https://www.wired.com/story/elon-musk-bragged-about-his-grok-lego-star-wars-haul-then-x-users-punked-him/",
-      "source": "Wired",
-      "publishedAt": "2026-10-12T17:55:12.000Z",
-      "summary": "Musk, we find your lack of security disturbing. There's been a disturbance in the force. Only it's more like a farce. It seems that Elon Musk, while crowing on X about how useful his Grok Bot AI agent was in ordering some Lego Star Wars kits on Sunday, managed to reveal via a screenshot to his more than 240 million followers not only the 10-digit Lego order number of his purchase, but also what he paid for the sets, the delivery and billing addresses, the last four digits of his credit card, and the email address his bot used to buy the bricks from Lego ."
-    },
-    {
-      "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
-      "link": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-10-12T17:19:14.000Z",
-      "summary": "S. military contract worth almost $50 million. Air Force will buy data collected by WindBorne Systems ‘ fleet of autonomous weather balloons under a new contract that could be worth nearly $50 million to the startup. WindBorne currently has about 700 weather balloons flying around the globe, collecting atmospheric sensor readings that the company sells to customers and also feeds into its own AI weather forecasting model."
-    },
-    {
-      "title": "Meta has some Wonder Full new AI models",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1009479/meta-muse-wonder-full-ai-model",
-      "source": "The Verge",
-      "publishedAt": "2026-10-12T17:00:00.000Z",
-      "summary": "Meta is making up for lost time in the AI race. After launching Muse Spark , the first model from its revamped Superintelligence Labs division, and buzzy AI agent Muse , it's now launching two new models it claims can go toe-to-toe with the industry's best. The new models, Muse Wonder and Muse Wonder Full, are available for Muse Code subscribers starting today. Wonder can also be accessed through the Meta Model API, Meta said."
-    },
-    {
-      "title": "Microsoft’s new AI chip makes it less reliant on Nvidia’s GPUs",
-      "link": "https://www.theverge.com/news/1009465/microsoft-maia-300-chip-improvements-rollout",
-      "source": "The Verge",
-      "publishedAt": "2026-10-12T13:00:00.000Z",
-      "summary": "Microsoft is announcing its third-generation Maia in-house AI chip today, designed to be the \"primary AI inference system\" for Microsoft's products and services. Maia 300 not only improves the cost and efficiency of running AI workloads in the cloud, it's also more capable of handling the latest reasoning models and agentic tasks. Maia 300 will start being rolled out to production in 2027, and it has been designed with efficiency in mind. \"We expect Maia 300 to deliver 40 percent more tokens per megawatt compared to leading GPU-based systems,\" says Scott Guthrie , executive vice president of Microsoft's cloud group."
-    },
-    {
-      "title": "Prompt: AI agents are running into the limits of access",
-      "link": "https://aibusiness.com/agentic-ai/prompt-ai-agents-running-into-limits-of-access",
-      "source": "AI Business",
-      "publishedAt": "2026-10-12T12:34:27.000Z",
-      "summary": "As agents take on more work for users, companies are deciding whether to let outside AI systems act on their platforms."
     }
   ]
 }
