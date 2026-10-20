@@ -28,6 +28,7 @@
     "Semantic Search",
     "Diffusion Model",
     "Deepfake",
-    "Synthetic Data"
+    "Synthetic Data",
+    "Knowledge Distillation"
   ]
 }
