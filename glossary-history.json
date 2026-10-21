@@ -29,6 +29,7 @@
     "Diffusion Model",
     "Deepfake",
     "Synthetic Data",
-    "Knowledge Distillation"
+    "Knowledge Distillation",
+    "Model Context Protocol (MCP)"
   ]
 }
