@@ -1,43 +1,78 @@
 {
-  "generatedAt": "2026-10-21T23:59:38.257Z",
+  "generatedAt": "2026-10-22T11:21:24.761Z",
   "dateLabel": "Thursday, October 22, 2026",
-  "sourceCount": 9,
+  "sourceCount": 12,
   "allSourceNames": [
     "TechCrunch",
-    "VentureBeat",
+    "Analytics India Magazine",
     "The Verge",
     "Ars Technica",
     "Wired",
     "MIT Technology Review",
-    "AI News",
+    "InfoWorld",
     "AI Business",
     "The Decoder",
     "SiliconANGLE",
     "The Register",
-    "Unite.AI"
+    "Computerworld"
   ],
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "Model Context Protocol (MCP)",
-      "definition": "MCP is an open standard, introduced by Anthropic, that lets AI models connect to outside tools and data sources, like a file system, a calendar, or a company database, in one consistent way. Before MCP, every app that wanted to connect an AI model to its data needed its own custom, one-off wiring, similar to every electrical appliance needing a completely different, non-standard plug. MCP is meant to work like a universal power socket: build the connection once, and any compatible AI model can plug in.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Model_Context_Protocol"
+      "term": "Mixture of Experts (MoE)",
+      "definition": "A mixture-of-experts model is built from many smaller specialized sub-networks, and for any given question it only activates the few most relevant ones instead of running the entire model every time. It works like a hospital: when you walk in with a broken arm, the whole staff doesn't examine you, you get routed to the orthopedist. That routing means very large AI models can stay affordable to run, since most of the model stays idle for any single request.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Mixture_of_experts"
     }
   ],
   "items": [
+    {
+      "title": "HCLTech Launches NVIDIA-Powered Validation Offering for Software-Defined Vehicles",
+      "link": "https://analyticsindiamag.com/ai-news/hcltech-launches-nvidia-powered-validation-offering-for-software-defined-vehicles",
+      "source": "Analytics India Magazine",
+      "publishedAt": "2026-10-22T11:03:57.000Z",
+      "summary": "HCLTech has launched an AI-powered verification and validation (V&V) offering for automotive software, built on NVIDIA’s simulation technologies and AI models. The offering targets vehicle manufacturers and tier-1 suppliers developing software-defined vehicles . The offering links requirements, test creation and execution, failure analysis, and compliance reporting across the validation process. The company identified fragmented toolchains, manual testing workflows and labour-intensive compliance processes as challenges in validating increasingly complex vehicle software, particularly as automakers roll out over-the-air updates."
+    },
+    {
+      "title": "OpenAI agents analyze mouse brain data in 32 minutes, a job that would take humans months",
+      "link": "https://the-decoder.com/openai-agents-analyze-mouse-brain-data-in-32-minutes-a-job-that-would-take-humans-months/",
+      "source": "The Decoder",
+      "publishedAt": "2026-10-22T10:01:53.000Z",
+      "summary": "OpenAI teamed up with PerturbAI and Scripps Research to deploy thousands of AI agents that analyzed biological data from millions of mouse cells. According to OpenAI , the agents ran on GPT-Rosalind and worked through a whole-brain CRISPR atlas, which maps how gene changes affect different cell types in the mouse brain. The full analysis took 32 minutes. Each agent took on a single gene perturbation, analyzed how the cells responded, and searched the scientific literature for explanations."
+    },
+    {
+      "title": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
+      "link": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
+      "source": "Wired",
+      "publishedAt": "2026-10-22T10:00:00.000Z",
+      "summary": "The new open-source model speaks the language of DNA and can help researchers understand the effects of any changes on gene activity and health. The AI platform Hugging Face on Thursday released a new open-source model for understanding DNA that can run locally on a laptop. Developed in collaboration with researchers at Zhongguancun Academy in China and the University of Naples Federico II in Italy, the model is trained on genomic sequences and natural language so that people can ask questions about the effects of DNA changes on gene activity and health and get conversational answers in return. Lewis Tunstall, a senior research scientist at Hugging Face, says the tool is meant to help researchers design new drugs and genetic therapies, and it could potentially aid patients in interpreting their own genomes."
+    },
+    {
+      "title": "Making the case for context-aware AI",
+      "link": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-10-22T10:00:00.000Z",
+      "summary": "Enterprise AI can generate recommendations, automate tasks, and help organizations make decisions faster. But without an understanding of how a business actually operates, even powerful models can miss the constraints and relationships that determine whether a decision is the right one. As companies look to move AI from experimentation into everyday operations, the challenge ahead is giving technology the context to act usefully within complex business processes. ” AI agents can support individual tasks within larger decision-making processes, he argues, but they need to understand the role each task plays and the business conditions surrounding it."
+    },
+    {
+      "title": "Why reasoning models should not have to read everything",
+      "link": "https://www.infoworld.com/article/4235360/why-reasoning-models-should-not-have-to-read-everything.html",
+      "source": "InfoWorld",
+      "publishedAt": "2026-10-22T09:00:00.000Z",
+      "summary": "The AI industry has been expanding how much information an AI model can consume at once. In just a few years, context windows have grown from thousands of tokens to millions. Anthropic increased Claude’s context window from 9,000 to 100,000 tokens in May 2023 , reaching 200,000 tokens by November 2023 . Google’s Gemini 1.5 Pro reached one million tokens in February 2024 , then two million by June 2024 ."
+    },
+    {
+      "title": "OpenAI to make its most advanced AI models available in Google Cloud",
+      "link": "https://siliconangle.com/2026/10/21/openai-to-make-its-most-advanced-ai-models-available-in-google-cloud/",
+      "source": "SiliconANGLE",
+      "publishedAt": "2026-10-22T00:22:58.000Z",
+      "summary": "OpenAI Group PBC today announced plans to make its latest large language models accessible in Google Cloud. ’s unit Model Garden service. It provides access to more than 200 neural networks from Google, its partners and the open-source ecosystem. The lineup includes not only LLMs but also smaller, more specialized models optimized for tasks such as translation."
+    },
     {
       "title": "Blackstone’s Jas Khaira says fears over AI-buildout debt are overblown",
       "link": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
       "source": "TechCrunch",
       "publishedAt": "2026-10-21T22:51:22.000Z",
       "summary": "Blackstone’s AI head on why the PE giant isn't panicked by market jitters. Private equity giant Blackstone is putting itself at the center of the AI boom, firm veteran Jas Khaira discussed last week on stage at TechCrunch Disrupt. It is writing checks via various strategies, ranging from offering massive loans to data centers to investing in frontier AI models and applications. Earlier this year, the firm launched Blackstone N1 (BXN1), a San Francisco-based central hub for its AI initiatives."
-    },
-    {
-      "title": "Mark Zuckerberg Agrees to Stay in California Despite Billionaires’ Tax Ballot Measure",
-      "link": "https://www.wired.com/story/mark-zuckerberg-agrees-to-stay-in-california-despite-billionaires-tax-ballot-measure/",
-      "source": "Wired",
-      "publishedAt": "2026-10-21T22:39:50.000Z",
-      "summary": "Meta’s board feared that its CEO’s departure could disrupt the company’s AI ambitions. A new stock agreement gives him financial incentives to stay put. Meta CEO Mark Zuckerberg has agreed to keep living in Silicon Valley for eight years, potentially exposing himself to billions of dollars in one-time taxes if California voters approve a contentious ballot measure next month, according to a company regulatory filing released Wednesday. During a dinner with Meta board members on September 9, Zuckerberg informed them that he was considering leaving California because of the measure, known as Proposition 40, and that he planned to list his Palo Alto, California home for sale four days later, the 109-page filing stated."
     },
     {
       "title": "Data centers could erase decades of air quality gains",
@@ -47,39 +82,11 @@
       "summary": "A rush of new data centers could bring air pollution roaring back to levels not seen since the 2000s in Texas, which has become ground zero for the physical infrastructure behind generative AI. New and proposed data centers are demanding a tremendous amount of electricity. How developers and utilities meet that demand - with gas turbines or renewable energy - will determine just how dirty things will get. So far, though, things are looking grim."
     },
     {
-      "title": "Year-old AI research lab Flapping Airplanes raises $1B at a reported $6B valuation",
-      "link": "https://siliconangle.com/2026/10/21/year-old-ai-research-lab-flapping-airplanes-raises-1b-at-a-reported-6b-valuation/",
-      "source": "SiliconANGLE",
-      "publishedAt": "2026-10-21T22:18:30.000Z",
-      "summary": "Artificial intelligence research lab Flapping Airplanes Inc. today announced it has raised $1 billion in new funding, about a year after it was founded. Investors valued the startup at $6 billion in the deal, Bloomberg reported. No commercial product has come out of the lab yet. Flapping Airplanes is trying to build AI models that learn from far less data than today’s frontier systems consume."
-    },
-    {
-      "title": "Meta to create a new class of shares to fund AI push",
-      "link": "https://www.theverge.com/tech/1015799/meta-shares-class-ai-q3-2026-earnings",
-      "source": "The Verge",
-      "publishedAt": "2026-10-21T21:30:02.000Z",
-      "summary": "Meta says it's issuing a new class of shares to fund its AI initiatives. As part of its third-quarter earnings report released on Wednesday , the company says the non-voting stock will also go toward potential acquisitions and employee compensation, with trading beginning in 2027. \"The scale of investment required to compete, sustain growth, expand infrastructure, and pursue new strategic initiatives amidst the AI transformation taking place in the industry is significant,\" Meta says in the press release. Meta says the new class of shares will also fund acquisitions and employee compensation."
-    },
-    {
-      "title": "TechCrunch Founder Summit 2026: Everything you need to know",
-      "link": "https://techcrunch.com/2026/10/21/techcrunch-founder-summit-2026-everything-you-need-to-know/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-10-21T21:16:20.000Z",
-      "summary": "TechCrunch Founder Summit is a full-day gathering in Boston on November 4 where founders across all stages connect with top VCs and experienced entrepreneurs to gain tactical insights on building and scaling their companies. It’s the latest in our long line of founder-centric events, which are smaller and more hands-on than Disrupt. For the founder looking to really get in the weeds during a one-day crash course, Founder Summit is the ideal place to get a head start on your 2027 plans for everything from hiring, establishing product market fit, finding investors, improving your leadership skills, and more. Before you dig in on the event details, you can get info on all of our tickets, which are available for a $100 discount for investors and founders, right here ."
-    },
-    {
       "title": "Reach new heights of laziness by burning tokens to let an AI tap your smartphone screen for you",
       "link": "https://www.theregister.com/ai-and-ml/2026/10/21/reach-new-heights-of-laziness-by-burning-tokens-to-let-an-ai-tap-your-smartphone-screen-for-you/5304567",
       "source": "The Register",
       "publishedAt": "2026-10-21T20:13:33.000Z",
       "summary": "Why use your smartphone when AI can do it for you? We’ve reached a new level of AI inanity with the launch of Opposable, a tool that taps, swipes, and types on Android phones and controls iPhones through a companion computer, sparing users the apparent burden of operating their own devices. If you don't want to update a calendar event, start a timer, or enable dark mode, you can apparently use an AI agent app on your computer (any client that supports MCP will do) to have Opposable do the thing for you on a connected phone. You could just do it on your computer, of course, but that’d require actually using your hands - like it’s some sort of baby’s toy."
-    },
-    {
-      "title": "OpenAI's GPT-5.6 Sol and Google's Gemini 4 Argon found critical PHP flaw affecting millions of websites",
-      "link": "https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites/",
-      "source": "The Decoder",
-      "publishedAt": "2026-10-21T19:45:01.000Z",
-      "summary": "OpenAI's GPT-5.6 Sol discovered a critical PHP vulnerability as part of the Patch the Planet initiative that could affect millions of websites. Security firm Wiz independently found the same flaw using Google's Gemini 4 Argon. OpenAI warns that the same AI capabilities that find vulnerabilities can help attackers too. AI models from OpenAI and Google found a critical PHP vulnerability that could affect millions of websites worldwide."
     },
     {
       "title": "The new human-crafted Apple Music brand matters in an AI world",
@@ -89,11 +96,11 @@
       "summary": "Apple just revealed a new brand identity for Apple Music, with the expected turn to Liquid Glass. I’m not much of a fan of their new design language in general; this is where I admit that I’m still running MacOS Sequoia and have grumpy things to say about rounded corner radii and text legibility. It’s just a trend, it will pass, and at some point I’ll probably cave and upgrade when it starts actually affecting my ability to get work done, or more importantly get security updates. Once I adjust, I’ll stop noticing it, and life will go on."
     },
     {
-      "title": "This Startup Is All In on Recursive Self-Improvement. Its Latest Model Is Scary Good",
-      "link": "https://www.wired.com/story/recursive-self-improvement-flint-latest-model-scary-good/",
-      "source": "Wired",
-      "publishedAt": "2026-10-21T16:00:00.000Z",
-      "summary": "Recursive makes the case that the benefits of using AI to build AI outweigh the risks. For the past few days I’ve been testing an impressive open-weight AI coding model called Flint. It suggests that fully recursive self-improvement , or RSI—an exciting and controversial approach that uses AI to build AI—is getting closer. Flint is the first offering from Recursive, a company that aims to use RSI to advance both AI itself and other areas of science using AI ."
+      "title": "Remediation in the era of AI: Fix what matters first",
+      "link": "https://www.computerworld.com/article/4238649/remediation-in-the-era-of-ai-fix-what-matters-first.html",
+      "source": "Computerworld",
+      "publishedAt": "2026-10-21T18:45:47.000Z",
+      "summary": "Every IT and security team knows the feeling of opening a vulnerability report and seeing a number that only goes up. Thousands of findings. Hundreds marked critical. A backlog that grows faster than any team can close it. For years, the default response has been to work harder: more scans, more tickets, more overtime."
     },
     {
       "title": "How payroll giant ADP practices AI governance and human oversight",
@@ -101,13 +108,6 @@
       "source": "AI Business",
       "publishedAt": "2026-10-21T13:05:01.000Z",
       "summary": "The governance approach focuses on key principles of transparency, explainability, risk management, privacy and security."
-    },
-    {
-      "title": "The new economics of enterprise AI",
-      "link": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai/",
-      "source": "MIT Technology Review",
-      "publishedAt": "2026-10-20T15:20:25.000Z",
-      "summary": "Imagine your company just discovered electricity. At first only a few machines run on it, and nobody worries about efficiency — consumption is low and the value is obvious. ” Enterprise AI is going through the same shift. What began as isolated chatbot and copilot experiments is becoming a foundational layer of the business, with models, agents, and data increasingly interconnected in production workloads."
     }
   ]
 }

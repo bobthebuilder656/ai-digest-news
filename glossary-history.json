@@ -30,6 +30,7 @@
     "Deepfake",
     "Synthetic Data",
     "Knowledge Distillation",
-    "Model Context Protocol (MCP)"
+    "Model Context Protocol (MCP)",
+    "Mixture of Experts (MoE)"
   ]
 }
