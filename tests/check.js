@@ -24,7 +24,8 @@
  *   "server's day disagrees with the reader's day" danger window, renders
  *   it, and checks the result in three simulated visitor timezones.
  *
- *   LIVE (network, slower, depends on the real world): actually runs
+ *   LIVE (network, slower, depends on the real world): checks that every
+ *   source's feed still answers with stories, then actually runs
  *   fetch-digest.js against the real RSS feeds and sanity-checks the real
  *   output — enough stories, no empty summaries, no duplicate links, valid
  *   HTML. Skippable with --static-only when you just want a fast check
@@ -230,6 +231,42 @@ async function checkTimezoneRendering() {
 }
 
 /* ========================================================================
+   LIVE: every source's feed still answers with stories. Added 2026-10-22
+   after VentureBeat, AI News and Unite.AI were found to have silently
+   blocked the fetcher for 2+ weeks (the pipeline skips a failed source, so
+   nothing else noticed). Each feed gets one retry so a single slow
+   response doesn't raise a false alarm.
+   ======================================================================== */
+async function checkSourceHealth() {
+  const area = 'Source health';
+  const sources = JSON.parse(fs.readFileSync(path.join(ROOT, 'sources.json'), 'utf8'));
+  const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
+
+  async function tryFeed(url) {
+    try {
+      const res = await fetch(url, { headers: { 'User-Agent': UA, Accept: '*/*' }, signal: AbortSignal.timeout(15000) });
+      if (!res.ok) return `HTTP ${res.status}`;
+      const xml = await res.text();
+      const count = (xml.match(/<(item|entry)\b/gi) || []).length;
+      return count ? null : 'answered, but with no stories (often a captcha or block page)';
+    } catch (e) {
+      return e.name === 'TimeoutError' ? 'no answer within 15s' : e.message;
+    }
+  }
+
+  const broken = [];
+  for (const s of sources) {
+    let problem = await tryFeed(s.feedUrl);
+    if (problem) {
+      await new Promise((r) => setTimeout(r, 5000));
+      problem = await tryFeed(s.feedUrl);
+    }
+    if (problem) broken.push(`${s.name}: ${problem}`);
+  }
+  log(area, `Every source's feed answers with stories (${sources.length} sources)`, broken.length === 0, broken.join(' | '));
+}
+
+/* ========================================================================
    LIVE: run the real pipeline against real RSS feeds and sanity-check it
    ======================================================================== */
 async function checkLivePipeline() {
@@ -305,6 +342,7 @@ function checkOutput(area) {
   if (BUILT) {
     checkOutput('Built digest');
   } else if (!STATIC_ONLY) {
+    await checkSourceHealth();
     await checkLivePipeline();
   } else {
     info('Live pipeline', 'Skipped (--static-only).');

@@ -10,7 +10,7 @@ Ideal for anyone who feels overwhelmed by AI news or has to jump across multiple
 
 ## Features
 
-- **12 trusted sources** — TechCrunch, VentureBeat, The Verge, Ars Technica, Wired, MIT Technology Review, AI News, AI Business, The Decoder, SiliconANGLE, The Register and Unite.AI.
+- **12 trusted sources** — TechCrunch, The Verge, Ars Technica, Wired, MIT Technology Review, AI Business, The Decoder, SiliconANGLE, The Register, Analytics India Magazine, InfoWorld and Computerworld.
 - **Balanced and fresh** — only stories from the last 48 hours, at most 2 per source, 12 in total, so no single outlet dominates.
 - **No duplicates** — when several outlets cover the same story, it appears only once.
 - **Short summaries** — each card has a few-sentence summary and a link to the original article.

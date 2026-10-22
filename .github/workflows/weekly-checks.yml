@@ -1,0 +1,34 @@
+name: Weekly checks
+
+# The full test suite in tests/, once a week. The daily workflow already checks
+# each new digest before publishing; this adds what it skips:
+# - every source's feed still answers (a blocked source is otherwise skipped
+#   silently, which is how 3 sources went missing for 2+ weeks in Oct 2026)
+# - a complete test run of the whole pipeline
+# A failure here does not touch the live site; GitHub emails you so you can look.
+on:
+  schedule:
+    - cron: "30 3 * * 1" # Mondays, 09:00 India time
+  workflow_dispatch: {}
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: tests
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install the test tools
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+
+      - name: Run every check
+        run: npm run check
