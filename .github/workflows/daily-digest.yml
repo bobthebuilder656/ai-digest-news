@@ -33,10 +33,22 @@ jobs:
         with:
           node-version: 22
 
+      - name: Install the test tools
+        working-directory: tests
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+
       - name: Generate today's digest
         run: node fetch-digest.js
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      # If any check fails, the run stops here: nothing is committed or
+      # published, yesterday's digest stays live, and GitHub emails you.
+      - name: Check it before publishing
+        working-directory: tests
+        run: npm run check -- --built
 
       - name: Commit refreshed digest
         run: |

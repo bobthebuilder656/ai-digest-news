@@ -8,6 +8,9 @@
  *   npx playwright install chromium   (once)
  *   npm run check                     (static checks + live pipeline run)
  *   npm run check -- --static-only    (skip the live pipeline run — no network, no RSS fetches)
+ *   npm run check -- --built          (static checks + check the digest already built in the
+ *                                      repo folder, without fetching again; the daily workflow
+ *                                      runs this before it publishes)
  *
  * Two kinds of checks, run in this order:
  *
@@ -41,6 +44,7 @@ const { execFileSync } = require('child_process');
 
 const ROOT = path.resolve(__dirname, '..');
 const STATIC_ONLY = process.argv.includes('--static-only');
+const BUILT = process.argv.includes('--built');
 
 const results = [];
 function log(area, check, ok, detail) {
@@ -247,6 +251,18 @@ async function checkLivePipeline() {
   }
   log(area, 'fetch-digest.js --no-ai runs to completion', true);
 
+  checkOutput(area);
+
+  // Restore the real committed files — this test run's output was only for
+  // verification, not something that should overwrite the live digest.
+  execFileSync('git', ['checkout', '--', 'digest.json', 'digest.html', 'glossary-history.json'], { cwd: ROOT });
+  info(area, 'Restored digest.json/digest.html/glossary-history.json to their committed state (this test run\'s output was for verification only).');
+}
+
+/* ========================================================================
+   Sanity-check the digest.json/digest.html currently in the repo folder
+   ======================================================================== */
+function checkOutput(area) {
   const digest = JSON.parse(fs.readFileSync(path.join(ROOT, 'digest.json'), 'utf8'));
   log(area, 'Produced at least 8 stories', digest.items.length >= 8, `got ${digest.items.length}`);
 
@@ -272,12 +288,9 @@ async function checkLivePipeline() {
   const missing = allSources.filter((s) => !usedSources.has(s));
   if (missing.length) {
     info(area, `Sources with zero stories in this run (may just be quiet or rate-limited today, or may be worth checking if this persists): ${missing.join(', ')}`);
+    // Shows as a yellow note on the run's page in GitHub's Actions tab.
+    if (process.env.GITHUB_ACTIONS) console.log(`::warning title=Sources with no stories::${missing.join(', ')}`);
   }
-
-  // Restore the real committed files — this test run's output was only for
-  // verification, not something that should overwrite the live digest.
-  execFileSync('git', ['checkout', '--', 'digest.json', 'digest.html', 'glossary-history.json'], { cwd: ROOT });
-  info(area, 'Restored digest.json/digest.html/glossary-history.json to their committed state (this test run\'s output was for verification only).');
 }
 
 (async () => {
@@ -289,7 +302,9 @@ async function checkLivePipeline() {
   checkSyntax();
   await checkTimezoneRendering();
 
-  if (!STATIC_ONLY) {
+  if (BUILT) {
+    checkOutput('Built digest');
+  } else if (!STATIC_ONLY) {
     await checkLivePipeline();
   } else {
     info('Live pipeline', 'Skipped (--static-only).');
