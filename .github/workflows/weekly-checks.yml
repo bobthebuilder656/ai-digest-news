@@ -69,4 +69,5 @@ jobs:
               await github.rest.issues.update({ owner, repo, issue_number: old.number, state: "closed" });
             }
             const date = new Date().toLocaleDateString("en-IN", { day: "numeric", month: "short", year: "numeric", timeZone: "Asia/Kolkata" });
-            await github.rest.issues.create({ owner, repo, labels: [label], title: `Weekly quality report: ${date}`, body });
+            // The @mention makes GitHub email the owner; a new issue alone may not.
+            await github.rest.issues.create({ owner, repo, labels: [label], title: `Weekly quality report: ${date}`, body: `@${owner} your weekly report is ready.\n\n${body}` });
