@@ -1,15 +1,22 @@
 name: Weekly checks
 
-# The full test suite in tests/, once a week. The daily workflow already checks
-# each new digest before publishing; this adds what it skips:
-# - every source's feed still answers (a blocked source is otherwise skipped
-#   silently, which is how 3 sources went missing for 2+ weeks in Oct 2026)
-# - a complete test run of the whole pipeline
-# A failure here does not touch the live site; GitHub emails you so you can look.
+# Every Monday, 09:00 India time:
+# 1. The full test suite in tests/. The daily workflow already checks each new
+#    digest before publishing; this adds what it skips: every source's feed
+#    still answers (a blocked source is otherwise skipped silently, which is how
+#    3 sources went missing for 2+ weeks in Oct 2026) and a complete practice
+#    run of the whole pipeline. A failure does not touch the live site; GitHub
+#    emails you so you can look.
+# 2. The quality report on the past week's editions, opened as a GitHub issue
+#    (GitHub emails you the issue). Last week's report is closed automatically.
 on:
   schedule:
     - cron: "30 3 * * 1" # Mondays, 09:00 India time
   workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
 
 jobs:
   check:
@@ -32,3 +39,34 @@ jobs:
 
       - name: Run every check
         run: npm run check
+
+  quality-report:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 60 # the past week's editions live in git history
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Build the quality report
+        run: |
+          node tests/quality-report.js > report.md
+          cat report.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Email it as a GitHub issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = require("fs").readFileSync("report.md", "utf8");
+            const label = "quality-report";
+            const { owner, repo } = context.repo;
+            const open = await github.rest.issues.listForRepo({ owner, repo, state: "open", labels: label });
+            for (const old of open.data) {
+              await github.rest.issues.update({ owner, repo, issue_number: old.number, state: "closed" });
+            }
+            const date = new Date().toLocaleDateString("en-IN", { day: "numeric", month: "short", year: "numeric", timeZone: "Asia/Kolkata" });
+            await github.rest.issues.create({ owner, repo, labels: [label], title: `Weekly quality report: ${date}`, body });

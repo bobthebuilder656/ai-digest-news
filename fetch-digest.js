@@ -117,12 +117,32 @@ function parseAtom(xml, sourceName) {
   });
 }
 
+// Only plain https:// web links may become clickable cards (blocks
+// javascript:, data: and other schemes a compromised feed could inject).
+function isSafeLink(link) {
+  try {
+    return new URL(link).protocol === 'https:';
+  } catch {
+    return false;
+  }
+}
+
+// A story more than an hour "in the future" has a broken date; it would
+// otherwise sort to the top and stay there.
+const MAX_FUTURE_MS = 3600 * 1000;
+
+function isUsableItem(it, now = Date.now()) {
+  return Boolean(it.title) && isSafeLink(it.link) &&
+    !Number.isNaN(it.publishedAt.getTime()) &&
+    it.publishedAt.getTime() - now <= MAX_FUTURE_MS;
+}
+
 async function fetchSource(source) {
   try {
     const xml = await fetchText(source.feedUrl);
     const items = source.format === 'atom' ? parseAtom(xml, source.name) : parseRss(xml, source.name);
     return items
-      .filter((it) => it.title && it.link && !Number.isNaN(it.publishedAt.getTime()))
+      .filter((it) => isUsableItem(it))
       .slice(0, 8);
   } catch (err) {
     console.error(`[warn] failed to fetch ${source.name}: ${err.message}`);
@@ -526,7 +546,16 @@ async function main() {
   console.error(`Done. Wrote ${OUT_JSON} and ${OUT_HTML}.`);
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+// Exported so tests/check.js can run the selection logic on saved examples.
+module.exports = {
+  parseRss, parseAtom, isSafeLink, isUsableItem, selectStories, extractiveSummary,
+  isBoilerplate, selectGlossaryTerms, significantWords, jaccardSimilarity,
+  TOTAL_CAP, PER_SOURCE_CAP, AGE_WINDOWS_HOURS, DUPLICATE_TITLE_SIMILARITY,
+};
+
+if (require.main === module) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}

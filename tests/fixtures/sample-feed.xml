@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Saved example feed for tests/logic-checks.js. Dates are placeholders
+     ({{HOURS_AGO:n}}) filled in at test time, so "fresh" stays fresh. -->
+<rss version="2.0">
+<channel>
+  <title>Example AI Feed</title>
+  <item>
+    <title>Normal story: Anthropic ships a new Claude model</title>
+    <link>https://example.com/normal-story</link>
+    <pubDate>{{HOURS_AGO:3}}</pubDate>
+    <description><![CDATA[<p>Anthropic released a new Claude model on Tuesday. It is faster than the last one.</p>]]></description>
+  </item>
+  <item>
+    <title>Unsafe link: javascript scheme</title>
+    <link>javascript:alert(1)</link>
+    <pubDate>{{HOURS_AGO:3}}</pubDate>
+    <description>Should never become a card.</description>
+  </item>
+  <item>
+    <title>Unsafe link: plain http</title>
+    <link>http://example.com/insecure</link>
+    <pubDate>{{HOURS_AGO:3}}</pubDate>
+    <description>Should never become a card.</description>
+  </item>
+  <item>
+    <title>Broken date: three days in the future</title>
+    <link>https://example.com/future</link>
+    <pubDate>{{HOURS_AGO:-72}}</pubDate>
+    <description>Should be dropped.</description>
+  </item>
+  <item>
+    <title>Broken date: not a date at all</title>
+    <link>https://example.com/bad-date</link>
+    <pubDate>sometime last week</pubDate>
+    <description>Should be dropped.</description>
+  </item>
+  <item>
+    <title>Entities &amp; quotes: OpenAI&#8217;s &quot;o5&quot; model</title>
+    <link>https://example.com/entities</link>
+    <pubDate>{{HOURS_AGO:5}}</pubDate>
+    <description>Decoded properly.</description>
+  </item>
+</channel>
+</rss>

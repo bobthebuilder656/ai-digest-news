@@ -59,6 +59,11 @@ npx playwright install chromium
 npm run check
 ```
 
+These also run automatically on GitHub:
+
+- **Every day, before publishing:** the new edition is checked (enough stories, complete, no duplicates, secure links, fresh dates), along with saved-example tests of the story selection logic. If anything fails, the edition is not published and yesterday's stays live. After publishing, the live page is opened to confirm it shows the new edition.
+- **Every Monday:** the full suite, including a check that every news source still responds, plus a quality report on the past week (stories that may not be about AI, weak summaries, possible repeats, freshness), opened as a GitHub issue.
+
 The checks validate the configuration files, confirm dates and times render correctly for readers in several time zones, and run the real pipeline against live feeds.
 
 ## Project files

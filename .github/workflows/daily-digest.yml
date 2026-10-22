@@ -76,3 +76,21 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  # Opens the public page and confirms readers really get today's edition.
+  # If not, the run fails and GitHub emails you.
+  verify-live:
+    needs: deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Check the live page shows today's edition
+        run: node tests/verify-live.js

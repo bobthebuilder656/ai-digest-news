@@ -288,11 +288,15 @@ async function checkLivePipeline() {
   }
   log(area, 'fetch-digest.js --no-ai runs to completion', true);
 
-  checkOutput(area);
-
-  // Restore the real committed files — this test run's output was only for
-  // verification, not something that should overwrite the live digest.
-  execFileSync('git', ['checkout', '--', 'digest.json', 'digest.html', 'glossary-history.json'], { cwd: ROOT });
+  try {
+    checkOutput(area);
+  } catch (e) {
+    log(area, 'Practice-run output can be checked', false, e.message);
+  } finally {
+    // Restore the real committed files — this test run's output was only for
+    // verification, not something that should overwrite the live digest.
+    execFileSync('git', ['checkout', '--', 'digest.json', 'digest.html', 'glossary-history.json'], { cwd: ROOT });
+  }
   info(area, 'Restored digest.json/digest.html/glossary-history.json to their committed state (this test run\'s output was for verification only).');
 }
 
@@ -311,6 +315,19 @@ function checkOutput(area) {
 
   const allDatesValid = digest.items.every((it) => !isNaN(new Date(it.publishedAt).getTime()));
   log(area, 'Every story has a valid publishedAt date', allDatesValid);
+
+  const unsafe = digest.items.filter((it) => !/^https:\/\//i.test(it.link)).map((it) => it.link);
+  log(area, 'Every story link is a secure https:// link', unsafe.length === 0, unsafe.join(' | '));
+
+  // Freshness, measured against when the edition was built
+  const built = new Date(digest.generatedAt).getTime();
+  const ages = digest.items.map((it) => ({ title: it.title, hours: (built - new Date(it.publishedAt).getTime()) / 3600000 }));
+  const future = ages.filter((a) => a.hours < -1);
+  const stale = ages.filter((a) => a.hours > 96);
+  log(area, 'No story is dated in the future', future.length === 0, future.map((a) => a.title).join(' | '));
+  log(area, 'No story is older than 96 hours', stale.length === 0, stale.map((a) => `${a.title} (${Math.round(a.hours)}h)`).join(' | '));
+  const fresh48 = ages.filter((a) => a.hours <= 48).length;
+  info(area, `${fresh48} of ${ages.length} stories are from the last 48 hours`);
 
   const html = fs.readFileSync(path.join(ROOT, 'digest.html'), 'utf8');
   const cardCount = (html.match(/<li class="card/g) || []).length;
@@ -337,10 +354,14 @@ function checkOutput(area) {
   checkSources();
   checkGlossary();
   checkSyntax();
+  require('./logic-checks.js')(log);
   await checkTimezoneRendering();
 
   if (BUILT) {
     checkOutput('Built digest');
+    const generated = JSON.parse(fs.readFileSync(path.join(ROOT, 'digest.json'), 'utf8')).generatedAt;
+    const minutesOld = (Date.now() - new Date(generated).getTime()) / 60000;
+    log('Built digest', 'The edition was built in this run, not left over from before', minutesOld >= -5 && minutesOld < 180, `built ${Math.round(minutesOld)} minutes ago`);
   } else if (!STATIC_ONLY) {
     await checkSourceHealth();
     await checkLivePipeline();
