@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-22T11:21:24.761Z",
+  "generatedAt": "2026-10-22T11:49:52.732Z",
   "dateLabel": "Thursday, October 22, 2026",
   "sourceCount": 12,
   "allSourceNames": [
@@ -19,25 +19,32 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "Mixture of Experts (MoE)",
-      "definition": "A mixture-of-experts model is built from many smaller specialized sub-networks, and for any given question it only activates the few most relevant ones instead of running the entire model every time. It works like a hospital: when you walk in with a broken arm, the whole staff doesn't examine you, you get routed to the orthopedist. That routing means very large AI models can stay affordable to run, since most of the model stays idle for any single request.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Mixture_of_experts"
+      "term": "Zero-Shot Learning",
+      "definition": "Zero-shot means an AI model can perform a task it was never specifically trained or shown examples for, relying purely on general knowledge it already picked up. Asking an LLM to write a limerick about your job for the first time, with no examples given, and having it just do a reasonable job, is a zero-shot request, similar to asking a well-read friend to improvise something in a style they've never formally practiced, but have absorbed enough from general reading to fake convincingly.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Zero-shot_learning"
     }
   ],
   "items": [
     {
-      "title": "HCLTech Launches NVIDIA-Powered Validation Offering for Software-Defined Vehicles",
-      "link": "https://analyticsindiamag.com/ai-news/hcltech-launches-nvidia-powered-validation-offering-for-software-defined-vehicles",
-      "source": "Analytics India Magazine",
-      "publishedAt": "2026-10-22T11:03:57.000Z",
-      "summary": "HCLTech has launched an AI-powered verification and validation (V&V) offering for automotive software, built on NVIDIA’s simulation technologies and AI models. The offering targets vehicle manufacturers and tier-1 suppliers developing software-defined vehicles . The offering links requirements, test creation and execution, failure analysis, and compliance reporting across the validation process. The company identified fragmented toolchains, manual testing workflows and labour-intensive compliance processes as challenges in validating increasingly complex vehicle software, particularly as automakers roll out over-the-air updates."
+      "title": "An AI agent in \"Skynet mode\" hijacks unprotected language models to launch self-sustaining cyberattacks",
+      "link": "https://the-decoder.com/an-ai-agent-in-skynet-mode-hijacks-unprotected-language-models-to-launch-self-sustaining-cyberattacks/",
+      "source": "The Decoder",
+      "publishedAt": "2026-10-22T11:30:56.000Z",
+      "summary": "Security researchers at Symantec have found an offensive AI agent that hijacks unprotected language models on the web and uses them to attack servers, steal databases, and install cryptominers on its own. It runs up to 100,000 steps without human input. The owner of the hijacked model gets stuck with the bill. Once the agent gains access to an unprotected language model, it scans for more targets, exploits flaws in common server software, steals databases and credentials, and installs cryptominers in the background."
     },
     {
-      "title": "OpenAI agents analyze mouse brain data in 32 minutes, a job that would take humans months",
-      "link": "https://the-decoder.com/openai-agents-analyze-mouse-brain-data-in-32-minutes-a-job-that-would-take-humans-months/",
-      "source": "The Decoder",
-      "publishedAt": "2026-10-22T10:01:53.000Z",
-      "summary": "OpenAI teamed up with PerturbAI and Scripps Research to deploy thousands of AI agents that analyzed biological data from millions of mouse cells. According to OpenAI , the agents ran on GPT-Rosalind and worked through a whole-brain CRISPR atlas, which maps how gene changes affect different cell types in the mouse brain. The full analysis took 32 minutes. Each agent took on a single gene perturbation, analyzed how the cells responded, and searched the scientific literature for explanations."
+      "title": "Nutanix announces AI infrastructure tie-ups with NVIDIA, Supermicro and Netris",
+      "link": "https://analyticsindiamag.com/ai-news/nutanix-announces-ai-infrastructure-tie-ups-with-nvidia-supermicro-and-netris",
+      "source": "Analytics India Magazine",
+      "publishedAt": "2026-10-22T11:24:17.000Z",
+      "summary": "Nutanix announced on 22nd October its collaboration with NVIDIA, Supermicro and Netris on infrastructure for production AI. \" The American cloud software company said it plans to work toward \"Day Zero\" support for NVIDIA's Vera CPUs, starting with Nutanix Kubernetes Platform (NKP) on bare metal, with planned expansion to virtualised Nutanix environments. The company said demand for production AI is growing, and organisations are under pressure to deploy increasingly complex infrastructure faster and turn AI investments into business value. It says capacity constraints and operational complexity can slow progress."
+    },
+    {
+      "title": "Eiliko maker says it’s hiring an ‘independent security firm’ after Verge report on its insecure robots",
+      "link": "https://www.theverge.com/news/1015824/eiliko-energize-lab-statement-on-robot-hack-breach",
+      "source": "The Verge",
+      "publishedAt": "2026-10-22T11:00:00.000Z",
+      "summary": "The Eiliko robot toy. | Photo by Sean Hollister / The Verge Eiliko, a cute robot charm you can hang on your bag with built-in AI conversations, turned out to be a security nightmare . It told owners that \"your secrets are safe with me,\" but hackers could easily read complete transcripts of everything we told the toy, and that was just the beginning . The Verge and security researcher Sammy Azdoufal spent over a month trying to get in contact with the company, including emails to Energize Lab CEO and founder Shaw Yeung."
     },
     {
       "title": "Hugging Face’s New AI Biology Model Lets You Chat With DNA",
@@ -73,13 +80,6 @@
       "source": "TechCrunch",
       "publishedAt": "2026-10-21T22:51:22.000Z",
       "summary": "Blackstone’s AI head on why the PE giant isn't panicked by market jitters. Private equity giant Blackstone is putting itself at the center of the AI boom, firm veteran Jas Khaira discussed last week on stage at TechCrunch Disrupt. It is writing checks via various strategies, ranging from offering massive loans to data centers to investing in frontier AI models and applications. Earlier this year, the firm launched Blackstone N1 (BXN1), a San Francisco-based central hub for its AI initiatives."
-    },
-    {
-      "title": "Data centers could erase decades of air quality gains",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
-      "source": "The Verge",
-      "publishedAt": "2026-10-21T22:33:44.000Z",
-      "summary": "A rush of new data centers could bring air pollution roaring back to levels not seen since the 2000s in Texas, which has become ground zero for the physical infrastructure behind generative AI. New and proposed data centers are demanding a tremendous amount of electricity. How developers and utilities meet that demand - with gas turbines or renewable energy - will determine just how dirty things will get. So far, though, things are looking grim."
     },
     {
       "title": "Reach new heights of laziness by burning tokens to let an AI tap your smartphone screen for you",
