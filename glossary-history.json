@@ -33,6 +33,7 @@
     "Model Context Protocol (MCP)",
     "Mixture of Experts (MoE)",
     "Zero-Shot Learning",
-    "Few-Shot Learning"
+    "Few-Shot Learning",
+    "Chain of Thought"
   ]
 }
