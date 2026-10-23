@@ -32,6 +32,7 @@
     "Knowledge Distillation",
     "Model Context Protocol (MCP)",
     "Mixture of Experts (MoE)",
-    "Zero-Shot Learning"
+    "Zero-Shot Learning",
+    "Few-Shot Learning"
   ]
 }
