@@ -35,6 +35,7 @@
     "Zero-Shot Learning",
     "Few-Shot Learning",
     "Chain of Thought",
-    "AI Alignment"
+    "AI Alignment",
+    "Prompt Injection"
   ]
 }
