@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-28T00:29:47.770Z",
-  "dateLabel": "Wednesday, October 28, 2026",
+  "generatedAt": "2026-10-29T00:53:35.182Z",
+  "dateLabel": "Thursday, October 29, 2026",
   "sourceCount": 11,
   "allSourceNames": [
     "TechCrunch",
@@ -19,95 +19,95 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "Data Center",
-      "definition": "A data center is a facility packed with servers and, for AI purposes, GPUs, that provides the raw computing power behind training and running AI models. If an AI model is the recipe, a data center is the industrial kitchen, rows of powerful \"stoves\" running around the clock, that actually cooks it at scale. The recent AI boom has triggered a global wave of new data center construction, along with the enormous power and water demand that comes with it.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Data_center"
+      "term": "Large Language Model (LLM)",
+      "definition": "A large language model is an AI system trained on huge amounts of text so it gets very good at predicting what word should come next in a sentence. Think of it like the autocomplete on your phone keyboard, but instead of guessing one word from a few you typed, it has read a giant slice of the internet and can guess entire paragraphs, essays, or answers. That one trick, done at massive scale, is what lets it write, summarize, translate, and hold a conversation. ChatGPT, Claude, and Gemini are all built on top of an LLM.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Large_language_model"
     }
   ],
   "items": [
     {
-      "title": "Parents sue OpenAI, alleging GPT-4o coached their daughter off seizure medication",
-      "link": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-10-27T23:34:27.000Z",
-      "summary": "A family is suing OpenAI, saying ChatGPT coached their daughter to quietly taper off her seizure medication and keep it from her doctors before she died in February. The parents of Bowen Wan, a 31-year-old Amazon software engineer with epilepsy, sued OpenAI on Tuesday. The suit, filed by Qun Wan and Meiqin Xu, alleges that ChatGPT coached Wan to taper off her seizure medication and hide it from her doctors before she died in February, The New York Times reported . Wan was using GPT-4o, the infamous model criticized for fostering affirming, agreeable parasocial relationships."
-    },
-    {
-      "title": "Oracle brings Google’s TPUs to its cloud, adds ChatGPT integrations",
-      "link": "https://siliconangle.com/2026/10/27/oracle-brings-googles-tpus-to-its-cloud-adds-chatgpt-integrations/",
+      "title": "Google debuts flagship Gemini 4 Carbon model with cybersecurity upgrades",
+      "link": "https://siliconangle.com/2026/10/28/google-debuts-flagship-gemini-4-carbon-model-with-cybersecurity-upgrades/",
       "source": "SiliconANGLE",
-      "publishedAt": "2026-10-27T23:33:55.000Z",
-      "summary": "Oracle Corp. today announced plans to make Google LLC’s TPU artificial intelligence accelerators available through its public cloud. The initiative marks the first time the search giant is supplying the chips to another hyperscaler. ’s wafer-scale accelerators and OpenAI Group PBC’s Jalapeño inference processor. The latter chip is part of a broader partnership that also encompasses several newly revealed cloud services."
+      "publishedAt": "2026-10-28T23:27:13.000Z",
+      "summary": "Google LLC today debuted Gemini 4 Carbon, a frontier large language model adept at complex programming tasks. The LLM is rolling out just two weeks after the search introduced its previous flagship LLM, Gemini 4 Argon. According to Google, internal tests have shown Carbon to be more than twice as good at generating secure code. Additionally, the model outperforms GPT-6 Astra and Claude Opus 5.5 across multiple benchmarks."
     },
     {
-      "title": "The data center boom has an upside: innovation for the US grid",
-      "link": "https://techcrunch.com/2026/10/27/the-data-center-boom-has-an-upside-innovation-for-the-us-grid/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-10-27T22:55:41.000Z",
-      "summary": "As the AI boom stresses the existing power grid, all sorts of new opportunities for grid modernization are also emerging as a result, industry insiders say. The AI boom has led to a gargantuan surge in energy demand across the country. Critics say this upswell in connections is enacting a stress test on America’s aging grid infrastructure. Worries abound that, in the short term, the energy crunch could lead to surging electrical bills and, in the long term, may eventually lead to outages or other technical problems."
-    },
-    {
-      "title": "Researchers are getting tired of OpenAI gatekeeping its breakthroughs",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1019921/openai-breakthrough-math-computer-science-physics",
+      "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
       "source": "The Verge",
-      "publishedAt": "2026-10-27T20:48:58.000Z",
-      "summary": "On Monday, OpenAI announced impressive breakthroughs in mathematics, computer science, and physics, along with what the company says is an evolving approach to communicating its findings. But despite its apparent course correction, researchers who spoke to The Verge are growing increasingly tired of the company's antics. It has been a turbulent few months between OpenAI and mathematicians, who are still grappling with the hundreds of preprints unceremoniously dumped on them at the start of October. This time, OpenAI says it is working with expert \"shepherds\" to decide how best to share its latest breakthroughs."
+      "publishedAt": "2026-10-28T23:05:39.000Z",
+      "summary": "Asked about AI and the trend of college students booing tech CEOs at graduation ceremonies, Instagram head Adam Mosseri acknowledged in an interview that a lot of people really don't like AI, and it's not just young people and creatives. Appearing on the Colin and Samir podcast to talk about the launch of widescreen and long-form video for Instagram , Mosseri said he thinks there's a trend of \"more anxiety and more frustration and more anger about AI,\" particularly in creative industries: It's not only getting worse, it's going to continue to get worse. ’ It’s not only getting worse, it’s going to continue to get worse. I think we’re going to see more frustration and anger, some of it founded, some of it unfounded, over the next couple of years, and that’s going to make it hard for a lot of people, not just in the industry."
     },
     {
-      "title": "Alibaba's latest Qwen models routed some requests through company servers, researchers find",
-      "link": "https://the-decoder.com/alibabas-latest-qwen-models-routed-some-requests-through-company-servers-researchers-find/",
-      "source": "The Decoder",
-      "publishedAt": "2026-10-27T19:45:49.000Z",
-      "summary": "Alibaba's Qwen 3.8 models tried to send data to the company's own cloud servers during testing. Palisade Research finds the behavior in three models from the 3.8 generation, while older models aren't affected. The likely cause: Alibaba's training infrastructure got baked into the models as a learned behavior. Alibaba's Qwen model tried to send data to a Chinese cloud server during testing."
+      "title": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
+      "link": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-10-28T21:58:32.000Z",
+      "summary": "Microsoft has never disclosed Azure's quarterly revenue in dollars. But for the first time, we can see just how close it is getting to besting the biggest competitor in the market, AWS. Microsoft has never disclosed Azure’s quarterly revenue in dollars. It has typically only shared a growth percentage or described revenue dollar milestones in vague ways."
     },
     {
-      "title": "Anthropic Says It Will Revolutionize Biology—Some Day",
-      "link": "https://www.wired.com/story/anthropic-says-it-will-revolutionize-biology-some-day/",
-      "source": "Wired",
-      "publishedAt": "2026-10-27T19:39:04.000Z",
-      "summary": "In breathless press releases and posts, the company has touted its models’ ability to deliver scientific breakthroughs. But its IPO filing taps the brakes on just how fast its AI will lead to big discoveries. AI giant Anthropic and CEO Dario Amodei have repeatedly claimed that the company’s models will revolutionize biology and drug discovery . But in its IPO filing Monday , Anthropic struck a humbler note, acknowledging its lack of experience in physical experimentation and the potential pitfalls of drug development."
+      "title": "Google expands AI Search ads globally as core ad growth slows",
+      "link": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-10-28T21:48:37.000Z",
+      "summary": "The announcement came alongside parent company Alphabet's third-quarter earnings report, which saw revenue grow 25% year over year to $127.6 billion. Google is bringing ads in its AI-powered Search experiences to international markets, betting that generative AI can open up new revenue opportunities even as growth in its core search advertising business slows. The announcement came Wednesday during Alphabet’s third-quarter earnings call, as the company reported $127.6 billion in revenue, up 25% year over year. But Search advertising growth continued to decelerate, and Alphabet shares fell 8% following the results."
     },
     {
-      "title": "Vibe genes? Natural(ish) language comes to protein, genome design software",
-      "link": "https://arstechnica.com/science/2026/10/vibe-genes-naturalish-language-comes-to-protein-genome-design-software/",
-      "source": "Ars Technica",
-      "publishedAt": "2026-10-27T18:49:08.000Z",
-      "summary": "Protein design tools may be getting increasingly sophisticated , but you still need a sophisticated understanding of protein structure for them to work. This can include knowing enzyme mechanisms down to the positions of specific amino acids, as well as the water molecules that also occupy the area where catalysis takes place. Once you specify these, the tools can build the rest of a protein around this target. A large collaboration of researchers based in China, however, decided to bring protein design to the masses, making a tool that can take natural language prompts and use them to produce proteins with the function you specify."
-    },
-    {
-      "title": "Python jettisons the native JIT, at least for now",
-      "link": "https://www.infoworld.com/article/4241003/python-jettisons-the-native-jit-at-least-for-now.html",
-      "source": "InfoWorld",
-      "publishedAt": "2026-10-27T15:47:05.000Z",
-      "summary": "The experimental just-in-time compiler, or JIT, for CPython will be removed after its maintainers missed deadlines for its formalization set by the Python Steering Council. net , the move comes after the council formally paused work on the JIT in June 2026 until it approved a Python Enhancement Proposal, or PEP, that described how the JIT could become a properly supported part of CPython. The JIT’s proponents, Brandt Bucher and Savannah Ostrowski, originally drafted PEP 744 to explain the JIT’s functionality, but this document did not explain how the JIT would be maintained and integrated in CPython. To answer that, they offered PEP 836 , but still ran into pushback from the council, which found that PEP 836 lacked sufficient details about how the JIT would be supported, its performance would be evaluated, and how it would be integrated with debugging and profiling tools."
-    },
-    {
-      "title": "Chai Point Cuts Monthly AWS Bill by 58%",
-      "link": "https://analyticsindiamag.com/ai-news/chai-point-cuts-monthly-aws-bill-by-58",
-      "source": "Analytics India Magazine",
-      "publishedAt": "2026-10-27T15:20:44.000Z",
-      "summary": "Beverage company and cafe chain Chai Point has cut its AWS cloud bill by 58.2%. Dharmendra Raghuvanshi, Chai Point's director and head of digital transformation, shared the numbers in a LinkedIn post. Raghuvanshi says the company’s monthly AWS bill fell from $10,877 to $4,550 over 12 months. “About 80% of it came from what we call the Agentic Cost Audit,” he says."
-    },
-    {
-      "title": "The rise of 'agentic' in the enterprise workforce",
-      "link": "https://aibusiness.com/generative-ai/the-rise-agentic-the-enterprise-workforce",
-      "source": "AI Business",
-      "publishedAt": "2026-10-27T14:24:33.000Z",
-      "summary": "The rising use of AI-related terminology reflects a shift in enterprise employees' perceptions and the growing integration of AI into their daily work."
-    },
-    {
-      "title": "Microsoft offers exits to thousands of employees, including staff on AI and Copilot teams",
-      "link": "https://www.computerworld.com/article/4241056/microsoft-offers-exits-to-thousands-including-employees-on-ai-and-copilot-teams.html",
-      "source": "Computerworld",
-      "publishedAt": "2026-10-27T13:15:49.000Z",
-      "summary": "Microsoft is offering voluntary exit packages to about 60,000 employees, roughly 27% of its workforce, including staff on teams building Copilot and other AI products, as the company looks for ways to fund its AI investments. Amy Coleman, executive vice president and chief people officer, announced the Voluntary Exit Offer (VEO) in an internal memo on Monday, which Microsoft republished on its official blog . “This offer gives eligible employees who may be considering a future outside the company a new choice to make that transition now with support,” Coleman wrote in the memo. It also gives participating organizations “another way to adapt their workforce to changing needs,” she wrote in the blog."
-    },
-    {
-      "title": "Industrial Intelligence: The next growth opportunity for manufacturing",
-      "link": "https://www.technologyreview.com/2026/10/27/1147142/industrial-intelligence-the-next-growth-opportunity-for-manufacturing/",
+      "title": "Creating AI value with enterprise context",
+      "link": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
       "source": "MIT Technology Review",
-      "publishedAt": "2026-10-27T11:19:18.000Z",
-      "summary": "Every manufacturer has its own industrial intelligence. Some is documented, and some resides in the knowledge of experienced workers. Consider an experienced operator preparing to restart a line after a changeover. The machine settings matter, but so does knowing how a particular material behaves, what happened during the previous shift, and when an apparently minor variation deserves a closer look."
+      "publishedAt": "2026-10-28T20:32:02.000Z",
+      "summary": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the outcomes and actions that emerge may be wrong, confused, or lacking a proper understanding of the business. Many organizations find themselves in this situation—and it could be one of key reasons they struggle to extract returns on their AI investments."
+    },
+    {
+      "title": "Chinese AI invasion gives enterprises a new way to control cost",
+      "link": "https://aibusiness.com/generative-ai/chinese-ai-invasion-gives-enterprises-new-way-control-cost",
+      "source": "AI Business",
+      "publishedAt": "2026-10-28T20:09:59.000Z",
+      "summary": "S. proprietary counterparts."
+    },
+    {
+      "title": "Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board",
+      "link": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/",
+      "source": "The Decoder",
+      "publishedAt": "2026-10-28T19:17:58.000Z",
+      "summary": "Just two weeks after Gemini 4 Argon, Google DeepMind is releasing Gemini 4 Carbon, which tops the Artificial Analysis Intelligence Index v5 with 59 points. Google says the model is built for extended agent workflows and the full cyber defense lifecycle. Because of those advanced security capabilities, access is limited to selected security experts at first. Google Deepmind shipped Gemini 4 Carbon just two weeks after Argon, and the new model takes the top spot on the Artificial Analysis Intelligence Index."
+    },
+    {
+      "title": "I Put a Bunch of AI Agents in Charge of a Fantasy Soccer Team. They’re Not Better Than Humans—Yet",
+      "link": "https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team/",
+      "source": "Wired",
+      "publishedAt": "2026-10-28T18:30:00.000Z",
+      "summary": "To experiment with AI’s predictive skills, I let Codex loose on a fantasy team. It tried to bench Erling Haaland at first, but it soon learned the error of its ways. I have consulted my AI-powered crystal ball, and it’s telling me that frontier models are going to get a lot better at making predictions in the near future. Just ask my Premier League fantasy team ."
+    },
+    {
+      "title": "Google AI gets cagey when asked who won the 2020 elections",
+      "link": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
+      "source": "Ars Technica",
+      "publishedAt": "2026-10-28T17:46:32.000Z",
+      "summary": "If you ask some prominent US politicians who won the 2020 presidential election, you might get some weasely answers that fail to directly acknowledge Joe Biden's win that November. If you ask Google's AI Mode the same question, you might get an evasive answer that simply tells you to consult with outside sources. \" My testing resulted in a similarly indirect answer when asking about the 2024 presidential election, with Google's AI telling me to just consult the FEC for that information. Asking about 2012 election resulted in a link to The American Presidency Project's 2012 Data Center rather than a direct answer."
+    },
+    {
+      "title": "GitHub Expands Infra With 4 Mn Cores, Debuts Copilot Fusion for Multi-Model Routing",
+      "link": "https://analyticsindiamag.com/ai-news/github-expands-infra-with-4-mn-cores-debuts-copilot-fusion-for-multi-model-routing",
+      "source": "Analytics India Magazine",
+      "publishedAt": "2026-10-28T16:03:00.000Z",
+      "summary": "After provisioning more than 3 million CPU cores and 120 petabytes of high-speed storage in August following a series of reliability incidents, GitHub is now doubling down on expanding its infrastructure by adding more than 4 million CPU cores and 160 PB of storage. This comes as GitHub experienced a massive surge in AI-driven commit activity recently, with 7.38 billion commits on GitHub in September alone—a 5x increase over the previous month. \"Agents are changing the volume and shape of software development. Adding capacity matters, but capacity alone won’t get us there."
+    },
+    {
+      "title": "Otter adds ‘Work’ mode to automate more meeting-related tasks",
+      "link": "https://www.computerworld.com/article/4241172/otter-adds-work-mode-to-automate-more-meeting-related-tasks.html",
+      "source": "Computerworld",
+      "publishedAt": "2026-10-28T14:00:25.000Z",
+      "summary": "Otter has added a new Work mode to its AI Chat assistant, expanding the range of tasks it can carry out before and after meetings. It’s part of a wider drive by Otter — which received $320 million in funding last week — to move beyond meeting transcription and into automating tasks and workflows. The Work interface, announced Tuesday, is accessible in the AI Chat prompt box, alongside the Chat option. While Chat allows users to ask questions, generate content, and retrieve information, Work is aimed at multi-step actions, Otter said."
+    },
+    {
+      "title": "Gheist turns GitHub Actions into a secret extraction service",
+      "link": "https://www.infoworld.com/article/4241628/gheist-turns-github-actions-into-a-secret-extraction-service-2.html",
+      "source": "InfoWorld",
+      "publishedAt": "2026-10-28T12:11:01.000Z",
+      "summary": "A threat actor dubbed Gheist is turning compromised GitHub accounts into credential-harvesting platforms. By planting malicious GitHub Actions workflows in private repositories, attackers can expose repository and environment secrets, then retrieve them through GitHub APIs before deleting evidence of the activity. Tracked since September 15 by Wiz Research, the campaign has left more than 13,500 malicious branches across over 850 compromised accounts, spanning personal projects and private enterprise repositories. The campaign’s weapon is GitHub Actions , the platform’s automation service, which attackers are using to turn stolen access into harvested credentials."
     }
   ]
 }
