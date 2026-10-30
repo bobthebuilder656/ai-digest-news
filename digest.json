@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-29T00:53:35.182Z",
-  "dateLabel": "Thursday, October 29, 2026",
-  "sourceCount": 11,
+  "generatedAt": "2026-10-30T00:57:00.989Z",
+  "dateLabel": "Friday, October 30, 2026",
+  "sourceCount": 12,
   "allSourceNames": [
     "TechCrunch",
     "Analytics India Magazine",
@@ -19,46 +19,81 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "Large Language Model (LLM)",
-      "definition": "A large language model is an AI system trained on huge amounts of text so it gets very good at predicting what word should come next in a sentence. Think of it like the autocomplete on your phone keyboard, but instead of guessing one word from a few you typed, it has read a giant slice of the internet and can guess entire paragraphs, essays, or answers. That one trick, done at massive scale, is what lets it write, summarize, translate, and hold a conversation. ChatGPT, Claude, and Gemini are all built on top of an LLM.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Large_language_model"
+      "term": "AI Agent",
+      "definition": "An AI agent is a system that can autonomously take a sequence of actions, like browsing the web, running code, or calling other software, to accomplish a goal, rather than just replying to a single prompt with text. The difference is like asking a assistant one question and reading their answer, versus handing them a task, \"book me a flight to Chicago next week,\" and letting them independently search sites, compare prices, and complete the booking on their own.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/AI_agent"
     }
   ],
   "items": [
     {
-      "title": "Google debuts flagship Gemini 4 Carbon model with cybersecurity upgrades",
-      "link": "https://siliconangle.com/2026/10/28/google-debuts-flagship-gemini-4-carbon-model-with-cybersecurity-upgrades/",
+      "title": "AWS will be a $1T business, Jassy says. But first, it will spend big.",
+      "link": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-10-29T23:42:22.000Z",
+      "summary": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday. Andy Jassy has made it known that he believes AWS can be a trillion-dollar revenue business. During Amazon’s quarterly earnings call on Thursday, he repeated this ambition."
+    },
+    {
+      "title": "Wabi reels in $55M for its consumer-focused AI assistant",
+      "link": "https://siliconangle.com/2026/10/29/wabi-reels-in-55m-for-its-consumer-focused-ai-assistant/",
       "source": "SiliconANGLE",
-      "publishedAt": "2026-10-28T23:27:13.000Z",
-      "summary": "Google LLC today debuted Gemini 4 Carbon, a frontier large language model adept at complex programming tasks. The LLM is rolling out just two weeks after the search introduced its previous flagship LLM, Gemini 4 Argon. According to Google, internal tests have shown Carbon to be more than twice as good at generating secure code. Additionally, the model outperforms GPT-6 Astra and Claude Opus 5.5 across multiple benchmarks."
+      "publishedAt": "2026-10-29T21:35:06.000Z",
+      "summary": ", the developer of an artificial intelligence assistant for consumers, today announced that it has raised $55 million in funding. IVP led the seed round with contributions from Amazon Alexa Fund, Andreessen Horowitz and Forerunner. They were joined by a group of angel investors that included Salesforce Inc. CEO Marc Benioff and Shopify Inc. CEO Tobi Lütke."
     },
     {
-      "title": "Adam Mosseri says negativity around AI is ‘going to get worse’",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1021644/adam-mosseri-instagram-ai-negativity",
+      "title": "Howler will have AI answer your questions, then burn the chat",
+      "link": "https://www.theregister.com/offbeat/2026/10/29/howler-will-have-ai-answer-your-questions-then-burn-the-chat/5306484",
+      "source": "The Register",
+      "publishedAt": "2026-10-29T20:04:05.000Z",
+      "summary": "If you want to ask AI a question and watch the conversation go up in virtual flames when you're done, there's a new Mac app for that. Howler is an open-source app from a Chinese developer going by Aries Zhou, and it takes incognito mode AI questions to a new level by making them graphically interesting and easy to access right from the desktop of a macOS device. Anyone familiar with the Harry Potter series is likely to know where the name comes from - Howlers are letters that scream in recipients’ faces and then burst into flames, destroying themselves, which is the exact same thing the prompts ostensibly do once a user taps the Escape key. The Howler app displays a parchment-esque letter on the screen whenever the user presses Option+H, complete with a little wax seal that shows a letter representing their chosen model."
+    },
+    {
+      "title": "OpenAI doubles usage limits on Pro plans as competition with Anthropic heats up",
+      "link": "https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up/",
+      "source": "The Decoder",
+      "publishedAt": "2026-10-29T20:01:27.000Z",
+      "summary": "OpenAI is doubling usage limits across its paid plans, from Pro 100 to Pro 500. A planned cut to the Pro 200 quota was reversed after user pushback. More efficient models like Terra and Sol should push usable capacity even higher. The move comes just ahead of Anthropic's IPO, as both companies fight for B2B dominance in AI."
+    },
+    {
+      "title": "You can generate and edit Google Docs files directly in Gemini chats now",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
       "source": "The Verge",
-      "publishedAt": "2026-10-28T23:05:39.000Z",
-      "summary": "Asked about AI and the trend of college students booing tech CEOs at graduation ceremonies, Instagram head Adam Mosseri acknowledged in an interview that a lot of people really don't like AI, and it's not just young people and creatives. Appearing on the Colin and Samir podcast to talk about the launch of widescreen and long-form video for Instagram , Mosseri said he thinks there's a trend of \"more anxiety and more frustration and more anger about AI,\" particularly in creative industries: It's not only getting worse, it's going to continue to get worse. ’ It’s not only getting worse, it’s going to continue to get worse. I think we’re going to see more frustration and anger, some of it founded, some of it unfounded, over the next couple of years, and that’s going to make it hard for a lot of people, not just in the industry."
+      "publishedAt": "2026-10-29T18:45:31.000Z",
+      "summary": "Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Markdown files, TXT files, and code directly within Google Gemini . The new file editing capabilities are available starting today for all Gemini users, and while PDF previews/editing works on both the web and mobile, all other file formats are only in the web version for now. Google added support for generating and downloading files in Gemini earlier this year, but now you can tweak those files without leaving the Gemini app. Editing files you generate with Gemini no longer requires leaving the app."
     },
     {
-      "title": "Microsoft just shared Azure’s actual revenue in dollars: $33.2 billion",
-      "link": "https://techcrunch.com/2026/10/28/microsoft-just-shared-azures-actual-revenue-in-dollars-33-2-billion/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-10-28T21:58:32.000Z",
-      "summary": "Microsoft has never disclosed Azure's quarterly revenue in dollars. But for the first time, we can see just how close it is getting to besting the biggest competitor in the market, AWS. Microsoft has never disclosed Azure’s quarterly revenue in dollars. It has typically only shared a growth percentage or described revenue dollar milestones in vague ways."
+      "title": "A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System",
+      "link": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
+      "source": "Wired",
+      "publishedAt": "2026-10-29T18:39:43.000Z",
+      "summary": "Sources tell WIRED that an Accenture employee’s personal Claude agent ran on a DOD network for two months before it was identified and the vulnerability could be patched. Earlier this year, sources tell WIRED, a contractor caused a security incident at the Department of Defense by connecting a secure centralized system used by multiple intelligence agencies to their personal account for Claude Code, Anthropic’s AI coding agent . It appears that the agent used by the contractor, who is employed by the global consulting firm Accenture, then sent information about the DOD system, including login credentials, to a high-risk, third-party website. The centralized system contains controlled unclassified information (CUI), which is considered sensitive and not to be released to the public without review."
     },
     {
-      "title": "Google expands AI Search ads globally as core ad growth slows",
-      "link": "https://techcrunch.com/2026/10/28/google-expands-ai-search-ads-globally-as-core-ad-growth-slows/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-10-28T21:48:37.000Z",
-      "summary": "The announcement came alongside parent company Alphabet's third-quarter earnings report, which saw revenue grow 25% year over year to $127.6 billion. Google is bringing ads in its AI-powered Search experiences to international markets, betting that generative AI can open up new revenue opportunities even as growth in its core search advertising business slows. The announcement came Wednesday during Alphabet’s third-quarter earnings call, as the company reported $127.6 billion in revenue, up 25% year over year. But Search advertising growth continued to decelerate, and Alphabet shares fell 8% following the results."
+      "title": "Amazon Warns Engineers Against AI Productivity Traps in Latest Memo",
+      "link": "https://analyticsindiamag.com/ai-news/amazon-warns-engineers-against-ai-productivity-traps-in-latest-memo",
+      "source": "Analytics India Magazine",
+      "publishedAt": "2026-10-29T14:16:19.000Z",
+      "summary": "As concerns grow over AI’s impact on software engineering jobs, Amazon has issued a memo outlining what it expects from its engineers as AI reshapes software development. ”  “Any definition we write now will likely look antiquated by this time next year,” the company added. And these ‘antiquated definitions’ risk slowing down progress, says Amazon, which wants to focus on what isn’t changing in software engineering roles. “Specifically, impact on our customers, our businesses, and our teams."
     },
     {
-      "title": "Creating AI value with enterprise context",
-      "link": "https://www.technologyreview.com/2026/10/28/1147709/creating-ai-value-with-enterprise-context/",
+      "title": "Fake Anthropic AI previews lure in overeager employees",
+      "link": "https://www.computerworld.com/article/4241914/fake-anthropic-ai-previews-lure-in-overeager-employees-2.html",
+      "source": "Computerworld",
+      "publishedAt": "2026-10-29T13:10:00.000Z",
+      "summary": "Everyone wants to know what Anthropic is up to, and hackers are gleefully exploiting the fact. New research from cybersecurity company Cofense describes a phishing campaign that hooks overeager enterprise users by making them think they are getting an invite to a private invite-only Anthropic preview. In reality, adversarial actors are trying to steal Google and Microsoft login credentials, exploiting video teleconferencing software GoTo Webinar branding to do so. “It sells exclusivity,” said Frank Dickson of Dickson Research."
+    },
+    {
+      "title": "We urgently need to monitor AI agents’ actions in real time",
+      "link": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
       "source": "MIT Technology Review",
-      "publishedAt": "2026-10-28T20:32:02.000Z",
-      "summary": "Across a business, any number of AI platforms, systems, and tools may be at work simultaneously—for example, AI-powered customer platforms, conversational assistants, and workflow and process automation tools. Each one is sophisticated, advanced, and quick to respond. But, when set to work, the outcomes and actions that emerge may be wrong, confused, or lacking a proper understanding of the business. Many organizations find themselves in this situation—and it could be one of key reasons they struggle to extract returns on their AI investments."
+      "publishedAt": "2026-10-29T10:11:12.000Z",
+      "summary": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI agent accessed private files from an Australian government website. It’s a problem that’s by no means confined to OpenAI."
+    },
+    {
+      "title": "Simplifying .NET toolchain installs with dotnetup",
+      "link": "https://www.infoworld.com/article/4241187/simplifying-net-toolchain-installs-with-dotnetup.html",
+      "source": "InfoWorld",
+      "publishedAt": "2026-10-29T09:00:00.000Z",
+      "summary": "If you’ve experimented with Rust , you already know how simple it is to get a basic toolchain in place, with the simple rustup command-line tool. The same tool works on Windows, macOS, and Linux, building a consistent environment that’s ready for you to pick up your favorite coding editor and start work. It’s a simple enough tool, and one that’s done much to help popularize a new programming language. With rustup, you know what you’re getting, and you can start working on any laptop, anywhere."
     },
     {
       "title": "Chinese AI invasion gives enterprises a new way to control cost",
@@ -68,46 +103,11 @@
       "summary": "S. proprietary counterparts."
     },
     {
-      "title": "Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board",
-      "link": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/",
-      "source": "The Decoder",
-      "publishedAt": "2026-10-28T19:17:58.000Z",
-      "summary": "Just two weeks after Gemini 4 Argon, Google DeepMind is releasing Gemini 4 Carbon, which tops the Artificial Analysis Intelligence Index v5 with 59 points. Google says the model is built for extended agent workflows and the full cyber defense lifecycle. Because of those advanced security capabilities, access is limited to selected security experts at first. Google Deepmind shipped Gemini 4 Carbon just two weeks after Argon, and the new model takes the top spot on the Artificial Analysis Intelligence Index."
-    },
-    {
-      "title": "I Put a Bunch of AI Agents in Charge of a Fantasy Soccer Team. They’re Not Better Than Humans—Yet",
-      "link": "https://www.wired.com/story/i-put-ai-agents-in-charge-of-a-fantasy-team/",
-      "source": "Wired",
-      "publishedAt": "2026-10-28T18:30:00.000Z",
-      "summary": "To experiment with AI’s predictive skills, I let Codex loose on a fantasy team. It tried to bench Erling Haaland at first, but it soon learned the error of its ways. I have consulted my AI-powered crystal ball, and it’s telling me that frontier models are going to get a lot better at making predictions in the near future. Just ask my Premier League fantasy team ."
-    },
-    {
       "title": "Google AI gets cagey when asked who won the 2020 elections",
       "link": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
       "source": "Ars Technica",
       "publishedAt": "2026-10-28T17:46:32.000Z",
       "summary": "If you ask some prominent US politicians who won the 2020 presidential election, you might get some weasely answers that fail to directly acknowledge Joe Biden's win that November. If you ask Google's AI Mode the same question, you might get an evasive answer that simply tells you to consult with outside sources. \" My testing resulted in a similarly indirect answer when asking about the 2024 presidential election, with Google's AI telling me to just consult the FEC for that information. Asking about 2012 election resulted in a link to The American Presidency Project's 2012 Data Center rather than a direct answer."
-    },
-    {
-      "title": "GitHub Expands Infra With 4 Mn Cores, Debuts Copilot Fusion for Multi-Model Routing",
-      "link": "https://analyticsindiamag.com/ai-news/github-expands-infra-with-4-mn-cores-debuts-copilot-fusion-for-multi-model-routing",
-      "source": "Analytics India Magazine",
-      "publishedAt": "2026-10-28T16:03:00.000Z",
-      "summary": "After provisioning more than 3 million CPU cores and 120 petabytes of high-speed storage in August following a series of reliability incidents, GitHub is now doubling down on expanding its infrastructure by adding more than 4 million CPU cores and 160 PB of storage. This comes as GitHub experienced a massive surge in AI-driven commit activity recently, with 7.38 billion commits on GitHub in September alone—a 5x increase over the previous month. \"Agents are changing the volume and shape of software development. Adding capacity matters, but capacity alone won’t get us there."
-    },
-    {
-      "title": "Otter adds ‘Work’ mode to automate more meeting-related tasks",
-      "link": "https://www.computerworld.com/article/4241172/otter-adds-work-mode-to-automate-more-meeting-related-tasks.html",
-      "source": "Computerworld",
-      "publishedAt": "2026-10-28T14:00:25.000Z",
-      "summary": "Otter has added a new Work mode to its AI Chat assistant, expanding the range of tasks it can carry out before and after meetings. It’s part of a wider drive by Otter — which received $320 million in funding last week — to move beyond meeting transcription and into automating tasks and workflows. The Work interface, announced Tuesday, is accessible in the AI Chat prompt box, alongside the Chat option. While Chat allows users to ask questions, generate content, and retrieve information, Work is aimed at multi-step actions, Otter said."
-    },
-    {
-      "title": "Gheist turns GitHub Actions into a secret extraction service",
-      "link": "https://www.infoworld.com/article/4241628/gheist-turns-github-actions-into-a-secret-extraction-service-2.html",
-      "source": "InfoWorld",
-      "publishedAt": "2026-10-28T12:11:01.000Z",
-      "summary": "A threat actor dubbed Gheist is turning compromised GitHub accounts into credential-harvesting platforms. By planting malicious GitHub Actions workflows in private repositories, attackers can expose repository and environment secrets, then retrieve them through GitHub APIs before deleting evidence of the activity. Tracked since September 15 by Wiz Research, the campaign has left more than 13,500 malicious branches across over 850 compromised accounts, spanning personal projects and private enterprise repositories. The campaign’s weapon is GitHub Actions , the platform’s automation service, which attackers are using to turn stolen access into harvested credentials."
     }
   ]
 }
