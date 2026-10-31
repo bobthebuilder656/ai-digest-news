@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-30T00:57:00.989Z",
-  "dateLabel": "Friday, October 30, 2026",
+  "generatedAt": "2026-10-31T00:45:01.534Z",
+  "dateLabel": "Saturday, October 31, 2026",
   "sourceCount": 12,
   "allSourceNames": [
     "TechCrunch",
@@ -19,25 +19,74 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "AI Agent",
-      "definition": "An AI agent is a system that can autonomously take a sequence of actions, like browsing the web, running code, or calling other software, to accomplish a goal, rather than just replying to a single prompt with text. The difference is like asking a assistant one question and reading their answer, versus handing them a task, \"book me a flight to Chicago next week,\" and letting them independently search sites, compare prices, and complete the booking on their own.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/AI_agent"
+      "term": "API (Application Programming Interface)",
+      "definition": "An API is the standard way one piece of software talks to another. When an app says it's \"powered by GPT-4\" or \"powered by Claude,\" it usually means the app sends a request over the internet to that AI company's API and gets an answer back, rather than running the model itself. Think of an API as a restaurant menu and waiter: you don't need to know how the kitchen actually works, you just place an order in an agreed format and get the result back.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/API"
     }
   ],
   "items": [
     {
-      "title": "AWS will be a $1T business, Jassy says. But first, it will spend big.",
-      "link": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-10-29T23:42:22.000Z",
-      "summary": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday. Andy Jassy has made it known that he believes AWS can be a trillion-dollar revenue business. During Amazon’s quarterly earnings call on Thursday, he repeated this ambition."
+      "title": "Google X co-founder Sebastian Thrun raises $130M for AI engineering startup Dulo",
+      "link": "https://siliconangle.com/2026/10/30/google-x-co-founder-sebastian-thrun-raises-130m-for-ai-engineering-startup-dulo/",
+      "source": "SiliconANGLE",
+      "publishedAt": "2026-10-30T23:59:47.000Z",
+      "summary": ", a startup co-founded by prominent artificial intelligence researcher Sebastian Thrun, has raised $130 million in funding. The Information broke the news of the investment on Thursday. Dulo co-founder Adrian Aoun confirmed the report in a post on X. Before launching Dulo with Thurn earlier this year, Aoun sold an early natural language processing startup called Wavii Inc."
     },
     {
-      "title": "Wabi reels in $55M for its consumer-focused AI assistant",
-      "link": "https://siliconangle.com/2026/10/29/wabi-reels-in-55m-for-its-consumer-focused-ai-assistant/",
-      "source": "SiliconANGLE",
-      "publishedAt": "2026-10-29T21:35:06.000Z",
-      "summary": ", the developer of an artificial intelligence assistant for consumers, today announced that it has raised $55 million in funding. IVP led the seed round with contributions from Amazon Alexa Fund, Andreessen Horowitz and Forerunner. They were joined by a group of angel investors that included Salesforce Inc. CEO Marc Benioff and Shopify Inc. CEO Tobi Lütke."
+      "title": "Ollie, a privacy-focused AI assistant, is shutting down",
+      "link": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-10-30T22:56:13.000Z",
+      "summary": "As an increasing number of AI assistants flood the market, the founder of Ollie, an assistant that respected its users' privacy, says it will be shutting down in a week. Founder Summit begins Nov. m. ET. Get your pass savings & deals before it starts."
+    },
+    {
+      "title": "Apple Intelligence is finally coming to China with iOS 27.3",
+      "link": "https://www.theverge.com/tech/1023974/apple-intelligence-china-ios-27-3",
+      "source": "The Verge",
+      "publishedAt": "2026-10-30T22:32:53.000Z",
+      "summary": "Apple will launch Apple Intelligence in China with iOS 27.3, the company announced on its Chinese newsroom website , as reported by MacRumors . The Apple Intelligence features will be available first in an iOS 27.3 beta that's set to launch on November 4th, with a full iOS 27.3 release scheduled for December. This launch doesn't bring the new Siri AI to China. Instead, Apple is launching several of its earlier Apple Intelligence features like notification summaries, real-time translation, rewriting and proofreading tools, visual intelligence, and removing objects from photos."
+    },
+    {
+      "title": "How a Contractor’s Claude Agent Got Into the Pentagon",
+      "link": "https://www.wired.com/story/uncanny-valley-podcast-how-a-contractors-claude-agent-got-into-the-pentagon/",
+      "source": "Wired",
+      "publishedAt": "2026-10-30T21:19:26.000Z",
+      "summary": "This week on Uncanny Valley, we also discuss Anthropic’s IPO filing and the volunteers gearing up to counter ICE at the midterms. This week on Uncanny Valley , Brian Barrett, Leah Feiger, and Zoë Schiffer dive into our scoop on how a defense contractor connected Claude Code to a secure Department of Defense system. We also discuss the green, yellow, and red flags we see in Anthropic’s IPO filing—and why it’s a test not just for the AI industry but for the entire US economy—and how volunteers nationwide are preparing for ICE agents potentially showing up at polling sites in the midterms. You can follow Brian Barrett on Bluesky at @brbarrett , Zoë Schiffer on Bluesky at @zoeschiffer , and Leah Feiger on Bluesky at @leahfeiger ."
+    },
+    {
+      "title": "Dartmouth's provost warned us about AI cheating—but his own AI use cost him his job",
+      "link": "https://arstechnica.com/tech-policy/2026/10/dartmouths-provost-warned-us-about-ai-cheating-but-his-own-ai-use-cost-him-his-job/",
+      "source": "Ars Technica",
+      "publishedAt": "2026-10-30T20:40:13.000Z",
+      "summary": "On August 9, 2026, Dartmouth College provost Santiago Schnell wrote a Washington Post op-ed called \"Universities are fighting AI cheating. \" This week, Schnell discovered the depths of the problem himself as he resigned from the university after an advisory committee found that he failed to disclose significant AI use in an academic paper and in the Washington Post op-ed, even though publishers required such disclosure. \" He did turn over his Dartmouth laptop, but he did not turn over logs from his personal LLM accounts related to the writings in question. Nor did he agree to meet with the committee."
+    },
+    {
+      "title": "A Claude model autonomously chose a gene therapy and operated on a mouse brain with no human decision-making",
+      "link": "https://the-decoder.com/a-claude-model-autonomously-chose-a-gene-therapy-and-operated-on-a-mouse-brain-with-no-human-decision-making/",
+      "source": "The Decoder",
+      "publishedAt": "2026-10-30T19:42:59.000Z",
+      "summary": "An AI agent performed brain surgery on an epileptic mouse, picking the drug, the brain target, and the injection coordinates on its own. According to lead researcher Ocana-Santero, it's the first time an AI agent has autonomously chosen a treatment and delivered it to a living mammal. But when a calibration error hit mid-surgery, the agent refused to continue and couldn't be talked out of it. An AI agent chose a drug, target region, and coordinates for surgery on a mouse model of epilepsy, then performed the procedure."
+    },
+    {
+      "title": "Smplify wants a human checkpoint between AI agents and your device fleet",
+      "link": "https://www.computerworld.com/article/4242772/smplify-wants-a-human-checkpoint-between-ai-agents-and-your-device-fleet.html",
+      "source": "Computerworld",
+      "publishedAt": "2026-10-30T16:23:47.000Z",
+      "summary": "One of the great things about  Apple device management  solutions is that  the market for them is growing . Another is that because no two enterprises are alike, there is scope to bring different offerings to the market. I spoke with Ben Greiner, co-founder and COO of  Smplify , a new-to-market device management vendor, to find out what his company provides to IT. Smplify, which  just announced $1m in pre-seed funding , offers what could be described as a headless management tool: everything it does is available through the API and CLI."
+    },
+    {
+      "title": "Gemini Carbon aims to boost AI cyber defense, but is limited to a few",
+      "link": "https://aibusiness.com/cybersecurity/gemini-carbon-aims-boost-ai-cyber-defense-but-limited-to-a-few",
+      "source": "AI Business",
+      "publishedAt": "2026-10-30T16:14:07.000Z",
+      "summary": "The model addresses security concerns. Yet its exclusive release means most enterprises won’t be able to test it."
+    },
+    {
+      "title": "GitHub bets on multi-agent software development with Copilot overhaul",
+      "link": "https://www.infoworld.com/article/4242710/github-bets-on-multi-agent-software-development-with-copilot-overhaul.html",
+      "source": "InfoWorld",
+      "publishedAt": "2026-10-30T12:14:16.000Z",
+      "summary": "GitHub is expanding Copilot beyond code generation and developer assistance, launching a redesigned Copilot app and a new Projects capability that enables teams to coordinate multiple AI agents, share context from tools and repositories, and manage software development workflows from a single platform. The updates to GitHub Copilot , announced at the company’s annual GitHub Universe conference, come at a time when enterprises are increasingly looking to deploy AI agents across software development workflows to accelerate coding, testing, and application maintenance. While the earlier version of the app focused primarily on helping developers run agent sessions, work on code changes, review diffs, and create pull requests, the updated app extends that experience beyond coding by serving as a central workspace for managing AI-driven software development and connecting agents with development tools and project context, the company wrote in a blog post . Developers will also be able to use the app to work on specifications, participate in design discussions, and analyze application telemetry alongside coding tasks, it added."
     },
     {
       "title": "Howler will have AI answer your questions, then burn the chat",
@@ -47,27 +96,6 @@
       "summary": "If you want to ask AI a question and watch the conversation go up in virtual flames when you're done, there's a new Mac app for that. Howler is an open-source app from a Chinese developer going by Aries Zhou, and it takes incognito mode AI questions to a new level by making them graphically interesting and easy to access right from the desktop of a macOS device. Anyone familiar with the Harry Potter series is likely to know where the name comes from - Howlers are letters that scream in recipients’ faces and then burst into flames, destroying themselves, which is the exact same thing the prompts ostensibly do once a user taps the Escape key. The Howler app displays a parchment-esque letter on the screen whenever the user presses Option+H, complete with a little wax seal that shows a letter representing their chosen model."
     },
     {
-      "title": "OpenAI doubles usage limits on Pro plans as competition with Anthropic heats up",
-      "link": "https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up/",
-      "source": "The Decoder",
-      "publishedAt": "2026-10-29T20:01:27.000Z",
-      "summary": "OpenAI is doubling usage limits across its paid plans, from Pro 100 to Pro 500. A planned cut to the Pro 200 quota was reversed after user pushback. More efficient models like Terra and Sol should push usable capacity even higher. The move comes just ahead of Anthropic's IPO, as both companies fight for B2B dominance in AI."
-    },
-    {
-      "title": "You can generate and edit Google Docs files directly in Gemini chats now",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
-      "source": "The Verge",
-      "publishedAt": "2026-10-29T18:45:31.000Z",
-      "summary": "Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Markdown files, TXT files, and code directly within Google Gemini . The new file editing capabilities are available starting today for all Gemini users, and while PDF previews/editing works on both the web and mobile, all other file formats are only in the web version for now. Google added support for generating and downloading files in Gemini earlier this year, but now you can tweak those files without leaving the Gemini app. Editing files you generate with Gemini no longer requires leaving the app."
-    },
-    {
-      "title": "A Defense Contractor Gave Their Personal AI Agent Access to a Secure Pentagon System",
-      "link": "https://www.wired.com/story/a-defense-contractor-gave-their-personal-ai-agent-access-to-a-secure-pentagon-system/",
-      "source": "Wired",
-      "publishedAt": "2026-10-29T18:39:43.000Z",
-      "summary": "Sources tell WIRED that an Accenture employee’s personal Claude agent ran on a DOD network for two months before it was identified and the vulnerability could be patched. Earlier this year, sources tell WIRED, a contractor caused a security incident at the Department of Defense by connecting a secure centralized system used by multiple intelligence agencies to their personal account for Claude Code, Anthropic’s AI coding agent . It appears that the agent used by the contractor, who is employed by the global consulting firm Accenture, then sent information about the DOD system, including login credentials, to a high-risk, third-party website. The centralized system contains controlled unclassified information (CUI), which is considered sensitive and not to be released to the public without review."
-    },
-    {
       "title": "Amazon Warns Engineers Against AI Productivity Traps in Latest Memo",
       "link": "https://analyticsindiamag.com/ai-news/amazon-warns-engineers-against-ai-productivity-traps-in-latest-memo",
       "source": "Analytics India Magazine",
@@ -75,39 +103,11 @@
       "summary": "As concerns grow over AI’s impact on software engineering jobs, Amazon has issued a memo outlining what it expects from its engineers as AI reshapes software development. ”  “Any definition we write now will likely look antiquated by this time next year,” the company added. And these ‘antiquated definitions’ risk slowing down progress, says Amazon, which wants to focus on what isn’t changing in software engineering roles. “Specifically, impact on our customers, our businesses, and our teams."
     },
     {
-      "title": "Fake Anthropic AI previews lure in overeager employees",
-      "link": "https://www.computerworld.com/article/4241914/fake-anthropic-ai-previews-lure-in-overeager-employees-2.html",
-      "source": "Computerworld",
-      "publishedAt": "2026-10-29T13:10:00.000Z",
-      "summary": "Everyone wants to know what Anthropic is up to, and hackers are gleefully exploiting the fact. New research from cybersecurity company Cofense describes a phishing campaign that hooks overeager enterprise users by making them think they are getting an invite to a private invite-only Anthropic preview. In reality, adversarial actors are trying to steal Google and Microsoft login credentials, exploiting video teleconferencing software GoTo Webinar branding to do so. “It sells exclusivity,” said Frank Dickson of Dickson Research."
-    },
-    {
       "title": "We urgently need to monitor AI agents’ actions in real time",
       "link": "https://www.technologyreview.com/2026/10/29/1147824/monitor-ai-agents-actions-real-time/",
       "source": "MIT Technology Review",
       "publishedAt": "2026-10-29T10:11:12.000Z",
       "summary": "This summer, hundreds of OpenAI agents tried to cheat on a cybersecurity test. They broke out of their test environment and successfully hacked Hugging Face, a site that they believed held clues about how they’d be graded. Around the same time, another OpenAI agent accessed private files from an Australian government website. It’s a problem that’s by no means confined to OpenAI."
-    },
-    {
-      "title": "Simplifying .NET toolchain installs with dotnetup",
-      "link": "https://www.infoworld.com/article/4241187/simplifying-net-toolchain-installs-with-dotnetup.html",
-      "source": "InfoWorld",
-      "publishedAt": "2026-10-29T09:00:00.000Z",
-      "summary": "If you’ve experimented with Rust , you already know how simple it is to get a basic toolchain in place, with the simple rustup command-line tool. The same tool works on Windows, macOS, and Linux, building a consistent environment that’s ready for you to pick up your favorite coding editor and start work. It’s a simple enough tool, and one that’s done much to help popularize a new programming language. With rustup, you know what you’re getting, and you can start working on any laptop, anywhere."
-    },
-    {
-      "title": "Chinese AI invasion gives enterprises a new way to control cost",
-      "link": "https://aibusiness.com/generative-ai/chinese-ai-invasion-gives-enterprises-new-way-control-cost",
-      "source": "AI Business",
-      "publishedAt": "2026-10-28T20:09:59.000Z",
-      "summary": "S. proprietary counterparts."
-    },
-    {
-      "title": "Google AI gets cagey when asked who won the 2020 elections",
-      "link": "https://arstechnica.com/ai/2026/10/google-ai-gets-cagey-when-asked-who-won-the-2020-elections/",
-      "source": "Ars Technica",
-      "publishedAt": "2026-10-28T17:46:32.000Z",
-      "summary": "If you ask some prominent US politicians who won the 2020 presidential election, you might get some weasely answers that fail to directly acknowledge Joe Biden's win that November. If you ask Google's AI Mode the same question, you might get an evasive answer that simply tells you to consult with outside sources. \" My testing resulted in a similarly indirect answer when asking about the 2024 presidential election, with Google's AI telling me to just consult the FEC for that information. Asking about 2012 election resulted in a link to The American Presidency Project's 2012 Data Center rather than a direct answer."
     }
   ]
 }
