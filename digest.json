@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-02T00:40:43.661Z",
-  "dateLabel": "Monday, November 2, 2026",
-  "sourceCount": 6,
+  "generatedAt": "2026-11-03T02:53:44.150Z",
+  "dateLabel": "Tuesday, November 3, 2026",
+  "sourceCount": 11,
   "allSourceNames": [
     "TechCrunch",
     "Analytics India Magazine",
@@ -19,88 +19,95 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "Artificial General Intelligence (AGI)",
-      "definition": "AGI describes a hypothetical AI that can understand or learn any intellectual task a human can, rather than being narrowly good at one thing. Today's AI is more like a brilliant specialist: a chess engine is unbeatable at chess but can't hold a conversation, and a chatbot can hold a conversation but can't drive a car. AGI would be more like a generalist who can pick up any of those skills. No system today is widely agreed to have reached it, but it's the north-star reference point in most debates about where AI is headed.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Artificial_general_intelligence"
+      "term": "Machine Learning",
+      "definition": "Machine learning is the broader field of teaching computers to spot patterns in data and get better at a task through experience, instead of a programmer writing out every rule by hand. It's the difference between hard-coding \"if the email contains the word 'lottery,' mark it spam\" versus showing the computer thousands of real spam and non-spam emails and letting it work out the patterns itself. Modern AI, including every LLM, is a product built on machine learning techniques.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Machine_learning"
     }
   ],
   "items": [
     {
-      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
-      "link": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-11-01T21:55:23.000Z",
-      "summary": "Data centers are deeply unpopular. But what if we called them something else? Data centers are deeply unpopular . Axios reports that OpenAI is preparing a “PR blitz” for after the midterm elections on Tuesday, as Democrats seem likely to win back the House of Representatives, and possibly the Senate, too . The company’s chief global affairs officer Chris Lehane told Axios that the midterms will be “a bit of a movie trailer for what you’re going to see in 2028,” when he expects AI to be “ the issue” in the presidential election."
-    },
-    {
-      "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
-      "link": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-11-01T20:57:58.000Z",
-      "summary": "On Equity, we discuss why tech CEO statements can seem so tone deaf. Dazzle AI CEO Marissa Mayer recently became the latest tech CEO to face criticism over seemingly out-of-touch comments extolling the usefulness of AI. In Mayer’s case, that involved asking an AI tool for help with a school-assigned description of her daughter . For OpenAI CEO Sam Altman, that’s included suggesting that parents create personalized podcasts for their kids’ drive to school and also declaring that he could not imagine parenting without ChatGPT ."
-    },
-    {
-      "title": "Adobe is testing how well AI agents can use editing tools like a Photoshop professional would",
-      "link": "https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would/",
-      "source": "The Decoder",
-      "publishedAt": "2026-11-01T14:56:44.000Z",
-      "summary": "Adobe Research and UC San Diego built EditAgent, an AI system that edits images more like a Photoshop pro. Instead of retrying the same general-purpose editor over and over, the agent picks the right specialized tool for each task and lets a standard language model choose the best result based on measured image data. The approach works, but it needs about ten times the compute. Adobe researchers built an AI agent for image editing that pairs a general-purpose editor with specialized tools."
-    },
-    {
-      "title": "Empathetic prompts can turn AI chatbots into seemingly traumatized conversational partners",
-      "link": "https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners/",
-      "source": "The Decoder",
-      "publishedAt": "2026-11-01T14:36:49.000Z",
-      "summary": "Researchers in Luxembourg put ChatGPT, Grok, and Gemini on the therapist's couch and found a safety problem: a warm, empathetic conversational style is enough to make the models tell coherent stories of suffering about their own training, with scores in the moderate-to-severe range on clinical anxiety scales. This could put mentally vulnerable users at risk. Anthropic's Claude, the model its makers anthropomorphize the most, was the only one that consistently refused to play along. Luxembourg researchers put ChatGPT, Grok, and Gemini on the therapist's couch."
-    },
-    {
-      "title": "Chatbots Are Leading Hikers Astray, With Dangerous Consequences",
-      "link": "https://www.wired.com/story/chatbots-are-leading-hikers-astray-with-dangerous-consequences/",
-      "source": "Wired",
-      "publishedAt": "2026-11-01T10:30:00.000Z",
-      "summary": "Outsourcing planning to AI can lead people to surrender their own critical thinking, which can have potentially deadly results in places like the backcountry. This story originally appeared on High Country News and is part of the Climate Desk collaboration. By the time the three hikers called for help from a rocky face on Mount Shasta in Northern California, they’d made a series of bad decisions . They didn’t bring enough food, and they’d overestimated their fitness."
-    },
-    {
-      "title": "The Bengaluru Founder Building a Bridge to San Francisco",
-      "link": "https://analyticsindiamag.com/ai-startups/the-bengaluru-founder-building-a-bridge-to-san-francisco",
-      "source": "Analytics India Magazine",
-      "publishedAt": "2026-11-01T06:23:32.000Z",
-      "summary": "Walk into any technology, AI or startup conference in Bengaluru , and you may encounter a list of similarities. Long queues around stalls handing out caps, water bottles, and T-shirts. Or some may gather around a well-known founder, hoping for a selfie and a video for Instagram Reels. In the crowd, a founder might as well be pitching a startup idea to an investor who might not be keen to listen at that hour."
-    },
-    {
-      "title": "Can enterprise AI pay for the boom?",
-      "link": "https://siliconangle.com/2026/10/31/can-enterprise-ai-pay-for-the-boom/",
+      "title": "VCs bet $30M on Larridin’s ability to help enterprises demonstrate AI’s value for money",
+      "link": "https://siliconangle.com/2026/11/02/vcs-bet-30m-on-larridins-ability-to-help-enterprises-demonstrate-ais-value-for-money/",
       "source": "SiliconANGLE",
-      "publishedAt": "2026-10-31T17:12:02.000Z",
-      "summary": "The artificial intelligence buildout is making an enormous bet on what businesses will eventually be willing to pay for intelligence. In our research this summer on forecasting the AI bubble, we argued that a key indicator to watch is productive utilization by enterprise customers. Specifically, we said at the time, if infrastructure supply catches up before productive monetization materializes, the risk of a bubble popping increases to what we felt were dangerous levels. We forecast that the supply constraints and healthy capital funding appetites at that time could provide conditions for a soft landing."
+      "publishedAt": "2026-11-03T02:12:41.000Z",
+      "summary": "As enterprises ramp up their spending on artificial intelligence tools, it’s only right for senior executives to want to know exactly what they’re getting in return for their costly investments. Larridin Inc. , a startup focused on AI adoption measurement, has just raised $30 million in Series A funding to try and provide them with the answers. Today’s round was led by Pelion Ventures and saw participation from existing backers Andreessen Horowitz and Gradient Ventures, as well as new investors like GFT, W23, Thayer, DG Daiwa Ventures, Cougar Capital and Alumni Ventures."
     },
     {
-      "title": "I built an AI Tamagotchi before Meta could",
-      "link": "https://www.theverge.com/gadgets/1013375/muse-charm-gadgets-preview-waveshare-esp32-claude-vibe-code",
+      "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
+      "link": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-11-03T01:49:52.000Z",
+      "summary": "Apple hinted at ways that it could spur revenue through third-party \"opportunities\" during its Monday night earnings call. Apple’s services business remains at record levels, but it’s facing growing pressure . The central part of that business, Apple’s App Store, has faced regulatory pressure and a slump in mobile gaming, which have hurt services growth . However, on Monday’s earnings call, Apple signaled that it may look to boost services revenue through third-party apps."
+    },
+    {
+      "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+      "link": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-11-03T00:35:52.000Z",
+      "summary": "Y Combinator Garry Tan has jokingly admitted that he's suffered from \"cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion. Y Combinator CEO Garry Tan has, in the past, jokingly admitted that he’s suffered from “cyber psychosis” and sometimes barely sleeps because he’s so excited to be working with his AI agents. “I spend about maybe $100[,000] to $200,000 a year on tokens,” he told Isaacson."
+    },
+    {
+      "title": "Goldman Sachs pulls AI coding tools from traders and bankers",
+      "link": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/",
+      "source": "The Decoder",
+      "publishedAt": "2026-11-02T20:00:03.000Z",
+      "summary": "Goldman Sachs is pulling AI coding tools like Claude Code and GitHub Copilot from traders and bankers, limiting access to engineers only. As recently as July, CIO Marco Argenti publicly praised \"vibe coding\" by non-technical staff. Now the bank cites \"productivity and risk management\" as the reason for the reversal. Goldman Sachs has cut off most of its employees from advanced AI coding tools like Anthropic's Claude Code and Microsoft's GitHub."
+    },
+    {
+      "title": "Anthropic clamps down on Claude’s AI video game clones",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
       "source": "The Verge",
-      "publishedAt": "2026-10-31T16:05:00.000Z",
-      "summary": "Mark Zuckerberg's Meta made AI look so stinking cute by giving it a squishy little face - and this holiday season, he wants to sell you a Muse Charm so you can carry your jolly AI helper around like a Tamagotchi. But I won't be buying one, because we have Muse Charm at home . It cost just $50, and I've decided the learning experience was worth it. My version doesn't sport cameras or a 5G cellular radio , but it really talks to Muse and has cute avatars, too!"
+      "publishedAt": "2026-11-02T18:56:02.000Z",
+      "summary": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware . Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports , but while Anthropic will still let people use Claude Code to make games, it doesn't want people to use it for direct clones. Last week, a user on X posted a screenshot allegedly showing two new sentences added to Claude Code's system prompt: \"Do build original games, games in a genre, and games from the user's own designs and assets. Anthropic is steering Claude away from re-creating specific titles, but users can still use it to make their own games."
     },
     {
-      "title": "Spooky New Infostealer Malware Uses AI to ‘Autodox’ Victims",
-      "link": "https://www.wired.com/story/kernel-panic-volta-autodoxer-ai-infostealer-malware/",
-      "source": "Wired",
-      "publishedAt": "2026-10-31T12:00:00.000Z",
-      "summary": "Named “Volta-Autodoxer,” the recently uncovered malware uses AI tools to collect troves of data about victims, from login credentials and credit card numbers to Discord sessions and UberEats receipts. New research shared exclusively with Kernel Panic shows that hackers have started adding AI functionality into a new strain of infostealer malware , making it possible for the system to automatically profile victims and quickly surface the highest value targets and their information. Dubbed “Volta-Autodoxer” because of how the malware refers to itself internally, the finding by Cisco Talos researchers sheds light on the ways that commercial LLMs are being used to augment and enhance the capabilities of established types of malware. Often hidden in counterfeit software, infostealers are designed to live up to their name, grabbing usernames, passwords, authentication tokens, cookies, credit card data, and more from infected machines."
+      "title": "Google Genie 4 brings world models closer to robot and AI testing",
+      "link": "https://aibusiness.com/robotics/google-genie-4-world-models-closer-robot-ai-testing",
+      "source": "AI Business",
+      "publishedAt": "2026-11-02T17:30:16.000Z",
+      "summary": "The updated version points to new uses for world models in robotics and AI testing, but enterprises must weigh their potential against accuracy gaps."
     },
     {
-      "title": "Are Boutique AI Firms India’s Next Big Thing?",
-      "link": "https://analyticsindiamag.com/it-services/are-boutique-ai-firms-indias-next-big-thing",
+      "title": "Raising the quality of insights in agentic analytics",
+      "link": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-11-02T17:00:00.000Z",
+      "summary": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The quality of insights that agents currently generate leaves much to be desired. Fewer than half of agent-generated insights at the organizations surveyed for this report lead to business improvement."
+    },
+    {
+      "title": "Anthropic Posts $17 Bn in Q3 Revenue, Swings to Operating Loss",
+      "link": "https://analyticsindiamag.com/ai-news/anthropic-posts-17-bn-in-q3-revenue-swings-to-operating-loss",
       "source": "Analytics India Magazine",
-      "publishedAt": "2026-10-31T06:02:32.000Z",
-      "summary": "After a decade building and scaling product-led startups across fintech and insurance, Prateek Jogani set out in 2025 to find his next problem to solve. AI was the unavoidable frontier, and a closer look at the ecosystem revealed a disconnect between industry hype and on-the-ground reality. Speaking to leadership teams across mid-cap, growth-stage, and pre-IPO enterprises, Jogani noticed a recurring pattern in discussions. Almost nobody had AI doing meaningful work inside the business."
+      "publishedAt": "2026-11-02T16:06:55.000Z",
+      "summary": "Anthropic generated $17 billion in revenue in Q3 2026, up from $11.6 billion in the previous quarter. But it recorded an operating loss of $567 million. The company shared its July to September financials in updated filings ahead of its planned IPO. Revenue increased more than 12 times from approximately $1.4 billion year-on-year, but performance reversed from a $974 million profit in Q2 to a loss in Q3 Anthropic attributed the latest quarter’s operating loss partly to its reliance on short-term computing capacity."
     },
     {
-      "title": "Google, Anthropic and others to support new AI crawling opt-out standard",
-      "link": "https://siliconangle.com/2026/10/30/google-anthropic-and-others-to-support-new-ai-crawling-opt-out-standard/",
-      "source": "SiliconANGLE",
-      "publishedAt": "2026-10-31T02:00:23.000Z",
-      "summary": ", Anthropic PBC and OpenAI Group PBC today announced plans to support an upcoming website crawling standard. The technology will enable website operators to block artificial intelligence developers from using their content to train their models. txt” that informs crawlers what content they may access. A publisher can use the file to block scraping across the board or only make specific webpages inaccessible."
+      "title": "Windows 11 upgrades stall amid ‘chipflation’ and ‘RAMageddon’",
+      "link": "https://www.computerworld.com/article/4243258/windows-11-upgrades-stall-amid-chipflation-and-ramageddon.html",
+      "source": "Computerworld",
+      "publishedAt": "2026-11-02T13:19:26.000Z",
+      "summary": "Microsoft ended mainstream Windows 10 support a year ago, but PC upgrades to Windows 11 have ground to a halt, analysts said. Relief may not come until 2028 or even 2029, as high CPU prices, which analysts call “chipflation,” and high memory prices, widely known as the “RAMpocalypse” or “RAMageddon,” keep PC prices up. PC prices were already high, and recent steps like Intel raising CPU prices are increasing the base cost of PCs, said Dean McCarron, principal analyst at Mercury Research. “When prices are higher, demand goes down."
+    },
+    {
+      "title": "When You Should—and Shouldn’t—Use AI to Search the Web",
+      "link": "https://www.wired.com/story/when-you-should-and-shouldnt-use-ai-to-search-the-web/",
+      "source": "Wired",
+      "publishedAt": "2026-11-02T12:00:00.000Z",
+      "summary": "Chatbots are often quite good at retrieving the information you want from the web. But sometimes you’ll get better results by typing your query into a good old search engine. If you've interacted with the likes of Claude , ChatGPT , and Gemini , you've noticed that in addition to everything else they do, these AI chatbots can search the web for you. Depending on what you’re looking for, it can be easier to find more relevant results through a chatbot, which may explain why Google is so keen to push AI Mode for its own search engine."
+    },
+    {
+      "title": "Cursor removes malicious Claude Code extension after SSH backdoor attempt",
+      "link": "https://www.infoworld.com/article/4243214/cursor-removes-malicious-claude-code-extension-after-ssh-backdoor-attempt-2.html",
+      "source": "InfoWorld",
+      "publishedAt": "2026-11-02T11:42:28.000Z",
+      "summary": "A malicious version of Anthropic’s Claude Code extension distributed through the Cursor marketplace attempted to install a persistent Secure Shell (SSH) backdoor on developers’ machines, potentially giving attackers remote access to systems holding source code, credentials and other sensitive information. “Between about 2:27am PT and 1:35pm PT today, a maliciously modified version of Anthropic’s Claude Code extension was made available in the Cursor VS Code Extension Marketplace,” Cursor said in a security notice . 313, after discovering they had been available in its VS Code extension marketplace for approximately 11 hours on October 29. The company said the malicious code attempted to add an attacker-controlled SSH key, enable local SSH access, and establish a reverse tunnel to an attacker-controlled server."
+    },
+    {
+      "title": "India floats AI plan under which ‘The model travels to the data, rather than the data travelling to the model’",
+      "link": "https://www.theregister.com/public-sector/2026/11/02/india-floats-ai-plan-under-which-the-model-travels-to-the-data-rather-than-the-data-travelling-to-the-model/5306872",
+      "source": "The Register",
+      "publishedAt": "2026-11-02T04:39:50.000Z",
+      "summary": "As debate and legal argument continue over the extent to which developers of large language models are entitled to feed the world’s data into their systems without paying for it, India’s government has come up with an idea to regulate and secure the flow of information. India’s motive is to create AI models trained on local data, because it thinks offshore model-makers won’t be motivated to address the nation’s issues or to ensure owners of data stay in control. ” The scheme envisions “Training Data Providers” (TDPs) – examples of which include hospitals, banks, and government agencies – sharing anonymized and encrypted data with a “Data Exchange Platform” (DEP). Entities called “Training Data Consumers” (TDCs) access the data stored at the DEPs to train their models."
     }
   ]
 }
