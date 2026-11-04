@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-03T02:53:44.150Z",
-  "dateLabel": "Tuesday, November 3, 2026",
-  "sourceCount": 11,
+  "generatedAt": "2026-11-04T01:19:14.858Z",
+  "dateLabel": "Wednesday, November 4, 2026",
+  "sourceCount": 12,
   "allSourceNames": [
     "TechCrunch",
     "Analytics India Magazine",
@@ -19,46 +19,81 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "Machine Learning",
-      "definition": "Machine learning is the broader field of teaching computers to spot patterns in data and get better at a task through experience, instead of a programmer writing out every rule by hand. It's the difference between hard-coding \"if the email contains the word 'lottery,' mark it spam\" versus showing the computer thousands of real spam and non-spam emails and letting it work out the patterns itself. Modern AI, including every LLM, is a product built on machine learning techniques.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Machine_learning"
+      "term": "Hallucination",
+      "definition": "In AI, a hallucination is when a model confidently states something false, a fake statistic, a made-up citation, or an invented fact, because it's generating plausible-sounding text rather than actually retrieving something it verified. It's less like lying, which implies knowing the truth and hiding it, and more like a very confident student improvising a convincing-sounding answer on an exam question they never actually studied. It remains one of the central unsolved problems in trusting LLMs for anything high-stakes.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)"
     }
   ],
   "items": [
     {
-      "title": "VCs bet $30M on Larridin’s ability to help enterprises demonstrate AI’s value for money",
-      "link": "https://siliconangle.com/2026/11/02/vcs-bet-30m-on-larridins-ability-to-help-enterprises-demonstrate-ais-value-for-money/",
+      "title": "AI cloud startup Applied Compute raises $350M after reaching key revenue milestone",
+      "link": "https://siliconangle.com/2026/11/03/ai-cloud-startup-applied-compute-raises-350m-after-reaching-key-revenue-milestone/",
       "source": "SiliconANGLE",
-      "publishedAt": "2026-11-03T02:12:41.000Z",
-      "summary": "As enterprises ramp up their spending on artificial intelligence tools, it’s only right for senior executives to want to know exactly what they’re getting in return for their costly investments. Larridin Inc. , a startup focused on AI adoption measurement, has just raised $30 million in Series A funding to try and provide them with the answers. Today’s round was led by Pelion Ventures and saw participation from existing backers Andreessen Horowitz and Gradient Ventures, as well as new investors like GFT, W23, Thayer, DG Daiwa Ventures, Cougar Capital and Alumni Ventures."
+      "publishedAt": "2026-11-04T01:19:08.000Z",
+      "summary": ", a fast-growing provider of artificial intelligence infrastructure, has raised $350 million in funding at a $3.25 billion valuation. The startup announced the deal on Monday. , Shopify Ventures, HubSpot Ventures and over a dozen others. Applied Compute operates a cloud platform that developers use to train large language models and perform inference. Additionally, it has a team of machine learning researchers that can lend customers a hand with their projects."
     },
     {
-      "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
-      "link": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-11-03T01:49:52.000Z",
-      "summary": "Apple hinted at ways that it could spur revenue through third-party \"opportunities\" during its Monday night earnings call. Apple’s services business remains at record levels, but it’s facing growing pressure . The central part of that business, Apple’s App Store, has faced regulatory pressure and a slump in mobile gaming, which have hurt services growth . However, on Monday’s earnings call, Apple signaled that it may look to boost services revenue through third-party apps."
-    },
-    {
-      "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
-      "link": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-11-03T00:35:52.000Z",
-      "summary": "Y Combinator Garry Tan has jokingly admitted that he's suffered from \"cyber psychosis” and barely sleeps sometimes because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast, The Builders, Tan put a price tag on his passion. Y Combinator CEO Garry Tan has, in the past, jokingly admitted that he’s suffered from “cyber psychosis” and sometimes barely sleeps because he’s so excited to be working with his AI agents. “I spend about maybe $100[,000] to $200,000 a year on tokens,” he told Isaacson."
-    },
-    {
-      "title": "Goldman Sachs pulls AI coding tools from traders and bankers",
-      "link": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/",
-      "source": "The Decoder",
-      "publishedAt": "2026-11-02T20:00:03.000Z",
-      "summary": "Goldman Sachs is pulling AI coding tools like Claude Code and GitHub Copilot from traders and bankers, limiting access to engineers only. As recently as July, CIO Marco Argenti publicly praised \"vibe coding\" by non-technical staff. Now the bank cites \"productivity and risk management\" as the reason for the reversal. Goldman Sachs has cut off most of its employees from advanced AI coding tools like Anthropic's Claude Code and Microsoft's GitHub."
-    },
-    {
-      "title": "Anthropic clamps down on Claude’s AI video game clones",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+      "title": "The biggest modding site in PC gaming is taking a stance on AI",
+      "link": "https://www.theverge.com/games/1026085/nexus-mods-ai-disclosures",
       "source": "The Verge",
-      "publishedAt": "2026-11-02T18:56:02.000Z",
-      "summary": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to re-create existing video games, as reported by Tom's Hardware . Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports , but while Anthropic will still let people use Claude Code to make games, it doesn't want people to use it for direct clones. Last week, a user on X posted a screenshot allegedly showing two new sentences added to Claude Code's system prompt: \"Do build original games, games in a genre, and games from the user's own designs and assets. Anthropic is steering Claude away from re-creating specific titles, but users can still use it to make their own games."
+      "publishedAt": "2026-11-04T00:42:10.000Z",
+      "summary": "The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare \"whether AI has been used in their work,\" the site announced today as part of a big post about AI-generated content on the platform. \"One of the most consistent concerns we've heard is that it's not clearly disclosed when AI has been used to create a mod,\" according to the post from site owner Victor \"Foledinho\" Folmann. ’ The PC gaming mods repository Nexus Mods is making disclosures about AI mandatory for uploads of new mods, meaning that mod authors will have to declare “whether AI has been used in their work,” the site announced today as part of a big post about AI-generated content on the platform. “One of the most consistent concerns we’ve heard is that it’s not clearly disclosed when AI has been used to create a mod,” according to the post from site owner Victor “Foledinho” Folmann."
+    },
+    {
+      "title": "Anthropic is working on a system to prove AI models’ identity",
+      "link": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-11-03T22:41:03.000Z",
+      "summary": "Called FlashProve, the system would let anyone check that an AI response really came from the model it claims to be from. Founder Summit begins Nov. m. ET. Get your pass savings & deals before it starts."
+    },
+    {
+      "title": "OpenAI says GPT-6 Astra designed a hardware device from scratch in under a week",
+      "link": "https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/",
+      "source": "The Decoder",
+      "publishedAt": "2026-11-03T20:15:45.000Z",
+      "summary": "OpenAI's hardware team used GPT-6 Astra to design a device for the Codex coding agent in under a week, handling everything from the enclosure to the circuit board to the firmware. Several revision rounds were needed before production because the model didn't always account for manufacturing tolerances. A newer internal model scores significantly higher on OpenAI's engineering benchmark, though the company isn't sharing details. OpenAI's hardware team reportedly used GPT-6 Astra to design a device that lets users talk to the Codex coding agent, finishing it as a side project in under a week."
+    },
+    {
+      "title": "NYT demands Brave shut down its paywall blocker and end deals with AI firms",
+      "link": "https://arstechnica.com/tech-policy/2026/11/nyt-demands-brave-shut-down-its-paywall-blocker-and-end-deals-with-ai-firms/",
+      "source": "Ars Technica",
+      "publishedAt": "2026-11-03T18:30:27.000Z",
+      "summary": "The New York Times and other newspaper companies sued Brave Software yesterday, alleging that the browser maker illegally bypasses paywalls and sells stolen news content to AI companies. \"Brave is the supplier, dealer, and distributor of stolen copyrighted content for its own users and many of the most prominent GenAI companies, including Anthropic, Perplexity, Mistral, xAI, and Cohere,\" the NYT alleged in a lawsuit filed in US District Court for the Southern District of New York. Lawsuit calls Brave “supplier, dealer, and distributor” of stolen news content. “Brave is the supplier, dealer, and distributor of stolen copyrighted content for its own users and many of the most prominent GenAI companies, including Anthropic, Perplexity, Mistral, xAI, and Cohere,” the NYT alleged in a lawsuit filed in US District Court for the Southern District of New York."
+    },
+    {
+      "title": "Apple’s Q4 results show the enterprise tide turning to local AI",
+      "link": "https://www.computerworld.com/article/4243990/apples-q4-results-show-the-enterprise-tide-turning-to-local-ai.html",
+      "source": "Computerworld",
+      "publishedAt": "2026-11-03T17:53:32.000Z",
+      "summary": "While delivering  record Q4 revenue , Apple’s financial results revealed a  $33 billion cost  associated with memory price inflation, representing the true cost of the  growing bubble of AI data center investments . The results also showed something that threatens those same data center investments — a sea change in how enterprises are approaching AI. Inference costs, security, and  data governance concerns  may finally be dampening enthusiasm for cloud-based AI services. Apple revealed several major enterprise clients who are turning to its products as  solutions for local inference ."
+    },
+    {
+      "title": "Here’s Why You Shouldn’t Use AI to Vote",
+      "link": "https://www.wired.com/story/heres-why-you-shouldnt-use-ai-to-vote/",
+      "source": "Wired",
+      "publishedAt": "2026-11-03T14:45:08.000Z",
+      "summary": "From hallucinations to partisan bias, artificial intelligence chatbots like ChatGPT and Claude are not helpful when it comes to Election Day. As Americans go to the polls today, many will have had their decision about who to vote for informed by an artificial intelligence –powered chatbot. Around 50 percen t of recently surveyed US adults have at one time used an AI chatbot, and 8 percent say they have used these tools ahead of the midterms to find information on candidates and policies, according to Pew Research. But a lot of information from these chatbots is out of date and has been hallucinated or sourced from partisan websites."
+    },
+    {
+      "title": "Snowflake launches Business Ontology to boost AI agent reliability",
+      "link": "https://www.infoworld.com/article/4243932/snowflake-launches-business-ontology-to-boost-ai-agent-reliability.html",
+      "source": "InfoWorld",
+      "publishedAt": "2026-11-03T14:00:00.000Z",
+      "summary": "Snowflake is hoping to improve the reliability of AI agents with a new tool called Business Ontology, as part of its Horizon Catalog, meant for data discovery, management, and governance. Horizon Catalog received a boost in June with the launch of Horizon Context , a set of semantic and metadata management capabilities to help enterprises collect, enrich, and organize metadata across their data estates and give AI agents a better understanding of enterprise data, its relationships, and how it is used. Business Ontology builds on that foundation by allowing enterprises to define and approve business concepts, assign owners to those definitions, and link them directly to the underlying tables and views, Snowflake said in a statement. That, in turn, should give enterprise AI agents access to authoritative business definitions, such as what constitutes net revenue, rather than relying on competing interpretations of the same data across different systems, it added."
+    },
+    {
+      "title": "Coforge Is Outgrowing Its Larger Rivals. Is AI the Reason?",
+      "link": "https://analyticsindiamag.com/it-services/coforge-is-outgrowing-its-larger-rivals-is-ai-the-reason",
+      "source": "Analytics India Magazine",
+      "publishedAt": "2026-11-03T13:30:00.000Z",
+      "summary": "Coforge’s growth is beginning to outpace that of its larger rivals. But the headline numbers tell only part of the story. The IT services company is expanding through acquisitions, deepening relationships with existing clients and betting that artificial intelligence (AI) can help it grow without adding costs at the same pace. The distinction matters. Coforge reported revenue of ₹6,170 crores for Q2 FY27, up 53.6% year on year (40.1% in dollar terms)."
+    },
+    {
+      "title": "How “reverse game theory” could keep AI agents in check",
+      "link": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-11-03T10:43:41.000Z",
+      "summary": "A new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incentivize them to stick to the rules. As AI models become more capable, safety researchers are scrambling to ensure they are “aligned” with human desires—to make sure, in other words, that rogue agents don’t break the law, hack into unauthorized servers, or release poison gas into major cities and kill us all. Until now, this work has mostly focused on trying to peer into an AI’s “brain” to understand what it is “thinking,” or training models to hew to values that we hold dear. Claude, for instance, has its constitution —a sort of moral code."
     },
     {
       "title": "Google Genie 4 brings world models closer to robot and AI testing",
@@ -66,41 +101,6 @@
       "source": "AI Business",
       "publishedAt": "2026-11-02T17:30:16.000Z",
       "summary": "The updated version points to new uses for world models in robotics and AI testing, but enterprises must weigh their potential against accuracy gaps."
-    },
-    {
-      "title": "Raising the quality of insights in agentic analytics",
-      "link": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
-      "source": "MIT Technology Review",
-      "publishedAt": "2026-11-02T17:00:00.000Z",
-      "summary": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization. Agentic AI promises to do even more, by automating entire workflows and taking actions based on agent insights. But there is a problem: The quality of insights that agents currently generate leaves much to be desired. Fewer than half of agent-generated insights at the organizations surveyed for this report lead to business improvement."
-    },
-    {
-      "title": "Anthropic Posts $17 Bn in Q3 Revenue, Swings to Operating Loss",
-      "link": "https://analyticsindiamag.com/ai-news/anthropic-posts-17-bn-in-q3-revenue-swings-to-operating-loss",
-      "source": "Analytics India Magazine",
-      "publishedAt": "2026-11-02T16:06:55.000Z",
-      "summary": "Anthropic generated $17 billion in revenue in Q3 2026, up from $11.6 billion in the previous quarter. But it recorded an operating loss of $567 million. The company shared its July to September financials in updated filings ahead of its planned IPO. Revenue increased more than 12 times from approximately $1.4 billion year-on-year, but performance reversed from a $974 million profit in Q2 to a loss in Q3 Anthropic attributed the latest quarter’s operating loss partly to its reliance on short-term computing capacity."
-    },
-    {
-      "title": "Windows 11 upgrades stall amid ‘chipflation’ and ‘RAMageddon’",
-      "link": "https://www.computerworld.com/article/4243258/windows-11-upgrades-stall-amid-chipflation-and-ramageddon.html",
-      "source": "Computerworld",
-      "publishedAt": "2026-11-02T13:19:26.000Z",
-      "summary": "Microsoft ended mainstream Windows 10 support a year ago, but PC upgrades to Windows 11 have ground to a halt, analysts said. Relief may not come until 2028 or even 2029, as high CPU prices, which analysts call “chipflation,” and high memory prices, widely known as the “RAMpocalypse” or “RAMageddon,” keep PC prices up. PC prices were already high, and recent steps like Intel raising CPU prices are increasing the base cost of PCs, said Dean McCarron, principal analyst at Mercury Research. “When prices are higher, demand goes down."
-    },
-    {
-      "title": "When You Should—and Shouldn’t—Use AI to Search the Web",
-      "link": "https://www.wired.com/story/when-you-should-and-shouldnt-use-ai-to-search-the-web/",
-      "source": "Wired",
-      "publishedAt": "2026-11-02T12:00:00.000Z",
-      "summary": "Chatbots are often quite good at retrieving the information you want from the web. But sometimes you’ll get better results by typing your query into a good old search engine. If you've interacted with the likes of Claude , ChatGPT , and Gemini , you've noticed that in addition to everything else they do, these AI chatbots can search the web for you. Depending on what you’re looking for, it can be easier to find more relevant results through a chatbot, which may explain why Google is so keen to push AI Mode for its own search engine."
-    },
-    {
-      "title": "Cursor removes malicious Claude Code extension after SSH backdoor attempt",
-      "link": "https://www.infoworld.com/article/4243214/cursor-removes-malicious-claude-code-extension-after-ssh-backdoor-attempt-2.html",
-      "source": "InfoWorld",
-      "publishedAt": "2026-11-02T11:42:28.000Z",
-      "summary": "A malicious version of Anthropic’s Claude Code extension distributed through the Cursor marketplace attempted to install a persistent Secure Shell (SSH) backdoor on developers’ machines, potentially giving attackers remote access to systems holding source code, credentials and other sensitive information. “Between about 2:27am PT and 1:35pm PT today, a maliciously modified version of Anthropic’s Claude Code extension was made available in the Cursor VS Code Extension Marketplace,” Cursor said in a security notice . 313, after discovering they had been available in its VS Code extension marketplace for approximately 11 hours on October 29. The company said the malicious code attempted to add an attacker-controlled SSH key, enable local SSH access, and establish a reverse tunnel to an attacker-controlled server."
     },
     {
       "title": "India floats AI plan under which ‘The model travels to the data, rather than the data travelling to the model’",
