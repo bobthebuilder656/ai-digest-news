@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-05T01:31:18.022Z",
-  "dateLabel": "Thursday, November 5, 2026",
+  "generatedAt": "2026-11-06T01:31:42.405Z",
+  "dateLabel": "Friday, November 6, 2026",
   "sourceCount": 11,
   "allSourceNames": [
     "TechCrunch",
@@ -19,53 +19,81 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "GPU (Graphics Processing Unit)",
-      "definition": "A GPU is a chip originally built for rendering video game graphics that turns out to also be extremely good at the kind of repetitive, parallel math AI training needs. A regular computer processor is like one extremely skilled worker doing tasks one at a time very quickly; a GPU is like thousands of less specialized workers all doing simple tasks simultaneously, which happens to be exactly the kind of work training a neural network requires. Access to GPUs, and the electricity to run them, is one of the biggest bottlenecks and cost centers in AI right now.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Graphics_processing_unit"
+      "term": "Neural Network",
+      "definition": "A neural network is a computing structure loosely inspired by neurons in the brain: layers of simple units that pass signals to each other, strengthening or weakening those connections as they learn from examples. Picture a huge grid of light switches, wired together in layers, where training slowly adjusts which switches influence which other switches until the whole grid reliably lights up the correct \"answer\" pattern for a given input. It's the basic architecture underneath almost all modern AI, from image recognition to language models.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Neural_network_(machine_learning)"
     }
   ],
   "items": [
     {
-      "title": "Apple is reportedly cutting budgets for its internal AI usage",
-      "link": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-11-05T01:26:22.000Z",
-      "summary": "The company is said to be significantly dropping the amount it's spending on AI for its engineering teams. Apple is cutting the daily amount its engineering teams can spend on AI, Bloomberg reported Wednesday. It’s a big change for a company that has worked to integrate the technology into its engineering processes. In October, Apple lowered the daily AI spending cap for its engineering teams, decreasing it from $300 to $200, the outlet reported."
+      "title": "OpenAI is stepping back from NDAs for data center projects",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+      "source": "The Verge",
+      "publishedAt": "2026-11-06T00:37:56.000Z",
+      "summary": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion , OpenAI today announced new commitments to communities where it is working on data center projects, including that it won't use non-disclosure agreements (NDAs) with public officials. Many data center projects have come under scrutiny for relying on NDAs to hide discussions between developers and local officials. The ChatGPT maker won’t use NDAs with public officials as part of its new data center community commitments. Following this week’s midterms where voters resoundingly voiced their opposition to data center expansion , OpenAI today announced new commitments to communities where it is working on data center projects, including that it won’t use non-disclosure agreements (NDAs) with public officials."
     },
     {
-      "title": "The Blue Wave Has Tech Bros Scrambling for Data Centers in Space",
-      "link": "https://www.wired.com/story/the-blue-wave-has-tech-bros-scrambling-for-data-centers-in-space/",
+      "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+      "link": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-11-05T22:40:55.000Z",
+      "summary": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay. Airbnb has teased its plans to build its own AI travel agent before, but on Thursday the company announced that the new AI feature will launch in the first half of 2027. In the company’s Q3 shareholder letter on Thursday , Airbnb also provided more detail about how the agent will work, what it will actually do, and how it’s different from a typical AI chatbot. In prior interviews, CEO Brian Chesky sketched out the travel company’s approach to AI, describing a plan to build an AI agent that has a richer interface than a conventional chatbot."
+    },
+    {
+      "title": "Ads in Chatbots Have Arrived. Here’s What’s Working—and What’s Not",
+      "link": "https://www.wired.com/story/ads-in-chatbots-have-arrived-heres-whats-working-and-whats-not/",
       "source": "Wired",
-      "publishedAt": "2026-11-04T23:13:14.000Z",
-      "summary": "After Democrats won big in Texas and other AI infrastructure hot spots on Tuesday, data center enthusiasts looked for comfort in low Earth orbit. A wave of Democratic candidates across the country —and notably in Texas, a national data center hotspot and home to Elon Musk’s SpaceX—won their state and congressional races on Tuesday, including many candidates who voiced opposition to the data center industry . The results have sent some corners of the tech industry looking to the heavens for answers. In recent hours, data center enthusiasts have proclaimed on social media that they’re still “ bullish ” on building data centers—just not necessarily in Texas, or even on Earth at all."
+      "publishedAt": "2026-11-05T21:37:18.000Z",
+      "summary": "As Anthropic maintains its vow to keep ads out of Claude, the rest of the AI chatbot industry is racing to win over advertisers without antagonizing users. Anthropic is holding firm on the pledge made in its Super Bowl commercial this year to keep Claude ad-free. The company’s recent IPO filing didn’t even mention the possibility of selling ads to make money from the AI chatbot. It’s easy to maintain the high ground with about $112 billion in investor cash."
+    },
+    {
+      "title": "OpenAIs GPT-6 Cyber can both break into systems and propose how to fix them",
+      "link": "https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them/",
+      "source": "The Decoder",
+      "publishedAt": "2026-11-05T20:36:25.000Z",
+      "summary": "With GPT-6 Cyber, OpenAI is introducing an AI model built to find security vulnerabilities in software, develop exploits, and suggest patches. According to OpenAI, it has already found 81 previously unknown vulnerabilities in Firefox and developed 948 working exploits in the Linux kernel, significantly more than its predecessor. OpenAI has introduced GPT-6 Cyber, an AI model trained specifically to hunt for security vulnerabilities in software. OpenAI says the model can find flaws, build working exploits, and suggest patches."
+    },
+    {
+      "title": "Meta says US users can now video chat with their Muse AI avatar",
+      "link": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-11-05T19:48:28.000Z",
+      "summary": "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life. , the company announced on Thursday. First introduced at Meta’s Connect developer conference in September, the video-chatting feature involves new AI models, Muse Realtime Avatar and Muse Realtime Voice technology, which help power the digital avatar that chats with the user. While other AI competitors offer voice chat features, Meta’s Muse offers a cute, animated avatar (nicknamed Jolly), which users interact with as they ask questions or request tasks to be handled on their behalf."
+    },
+    {
+      "title": "AWS launches Kiro bots to help devs coordinate AI coding agents",
+      "link": "https://www.infoworld.com/article/4245120/aws-launches-kiro-bots-to-help-devs-coordinate-ai-coding-agents.html",
+      "source": "InfoWorld",
+      "publishedAt": "2026-11-05T19:00:00.000Z",
+      "summary": "AWS on Thursday launched Kiro bots, generally available within Kiro Crew, its open-source multi-agent development environment, to help developers coordinate parallel coding tasks, maintain context across sessions, and automate recurring software development workflows. Kiro bots are designed to take responsibility for specific parts of a developer’s workflow rather than execute isolated tasks within individual agent sessions, in turn addressing the growing coordination burden developers face as they increasingly rely on multiple AI agents to handle software development tasks in parallel, AWS said in a statement. Setting up bots and how do they work Developers can create a bot by opening the Customize section in Kiro Crew and selecting the “Add a bot” option, where they can choose either a default agent or an existing custom agent as its foundation. Each bot can be assigned a specific responsibility, such as issue triage, build monitoring, or release readiness, and customized with its own name, avatar, instructions, tools, and permissions based on the tasks it is expected to handle, the hyperscaler said."
+    },
+    {
+      "title": "Smartsheet’s new AI tool tracks corporate strategies, suggests fixes",
+      "link": "https://www.computerworld.com/article/4245034/smartsheets-new-ai-tool-tracks-corporate-strategies-suggests-fixes.html",
+      "source": "Computerworld",
+      "publishedAt": "2026-11-05T18:55:47.000Z",
+      "summary": "Work management software vendor Smartsheet has launched a new tool to help executives oversee company-wide strategies, with AI agents that monitor progress, identify problems, and recommend fixes. vsActual, announced Wednesday at Smartsheet’s Engage event, is a standalone “AI-native” application, separate from the company’s core work management software. It pulls data from a variety of business applications, including Oracle, Salesforce, SAP, and Workday, as well as work management tools such as Smartsheet itself. vsActual uses AI agents that carry out tasks on behalf of users, either in response to natural language prompts or running automatically in the background."
+    },
+    {
+      "title": "University of Utah retains operational sovereignty as Redtail expands research access",
+      "link": "https://siliconangle.com/2026/11/05/university-utah-retains-operational-sovereignty-redtail-expands-research-access-hpesovereignai/",
+      "source": "SiliconANGLE",
+      "publishedAt": "2026-11-05T17:35:34.000Z",
+      "summary": "Operational sovereignty gives universities authority over how shared computing resources are allocated, managed and secured. The University of Utah’s Redtail AI factory supercomputer brings advanced computing capabilities to a statewide community. Supporting researchers, students, administrators and external partners through that infrastructure requires more than computing capacity, according to Manish Parashar (pictured), chief AI officer of the University of Utah. “In research, we are always trying to balance research security with doing open research for societal good,” he said."
+    },
+    {
+      "title": "The Anthropic-Indian IT Partnership Is a Two-Way Bet",
+      "link": "https://analyticsindiamag.com/it-services/the-anthropic-indian-it-partnership-is-a-two-way-bet",
+      "source": "Analytics India Magazine",
+      "publishedAt": "2026-11-05T06:42:00.000Z",
+      "summary": "Anthropic’s S-1 filing spends a long passage on competition. It names model developers such as OpenAI and Google, and first-party application providers. IT services firms do not appear. The passages on partners cite systems integrators (SIs) such as Accenture, Deloitte, KPMG and PwC. None is Indian."
     },
     {
       "title": "Nintendo's biggest ROM chip supplier is bowing out of the business",
       "link": "https://arstechnica.com/gaming/2026/11/the-tech-memory-shortage-comes-for-nintendos-cartridge-supply-chain/",
       "source": "Ars Technica",
       "publishedAt": "2026-11-04T22:47:51.000Z",
-      "summary": "For years, the AI industry's insatiable demand for memory and storage has had plenty of knock-on effects on the price and availability of PC components like RAM , SSDs , and GPUs . Now those shortages are also squeezing the supply of ROM chips that power physical Nintendo Switch and Switch 2 game cartridges. Chip manufacturer Macronix announced in its third-quarter earnings report that the company's production of ROM chips \"has reached its end\" and that it will begin \"gradually decoupling from the game industry,\" as reported by Taiwanese news site BigGo Finance . That could be an issue for Nintendo, which analyst David Gibson notes uses Macronix as its \"main memory chip maker\" for physical game cartridges."
-    },
-    {
-      "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
-      "link": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-11-04T22:45:09.000Z",
-      "summary": "AI industry PACs spent millions influencing the 2026 midterms, with mixed results. Political groups are already looking toward the next election cycle. Political groups both supporting and opposing the AI industry spent millions of dollars trying to influence Tuesday’s midterm elections and shape the future of AI regulation. That spending produced mixed results, with some of the most heavily backed candidates losing their races."
-    },
-    {
-      "title": "Qualcomm is betting big on data centers as smartphone sales sink",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1026867/qualcomm-earnings-data-centers",
-      "source": "The Verge",
-      "publishedAt": "2026-11-04T22:42:15.000Z",
-      "summary": "With smartphone sales tanking by around 20 percent compared to 2025, Qualcomm is looking to data centers to help boost its bottom line. During its Q4 2026 earnings call, the company laid out its plans to make a splash in the AI data center business, through partnerships with companies like Amazon and Meta announced earlier this year. The company expects that portion of its business to grow quickly, forecasting around $650 million in data center revenue during the first quarter of 2027. But it anticipates that will reach $5 billion by the end of 2027 and $15 billion by 2029."
-    },
-    {
-      "title": "Meta acquires AI coding startup Conductor, whose app runs several coding agents at once",
-      "link": "https://siliconangle.com/2026/11/04/meta-acquires-ai-coding-startup-conductor-whose-app-runs-several-coding-agents-at-once/",
-      "source": "SiliconANGLE",
-      "publishedAt": "2026-11-04T22:20:12.000Z",
-      "summary": "Meta Platforms Inc. has acquired artificial intelligence coding startup Conductor in a deal first reported today by Axios. Conductor confirmed it’s joining Meta in a post on its website. Terms were not disclosed. The company’s software lets a developer run several coding agents at once, each in an isolated copy of the codebase, and then review and merge what they produce."
+      "summary": "For years, the AI industry's insatiable demand for memory and storage has had plenty of knock-on effects on the price and availability of PC components like RAM , SSDs , and GPUs . Now those shortages are also squeezing the supply of ROM chips that power physical Nintendo Switch and Switch 2 game cartridges. Chip manufacturer Macronix announced in its third-quarter earnings report that the company's production of ROM chips \"has reached its end\" and that it will begin \"gradually decoupling from the game industry,\" as reported by Taiwanese news site BigGo Finance . That could be an issue for Nintendo, which, analyst David Gibson notes, uses Macronix as its \"main memory chip maker\" for physical game cartridges."
     },
     {
       "title": "What AI's growing share of tech spending means for enterprises in 2027",
@@ -75,39 +103,11 @@
       "summary": "AI spending is reshaping enterprise IT budgets. How CIOs can manage rising costs, prioritize investments and measure returns beyond productivity gains."
     },
     {
-      "title": "ChatGPT can now turn text prompts and photos into animated GIFs with OpenAI's Images 2.6 model",
-      "link": "https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model/",
-      "source": "The Decoder",
-      "publishedAt": "2026-11-04T19:44:20.000Z",
-      "summary": "OpenAI is adding a GIF feature to ChatGPT. With the new Images 2.6 model, users can create animated GIFs from text prompts or photos and then adjust speed and individual frames. The model's image consistency is strong enough to keep characters recognizable across frames, making flipbook-style animation possible. According to OpenAI, users now generate more than four billion images per week."
-    },
-    {
       "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
       "link": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
       "source": "MIT Technology Review",
       "publishedAt": "2026-11-04T18:50:55.000Z",
       "summary": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the race for governor against the Republican incumbent, Greg Abbott."
-    },
-    {
-      "title": "OpenAI's Codex Helps in Aerodynamic Engineering for Mazda",
-      "link": "https://analyticsindiamag.com/ai-news/openais-codex-helps-in-aerodynamic-engineering-for-mazda",
-      "source": "Analytics India Magazine",
-      "publishedAt": "2026-11-04T16:32:49.000Z",
-      "summary": "OpenAI’s forward-deployed engineers are working with Mazda's aerodynamics and crash-safety engineers to explore how its AI models can help develop and evaluate vehicle designs. The research collaboration will use airflow and structural behaviour simulations to assess vehicle performance while accounting for styling and manufacturing costs. OpenAI is working with the Japanese car maker on aerodynamic design. GPT-6 Astra, used through Codex, helps Mazda engineers explore different vehicle nose shapes, simulate airflow and identify designs that could reduce aerodynamic drag."
-    },
-    {
-      "title": "MariaDB enhances agent development for its next-gen database platform",
-      "link": "https://www.infoworld.com/article/4244546/mariadb-enhances-agent-development-for-its-next-gen-database-platform.html",
-      "source": "InfoWorld",
-      "publishedAt": "2026-11-04T15:00:00.000Z",
-      "summary": "MariaDB on Wednesday said it was adding four new agent-focused capabilities to Enterprise Platform 2027, the latest version of its enterprise database platform, to help developers retrieve enterprise data faster, maintain agent memory across sessions, and reduce the cost and latency of repeated model queries. These new capabilities include AI Retrieval, AI Plugins, Agent Memory, and Semantic Cache. While AI Retrieval is designed to help agents access information from enterprise documents and live operational data through a single managed service, AI Plugins are designed to bring MariaDB-specific expertise into coding agents such as Anthropic’s Claude Code and OpenAI’s Codex , helping developers generate database-related code more accurately, the company said in a statement. AI Retrieval also converts natural-language questions into read-only SQL queries, which MariaDB said would eliminate the need for developers to manually write queries for every request."
-    },
-    {
-      "title": "Tech layoffs: A 2026 timeline",
-      "link": "https://www.computerworld.com/article/3816579/tech-layoffs-this-year-a-timeline.html",
-      "source": "Computerworld",
-      "publishedAt": "2026-11-04T11:13:47.000Z",
-      "summary": "Among a range of factors leading to a wave of tech sector layoffs in 2026 is the rapid rise of artificial intelligence and automation. Companies are reconfiguring their workforces to leverage AI for increased efficiency and reduced operating costs. This realignment and reduction is implemented even by companies reporting strong financial performance. But it’s not just AI leading to workforce cuts."
     }
   ]
 }
