@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-07T00:53:47.445Z",
-  "dateLabel": "Saturday, November 7, 2026",
-  "sourceCount": 10,
+  "generatedAt": "2026-11-08T00:32:54.031Z",
+  "dateLabel": "Sunday, November 8, 2026",
+  "sourceCount": 11,
   "allSourceNames": [
     "TechCrunch",
     "Analytics India Magazine",
@@ -19,46 +19,53 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "Deep Learning",
-      "definition": "Deep learning is machine learning using neural networks with many layers stacked on top of each other, rather than just one or two. Each extra layer lets the network build on what the previous one learned, similar to how a first layer might notice edges in a photo, the next layer combines edges into shapes, and a later layer combines shapes into \"this is a face.\" That extra depth is what made today's boom in image recognition, speech, and language possible.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Deep_learning"
+      "term": "Transformer",
+      "definition": "The transformer is the neural network design, introduced in 2017, that made modern LLMs possible. Its key trick is reading an entire piece of text at once and weighing how every word relates to every other word, instead of reading strictly left to right like a person following a line with their finger. Imagine reading a mystery novel and being able to instantly cross-reference every earlier clue at once, rather than only remembering the last page, that's roughly the advantage a transformer has over older, word-by-word AI designs.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Transformer_(deep_learning)"
     }
   ],
   "items": [
     {
-      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-      "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+      "link": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
       "source": "TechCrunch",
-      "publishedAt": "2026-11-06T22:53:46.000Z",
-      "summary": "OpenAI has reportedly raised an additional $11 billion as part of a funding round that hasn't closed yet but is expected to in the coming weeks. OpenAI has reportedly raised $11 billion so far in a new funding round that values the AI lab at $1.25 trillion. Bloomberg reported on the new funding on Friday, citing sources familiar with the matter. The $11 billion is part of a larger funding round that hasn’t closed yet, according to the outlet."
+      "publishedAt": "2026-11-07T22:07:22.000Z",
+      "summary": "On Equity, we unpacked what the midterms mean for the tech industry. Democrats’ historic victory in this week’s midterm elections could also have a dramatic effect on the tech industry. In dozens of local ballot measures, voters rejected data centers . And even when they weren’t voting on the issue directly, they were electing politicians — like Texas’ new governor-elect Gina Hinojosa — who campaigned on the promise of restricting data centers."
     },
     {
-      "title": "All the latest updates on AI data centers",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
-      "source": "The Verge",
-      "publishedAt": "2026-11-06T20:02:22.000Z",
-      "summary": "Massive new data centers are the physical foundation for tech companies’ hopes and dreams for AI. But the rush to expand warehouses full of energy-hungry servers has also kicked up fights across the world over their impact on power grids, utility bills, nearby communities, and the environment. Data centers were a major bipartisan issue ahead of the 2026 midterms , and voters largely opposed data center expansion at the polls. Tech giants like OpenAI and Amazon are promising to work more closely with local communities and cover their data center energy costs."
+      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "link": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-11-07T21:17:08.000Z",
+      "summary": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO. A memo circulated earlier this year claimed that technology executive Alice Huang was recruited by China’s Ministry of State Security to spy on Nvidia CEO Jensen Huang, according to multiple media reports. S. intelligence."
     },
     {
-      "title": "Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model",
-      "link": "https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/",
+      "title": "Anthropic pushes ahead with pre-Thanksgiving IPO despite tech selloff, accepts lower valuation",
+      "link": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
       "source": "The Decoder",
-      "publishedAt": "2026-11-06T19:47:04.000Z",
-      "summary": "S. models on the TerminalBench 2.1 coding benchmark at a total R&D cost of $32 million. On other benchmarks, however, Ripple falls behind the likewise newly released western open model Inkling 2 Small. AI chip design firm Ricursive Intelligence has trained an open language model. Ripple-65B Preview was pretrained on 12 trillion tokens and, according to the company, achieved a score of 80.52 on the TerminalBench 2.1 coding benchmark, the best result among open US models."
+      "publishedAt": "2026-11-07T17:37:25.000Z",
+      "summary": "Despite the tech selloff, Anthropic is pressing ahead with its IPO at a valuation of $1.25 to $1.75 trillion, well below the hoped-for $2 trillion. The Claude developer aims to raise $80 to $100 billion before Thanksgiving. Rival OpenAI has also recently had to cut its valuation. Anthropic is pressing ahead with its IPO despite the tech selloff, accepting a lower valuation."
     },
     {
-      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-      "link": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-11-06T18:44:38.000Z",
-      "summary": "Security researchers found hundreds of servers hosting the penetration testing tool Artex exposed to the internet, allowing anyone access to the hacking tool. Security researchers have discovered hundreds of copies of a Chinese-made AI hacking tool publicly exposed to the internet for anyone to access, potentially allowing outsiders to launch cyberattacks against unsuspecting targets. The hacking software, called Artex, is an open source autonomous penetration testing tool, meaning software that automatically probes computer systems for weaknesses, and it’s been linked to several cyberattacks since its public release in July. As open source software, it’s free for anyone to download and run on their own servers, making it a popular tool for those who cannot access Anthropic or OpenAI’s most advanced cybersecurity AI models for discovering security vulnerabilities."
+      "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+      "link": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+      "source": "The Verge",
+      "publishedAt": "2026-11-07T15:50:00.000Z",
+      "summary": "\" Yes, I should meal plan more, but I don't, so this is where I'm at. A nightly battle in which the chicken usually wins. Recently, my best weapon in this fight has been AI. Between Alexa Plus in the Echo smart display on my kitchen counter, the Samsung Food app on my fridge, and even an AI-powered cooking robot , AI has become my go-to sous chef - albeit one I need to keep a close eye on."
     },
     {
-      "title": "Free Chinese AI Models Are Getting Scary Good at Hacking",
-      "link": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/",
+      "title": "Apps for Caregivers Get a Dose of AI, but That Might Not Be Enough",
+      "link": "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/",
       "source": "Wired",
-      "publishedAt": "2026-11-06T18:43:43.000Z",
-      "summary": "An experiment in which AI models were asked to break into simulated networks showed the hacking skills of DeepSeek and GLM to be not far behind OpenAI’s most advanced cyber model, which isn’t public. Open-weight artificial intelligence models are now almost as capable of hacking into computer networks as the best closed ones, according to new research that heralds a much-anticipated turning point in the cybersecurity landscape. Vals , a company that measures AI capabilities, set out to test how well different AI models could carry out complex, multi-step network instructions on mock corporate networks. “The best frontier models, locked up inside the labs and available only through trusted access programs, are now starting to be matched by open models that anybody can download,” says Nikil Ravi, a researcher at Vals."
+      "publishedAt": "2026-11-07T11:00:00.000Z",
+      "summary": "The apps and platforms that help family caregivers manage their loved ones’ needs are becoming more capable, but the broader issue of caregivers’ well-being remains unsolved. My husband and I are caregivers for our middle son, who has multiple disabilities and requires full-time support. We do our best to keep one another up to date on the activities that fill his daily life while also managing his numerous medical specialists, procedures, and therapies. We have to stay in constant communication while also working our jobs, caring for three teenagers, and managing a household."
+    },
+    {
+      "title": "OpenAI reportedly raises $11B in new funding at $1.25T valuation",
+      "link": "https://siliconangle.com/2026/11/06/openai-reportedly-raises-11b-in-new-funding-at-1-25t-valuation/",
+      "source": "SiliconANGLE",
+      "publishedAt": "2026-11-06T23:43:40.000Z",
+      "summary": "OpenAI Group PBC has reportedly raised $11 billion as part of a funding round that could nearly double in size over the coming weeks, as sources told Bloomberg that investors wired the funds to the company today. The tipsters didn’t name the backers. , which contributed to at least four of OpenAI’s previous rounds. com Inc."
     },
     {
       "title": "Prompt: AI's next bottleneck is outside the data center",
@@ -101,13 +108,6 @@
       "source": "Analytics India Magazine",
       "publishedAt": "2026-11-06T09:28:21.000Z",
       "summary": "The push to deploy artificial intelligence across enterprise workflows has largely focused on increasingly capable large language models (LLMs) . These systems generate content, interpret complex instructions, and power applications from customer support to software engineering. Yet as organisations move from experimentation to production, the priority shifts: the fundamental question is no longer just how capable a model is, but how reliably we can evaluate, govern, and control its behaviour. This dynamic is bringing smaller language models (SLMs) to the forefront."
-    },
-    {
-      "title": "The Anthropic-Indian IT Partnership Is a Two-Way Bet",
-      "link": "https://analyticsindiamag.com/it-services/the-anthropic-indian-it-partnership-is-a-two-way-bet",
-      "source": "Analytics India Magazine",
-      "publishedAt": "2026-11-05T06:42:00.000Z",
-      "summary": "Anthropic’s S-1 filing spends a long passage on competition. It names model developers such as OpenAI and Google, and first-party application providers. IT services firms do not appear. The passages on partners cite systems integrators (SIs) such as Accenture, Deloitte, KPMG and PwC. None is Indian."
     }
   ]
 }
