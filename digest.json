@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-09T00:50:32.254Z",
-  "dateLabel": "Monday, November 9, 2026",
-  "sourceCount": 10,
+  "generatedAt": "2026-11-10T03:32:52.353Z",
+  "dateLabel": "Tuesday, November 10, 2026",
+  "sourceCount": 11,
   "allSourceNames": [
     "TechCrunch",
     "Analytics India Magazine",
@@ -19,95 +19,95 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "Attention (Mechanism)",
-      "definition": "Attention is the part of a transformer that decides which words in a sentence matter most to understanding any given word. In the sentence \"The trophy didn't fit in the suitcase because it was too big,\" attention is how a model figures out that \"it\" refers to the trophy, not the suitcase, by weighing which earlier words are most relevant. It works a bit like a spotlight operator at a play, dimming the words that don't matter right now and shining light on the ones that do.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Attention_(machine_learning)"
+      "term": "Fine-Tuning",
+      "definition": "Fine-tuning is taking an already-trained AI model and training it further on a smaller, specific dataset so it gets better at a particular task or domain, like legal writing, customer support, or a company's internal jargon. It's the AI equivalent of hiring a smart, broadly educated generalist and then sending them through a few weeks of specialized on-the-job training, instead of educating a brand new specialist from kindergarten onward. It's far cheaper and faster than training a model from scratch.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)"
     }
   ],
   "items": [
     {
-      "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
-      "source": "The Verge",
-      "publishedAt": "2026-11-08T22:54:50.000Z",
-      "summary": ", attends a media briefing following the company's \"Japan AI Ecosystem\" reception in Tokyo, Japan, on Thursday, July 16, 2026. Japan is planning to buy 27,500 next-generation Rubin chips from Nvidia Corp. to build a homegrown foundational AI model for robots. Photographer: Kiyoshi Ota/Bloomberg via Getty Images | Bloomberg via Getty Images On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government."
-    },
-    {
-      "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
-      "link": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-11-08T21:00:11.000Z",
-      "summary": "In a memo to the company, Huang admitted that he had an affair. Nvidia’s board of directors announced Sunday that it’s launching an independent investigation following reports that CEO Jensen Huang was targeted by a Chinese spy operation . Nvidia also published a message that Huang sent to the company admitting that he had an affair with Alice Huang, a former executive at Singapore-based chip company Megaspeed (though he didn’t mention her by name). S."
-    },
-    {
-      "title": "Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News",
-      "link": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/",
-      "source": "The Decoder",
-      "publishedAt": "2026-11-08T14:23:00.000Z",
-      "summary": "OpenAI co-founder Andrej Karpathy used Claude's Opus 5.5 to filter 43 million Hacker News comments into 6,454 curated videos. The result beats YouTube's own recommendations, he says. Andrej Karpathy, OpenAI co-founder and current Anthropic AI researcher, built HackerTube over a weekend using Claude's Opus 5.5 model. Claude filtered 43 million comments from 20 years of Hacker News and distilled them into 6,454 videos that keep getting recommended there ."
-    },
-    {
-      "title": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good",
-      "link": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/",
-      "source": "Wired",
-      "publishedAt": "2026-11-08T12:00:00.000Z",
-      "summary": "The New York Times has added a beta feature to its Cooking app that helps readers swap ingredients or adjust recipes to suit their needs. It mostly hits the mark. In an aside in the New York Times Cooking video I watched recently, where Melissa Clark made her lemony white bean soup with turkey and greens , the food reporter and recipe columnist invited viewers to leave a comment telling her what they do with the kale stems. It highlighted this sweet, funny relationship between a media brand’s personalities and its audience, a warm-casual vibe."
-    },
-    {
-      "title": "World Models Will Soon Be Inescapable. Here’s What You Need to Know",
-      "link": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know/",
-      "source": "Wired",
-      "publishedAt": "2026-11-08T10:00:00.000Z",
-      "summary": "Moving AI from text to 3D space, world models simulate real-world physics to teach robots and autonomous cars how to navigate reality. It’s 2016, and you’re wandering around the neighborhood at dusk. On the prowl, you’re swiping on a smartphone to catch that elusive Snorlax and grow your collection in Pokémon Go . You, alongside hundreds of millions of other players, are enjoying a mixed-reality game built around lovable characters."
-    },
-    {
-      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
-      "link": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-11-07T22:07:22.000Z",
-      "summary": "On Equity, we unpacked what the midterms mean for the tech industry. Democrats’ historic victory in this week’s midterm elections could also have a dramatic effect on the tech industry. In dozens of local ballot measures, voters rejected data centers . And even when they weren’t voting on the issue directly, they were electing politicians — like Texas’ new governor-elect Gina Hinojosa — who campaigned on the promise of restricting data centers."
-    },
-    {
-      "title": "OpenAI reportedly raises $11B in new funding at $1.25T valuation",
-      "link": "https://siliconangle.com/2026/11/06/openai-reportedly-raises-11b-in-new-funding-at-1-25t-valuation/",
-      "source": "SiliconANGLE",
-      "publishedAt": "2026-11-06T23:43:40.000Z",
-      "summary": "OpenAI Group PBC has reportedly raised $11 billion as part of a funding round that could nearly double in size over the coming weeks, as sources told Bloomberg that investors wired the funds to the company today. The tipsters didn’t name the backers. , which contributed to at least four of OpenAI’s previous rounds. com Inc."
-    },
-    {
-      "title": "Prompt: AI's next bottleneck is outside the data center",
-      "link": "https://aibusiness.com/data-centers/prompt-ai-s-next-bottleneck-is-outside-data-center",
-      "source": "AI Business",
-      "publishedAt": "2026-11-06T16:50:28.000Z",
-      "summary": "AI companies are racing to build data centers, but power shortages, regulatory hurdles and local opposition are slowing expansion."
-    },
-    {
-      "title": "Could potential AI clones of GTA VI force a quicker official port?",
-      "link": "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/",
-      "source": "Ars Technica",
-      "publishedAt": "2026-11-06T16:19:12.000Z",
-      "summary": "Yesterday, when reporting on emerging efforts to pipe the console version of GTA VI through a PC's DLSS-powered Nvidia GPU , we mentioned in passing that PC players could instead just wait for the AI-assisted decompilation port that will no doubt be coming in short order. Now, a former Rockstar tech director says he thinks that exact threat could cause the developer to work faster on the official PC version of its soon-to-release crime/lifestyle simulator. Obbe Vermeij hasn't worked at Rockstar since 2009 , but in a new interview with Rock Paper Shotgun , he recalled how artists for the PC version of the original top-down Grand Theft Auto were incensed when the console version squashed the game's 256-color textures down to 16 colors for the PS1 release. \"So it always has been that sort of awkward relationship between PC and the console,\" Vermeij said."
-    },
-    {
-      "title": "A mole in the White House? Residential proxies are everywhere",
-      "link": "https://www.computerworld.com/article/4245801/a-mole-in-the-white-house-residential-proxies-are-everywhere-3.html",
+      "title": "Microsoft’s email security is unexpectedly blocking legitimate business mail",
+      "link": "https://www.computerworld.com/article/4246562/microsofts-email-security-is-unexpectedly-blocking-legitimate-business-mail.html",
       "source": "Computerworld",
-      "publishedAt": "2026-11-06T15:10:09.000Z",
-      "summary": "Residential proxies are often used by bad actors to hide the true source of internet traffic — and now one of them appears to have taken up residence in the White House. The Residential Proxy Observatory , set up by Layer3 Intel to monitor the threat of anonymized network activity, has identified proxy exit activity on one particular network, AS2650, which is registered to the executive office of the US President and operated out of the White House. Residential proxies — so-called because they typically run on home or personal devices — mask the true source of internet traffic by rerouting it to appear to come from a different IP address. While it may be concerning that this is activity to be found in one of the protected workspaces in the US, this is in line with recent research from Infoblox , which found that residential proxies were widespread throughout enterprises."
+      "publishedAt": "2026-11-10T01:51:43.000Z",
+      "summary": "Microsoft’s email filters meant to protect users from malicious messages appear to be rejecting legitimate ones. Over the last few days, some mail sent to Microsoft consumer addresses have bounced if they did not publish a domain-based message authentication, reporting, and conformance (DMARC) record. This includes messages to Outlook, Hotmail, Live, and MSN. The refusals began November 5 and are ongoing as of publication time ."
     },
     {
-      "title": "Enterprises must take blame for their AI agents’ mistakes, say regulators",
-      "link": "https://www.infoworld.com/article/4245776/enterprises-must-take-blame-for-their-ai-agents-mistakes-say-regulators-3.html",
-      "source": "InfoWorld",
-      "publishedAt": "2026-11-06T14:35:05.000Z",
-      "summary": "The UK’s digital watchdogs have warned enterprises that they can’t evade their legal responsibilities by blaming errors on AI agents that they have deployed. “By taking action on behalf of users, such as making purchases and communicating with businesses, these agents could transform how people use digital services, engage with markets and unlock wider innovation,” said the Digital Regulation Cooperation Forum (DRCF), a body comprising the UK’s Competition and Markets Authority (CMA), Financial Conduct Authority (FCA), Information Commissioner’s Office (ICO), and communications regulator Ofcom, in a joint statement . ” The DRCF didn’t pull its punches. ” There is certainly a degree of uncertainty over the legal position of autonomous AI agents."
+      "title": "Meta introduces Muse Ember to power cost-efficient AI agents",
+      "link": "https://siliconangle.com/2026/11/09/meta-introduces-muse-ember-to-power-cost-efficient-ai-agents/",
+      "source": "SiliconANGLE",
+      "publishedAt": "2026-11-10T01:38:35.000Z",
+      "summary": "Meta Platforms Inc. today introduced Muse Ember, an entry-level artificial intelligence model that costs significantly less than the competition. Notably, it’s the first AI that the company trained using Muse Wonder. The latter algorithm is the Facebook parent’s flagship large language model. Meta didn’t specify which part of the workflow it automated with Muse Wonder."
     },
     {
-      "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
-      "link": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+      "title": "Mphasis Raises FY27 Growth Outlook After 9.2% Dollar Revenue Growth in Q2",
+      "link": "https://analyticsindiamag.com/ai-news/mphasis-raises-fy27-growth-outlook-after-92-dollar-revenue-growth-in-q2",
+      "source": "Analytics India Magazine",
+      "publishedAt": "2026-11-10T01:33:42.000Z",
+      "summary": "Mphasis has raised its FY27 revenue growth guidance to the low double-digit range after reporting 9.2% year-on-year growth in dollar revenue in Q2 FY27. The company had previously expected growth in the high single digits to low double digits. Revenue grew 3.2% sequentially to $486.1 million, while constant-currency growth stood at 3.3% QoQ and 9.7% YoY. In rupee terms, revenue increased 17.4% annually to ₹4,580.9 crore."
+    },
+    {
+      "title": "Anthropic reportedly plans to move forward with IPO plans",
+      "link": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-11-10T01:27:12.000Z",
+      "summary": "The AI company is expected to set its valuation range this week, the Wall Street Journal reported. Launching a major tech IPO would seem risky right now, shortly after one of Nasdaq’s biggest sell-offs and amid revelations that a CEO central to the AI boom had an affair with a suspected Chinese spy. But that isn’t deterring Anthropic, which is moving ahead with its listing plans, according to The Wall Street Journal . Anthropic plans to set a valuation range this week and begin trading on Thursday or Friday of next week, the Journal reported."
+    },
+    {
+      "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+      "link": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
+      "source": "The Verge",
+      "publishedAt": "2026-11-10T00:28:49.000Z",
+      "summary": "During Paramount Skydance's latest earnings call , CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, Ellison said: \"I think when you zoom out and look at production, AI really has the potential to be the biggest creative unlock in modern history. The last time we saw anything close to this was really the, you know, advent of CGI and digital composites in the early 90s. Paramount Skydance’s CEO compared AI to CGI, but said it ‘will never be a replacement’ for artists."
+    },
+    {
+      "title": "Jensen Huang’s Troubles Leave the AI Industry Reeling",
+      "link": "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
+      "source": "Wired",
+      "publishedAt": "2026-11-10T00:18:19.000Z",
+      "summary": "With a big checkbook and sought-after chips, Nvidia’s CEO had his thumb on the world of AI. An extramarital affair with a suspected Chinese spy may put all of that at risk. No executive has pulled the strings in the artificial intelligence era quite like Nvidia’s CEO Jensen Huang . He parlayed the boom into incredible wealth, became a close confidant of President Donald Trump, and emerged as a prominent voice in US-China relations."
+    },
+    {
+      "title": "Jensen Huang reportedly engaged a PR firm with a history of handling high-profile sex scandals a year ago",
+      "link": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-11-09T23:28:37.000Z",
+      "summary": "The PR firm was enlisted shortly after an October 2025 New York Times report described Alice Huang's business dealings with Jensen Huang, Wired reported. , a crisis communications firm known for handling sex scandals, at least a year before he publicly acknowledged an extramarital affair with a woman suspected of spying for China, Wired reported . Heller Inc. founder Risa Heller has advised prominent men through personal scandals and sexual misconduct accusations, according to a 2023 New York Magazine profile."
+    },
+    {
+      "title": "Meta’s Conductor deal puts enterprise AI coding workflows on deadline",
+      "link": "https://aibusiness.com/generative-ai/meta-s-conductor-deal-enterprise-ai-coding-workflows-deadline",
+      "source": "AI Business",
+      "publishedAt": "2026-11-09T22:32:14.000Z",
+      "summary": "The social media giant’s acquisition leaves developers facing a cloud shutdown and highlights that enterprises need to protect AI coding workflows and plan vendor exits."
+    },
+    {
+      "title": "Claude Fable 5.2 and Mythos 5.2 cement Anthropic's AI lead just before its IPO",
+      "link": "https://the-decoder.com/claude-fable-5-2-and-mythos-5-2-cement-anthropics-ai-lead-just-before-its-ipo/",
+      "source": "The Decoder",
+      "publishedAt": "2026-11-09T21:15:23.000Z",
+      "summary": "Anthropic is releasing Claude Fable 5.2 and Mythos 5.2, its most powerful models to date, in two versions: one freely available and one reserved for verified organizations. The models solve open physics problems, show stronger cybersecurity capabilities, design functioning operating systems, and write more than 90 percent of the changes merged into Anthropic's core code, according to the company. Anthropic says it has deliberately curbed any capabilities that would let the AI accelerate its own development. Anthropic's Claude Fable 5.2 and Mythos 5.2 reclaim the AI performance lead shortly before the company's IPO, in some cases by a wide margin."
+    },
+    {
+      "title": "The backlash about data centers might really just be about electricity",
+      "link": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
       "source": "MIT Technology Review",
-      "publishedAt": "2026-11-06T10:00:00.000Z",
-      "summary": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed up for the waitlist. I wanted my apartment to feel like The Jetsons , even if just for an hour."
+      "publishedAt": "2026-11-09T19:35:33.000Z",
+      "summary": "As voters went to the polls across the US last week, I was in Ashburn, Virginia, part of what’s known as Data Center Alley—the world’s largest data center hub. It’s also where the backlash now sweeping the country arguably first began taking shape. Driving through it is surreal. Concrete monolithic buildings loom along every major road, with names like Skybox and CloudHQ."
+    },
+    {
+      "title": "SpaceX now fundamentally an \"infrastructure company,\" senior official says",
+      "link": "https://arstechnica.com/space/2026/11/spacex-now-fundamentally-an-infrastructure-company-senior-official-says/",
+      "source": "Ars Technica",
+      "publishedAt": "2026-11-09T15:39:21.000Z",
+      "summary": "For a long time, SpaceX has been synonymous with the development of newer, larger, and ever-more-reusable rockets. But that began to change over the last decade with the introduction of Starlink, and the change has accelerated during the last 18 months as the company has pivoted to data and artificial intelligence. Summit conference in Florida, the vice president of launch at SpaceX, Kiko Dontchev, offered some of the most revealing comments to date about the company's changing focus, how it is embracing AI, and why the Falcon 9 rocket—which has dominated global launch for a decade and remains the world's preeminent launch vehicle—is firmly on the road to retirement. \"In the last couple years, when I talk about SpaceX, yes, we are a rocket company, but fundamentally we are an infrastructure company at this point,\" Dontchev said."
+    },
+    {
+      "title": "How neurosymbolic AI can transform enterprise decision-making",
+      "link": "https://www.infoworld.com/article/4243405/how-neurosymbolic-ai-can-transform-enterprise-decision-making.html",
+      "source": "InfoWorld",
+      "publishedAt": "2026-11-09T09:00:00.000Z",
+      "summary": "Agentic AI has become a powerful enterprise business tool with increasing capabilities, and it has never been easier to address business pain points by applying a large language model (LLM) to develop a plausible automated solution. But is that solution as reliable as you need it to be, especially when the insights gleaned are used to inform critical business decisions? LLMs are incredible resources that play a significant role in a business’s agentic AI infrastructure. But when they have to work across complex data sets, business policies, industry regulations, decision hierarchies, and multiple software systems, they do not inherently provide the enterprise-grade provenance needed to show which evidence, assumptions, constraints, and decision logic produced a recommendation."
     }
   ]
 }
