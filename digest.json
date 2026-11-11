@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-10T03:32:52.353Z",
-  "dateLabel": "Tuesday, November 10, 2026",
-  "sourceCount": 11,
+  "generatedAt": "2026-11-11T01:13:59.943Z",
+  "dateLabel": "Wednesday, November 11, 2026",
+  "sourceCount": 12,
   "allSourceNames": [
     "TechCrunch",
     "Analytics India Magazine",
@@ -19,74 +19,88 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "Fine-Tuning",
-      "definition": "Fine-tuning is taking an already-trained AI model and training it further on a smaller, specific dataset so it gets better at a particular task or domain, like legal writing, customer support, or a company's internal jargon. It's the AI equivalent of hiring a smart, broadly educated generalist and then sending them through a few weeks of specialized on-the-job training, instead of educating a brand new specialist from kindergarten onward. It's far cheaper and faster than training a model from scratch.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Fine-tuning_(deep_learning)"
+      "term": "Model Context Protocol (MCP)",
+      "definition": "MCP is an open standard, introduced by Anthropic, that lets AI models connect to outside tools and data sources, like a file system, a calendar, or a company database, in one consistent way. Before MCP, every app that wanted to connect an AI model to its data needed its own custom, one-off wiring, similar to every electrical appliance needing a completely different, non-standard plug. MCP is meant to work like a universal power socket: build the connection once, and any compatible AI model can plug in.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Model_Context_Protocol"
     }
   ],
   "items": [
     {
-      "title": "Microsoft’s email security is unexpectedly blocking legitimate business mail",
-      "link": "https://www.computerworld.com/article/4246562/microsofts-email-security-is-unexpectedly-blocking-legitimate-business-mail.html",
-      "source": "Computerworld",
-      "publishedAt": "2026-11-10T01:51:43.000Z",
-      "summary": "Microsoft’s email filters meant to protect users from malicious messages appear to be rejecting legitimate ones. Over the last few days, some mail sent to Microsoft consumer addresses have bounced if they did not publish a domain-based message authentication, reporting, and conformance (DMARC) record. This includes messages to Outlook, Hotmail, Live, and MSN. The refusals began November 5 and are ongoing as of publication time ."
+      "title": "Anthropic tiptoes into MS Office territory",
+      "link": "https://www.theregister.com/software/2026/11/10/anthropic-tiptoes-into-ms-office-territory/5308988",
+      "source": "The Register",
+      "publishedAt": "2026-11-10T23:45:26.000Z",
+      "summary": "Anthropic has introduced three new types of artifacts that show the company tiptoeing into the office productivity market long dominated by Microsoft and Google. On Tuesday, the Claudefather announced Claude Sheets, Claude Whiteboards, and Claude Data, and promised the imminent arrival of Claude Meetings. These artifact types join existing ones – Docs, Slides, Design, and Motion – to form a nascent Claude-dependent productivity suite. Anthropic initially used the term artifacts to refer to shareable AI-based interactive tools, like dynamic charts."
     },
     {
-      "title": "Meta introduces Muse Ember to power cost-efficient AI agents",
-      "link": "https://siliconangle.com/2026/11/09/meta-introduces-muse-ember-to-power-cost-efficient-ai-agents/",
+      "title": "Mercor raises $750M at $20B valuation to take AI agent evaluation to enterprises",
+      "link": "https://siliconangle.com/2026/11/10/mercor-raises-750m-at-20b-valuation-to-take-ai-agent-evaluation-to-enterprises/",
       "source": "SiliconANGLE",
-      "publishedAt": "2026-11-10T01:38:35.000Z",
-      "summary": "Meta Platforms Inc. today introduced Muse Ember, an entry-level artificial intelligence model that costs significantly less than the competition. Notably, it’s the first AI that the company trained using Muse Wonder. The latter algorithm is the Facebook parent’s flagship large language model. Meta didn’t specify which part of the workflow it automated with Muse Wonder."
+      "publishedAt": "2026-11-10T22:45:50.000Z",
+      "summary": "io Corp. today revealed that it has raised $750 million in new funding at a $20 billion valuation. Mercor provides the human expertise used to train and evaluate AI models, drawing on a network of more than 5 million domain experts. Most of that work so far has been for frontier AI labs. The new funding is aimed at taking it to enterprises in every industry, which Mercor argues need their own way to measure whether an AI agent can be trusted with a job."
     },
     {
-      "title": "Mphasis Raises FY27 Growth Outlook After 9.2% Dollar Revenue Growth in Q2",
-      "link": "https://analyticsindiamag.com/ai-news/mphasis-raises-fy27-growth-outlook-after-92-dollar-revenue-growth-in-q2",
-      "source": "Analytics India Magazine",
-      "publishedAt": "2026-11-10T01:33:42.000Z",
-      "summary": "Mphasis has raised its FY27 revenue growth guidance to the low double-digit range after reporting 9.2% year-on-year growth in dollar revenue in Q2 FY27. The company had previously expected growth in the high single digits to low double digits. Revenue grew 3.2% sequentially to $486.1 million, while constant-currency growth stood at 3.3% QoQ and 9.7% YoY. In rupee terms, revenue increased 17.4% annually to ₹4,580.9 crore."
+      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+      "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+      "source": "Ars Technica",
+      "publishedAt": "2026-11-10T21:12:59.000Z",
+      "summary": "Grok Build, the vibe-coding agent from SpaceXSI, is leaking data—some of it proprietary business information and other sensitive secrets—from thousands of its users, including the very same Elon Musk-owned company that offers the platform, new research shows. The information is revealed through links allowing Grok Build users to share their apps with others. Grok takes steps to randomize the URLs so only people who know the exact URL can access the data stored there. A design decision by developers of the platform, however, completely torpedoes that objective and makes it possible for anyone to enumerate thousands of live Grok Build projects."
     },
     {
-      "title": "Anthropic reportedly plans to move forward with IPO plans",
-      "link": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+      "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
+      "link": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
       "source": "TechCrunch",
-      "publishedAt": "2026-11-10T01:27:12.000Z",
-      "summary": "The AI company is expected to set its valuation range this week, the Wall Street Journal reported. Launching a major tech IPO would seem risky right now, shortly after one of Nasdaq’s biggest sell-offs and amid revelations that a CEO central to the AI boom had an affair with a suspected Chinese spy. But that isn’t deterring Anthropic, which is moving ahead with its listing plans, according to The Wall Street Journal . Anthropic plans to set a valuation range this week and begin trading on Thursday or Friday of next week, the Journal reported."
+      "publishedAt": "2026-11-10T21:08:52.000Z",
+      "summary": "OpenAI has not yet said what its plans are for the future of travel. But Sonder founder Francis Davidson is a well-known figure in the travel industry. OpenAI has acquired an AI travel agent called Odessia, according to Odessia’s founder, Francis Davidson. Davidson says in a post announcing the deal that he’s now working for OpenAI, helping the AI lab with the future of travel."
     },
     {
-      "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
-      "link": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
-      "source": "The Verge",
-      "publishedAt": "2026-11-10T00:28:49.000Z",
-      "summary": "During Paramount Skydance's latest earnings call , CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, Ellison said: \"I think when you zoom out and look at production, AI really has the potential to be the biggest creative unlock in modern history. The last time we saw anything close to this was really the, you know, advent of CGI and digital composites in the early 90s. Paramount Skydance’s CEO compared AI to CGI, but said it ‘will never be a replacement’ for artists."
-    },
-    {
-      "title": "Jensen Huang’s Troubles Leave the AI Industry Reeling",
-      "link": "https://www.wired.com/story/jensen-huangs-troubles-leaves-the-ai-industry-reeling/",
-      "source": "Wired",
-      "publishedAt": "2026-11-10T00:18:19.000Z",
-      "summary": "With a big checkbook and sought-after chips, Nvidia’s CEO had his thumb on the world of AI. An extramarital affair with a suspected Chinese spy may put all of that at risk. No executive has pulled the strings in the artificial intelligence era quite like Nvidia’s CEO Jensen Huang . He parlayed the boom into incredible wealth, became a close confidant of President Donald Trump, and emerged as a prominent voice in US-China relations."
-    },
-    {
-      "title": "Jensen Huang reportedly engaged a PR firm with a history of handling high-profile sex scandals a year ago",
-      "link": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-11-09T23:28:37.000Z",
-      "summary": "The PR firm was enlisted shortly after an October 2025 New York Times report described Alice Huang's business dealings with Jensen Huang, Wired reported. , a crisis communications firm known for handling sex scandals, at least a year before he publicly acknowledged an extramarital affair with a woman suspected of spying for China, Wired reported . Heller Inc. founder Risa Heller has advised prominent men through personal scandals and sexual misconduct accusations, according to a 2023 New York Magazine profile."
-    },
-    {
-      "title": "Meta’s Conductor deal puts enterprise AI coding workflows on deadline",
-      "link": "https://aibusiness.com/generative-ai/meta-s-conductor-deal-enterprise-ai-coding-workflows-deadline",
+      "title": "China’s block of SoftBank’s ABB purchase raises supply-chain questions",
+      "link": "https://aibusiness.com/automation/china-s-block-of-softbank-s-abb-purchase",
       "source": "AI Business",
-      "publishedAt": "2026-11-09T22:32:14.000Z",
-      "summary": "The social media giant’s acquisition leaves developers facing a cloud shutdown and highlights that enterprises need to protect AI coding workflows and plan vendor exits."
+      "publishedAt": "2026-11-10T21:00:44.000Z",
+      "summary": "The move to stop the Japanese multinational investment holding company’s acquisition has sparked concerns about the future of cross-border robotics investment."
     },
     {
-      "title": "Claude Fable 5.2 and Mythos 5.2 cement Anthropic's AI lead just before its IPO",
-      "link": "https://the-decoder.com/claude-fable-5-2-and-mythos-5-2-cement-anthropics-ai-lead-just-before-its-ipo/",
+      "title": "OpenAI turns ChatGPT into a business directory with AI agents that handle customer questions",
+      "link": "https://the-decoder.com/openai-turns-chatgpt-into-a-business-directory-with-ai-agents-that-handle-customer-questions/",
       "source": "The Decoder",
-      "publishedAt": "2026-11-09T21:15:23.000Z",
-      "summary": "Anthropic is releasing Claude Fable 5.2 and Mythos 5.2, its most powerful models to date, in two versions: one freely available and one reserved for verified organizations. The models solve open physics problems, show stronger cybersecurity capabilities, design functioning operating systems, and write more than 90 percent of the changes merged into Anthropic's core code, according to the company. Anthropic says it has deliberately curbed any capabilities that would let the AI accelerate its own development. Anthropic's Claude Fable 5.2 and Mythos 5.2 reclaim the AI performance lead shortly before the company's IPO, in some cases by a wide margin."
+      "publishedAt": "2026-11-10T20:17:00.000Z",
+      "summary": "OpenAI is opening up ChatGPT as a business platform: through a new Business Hub, companies can claim their profile, add product data, and track how users interact with them. \"Business Agents\" let eligible US e-commerce providers talk to customers directly inside ChatGPT. \" Google My Business is Google's free tool that lets companies manage how they appear across Search and Maps, and OpenAI's new offering challenges it by placing business profiles directly inside a conversational AI interface instead. Companies can register and manage their business through a Business Hub, update their information, add product feeds with prices and availability, and track how often they're mentioned in conversations or how many clicks their website gets."
+    },
+    {
+      "title": "The US is winning the AI race. Jensen Huang could have blown it",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
+      "source": "The Verge",
+      "publishedAt": "2026-11-10T19:04:05.000Z",
+      "summary": "As espionage targets go, Jensen Huang is perhaps one of the least surprising on Earth. The Nvidia CEO runs one of the world's most valuable companies, controls the in-demand technology fueling the AI boom, and is cozy with presidents, CEOs, and all manner of important people. He also wears a cool leather jacket. Which makes Huang's admission that he had an affair with a woman suspected of being a Chinese spy - reportedly while her spying was known to US intelligence and even President Donald Trump - all the more shocking."
+    },
+    {
+      "title": "This New Linux-Based Desktop Operating System Is Built for AI Nerds",
+      "link": "https://www.wired.com/story/kora-new-linux-based-desktop-operating-system-is-built-for-ai-nerds/",
+      "source": "Wired",
+      "publishedAt": "2026-11-10T14:00:00.000Z",
+      "summary": "Built by Cyanogen’s cofounder, Kora is a next-gen alternative to Windows and macOS built for power users running local AI models. Kirt McMaster knows that his new operating system—Kora—won’t be for everyone, and he’s fine with that. Kora , announced on Tuesday, is designed as a desktop alternative to Windows or macOS for “the AI native, not mass market,” he says. McMaster, the company’s CEO and cofounder—who also cofounded Boost Mobile—likens his strategy to how Steve Jobs targeted creators when overhauling desktop publishing with the Mac ."
+    },
+    {
+      "title": "PuppyGraph adds AI schema builder and MCP support to help ease enterprise agent adoption",
+      "link": "https://www.infoworld.com/article/4246810/puppygraph-adds-ai-schema-builder-and-mcp-support-to-help-ease-enterprise-agent-adoption.html",
+      "source": "InfoWorld",
+      "publishedAt": "2026-11-10T14:00:00.000Z",
+      "summary": "PuppyGraph on Tuesday said it was adding an AI-assisted graph schema builder and MCP integrations to PuppyGraph 1.0, the new version of its distributed graph query engine for enterprise data. The update is designed to help developers reduce the complexity, latency, and costs associated with letting AI agents query interconnected data across thousands of database tables and multiple platforms. The AI-assisted schema builder automatically maps existing tables into graph entities, relationships, and properties, allowing developers to review and approve the resulting schema rather than manually defining how disparate datasets connect, the Santa Clara-headquartered startup said in a statement. These schemas can be used by agents deployed to query enterprise data, giving them a predefined map of how information across different tables and systems is connected, rather than requiring them to identify relevant tables and construct complex SQL joins dynamically, in turn simplifying query generation and reducing errors and retries, it added."
+    },
+    {
+      "title": "TSMC October Revenue Hits Record $17.81 Bn on Skyrocketing AI Chip Demand",
+      "link": "https://analyticsindiamag.com/ai-news/tsmc-october-revenue-hits-record-1781-bn-on-skyrocketing-ai-chip-demand",
+      "source": "Analytics India Magazine",
+      "publishedAt": "2026-11-10T11:59:13.000Z",
+      "summary": "Taiwan Semiconductor Manufacturing Company (TSMC) reported its highest-ever monthly revenue in October, with sales rising 59.7% year-on-year as demand for advanced chips continues to expand. The world's largest contract chipmaker posted consolidated revenue of NT 586.89 billion (approximately $17.81 billion), up 14.7% from September. Revenue for January to October reached $140 billion, marking a 43.3% increase from the corresponding period last year. The latest figures reflect growing demand for advanced semiconductor manufacturing as technology companies expand their artificial intelligence (AI) infrastructure ."
+    },
+    {
+      "title": "Midterm results will raise AI costs and compliance questions for IT leaders",
+      "link": "https://www.computerworld.com/article/4246423/midterm-results-will-raise-ai-costs-and-compliance-questions-for-it-leaders.html",
+      "source": "Computerworld",
+      "publishedAt": "2026-11-10T11:00:00.000Z",
+      "summary": "IT leaders need to quickly adapt IT strategies as AI and data centers will face more scrutiny following the US midterm elections, analysts said. Concerns around AI and data centers helped Democrats sweep the US House and Senate. Tighter restrictions, more oversight and slower approvals could slow AI deployment and raise costs. An exit poll conducted by SSRS and shared by NBC News showed that 56% of voters considered AI and data centers a major factor in their vote."
     },
     {
       "title": "The backlash about data centers might really just be about electricity",
@@ -94,20 +108,6 @@
       "source": "MIT Technology Review",
       "publishedAt": "2026-11-09T19:35:33.000Z",
       "summary": "As voters went to the polls across the US last week, I was in Ashburn, Virginia, part of what’s known as Data Center Alley—the world’s largest data center hub. It’s also where the backlash now sweeping the country arguably first began taking shape. Driving through it is surreal. Concrete monolithic buildings loom along every major road, with names like Skybox and CloudHQ."
-    },
-    {
-      "title": "SpaceX now fundamentally an \"infrastructure company,\" senior official says",
-      "link": "https://arstechnica.com/space/2026/11/spacex-now-fundamentally-an-infrastructure-company-senior-official-says/",
-      "source": "Ars Technica",
-      "publishedAt": "2026-11-09T15:39:21.000Z",
-      "summary": "For a long time, SpaceX has been synonymous with the development of newer, larger, and ever-more-reusable rockets. But that began to change over the last decade with the introduction of Starlink, and the change has accelerated during the last 18 months as the company has pivoted to data and artificial intelligence. Summit conference in Florida, the vice president of launch at SpaceX, Kiko Dontchev, offered some of the most revealing comments to date about the company's changing focus, how it is embracing AI, and why the Falcon 9 rocket—which has dominated global launch for a decade and remains the world's preeminent launch vehicle—is firmly on the road to retirement. \"In the last couple years, when I talk about SpaceX, yes, we are a rocket company, but fundamentally we are an infrastructure company at this point,\" Dontchev said."
-    },
-    {
-      "title": "How neurosymbolic AI can transform enterprise decision-making",
-      "link": "https://www.infoworld.com/article/4243405/how-neurosymbolic-ai-can-transform-enterprise-decision-making.html",
-      "source": "InfoWorld",
-      "publishedAt": "2026-11-09T09:00:00.000Z",
-      "summary": "Agentic AI has become a powerful enterprise business tool with increasing capabilities, and it has never been easier to address business pain points by applying a large language model (LLM) to develop a plausible automated solution. But is that solution as reliable as you need it to be, especially when the insights gleaned are used to inform critical business decisions? LLMs are incredible resources that play a significant role in a business’s agentic AI infrastructure. But when they have to work across complex data sets, business policies, industry regulations, decision hierarchies, and multiple software systems, they do not inherently provide the enterprise-grade provenance needed to show which evidence, assumptions, constraints, and decision logic produced a recommendation."
     }
   ]
 }
