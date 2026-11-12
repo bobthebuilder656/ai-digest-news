@@ -14,6 +14,7 @@
     "Transformer",
     "Attention (Mechanism)",
     "Fine-Tuning",
-    "Model Context Protocol (MCP)"
+    "Model Context Protocol (MCP)",
+    "Reinforcement Learning"
   ]
 }
