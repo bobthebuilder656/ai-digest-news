@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-12T02:14:46.797Z",
-  "dateLabel": "Thursday, November 12, 2026",
-  "sourceCount": 11,
+  "generatedAt": "2026-11-13T01:48:37.567Z",
+  "dateLabel": "Friday, November 13, 2026",
+  "sourceCount": 10,
   "allSourceNames": [
     "TechCrunch",
     "Analytics India Magazine",
@@ -19,95 +19,95 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "Reinforcement Learning",
-      "definition": "Reinforcement learning is a training method where an AI learns by trial and error: it takes an action, and gets rewarded or penalized depending on the outcome. It's essentially how you'd train a dog with treats, the dog doesn't understand English instructions, but it learns \"sit\" earns a treat and jumping on the guest doesn't, purely from repeated feedback. It's used both in robotics, like a robot learning to walk, and in shaping how chatbots respond to people.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Reinforcement_learning"
+      "term": "Prompt Engineering",
+      "definition": "Prompt engineering is the practice of carefully wording your instructions to an AI model to get better, more reliable results. It's similar to learning how to phrase a request to a very literal-minded assistant: \"summarize this in three bullet points for a 10-year-old\" tends to get a much more useful answer than just \"summarize this.\" It ranges from simple tricks like asking the model to \"think step by step\" to elaborate, carefully tested prompt templates used inside real production software.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Prompt_engineering"
     }
   ],
   "items": [
     {
-      "title": "Google’s GKE Labs turns reinforcement learning into a Kubernetes workload",
-      "link": "https://siliconangle.com/2026/11/11/model-fine-tuning-kubernetes-google-s-openrl-explained-kubeconna/",
-      "source": "SiliconANGLE",
-      "publishedAt": "2026-11-12T01:51:03.000Z",
-      "summary": "Model fine-tuning through reinforcement learning is fast becoming one of the most demanding jobs in AI infrastructure. It mixes training, inference and sandboxed agent work in a single loop, often with research code tangled into the systems beneath it. Google LLC has been tackling that problem from inside its Kubernetes engineering group, and recently donated the result, OpenRL, to the Cloud Native Computing Foundation . The GKE Labs team got there by building an AI agent for Kubernetes tasks, then a benchmark to grade models on that work, according to Sunil Arora (pictured, left), senior software engineer at Google Cloud."
-    },
-    {
-      "title": "The unfolding Jensen Huang scandal: a timeline",
-      "link": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-11-11T23:50:00.000Z",
-      "summary": "S. and China race to develop the most advanced AI infrastructure. Nvidia co-founder CEO Jensen Huang has never been as flashy or controversy-prone as AI leaders like OpenAI’s Sam Altman or SpaceXAI’s Elon Musk. Now, the 63-year-old industry kingpin has admitted that he cheated on his wife of 40 years in an affair that could have ramifications beyond Huang’s personal life and potentially impact national security."
-    },
-    {
-      "title": "Nvidia is reportedly preparing to fire Jensen Huang",
-      "link": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
-      "source": "The Verge",
-      "publishedAt": "2026-11-11T22:44:36.000Z",
-      "summary": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair , just days after he admitted to a separate affair with a woman alleged to be a Chinese spy, The Wall Street Journal reports . The second alleged affair was with an executive who reports to him, Nvidia's vice president of health care, Kimberly Powell, according to the Times . The Nvidia board will meet as soon as today to decide on Huang's future at the company, according to the Journal . Nvidia did not immediately respond to a request for comment from The Verge ."
-    },
-    {
-      "title": "Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass",
-      "link": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/",
-      "source": "The Decoder",
-      "publishedAt": "2026-11-11T20:12:46.000Z",
-      "summary": "Google Deepmind's new Gemini Decisions API evaluates up to 1,000 closed-ended questions in a single pass across text, images, audio, and video. Gemini Decision 1 returns results in 150 to 250 milliseconds at roughly five times lower cost than Gemini 3.5 Flash-Lite, according to Google. Google Deepmind is introducing the Gemini Decisions API, an interface built for fast, closed-ended decisions like yes/no questions, multiple choice, and scale-based ratings. The underlying model, Gemini Decision 1 , processes up to 1,000 independent questions in a single pass across text, images, audio, video, and PDFs."
-    },
-    {
-      "title": "I Saw the Future of Robotics in a Virtual Duck That Chases My Cat",
-      "link": "https://www.wired.com/story/i-trained-a-microduck-to-be-my-cats-butler/",
-      "source": "Wired",
-      "publishedAt": "2026-11-11T19:55:54.000Z",
-      "summary": "An OpenAI model helped me teach the Microduck to waddle and moonlight as a tiny cat butler. Allow me to introduce you to the robot cat butler I’m developing with help from AI. Using OpenAI’s GPT-6 Sol , I taught a virtual version of Microduck —a cute robot from Pollen Robotics and Hugging Face—to walk around a room and identify any bengal cats in its vicinity. ) I’m still waiting patiently for a physical Microduck— please hurry up and ship it, guys —but simulated behavior is relatively simple, so it should transfer over to the real thing."
-    },
-    {
-      "title": "OpenAI’s Businesses in ChatGPT targets enterprise trust",
-      "link": "https://aibusiness.com/generative-ai/openai-s-businesses-in-chatgpt-targets-enterprise-trust",
-      "source": "AI Business",
-      "publishedAt": "2026-11-11T19:24:28.000Z",
-      "summary": "The product competes with Google Business Profile and enables OpenAI to target a new vertical market: ecommerce."
-    },
-    {
-      "title": "Anthropic targets workplace collaboration with Claude Meetings",
-      "link": "https://www.computerworld.com/article/4247466/anthropic-targets-workplace-collaboration-with-claude-meetings.html",
+      "title": "United Airlines becomes the latest enterprise to shut its door to customer bots",
+      "link": "https://www.computerworld.com/article/4248152/united-airlines-becomes-the-latest-enterprise-to-shut-its-door-to-customer-bots.html",
       "source": "Computerworld",
-      "publishedAt": "2026-11-11T18:14:04.000Z",
-      "summary": "Anthropic has expanded the range of productivity and collaboration features in Claude with the launch of spreadsheet, whiteboard, and meeting assistant tools aimed at knowledge workers. The features add to the Claude Docs and Slides features announced in September, as Anthropic equips its AI assistant for a wider range of productivity tasks. “Anthropic is moving Claude from a place you go to ask a question to a place where teams do their work,” said Craig Durr , chief analyst at The Collab Collective. One of the new tools announced Tuesday is Claude Meetings."
+      "publishedAt": "2026-11-12T23:50:40.000Z",
+      "summary": "United Airlines on Wednesday became the latest enterprise to block customer bots, following similar moves from Walmart, Target and Amazon. The $59 billion airline, the second largest in the world, said the move was prompted by fears of data leakage, unintended purchases, and the risk of violating federal airline rules. But industry observers say that the more concerning business risks are the lack of industry standardization around AI coupled with an ever-increasing number of bots from major AI vendors and AI startups. The fear is that supporting the multiple bots that customers use could become an almost infinite drain on IT resources."
     },
     {
-      "title": "AWS unveils local emulator service to help enterprises accelerate app development and testing",
-      "link": "https://www.infoworld.com/article/4247383/aws-unveils-local-emulator-service-to-help-enterprises-accelerate-app-development-and-testing.html",
+      "title": "AI agent tooling provider LangChain secures $300M investment",
+      "link": "https://siliconangle.com/2026/11/12/ai-agent-tooling-provider-langchain-secures-300m-investment/",
+      "source": "SiliconANGLE",
+      "publishedAt": "2026-11-12T23:24:06.000Z",
+      "summary": ", a startup with a set of popular open-source tools for building artificial intelligence agents, has raised $300 million in funding. ’s CapitalG fund led the round. It was joined by IVP, Sapphire Ventures, GIC and DFJ Growth. LangChain is now worth $3 billion. San Francisco-based LangChain is best known for the eponymous open-source framework it released in 2022."
+    },
+    {
+      "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
+      "link": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-11-12T22:42:51.000Z",
+      "summary": "This Congressional investigation into Nvidia's China sales and its dealings with Trump is the second one, so far, since news of the alleged spy affair broke. Democrats on Thursday opened an inquiry into how the Trump administration handled Nvidia’s chip sales to China. Earlier on Thursday, the company ousted its CEO Jensen Huang . He also agreed to testify to a different set of Republican-led Congressional committees."
+    },
+    {
+      "title": "Silicon Valley Is Still Defending Jensen Huang",
+      "link": "https://www.wired.com/story/silicon-valley-is-still-defending-jensen-huang/",
+      "source": "Wired",
+      "publishedAt": "2026-11-12T22:29:43.000Z",
+      "summary": "Nvidia employees and tech insiders never thought the chip king would lose his job. Despite his sudden resignation, many of them are still in denial. News of Jensen Huang’s affair with an alleged asset of China’s Ministry of State Security was first met with a muted response in Silicon Valley —including inside Nvidia itself. Huang’s resignation , after news of two other alleged romantic relationships with Nvidia staffers, has left both the company and the broader AI industry stunned ."
+    },
+    {
+      "title": "Muse can now place calls to US businesses — if you pay",
+      "link": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-11-12T22:22:28.000Z",
+      "summary": "S. businesses — but it's not free. businesses on behalf of its users. However, only paid subscribers have access to the feature, the company says. Meta’s Muse, which now has over 10 million users , the company said last month, has been working to make consumer AI a mainstream product for everyday users."
+    },
+    {
+      "title": "Google’s new Gemini model is better at understanding complicated questions",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+      "source": "The Verge",
+      "publishedAt": "2026-11-12T21:55:32.000Z",
+      "summary": "\" The new model can break down your questions and address each part in its responses. It's available starting today in search, the Gemini app, all tiers of Google AI Studio, the Gemini API, Gemini for business, and in Google Antigravity for Google AI Pro and Ultra subscribers. ” The new model can break down your questions and address each part in its responses. It’s available starting today in search, the Gemini app, all tiers of Google AI Studio, the Gemini API, Gemini for business, and in Google Antigravity for Google AI Pro and Ultra subscribers."
+    },
+    {
+      "title": "Agility Robotics goes public as first U.S. specialist humanoid maker",
+      "link": "https://aibusiness.com/robotics/agility-robotics-goes-public-first-u-s-specialist-humanoid-maker",
+      "source": "AI Business",
+      "publishedAt": "2026-11-12T21:16:26.000Z",
+      "summary": "The company has entered the public markets with more than $300 million in conditional multiyear orders for its Digit 5 humanoid robot."
+    },
+    {
+      "title": "Claude Meetings lets Anthropic's AI join your video calls",
+      "link": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/",
+      "source": "The Decoder",
+      "publishedAt": "2026-11-12T20:26:50.000Z",
+      "summary": "Anthropic is adding Claude directly to video calls. Claude Meetings joins Google Meet sessions and creates documents, whiteboards, and meeting notes in real time. The feature launches in beta for Team and Enterprise plans, with more platforms coming later. Anthropic has launched Claude Meetings, a feature that puts Claude into video calls as a visible participant."
+    },
+    {
+      "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+      "link": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-11-12T20:16:24.000Z",
+      "summary": "” Foster, a Democrat who serves on the Committee on Science, Space, and Technology, is a cosponsor of the act, which would introduce geotracking requirements to verify the location of advanced AI chips in order to prevent their smuggling to China. It is one of three chip-security bills under consideration for inclusion in the Senate’s National Defense Authorization Act, each of which is drawing renewed attention after Nvidia CEO Jensen Huang’s resignation and reported affair with an alleged Chinese spy. When the Chip Security Act was introduced, in May 2025, lawmakers said the technology to implement it existed, something Nvidia has not publicly confirmed. ” But privately, Nvidia representatives working with Foster told the lawmaker that the company could implement them."
+    },
+    {
+      "title": "In a Stunning Fall, Jensen Huang Resigns as NVIDIA Chief After 33 Years",
+      "link": "https://analyticsindiamag.com/ai-news/in-a-stunning-fall-jensen-huang-resigns-as-nvidia-chief-after-33-years",
+      "source": "Analytics India Magazine",
+      "publishedAt": "2026-11-12T14:18:04.000Z",
+      "summary": "Jensen Huang has resigned from his positions as president, Chief Executive Officer and Board Member of NVIDIA , effective immediately, the company announced on November 12. The resignation comes just a week after the NewYork Times revealed that the US intelligence agencies had concluded he had a “close relationship” with Alice Huang, who was suspected to have recruited by China’s Ministry of State Security. Huang later admitted to the affair with the alleged Chinese spy. He acknowledged being unfaithful to his wife in an internal memo to employees."
+    },
+    {
+      "title": "AWS boosts Bedrock AgentCore runtime compute capacity to speed up AI agent development",
+      "link": "https://www.infoworld.com/article/4247866/aws-boosts-bedrock-agentcore-runtime-compute-capacity-to-speed-up-ai-agent-development.html",
       "source": "InfoWorld",
-      "publishedAt": "2026-11-11T17:00:00.000Z",
-      "summary": "AWS launched a new local emulator service for its cloud services on Wednesday to help enterprises accelerate application development and testing. The service, named AWS Emulator, will allow developers and AI coding agents to build, deploy, and test AWS-dependent applications on their machines without provisioning actual cloud infrastructure and paying for it, thereby potentially reducing development time and associated costs, the hyperscaler said in a statement. To achieve this, AWS Emulator replicates the APIs of AWS services locally and exposes a local HTTP endpoint that the AWS Command Line Interface (CLI), software development kits (SDKs), and coding agents can access using the same APIs they use to interact with the cloud, it added. Developers can redirect these tools to the local endpoint by setting the AWS_ENDPOINT_URL environment variable, allowing existing application code and tests to run against simulated AWS services without modification, it further said."
+      "publishedAt": "2026-11-12T12:38:52.000Z",
+      "summary": "AWS on Thursday said that it was upgrading the runtime layer of Amazon Bedrock AgentCore with greater compute capacity, more efficient memory utilization, and faster startup times to help enterprises deploy and scale AI agents more quickly and cost-effectively. The greater compute capacity includes support for up to four times more compute than the previous version, with each session now supporting up to eight virtual CPUs (vCPUs) and 32GB of memory, the hyperscaler said in a statement. In addition, the runtime supports container images of up to 10GB, it further said, adding that these upgrades will allow developers to run more demanding agent workloads, including large codebase compilations, browser-driven workflows, and local model inference. As for memory utilization, the new updates will enable AgentCore runtime to reclaim unused memory within minutes of an agent releasing it and allow idle agents to scale to zero."
     },
     {
-      "title": "Succession, Scrutiny, and the Future of NVIDIA",
-      "link": "https://analyticsindiamag.com/ai-features/succession-scrutiny-and-the-future-of-nvidia",
+      "title": "LatentView Analytics Certified as Best Firm for AI Engineers",
+      "link": "https://analyticsindiamag.com/ai-highlights/latentview-analytics-certified-as-best-firm-for-ai-engineers",
       "source": "Analytics India Magazine",
-      "publishedAt": "2026-11-11T14:00:00.000Z",
-      "summary": "Jensen Huang’s leather jacket has begun to peel—for reasons that have surprised everyone. Over the years, as NVIDIA’s AI dominance ballooned, so did Huang’s persona. Whether sharing a shot with Samsung’s chairman, taking Donald Trump’s call on stage, or playfully bullying SoftBank chief Masayoshi Son for selling NVIDIA shares too early, Huang rarely missed a chance to exude the stature of a charismatic CEO leading one of the world's most valuable companies. His candid, unscripted, and unhinged persona has a name—‘Jensanity’."
-    },
-    {
-      "title": "‘Nobody Wants a Proprietary Platform,’ Says Coforge’s Anup Nair",
-      "link": "https://analyticsindiamag.com/it-services/nobody-wants-a-proprietary-platform-says-coforges-anup-nair",
-      "source": "Analytics India Magazine",
-      "publishedAt": "2026-11-11T12:05:35.000Z",
-      "summary": "Software company Palantir built its business out of sending engineers to enterprises to set up its proprietary software—the forward-deployed engineering model that is now in high demand. But IT services firm Coforge wants to swim against this current. “While the whole industry is marching towards the Palantir model, our model is about speed,” Coforge’s Chief AI Commercial Officer Anup Nair tells AIM, as he describes a strategy built around enablement suit, context engineering, and building projects that get cheaper with every iteration. The pitch arrives as Coforge’s growth outpaces that of larger rivals."
-    },
-    {
-      "title": "Anthropic tiptoes into MS Office territory",
-      "link": "https://www.theregister.com/software/2026/11/10/anthropic-tiptoes-into-ms-office-territory/5308988",
-      "source": "The Register",
-      "publishedAt": "2026-11-10T23:45:26.000Z",
-      "summary": "Anthropic has introduced three new types of artifacts that show the company tiptoeing into the office productivity market long dominated by Microsoft and Google. On Tuesday, the Claudefather announced Claude Sheets, Claude Whiteboards, and Claude Data, and promised the imminent arrival of Claude Meetings. These artifact types join existing ones – Docs, Slides, Design, and Motion – to form a nascent Claude-dependent productivity suite. Anthropic initially used the term artifacts to refer to shareable AI-based interactive tools, like dynamic charts."
-    },
-    {
-      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
-      "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
-      "source": "Ars Technica",
-      "publishedAt": "2026-11-10T21:12:59.000Z",
-      "summary": "Grok Build, the vibe-coding agent from SpaceXSI, is leaking data—some of it proprietary business information and other sensitive secrets—from thousands of its users, including the very same Elon Musk-owned company that offers the platform, new research shows. The information is revealed through links allowing Grok Build users to share their apps with others. Grok takes steps to randomize the URLs so only people who know the exact URL can access the data stored there. A design decision by developers of the platform, however, completely torpedoes that objective and makes it possible for anyone to enumerate thousands of live Grok Build projects."
+      "publishedAt": "2026-11-12T12:30:00.000Z",
+      "summary": "LatentView Analytics has been certified as a Best Firm for AI Engineers from Analytics India Magazine (AIM) through its workplace recognition programme. The certification is grounded in structured survey responses gathered from AI practitioners within the organisation, assessing how effectively companies create conditions for AI engineers to grow, experiment, and deliver meaningful outcomes for clients. AIM's Best Firm for AI Engineers programme independently evaluates employee feedback across workplace culture, leadership quality, learning and development opportunities, cross-functional collaboration, and the nature of AI work being done day to day. The certification reflects how AI engineers themselves describe their experience at a firm, rather than how the firm positions itself in the market."
     }
   ]
 }
