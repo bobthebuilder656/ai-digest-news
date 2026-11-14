@@ -16,6 +16,7 @@
     "Fine-Tuning",
     "Model Context Protocol (MCP)",
     "Reinforcement Learning",
-    "Prompt Engineering"
+    "Prompt Engineering",
+    "RLHF (Reinforcement Learning from Human Feedback)"
   ]
 }
