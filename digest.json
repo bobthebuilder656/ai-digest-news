@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-14T01:26:03.696Z",
-  "dateLabel": "Saturday, November 14, 2026",
-  "sourceCount": 10,
+  "generatedAt": "2026-11-15T01:00:56.494Z",
+  "dateLabel": "Sunday, November 15, 2026",
+  "sourceCount": 9,
   "allSourceNames": [
     "TechCrunch",
     "Analytics India Magazine",
@@ -19,32 +19,74 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "RLHF (Reinforcement Learning from Human Feedback)",
-      "definition": "RLHF is the technique AI labs use to make a raw, freshly-trained language model actually behave helpfully and safely. Human reviewers look at pairs of AI responses to the same question and pick the better one, and the model is retrained to produce more answers like the ones humans preferred. Think of it as a talented but very literal new employee, submitted their first drafts to an editor over and over until their instincts started matching what people actually wanted. It's a major reason today's chatbots feel conversational and considerate rather than just spitting out raw predicted text.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Reinforcement_learning_from_human_feedback"
+      "term": "AI Safety",
+      "definition": "AI safety is the field focused on preventing AI systems from causing unintended harm, spanning near-term, everyday issues like biased hiring tools or misinformation, up to longer-term concerns about highly capable autonomous systems acting in ways nobody wanted. It's the same instinct as safety engineering in any powerful technology, cars, airplanes, nuclear power, just applied to software that can now make its own decisions.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/AI_safety"
     }
   ],
   "items": [
     {
-      "title": "NiCE’s next-generation Cognigy bets the hard part of AI agents is running them, not building them",
-      "link": "https://siliconangle.com/2026/11/13/nices-next-generation-cognigy-bets-the-hard-part-of-ai-agents-is-running-them-not-building-them/",
-      "source": "SiliconANGLE",
-      "publishedAt": "2026-11-14T00:49:43.000Z",
-      "summary": "The contact center has been the low-hanging fruit for the artificial intelligence industry. Ask any information technology or business leader what they want to use agentic AI for, and they will say it’s to improve the customer experience, which starts with the contact center. However, to date, the industry has spent the past two years arguing over which AI agent is the smartest. That’s the wrong debate."
-    },
-    {
-      "title": "Amazon has a plan to index the world’s online shopping data",
-      "link": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
-      "source": "The Verge",
-      "publishedAt": "2026-11-13T23:49:11.000Z",
-      "summary": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters . The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their product research on Reddit or Google, and make it more likely shoppers end up at Amazon even if they're searching for a product sold elsewhere. Listing the details of everything for sale everywhere is meant to make Amazon more useful than Reddit for people and AI agents. The project, called the “World Product Graph,” is meant to make it less likely that shoppers leave Amazon to do their product research on Reddit or Google, and make it more likely shoppers end up at Amazon even if they’re searching for a product sold elsewhere."
-    },
-    {
-      "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
-      "link": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "title": "Where was Nvidia’s security team?",
+      "link": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
       "source": "TechCrunch",
-      "publishedAt": "2026-11-13T22:43:00.000Z",
-      "summary": "Nvidia poured tens of billions into AI startups under Huang. Without him at the helm, founders and VCs are bracing for smaller checks and lower valuations. It was the resignation heard across the world. Jensen Huang, Nvidia’s embattled CEO who co-founded and led the company for 33 years, had officially stepped down . “It’s like a bomb went off,” one neocloud founder told TechCrunch when he first heard the news."
+      "publishedAt": "2026-11-15T00:08:07.000Z",
+      "summary": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch. Outsiders had little reason to notice when Nvidia’s longtime chief security officer and head of product security stepped down in August. S. investigators suspect of funneling Nvidia chips to China, then widening to reports about two separate affairs with Nvidia employees."
+    },
+    {
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-11-14T21:41:22.000Z",
+      "summary": "The petition had attracted more than 115,000 signatures as of Saturday afternoon. A petition calling on Nvidia to reinstate the company’s recently ousted CEO Jensen Huang appears to have attracted more than 115,000 signatures as of Saturday afternoon. The petition website said the signers include 5,965 current Nvidia employees, 1,108 former employees, and 63,063 shareholders. Notable supporters include Tesla and SpaceX CEO Elon Musk, Replit CEO Amjad Masad, Epic Games CEO Tim Sweeney, and Y Combinator CEO Garry Tan."
+    },
+    {
+      "title": "AT&T uses agentic AI to reinvent business processes from the ground up",
+      "link": "https://siliconangle.com/2026/11/14/att-uses-agentic-ai-to-reinvent-business-processes-from-the-ground-up/",
+      "source": "SiliconANGLE",
+      "publishedAt": "2026-11-14T19:37:13.000Z",
+      "summary": "AT&T Corp. is moving beyond using artificial intelligence to improve employee productivity, increasingly applying autonomous agents to redesign how its business operates. Nearly 500 agentic workflows are already in production, and the telecom giant plans to triple that number next year. AT&T now processes about 45 billion AI tokens daily across the company, according to Luke Corbin (pictured, below), assistant vice president of digital transformation and AI at AT&T Business."
+    },
+    {
+      "title": "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO",
+      "link": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
+      "source": "The Decoder",
+      "publishedAt": "2026-11-14T19:05:17.000Z",
+      "summary": "Days before what could be the largest IPO in history, Anthropic CEO Dario Amodei called buying compute 'the deepest business dilemma' his company faces. Anthropic's commitments now total nearly $901 billion, and it's still far from clear whether future revenue will justify those costs. The planned IPO is largely meant to serve as a financial buffer against that uncertainty. Nobody knows how the company's compute investments will pay off, he says."
+    },
+    {
+      "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
+      "link": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
+      "source": "The Verge",
+      "publishedAt": "2026-11-14T15:00:00.000Z",
+      "summary": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for having served on the board of OpenAI, when she was one of four board members who voted to fire Sam Altman . That incident, now sometimes referred to as “the blip,” ended with Sam coming back as CEO, Helen resigning, and a new board of directors."
+    },
+    {
+      "title": "Beware the New AI-Fueled Ransomware Boom",
+      "link": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
+      "source": "Wired",
+      "publishedAt": "2026-11-14T13:00:00.000Z",
+      "summary": "Fully automated ransomware hasn’t arrived—yet. But seemingly unsophisticated attackers are using AI tools to wreak havoc. With so much going on all the time, you may not have thought about ransomware and data extortion attacks in a minute, even though they’ve been among the the biggest cybersecurity threats to institutions—and, by extension, people—over the past decade. But in the new era of AI-powered and automated cyberattacks, the danger posed by ransomware is only increasing as cybercriminals profit by combining established methods with new techniques made possible or more accessible by AI."
+    },
+    {
+      "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+      "link": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+      "source": "The Verge",
+      "publishedAt": "2026-11-14T12:00:00.000Z",
+      "summary": "Nvidia CEO Jensen Huang at CES 2025 in Las Vegas, Nevada, on January 6, 2025. | Photo by Artur Widak/NurPhoto via Getty Images On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made his entrance in a black leather jacket that shimmered in the stadium's lights. Few are cheering for Jensen Huang now."
+    },
+    {
+      "title": "Jensen Huang’s Exit Just Gave AMD and Google Their Biggest AI Opening",
+      "link": "https://analyticsindiamag.com/global-tech/jensen-huangs-exit-just-gave-amd-and-google-their-biggest-ai-opening",
+      "source": "Analytics India Magazine",
+      "publishedAt": "2026-11-14T11:01:30.000Z",
+      "summary": "On the same day that Jensen Huang resigned as NVIDIA’s chief executive after 33 years at the helm of the company he co-founded, another semiconductor company CEO was being celebrated. AMD CEO Lisa Su was named Yahoo Finance’s 2026 CEO of the Year. Su has had quite a triumphant year. AMD shares have been up nearly 139% year-to-date."
+    },
+    {
+      "title": "OpenAI Introduces ChatGPT Wallet for Agent-Led Payments",
+      "link": "https://analyticsindiamag.com/ai-news/openai-introduces-chatgpt-wallet-for-agent-led-payments",
+      "source": "Analytics India Magazine",
+      "publishedAt": "2026-11-14T05:25:04.000Z",
+      "summary": "OpenAI has introduced ChatGPT Wallet, a payment feature that allows AI agents to make purchases on behalf of users without accessing their actual card details. The feature requires users to approve every transaction through a security check, such as Face ID or fingerprint authentication. Built in partnership with American Express, Mastercard, and Visa, ChatGPT Wallet will initially be available to ChatGPT Pro subscribers aged 18 and above in the US with eligible US-issued cards. The rollout will begin through OpenAI’s Dots personal agent."
     },
     {
       "title": "Microsoft 365 services slowly come back online after global outage",
@@ -54,27 +96,6 @@
       "summary": "After a lengthy Microsoft 365 outage disrupted business around the globe, Microsoft is now restoring services to its customers. m. ET) on Friday, Nov. 13, Microsoft said that it is seeing broad recovery and stability across its services, although it is still reporting service degradation in Microsoft 365 services that interact with Exchange Online. “Given the scale of demand, we restored services gradually, validating stability at each stage."
     },
     {
-      "title": "Jensen Huang's ouster likely traces back to Nvidia's risky business practices more than his personal life",
-      "link": "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/",
-      "source": "The Decoder",
-      "publishedAt": "2026-11-13T20:07:34.000Z",
-      "summary": "Jensen Huang likely left Nvidia more because of risky business practices than anything else, a Wall Street Journal report suggests. At the very least, those practices made him enemies internally. The company offered cloud providers billions in financial guarantees for chip purchases, including a planned $250 billion deal with OpenAI. Interim CEO and then-CFO Colette Kress tried to contain the risk, and Huang reportedly didn't like that."
-    },
-    {
-      "title": "AI agent startup LangChain hits $3B valuation",
-      "link": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-11-13T19:37:57.000Z",
-      "summary": "LangChain now claims 7,000 customers of its model and platform agnostic agent management tool LangSmith. Agent management startup LangChain has raised a $300 million Series C at a $3 billion valuation led by CapitalG, with participation from investors, including Singapore’s GIC, DFJ Growth, IVP, and Sapphire Ventures, the company announced on Friday. That’s more than double its $1.25 billion valuation when it raised $125 million about a year ago , led by IVP. LangChain began in 2022 as a popular open source project that handled the kinds of tasks that early-stage LLMs found difficult, like searching the web, calling APIs, and interacting with databases."
-    },
-    {
-      "title": "Microsoft 365 Crawls Back to Life After a 24-Hour Outage",
-      "link": "https://www.wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage/",
-      "source": "Wired",
-      "publishedAt": "2026-11-13T19:08:57.000Z",
-      "summary": "The company says a bad update—not a cyberattack or AI—caused its servers around the world to crash. Sorry, Margaret, your email is working again. After a widespread outage shut down Microsoft 365 services for businesses, governments, and tens of millions of other users around the world, the essential cloud services are now (mostly) back online, according to the company’s status page . The outage debacle began around lunchtime on the East Coast on Thursday, with users reporting Outlook outages to the service-tracking website Downdetector just after 12 pm ET."
-    },
-    {
       "title": "Cloud reports measure the wrong thing",
       "link": "https://www.infoworld.com/article/4248511/cloud-reports-measure-the-wrong-thing.html",
       "source": "InfoWorld",
@@ -82,32 +103,11 @@
       "summary": "Flexera’s 2026 State of the Cloud Report agrees with many other cloud reports these days: Cloud is more strategic, cloud is more complex, AI makes everything harder, and better governance is the answer. This report, based on a survey of 753 cloud decision-makers and users, argues that enterprise cloud has entered a “value era” in which organizations are measuring success less by cost savings alone and more by business outcomes. The headline findings are familiar. Flexera says 64% of organizations now use “value delivered to business units” as a metric for cloud progress, up 12 percentage points year over year."
     },
     {
-      "title": "SoftBank's AI Empire Rests on a Single Asset—And It's Over-Leveraged",
-      "link": "https://analyticsindiamag.com/ai-features/softbanks-ai-empire-rests-on-a-single-assetand-its-over-leveraged",
-      "source": "Analytics India Magazine",
-      "publishedAt": "2026-11-13T13:30:00.000Z",
-      "summary": "Last year, SoftBank Group Chairman and CEO Masayoshi Son declared his vision of turning the Japanese technology investment group into the biggest platform provider for “artificial super intelligence”. That required massive and aggressive investments into all spheres of the AI ecosystem, and it’s finally beginning to dent its bottomline. The Japanese investment holding company reported a ¥1.12 trillion ($6.99 billion) net loss for July–September 2026, its first quarterly loss in about two years, after revising orders for power equipment intended for US data centres that resulted in a ¥597.2 billion ($3.80 billion) charge. But that doesn’t seem to be enough."
-    },
-    {
-      "title": "ReNew Pledges ₹80,000 Cr for Green Data Centre to Fuel India’s AI Push",
-      "link": "https://analyticsindiamag.com/ai-news/renew-pledges-80000-cr-for-green-data-centre-to-fuel-indias-ai-push",
-      "source": "Analytics India Magazine",
-      "publishedAt": "2026-11-13T12:18:32.000Z",
-      "summary": "ReNew Energy Global plans to invest approximately ₹80,000 crore in Andhra Pradesh across data centre infrastructure and clean energy manufacturing. The investment includes a 1 GW green hyperscale data centre in Anakapalli, envisioned to run on renewable energy. The company has allocated ₹67,000 crore for the data centre and ₹11,000 crore for polysilicon and metallurgical silicon manufacturing facilities in Anakapalli and Nellore. ReNew also plans to invest ₹1,500 crore in a permanent magnet manufacturing facility in Rambilli, expected to be commissioned by March 2029."
-    },
-    {
       "title": "Jensen Huang’s scandal-fueled ouster exposes enterprise doubts about AI",
       "link": "https://aibusiness.com/data-centers/jensen-huang-s-ouster-exposes-ai-doubts",
       "source": "AI Business",
       "publishedAt": "2026-11-13T04:05:05.000Z",
       "summary": "The Nvidia shakeup probably won't damage the GPU giant, but it highlights risk lurking in the industry as enterprises deal with unclear ROI from AI technology."
-    },
-    {
-      "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
-      "link": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
-      "source": "MIT Technology Review",
-      "publishedAt": "2026-11-12T20:16:24.000Z",
-      "summary": "” Foster, a Democrat who serves on the Committee on Science, Space, and Technology, is a cosponsor of the act, which would introduce geotracking requirements to verify the location of advanced AI chips in order to prevent their smuggling to China. It is one of three chip-security bills under consideration for inclusion in the Senate’s National Defense Authorization Act, each of which is drawing renewed attention after Nvidia CEO Jensen Huang’s resignation and reported affair with an alleged Chinese spy. When the Chip Security Act was introduced, in May 2025, lawmakers said the technology to implement it existed, something Nvidia has not publicly confirmed. ” But privately, Nvidia representatives working with Foster told the lawmaker that the company could implement them."
     }
   ]
 }
