@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-15T01:00:56.494Z",
-  "dateLabel": "Sunday, November 15, 2026",
-  "sourceCount": 9,
+  "generatedAt": "2026-11-16T00:59:26.601Z",
+  "dateLabel": "Monday, November 16, 2026",
+  "sourceCount": 6,
   "allSourceNames": [
     "TechCrunch",
     "Analytics India Magazine",
@@ -19,25 +19,67 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "AI Safety",
-      "definition": "AI safety is the field focused on preventing AI systems from causing unintended harm, spanning near-term, everyday issues like biased hiring tools or misinformation, up to longer-term concerns about highly capable autonomous systems acting in ways nobody wanted. It's the same instinct as safety engineering in any powerful technology, cars, airplanes, nuclear power, just applied to software that can now make its own decisions.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/AI_safety"
+      "term": "Retrieval-Augmented Generation (RAG)",
+      "definition": "RAG is a technique where an AI model looks up relevant documents from an outside source, like a company's internal files or a live web search, before writing its answer, instead of relying purely on what it memorized during training. It's the difference between a student answering an exam question entirely from memory versus being allowed to quickly check a textbook first. It helps models give more current, accurate answers and lets them cite exactly where the information came from.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Retrieval-augmented_generation"
     }
   ],
   "items": [
     {
-      "title": "Where was Nvidia’s security team?",
-      "link": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+      "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+      "link": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
       "source": "TechCrunch",
-      "publishedAt": "2026-11-15T00:08:07.000Z",
-      "summary": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch. Outsiders had little reason to notice when Nvidia’s longtime chief security officer and head of product security stepped down in August. S. investigators suspect of funneling Nvidia chips to China, then widening to reports about two separate affairs with Nvidia employees."
+      "publishedAt": "2026-11-15T23:30:00.000Z",
+      "summary": "Bharat Semi says it has secured design wins for its AI-enabled sensor technology with companies including General Atomics. Bharat Semi , an Indian semiconductor startup, has raised $24 million in seed funding to develop AI-enabled image sensors, as it seeks to win customers in the United States and elsewhere. S. defense technology company General Atomics and India’s Kaynes Semicon."
     },
     {
-      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
-      "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+      "link": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
       "source": "TechCrunch",
-      "publishedAt": "2026-11-14T21:41:22.000Z",
-      "summary": "The petition had attracted more than 115,000 signatures as of Saturday afternoon. A petition calling on Nvidia to reinstate the company’s recently ousted CEO Jensen Huang appears to have attracted more than 115,000 signatures as of Saturday afternoon. The petition website said the signers include 5,965 current Nvidia employees, 1,108 former employees, and 63,063 shareholders. Notable supporters include Tesla and SpaceX CEO Elon Musk, Replit CEO Amjad Masad, Epic Games CEO Tim Sweeney, and Y Combinator CEO Garry Tan."
+      "publishedAt": "2026-11-15T21:56:35.000Z",
+      "summary": "\"Jensen is Nvidia, right? We didn’t see this coming. Or at least, I didn’t — a week ago, when I wrote about Nvidia’s board opening an investigation into then-CEO Jensen Huang, I assumed his job was safe. On the latest episode of TechCrunch’s Equity podcast , Rebecca Bellan, Tim De Chant, and I discussed how Huang’s ouster went down and what it means for the larger AI economy."
+    },
+    {
+      "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+      "link": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+      "source": "The Verge",
+      "publishedAt": "2026-11-15T20:43:49.000Z",
+      "summary": "Some big names, including Elon Musk and Epic Games CEO Tim Sweeney, have publicly thrown their support behind a public letter demanding Nvidia \" bring Jensen back .\" Megaspeed claims Alice Huang hasn’t worked there since August of 2025."
+    },
+    {
+      "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+      "source": "The Verge",
+      "publishedAt": "2026-11-15T19:15:43.000Z",
+      "summary": "Unsurprisingly, following the scandal involving now-former Nvidia CEO Jensen Huang and a suspected Chinese spy, Congress is looking to further restrict exports of AI chips. Both Democrats and Republicans have voiced support for various measures and bills that would tighten rules and have demanded that Huang and other Nvidia leaders testify before Congress. Senate Minority Leader Chuck Schumer has already said that Huang and the Trump administration need to answer to Congress . Following revelations about Jensen Huang’s relationship with a suspected Chinese spy Congress wants to crack down."
+    },
+    {
+      "title": "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them",
+      "link": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/",
+      "source": "The Decoder",
+      "publishedAt": "2026-11-15T15:42:03.000Z",
+      "summary": "Anthropic's Claude Fable 5.2 doesn't generate images the way other AI models do. Instead of computing pixels, the language model writes Python code that places hundreds of thousands of simulated brushstrokes on a virtual canvas, complete with bristle texture and paint application. A single photorealistic parking garage scene took roughly 700,000 strokes, according to Anthropic employee Jake Eaton. Anthropic's new language model Claude Fable 5.2 can create complex and even photorealistic paintings by using code to place hundreds of thousands of individual brushstrokes on a virtual canvas."
+    },
+    {
+      "title": "Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
+      "link": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/",
+      "source": "The Decoder",
+      "publishedAt": "2026-11-15T14:45:12.000Z",
+      "summary": "Megaspeed, the firm owned by ousted Nvidia CEO Jensen Huang's former lover Alice Huang, arranged nearly $12 billion in Nvidia chip orders for Chinese companies between 2024 and 2025, according to the WSJ. Short seller Culper Research estimates Nvidia's actual China revenue share exceeds 20 percent, far above the officially reported 7 percent. In a statement to Reuters , Megaspeed said Chinese businesswoman Alice Huang officially left the company on August 30, 2025, and has no current role there. Huang became the controlling shareholder of Megaspeed in March 2023, according to Washington-based research group C4ADS."
+    },
+    {
+      "title": "AI DJs Completely Kill My Groove",
+      "link": "https://www.wired.com/story/ai-djs-completely-kill-my-groove/",
+      "source": "Wired",
+      "publishedAt": "2026-11-15T12:00:00.000Z",
+      "summary": "YouTube Music and Spotify want synthetic hosts to curate your playlists. Their awkward banter and bogus song trivia are ruining the vibe. I usually can’t pinpoint the moment I stop using a software feature, with most tools drifting out of fashion without an expiration date. That’s not the case with YouTube Music’s “Beyond the Beat,” an AI-generated DJ that explains songs to you."
+    },
+    {
+      "title": "This AI Tamagotchi Turns Everyday Objects Into Needy Virtual Pets",
+      "link": "https://www.wired.com/story/this-ai-tamagotchi-oats-turns-everyday-objects-into-needy-virtual-pets/",
+      "source": "Wired",
+      "publishedAt": "2026-11-15T11:00:00.000Z",
+      "summary": "A Carnegie Mellon student’s tiny E Ink gadgets, called OATs, give houseplants, skateboards, and dumbbells expressive personalities to nudge you toward better habits. You forgot to water the plant. Instead of seeing yellowing leaves, you see a cute plant-shaped pet on a tiny screen, looking sad and dejected. Maybe that'll give you the push you needed to grab the watering can."
     },
     {
       "title": "AT&T uses agentic AI to reinvent business processes from the ground up",
@@ -45,34 +87,6 @@
       "source": "SiliconANGLE",
       "publishedAt": "2026-11-14T19:37:13.000Z",
       "summary": "AT&T Corp. is moving beyond using artificial intelligence to improve employee productivity, increasingly applying autonomous agents to redesign how its business operates. Nearly 500 agentic workflows are already in production, and the telecom giant plans to triple that number next year. AT&T now processes about 45 billion AI tokens daily across the company, according to Luke Corbin (pictured, below), assistant vice president of digital transformation and AI at AT&T Business."
-    },
-    {
-      "title": "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO",
-      "link": "https://the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo/",
-      "source": "The Decoder",
-      "publishedAt": "2026-11-14T19:05:17.000Z",
-      "summary": "Days before what could be the largest IPO in history, Anthropic CEO Dario Amodei called buying compute 'the deepest business dilemma' his company faces. Anthropic's commitments now total nearly $901 billion, and it's still far from clear whether future revenue will justify those costs. The planned IPO is largely meant to serve as a financial buffer against that uncertainty. Nobody knows how the company's compute investments will pay off, he says."
-    },
-    {
-      "title": "The OpenAI board member who fired Sam Altman says we still can’t trust AI CEOs",
-      "link": "https://www.theverge.com/podcast/1032907/helen-toner-openai-cset-ai-safety-policy-interview",
-      "source": "The Verge",
-      "publishedAt": "2026-11-14T15:00:00.000Z",
-      "summary": "Today, I’m talking with Helen Toner, the executive director of the Center for Security and Emerging Technology at Georgetown University. This episode is part two of our series on AI in real life. Helen is a well-known figure in the AI safety and policy community, though she is perhaps best known for having served on the board of OpenAI, when she was one of four board members who voted to fire Sam Altman . That incident, now sometimes referred to as “the blip,” ended with Sam coming back as CEO, Helen resigning, and a new board of directors."
-    },
-    {
-      "title": "Beware the New AI-Fueled Ransomware Boom",
-      "link": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
-      "source": "Wired",
-      "publishedAt": "2026-11-14T13:00:00.000Z",
-      "summary": "Fully automated ransomware hasn’t arrived—yet. But seemingly unsophisticated attackers are using AI tools to wreak havoc. With so much going on all the time, you may not have thought about ransomware and data extortion attacks in a minute, even though they’ve been among the the biggest cybersecurity threats to institutions—and, by extension, people—over the past decade. But in the new era of AI-powered and automated cyberattacks, the danger posed by ransomware is only increasing as cybercriminals profit by combining established methods with new techniques made possible or more accessible by AI."
-    },
-    {
-      "title": "Jensen Huang and the decline of the visionary showman founder CEO",
-      "link": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
-      "source": "The Verge",
-      "publishedAt": "2026-11-14T12:00:00.000Z",
-      "summary": "Nvidia CEO Jensen Huang at CES 2025 in Las Vegas, Nevada, on January 6, 2025. | Photo by Artur Widak/NurPhoto via Getty Images On January 6th, 2025, Nvidia CEO Jensen Huang got his rockstar moment at last. He strode triumphantly onstage, hand raised in the air, to the claps and cheers of a 14,000-person arena absolutely packed with influencers and fans, their faces awash in blue glow, as he made his entrance in a black leather jacket that shimmered in the stadium's lights. Few are cheering for Jensen Huang now."
     },
     {
       "title": "Jensen Huang’s Exit Just Gave AMD and Google Their Biggest AI Opening",
@@ -87,27 +101,6 @@
       "source": "Analytics India Magazine",
       "publishedAt": "2026-11-14T05:25:04.000Z",
       "summary": "OpenAI has introduced ChatGPT Wallet, a payment feature that allows AI agents to make purchases on behalf of users without accessing their actual card details. The feature requires users to approve every transaction through a security check, such as Face ID or fingerprint authentication. Built in partnership with American Express, Mastercard, and Visa, ChatGPT Wallet will initially be available to ChatGPT Pro subscribers aged 18 and above in the US with eligible US-issued cards. The rollout will begin through OpenAI’s Dots personal agent."
-    },
-    {
-      "title": "Microsoft 365 services slowly come back online after global outage",
-      "link": "https://www.computerworld.com/article/4248590/m365-services-slowly-come-back-online-after-global-outage.html",
-      "source": "Computerworld",
-      "publishedAt": "2026-11-13T20:35:41.000Z",
-      "summary": "After a lengthy Microsoft 365 outage disrupted business around the globe, Microsoft is now restoring services to its customers. m. ET) on Friday, Nov. 13, Microsoft said that it is seeing broad recovery and stability across its services, although it is still reporting service degradation in Microsoft 365 services that interact with Exchange Online. “Given the scale of demand, we restored services gradually, validating stability at each stage."
-    },
-    {
-      "title": "Cloud reports measure the wrong thing",
-      "link": "https://www.infoworld.com/article/4248511/cloud-reports-measure-the-wrong-thing.html",
-      "source": "InfoWorld",
-      "publishedAt": "2026-11-13T16:21:12.000Z",
-      "summary": "Flexera’s 2026 State of the Cloud Report agrees with many other cloud reports these days: Cloud is more strategic, cloud is more complex, AI makes everything harder, and better governance is the answer. This report, based on a survey of 753 cloud decision-makers and users, argues that enterprise cloud has entered a “value era” in which organizations are measuring success less by cost savings alone and more by business outcomes. The headline findings are familiar. Flexera says 64% of organizations now use “value delivered to business units” as a metric for cloud progress, up 12 percentage points year over year."
-    },
-    {
-      "title": "Jensen Huang’s scandal-fueled ouster exposes enterprise doubts about AI",
-      "link": "https://aibusiness.com/data-centers/jensen-huang-s-ouster-exposes-ai-doubts",
-      "source": "AI Business",
-      "publishedAt": "2026-11-13T04:05:05.000Z",
-      "summary": "The Nvidia shakeup probably won't damage the GPU giant, but it highlights risk lurking in the industry as enterprises deal with unclear ROI from AI technology."
     }
   ]
 }
