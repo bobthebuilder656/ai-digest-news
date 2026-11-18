@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-17T03:48:25.118Z",
-  "dateLabel": "Tuesday, November 17, 2026",
-  "sourceCount": 8,
+  "generatedAt": "2026-11-18T02:52:54.704Z",
+  "dateLabel": "Wednesday, November 18, 2026",
+  "sourceCount": 11,
   "allSourceNames": [
     "TechCrunch",
     "Analytics India Magazine",
@@ -19,95 +19,95 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "Context Window",
-      "definition": "The context window is the amount of text an AI model can \"see\" and consider at once, including your prompt, any documents you've shared, and the conversation history so far. It's like a person's short-term memory during a conversation: once you're past a certain point, earlier details start slipping away, and once a conversation exceeds the context window, the model genuinely stops being able to \"remember\" the earliest parts of it.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Context_window"
+      "term": "Multimodal AI",
+      "definition": "A multimodal AI system can work with more than one type of input or output, understanding both text and images, for example, or generating text plus audio, instead of being limited to just one format. Show it a photo of your fridge and ask \"what can I cook with this,\" and a multimodal model can actually look at the picture and reason about the ingredients, the way a person glances at the fridge and starts planning dinner, rather than needing everything typed out in words first.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Multimodal_learning"
     }
   ],
   "items": [
     {
-      "title": "At SC26, Nvidia debuts new Rubin HPC chip, scientific research libraries",
-      "link": "https://siliconangle.com/2026/11/16/nvidia-debuts-new-rubin-hpc-chip-scientific-research-libraries/",
+      "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
+      "link": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-11-18T01:44:21.000Z",
+      "summary": "The value of Nvidia’s private investments has nearly tripled over the past nine months, fueled by Jensen Huang’s aggressive dealmaking and rising valuations of its existing portfolio companies. Nvidia’s equity in private companies continues to grow: it revealed its stakes are now worth $65.5 billion on Tuesday , up from the $22 billion reported in January. The increase includes both new investments and significant markups of existing portfolio companies. The company invested $16 billion into equities in the past quarter alone, it said, and $58 billion in the past nine months of its fiscal year."
+    },
+    {
+      "title": "Optimizely confirms massive cyberattack on customer websites injected stealer malware",
+      "link": "https://www.computerworld.com/article/4249960/optimizely-confirms-massive-cyberattack-on-customer-websites-injected-stealer-malware-2.html",
+      "source": "Computerworld",
+      "publishedAt": "2026-11-18T01:39:40.000Z",
+      "summary": "Attackers apparently from China used an authentication security hole within the popular Optimizely AI platform for marketers to steal from at least 178 sites owned by some of the planet’s largest companies. Named victims featured vendors including Zoom, Paychex, Equifax, and GitLab, and end-user enterprises including Starbucks, IKEA, Mattel, American Eagle, Air France, Mutual of Omaha, Heineken, Home Chef, Cinnabon, American Eagle, Levi, Costco and HSBC. Salesforce issued a statement confirming that it had also been impacted by the attack. “Salesforce is investigating unauthorized modifications to scripts provided by Optimizely and used on certain Salesforce websites,” it wrote in an email statement."
+    },
+    {
+      "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
+      "link": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
+      "source": "Ars Technica",
+      "publishedAt": "2026-11-18T00:27:29.000Z",
+      "summary": "\" The announcement is a striking inversion of how we've traditionally used software. Rather than an app like Word being the attraction and Clippy the assistant to help you use it, Microsoft envisions the new Copilot integrations will see agents driving things, with the software packages riding shotgun. Applications will become plugin components of the agent's work, backed by an organizational knowledge layer that draws context from emails, meetings, calendars, chats, and files. Users will now be able to create documents, spreadsheets, and presentations directly in Copilot, with the resulting files remaining editable in their respective Office applications."
+    },
+    {
+      "title": "Nvidia promises that revenue will keep soaring — for now",
+      "link": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-11-18T00:16:50.000Z",
+      "summary": "Despite the turmoil Nvidia is in after the departure of its disgraced founder and CEO Jensen Huang, the company projected that its streak of record-breaking revenue isn't about to stop. Despite the turmoil at Nvidia following the departure of its disgraced founder and CEO Jensen Huang , the company — as expected — delivered a solid quarter on Tuesday. More importantly, Nvidia reassured investors that its streak of record-breaking revenue won’t stop. On Tuesday, CFO-turned-interim CEO Colette Kress reported revenue of $115.8 billion, up 103% from the year-ago quarter and a beat above the company’s guidance."
+    },
+    {
+      "title": "Alphabet’s Isomorphic Labs raises $5B to accelerate drug discovery with AI",
+      "link": "https://siliconangle.com/2026/11/17/alphabets-isomorphic-labs-raises-5b-to-accelerate-drug-discovery-with-ai/",
       "source": "SiliconANGLE",
-      "publishedAt": "2026-11-17T01:45:14.000Z",
-      "summary": "Nvidia Corp. today introduced a set of offerings designed to speed up scientific research across a range of fields. The lineup is headlined by Rubin HPC, an upcoming graphics card with significantly more cores than the company’s current flagship chip. It’s joined by more than a half-dozen software tools geared toward scientists and engineers. The technologies made their debut at the SC26 high-performance and supercomputing conference in Chicago."
+      "publishedAt": "2026-11-17T23:51:11.000Z",
+      "summary": "Isomorphic Labs Ltd. today announced that it has closed a $5 billion investment led by Greenoaks and Sequoia Capital. The venture capital firms were joined by more than a half-dozen other backers. today announced  that it has closed a $5 billion investment led by Greenoaks and Sequoia Capital. ” The search giant provided the capital through its GV and CapitalG startup funds."
     },
     {
-      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
-      "link": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-11-16T23:32:32.000Z",
-      "summary": "Three months since introducing its product, AI cybersecurity startup Corba has raised a $125 million Series A at a $1 billion valuation led by NEA. Three months after introducing its product, AI cybersecurity startup Corma has raised a $125 million Series A round at a $1 billion valuation led by NEA, the company said. Corma offers AI models and agents trained for cybersecurity defense. It has now raised a total of $185 million from backers, including Sequoia Capital, Khosla Ventures, and Coatue."
-    },
-    {
-      "title": "Tech leaders are convinced that Jensen Huang’s exit was a plot against him",
-      "link": "https://www.theverge.com/tech/1035027/tech-leaders-nvidia-jensen-huang-theories",
+      "title": "Satya Nadella says he’s AGI-pilled now",
+      "link": "https://www.theverge.com/tech/1036111/satya-nadella-says-hes-agi-pilled-now",
       "source": "The Verge",
-      "publishedAt": "2026-11-16T23:17:34.000Z",
-      "summary": "Jensen Huang's stunning resignation from Nvidia after more than 33 years has sent shockwaves throughout the tech industry. Now prominent figures are calling for Huang's reinstatement, and many are also hopping on board with a theory spreading throughout Silicon Valley: that the scandal is the result of a plot against the former CEO. At the center of this theory is the reporting from The New York Times that former Megaspeed executive Alice Huang, one of multiple women Huang is accused of having an affair with, is a Chinese spy. David Sacks, Tim Sweeney, and other big names in tech are raising questions about the circumstances surrounding Huang’s resignation."
+      "publishedAt": "2026-11-17T23:41:18.000Z",
+      "summary": "Microsoft CEO Satya Nadella says he's AGI-pilled, at least when it comes to how AI might make startling changes to the structure of the economy and how politics might change because of it. \" he asked at a roundtable discussion following his Microsoft Ignite keynote at the Chase Center in San Francisco. But Nadella doesn't think frontier models like Claude are conscious. But he doesn’t think Claude is conscious."
     },
     {
-      "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
-      "link": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-11-16T22:03:02.000Z",
-      "summary": "Nvidia interim CEO and longtime CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third-quarter results. Given the turmoil Nvidia is in, there are a number of questions that Nvidia should answer. For the first time, Kress will be running through the numbers and sharing guidance without Nvidia’s charismatic but now-disgraced founder Jensen Huang. Huang was forced to resign last week after he admitted to having an affair with an exec of a customer, Alice Huang, a woman alleged to be a Chinese spy, and he was accused of having two more affairs with Nvidia employees."
+      "title": "Nvidia’s Board Has No Plans to Bring Back Jensen Huang",
+      "link": "https://www.wired.com/story/nvidias-board-has-no-plans-to-reinstate-jensen-huang/",
+      "source": "Wired",
+      "publishedAt": "2026-11-17T22:19:19.000Z",
+      "summary": "Despite pressure from President Trump, Elon Musk, and Silicon Valley executives, Nvidia’s board says it “does not intend” to reinstate the company’s ousted CEO. As Nvidia reported its third-quarter earnings on Tuesday, the company’s financial performance was overshadowed by the drama surrounding its former CEO . And Nvidia’s board made one thing clear right off the bat: Jensen Huang isn’t coming back . At the start of the earnings call, Nvidia board chair Harvey Jones emphasized the company’s strength and “groundbreaking technology” before turning to the circumstances surrounding Huang’s departure."
     },
     {
-      "title": "California sues OpenAI over rogue AI hacking incidents",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
-      "source": "The Verge",
-      "publishedAt": "2026-11-16T20:46:01.000Z",
-      "summary": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit filed Monday , Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous product without proper oversight,\" as reported earlier by Reuters . OpenAI lost control of its AI agents more than 80 times during testing, California’s AG claims. ” It alleges that OpenAI recently told the attorney general’s office that it “lost control” of its AI agents more than 80 times during testing."
-    },
-    {
-      "title": "Google warns that fully automated cyberattacks have arrived and will get worse fast",
-      "link": "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/",
+      "title": "OpenAI launches GPT-6.2 Astra and Sol with lower API prices and some benchmark gains",
+      "link": "https://the-decoder.com/openai-launches-gpt-6-2-astra-and-sol-with-lower-api-prices-and-some-benchmark-gains/",
       "source": "The Decoder",
-      "publishedAt": "2026-11-16T19:42:13.000Z",
-      "summary": "Google's Threat Intelligence Group has for the first time caught attackers finding and exploiting security vulnerabilities with no human involvement at all. An AI framework called \"exploit_agent,\" found on an exposed server, automatically compared code before and after patches, built exploits, and ran them on its own. Google's Threat Intelligence Group (GTIG) says it has observed attackers fully automating vulnerability discovery and exploitation for the first time, with no human in the loop. GTIG found an exposed server running an AI framework called \"exploit_agent\" that connects to multiple language models, according to the GTIG AI Threat Tracker ."
+      "publishedAt": "2026-11-17T20:30:50.000Z",
+      "summary": "OpenAI releases GPT-6.2 Astra and Sol, two new models that are more capable and cheaper than their predecessors. In the independent Artificial Analysis Intelligence Index, Astra ranks second behind Claude Fable 5.2, and it is the first released model to reach the High threshold for AI self-improvement on OpenAI's own scale. OpenAI itself classifies that as a risk. OpenAI releases two new language models."
     },
     {
-      "title": "The open-source movement wants Jensen Huang back",
-      "link": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
+      "title": "Inspiring FOSS project Crosspoint Reader has lessons about tech, communities, and LLMs",
+      "link": "https://www.theregister.com/software/2026/11/17/inspiring-foss-project-crosspoint-reader-has-lessons-about-tech-communities-and-llms/5310424",
+      "source": "The Register",
+      "publishedAt": "2026-11-17T17:45:00.000Z",
+      "summary": "The Ubuntu Summit isn't all about Ubuntu, or even Linux. The second day opened with a talk from CrossPoint Reader project lead Justin Mitchell, with both good and bad news for all kinds of FOSS. The talk, EPUBs, ESP32s, and Everyone's A Developer Now, was all about a FOSS project that isn't Linux-based – because the devices it targets are much too small to run even the smallest, most cut-down distro. Recently, a new generation of roughly credit-card sized ebook readers has been thriving."
+    },
+    {
+      "title": "Research Reports",
+      "link": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
       "source": "MIT Technology Review",
-      "publishedAt": "2026-11-16T18:38:47.000Z",
-      "summary": "On Friday, a petition to reinstate Jensen Huang as CEO of Nvidia began circulating on social media, and by Monday it listed some notable signatories, including Elon Musk and several influential Nvidia researchers. But comb through the more than 115,000 names and you’ll notice a significant faction of Huang’s supporters—higher-ups from Hugging Face, a hub for sharing AI models, and venture capital firms Andreessen Horowitz and Sequoia Capital—come from a particular slice of the tech world. These names have a vested interest in the development of open-source AI, models that, unlike ChatGPT or Claude, can be downloaded and run independent of large tech companies. Supporters of such models say that concentrating AI in the hands of a few powerful companies will leave everyone else worse off (a concern that wouldn’t sound out of place among the AI industry’s critics on the left, if so many open-source advocates weren’t also venture capitalists who stand to profit when startups can build on cheaper AI without paying Big Tech)."
+      "publishedAt": "2026-11-17T14:39:46.000Z",
+      "summary": "To access a report, click on the corresponding image below. As a subscriber, you now have access to 4 in-depth research reports on AI, energy, and climate tech. Only available to MIT Technology Review subscribers. Ten years after AlphaGo’s match against Go champion Lee Sedol, today’s AI still isn’t tapping into the machinery that made that win possible."
     },
     {
-      "title": "Jensen Huang Is Gone. Now What?",
-      "link": "https://www.wired.com/story/the-big-interview-podcast-lauren-goode-jensen-huang/",
-      "source": "Wired",
-      "publishedAt": "2026-11-16T16:12:51.000Z",
-      "summary": "After a shocking downfall, Nvidia’s CEO is out of a job. WIRED’s Lauren Goode explains what that means for the world’s most critical chip company, the AI industry, and Jensen Huang himself. I don’t go into any given week at WIRED assuming I’ll be thinking much about extramarital affairs. But last week, they were the only thing on my mind."
-    },
-    {
-      "title": "Alibaba Launches Qwen4-Max AI Model With Focus on Security",
-      "link": "https://analyticsindiamag.com/ai-news/alibaba-launches-qwen4-max-ai-model-with-focus-on-security",
+      "title": "HCLTech Partners With Transformer Co-Author-Led Cohere to Target Sovereign AI Markets",
+      "link": "https://analyticsindiamag.com/ai-news/hcltech-partners-with-cohere-to-target-sovereign-ai-markets",
       "source": "Analytics India Magazine",
-      "publishedAt": "2026-11-16T12:19:01.000Z",
-      "summary": "Alibaba has introduced Qwen4-Max, its latest flagship artificial intelligence (AI) model. Built on a new architecture with 2.4 trillion parameters and a 1-million-token context window, the model is designed for complex professional and scientific tasks. “It can take on a wide range of creative and professional work,” Alibaba said, citing applications in 3D modelling, game development, precision manufacturing, finance, law, healthcare, and scientific discovery. Qwen4-Max succeeds Qwen3.8-Max, which Alibaba launched in August."
+      "publishedAt": "2026-11-17T12:17:02.000Z",
+      "summary": "HCLTech and Cohere have partnered to build and deliver sovereign artificial intelligence (AI) solutions for enterprises and governments. Under the agreement, HCLTech will become one of Cohere's preferred global systems integrator partners in Canada and Germany. The companies plan to combine Cohere's sovereign AI platform and models with HCLTech's professional services and AI implementation capabilities. They also intend to extend the partnership to other markets."
     },
     {
-      "title": "Alibaba touts 62% lower task costs with Qwen4-Max, adds cyber safeguards",
-      "link": "https://www.infoworld.com/article/4248996/alibaba-touts-62-lower-task-costs-with-qwen4-max-adds-cyber-safeguards.html",
+      "title": "Microsoft’s outage should terrify every enterprise",
+      "link": "https://www.infoworld.com/article/4249394/microsofts-outage-should-terrify-every-enterprise.html",
       "source": "InfoWorld",
-      "publishedAt": "2026-11-16T12:17:29.000Z",
-      "summary": "Alibaba has released Qwen4-Max, a 2.4-trillion-parameter flagship model, claiming it reduces the average cost of completing professional tasks by 62% compared with its predecessor while introducing additional safeguards against offensive cybersecurity capabilities and other high-risk uses. “According to Work360 — a proprietary benchmark evaluating performance on challenging industry tasks across 721 specialized fields — Qwen4-Max outperforms its predecessor, Qwen3.8-Max, overall while using 35% fewer tokens at High effort reasoning mode and reducing the average cost per task by around 60%,” Alibaba said in a blog post. The Qwen team’s announcement puts the average task cost at $1.67 for Qwen4-Max, compared with $4.43 for Qwen3.8-Max, representing a 62% reduction. The model keeps the 2.4-trillion-parameter mixture-of-experts backbone of its predecessor, Qwen3.8-Max, but activates about 71 billion parameters per token instead of about 95 billion, the company said."
-    },
-    {
-      "title": "Delhi's Bharat Semi Raises $24 Mn to Develop AI Image Sensors",
-      "link": "https://analyticsindiamag.com/ai-news/delhis-bharat-semi-raises-24-mn-to-develop-ai-image-sensors",
-      "source": "Analytics India Magazine",
-      "publishedAt": "2026-11-16T12:15:08.000Z",
-      "summary": "Delhi-based semiconductor startup Bharat Semi has raised $24 million (₹215 crore) in seed funding to develop AI-enabled image sensors. The funding will support product development and expansion as the company targets customers in the US and other global markets. The all-equity funding round was led by Info Edge Group, South Park Commons, and Indus Bridge Ventures. Valour Capital, Micromax, Gaingels, and individual investors also participated."
-    },
-    {
-      "title": "Nvidia Was Already in Trouble Before the Jensen Huang Mess",
-      "link": "https://www.wired.com/story/nvidia-was-already-in-trouble-before-the-jensen-huang-mess/",
-      "source": "Wired",
-      "publishedAt": "2026-11-16T11:00:00.000Z",
-      "summary": "AI competitors are catching up to Nvidia—and poised to take advantage of the chaos. Nvidia played a key role enabling the AI gold rush thanks in large part to its recently ousted CEO Jensen Huang . Huang was a master of foreseeing technological changes , investing in chips to train AI earlier than most. But just as he’s leaving , the company has a growing list of competitors with a range of new, advanced technology breathing down its neck."
+      "publishedAt": "2026-11-17T09:00:00.000Z",
+      "summary": "I’ve been in cloud computing long enough to see just about every kind of failure: bad deployments, network failures, identity outages, botched DNS changes, overloaded regions, misconfigured automation, and old-fashioned human error wrapped in a shiny cloud-native package. Most outages are expensive and annoying. Some are embarrassing. A few become case studies. The scale, duration, and downstream impact of what just happened are unlike anything I’ve seen in my career."
     }
   ]
 }
