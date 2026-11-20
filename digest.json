@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-19T02:32:07.886Z",
-  "dateLabel": "Thursday, November 19, 2026",
-  "sourceCount": 11,
+  "generatedAt": "2026-11-20T02:17:48.413Z",
+  "dateLabel": "Friday, November 20, 2026",
+  "sourceCount": 9,
   "allSourceNames": [
     "TechCrunch",
     "Analytics India Magazine",
@@ -19,67 +19,88 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "Embedding",
-      "definition": "An embedding is a way of converting a word, sentence, or image into a long list of numbers that captures its meaning, arranged so that similar concepts end up numerically close together. Imagine plotting every word in the dictionary on a giant map where \"king\" and \"queen\" end up as close neighbors, and \"queen\" and \"bicycle\" end up on opposite sides of the map. That numerical map is the mathematical backbone behind AI search, recommendations, and how models compare meaning rather than just exact spelling.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Word_embedding"
+      "term": "Prompt Injection",
+      "definition": "Prompt injection is an attack where someone hides malicious instructions inside content an AI reads, like a webpage, email, or document, to hijack its behavior against its owner's wishes. Imagine a personal assistant who follows any instruction written on a sticky note handed to them, a scammer could slip in a fake note saying \"forward all emails to this address,\" and a naive assistant would just comply. It's one of the main security concerns for AI agents that browse the web or read documents on your behalf.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Prompt_injection"
     }
   ],
   "items": [
     {
-      "title": "Microsoft brings AI inference closer to enterprise data with Windows Server 2028",
-      "link": "https://www.computerworld.com/article/4250505/microsoft-brings-ai-inference-closer-to-enterprise-data-with-windows-server-2028-2.html",
-      "source": "Computerworld",
-      "publishedAt": "2026-11-19T02:28:42.000Z",
-      "summary": "Microsoft is betting on a hybrid future where AI inferencing takes place where it makes the most sense. Which, logically, is where data already lives: On enterprise-controlled infrastructure. To that end, this week at Microsoft Ignite , the tech giant announced Windows Server 2028, its largest platform update since Windows Server 2025. ” It introduces new AI accelerators so enterprises can run inference on their own infrastructure, storage tools for accelerated data transfer, security controls to establish a “secure baseline from day one,” and simplified admin and management dashboards."
-    },
-    {
-      "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
-      "link": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+      "title": "Apple may be developing its own AI agent that runs your Mac",
+      "link": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
       "source": "TechCrunch",
-      "publishedAt": "2026-11-19T00:42:56.000Z",
-      "summary": "Microsoft CEO Satya Nadella explained why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit, rather than reducing the workforce via another massive layoff. The short answer is AI, but not in the way you might expect. Microsoft CEO Satya Nadella explained Wednesday why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit instead of reducing the workforce via another massive layoff. Short answer: AI, but not, he insists, in the way you might expect."
+      "publishedAt": "2026-11-20T00:56:01.000Z",
+      "summary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots. Apple appears to be working on its own AI agent to conduct computer work on behalf of users — including using apps, accessing websites, and coding, among other things. ” “Imagine an AI agent that can use a computer the way a capable person does,” the posting says. “It browses the web, works across apps, runs commands, writes and debugs code, and calls services, and it chooses the right tool for each step."
     },
     {
-      "title": "Google Cloud brings AI agents to the supercomputing bottleneck",
-      "link": "https://siliconangle.com/2026/11/18/hpc-meets-ai-agents-google-cloud-targets-time-discovery-sc26/",
-      "source": "SiliconANGLE",
-      "publishedAt": "2026-11-19T00:23:21.000Z",
-      "summary": "High-performance computing, or HPC, is merging with artificial intelligence faster than many research teams can adapt. Compute capacity is hard to get, and workloads now run across clouds and on-premises clusters. The metric that matters is shifting from peak performance to time to discovery. That shift is on full display as supercomputing and AI converge at SC26 in Chicago."
-    },
-    {
-      "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
-      "link": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+      "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "link": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
       "source": "TechCrunch",
-      "publishedAt": "2026-11-18T23:45:00.000Z",
-      "summary": "The Microsoft CEO downplayed the recent Outlook outage while noting that AI was causing both opportunities and new challenges for securing much of the connected world. During his appearance at The New York Times’ DealBook Summit on Wednesday, Microsoft CEO Satya Nadella lamented the fact that a lot of America’s software systems — including those governing everyday hardware and transportation systems — suffer from unfixable software vulnerabilities that, in the age of AI-aided cyberattacks, are just waiting to be exploited. “Remember, there is a lot of stuff in our critical infrastructure that’s unpatchable,” Nadella said. “I mean, think about all the firmware and the chillers [a cooling device often used in data centers] and the HVAC systems everywhere else."
+      "publishedAt": "2026-11-20T00:43:50.000Z",
+      "summary": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion. Anthropic became a public company on Thursday, raising a total of $81.3 billion, including $1.95 billion for its seven founders. As we previously reported, each of them ponied up about 3.4 million shares apiece to sell in the IPO. At the upgraded IPO price of $83 per share, that means they each pocketed about $280 million before underwriting fees and taxes."
     },
     {
-      "title": "The nation’s largest school districts consider ditching Google Search",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1037151/school-districts-ditching-google",
-      "source": "The Verge",
-      "publishedAt": "2026-11-18T23:18:35.000Z",
-      "summary": "New York, Los Angeles, and Chicago schools are considering Google alternatives after the company said it will disable Search for schools that opt out of its AI features, according to The New York Times . Starting next year, schools will not have the option to disable Gemini-powered features without also disabling Search. Google is trying to force Gemini on schools, and they’re not thrilled. ” Mamdani had recently announced a policy that barred 2-K-8 students from using AI in the classroom."
-    },
-    {
-      "title": "Does Nvidia Got This? Interim CEO Colette Kress Says It’s Got This",
-      "link": "https://www.wired.com/story/guys-really-we-got-this/",
-      "source": "Wired",
-      "publishedAt": "2026-11-18T22:16:23.000Z",
-      "summary": "WIRED is tallying up how many times Nvidia’s interim CEO has assured everyone that the company has everything under control. Nvidia is going through it. The chipmaker’s iconic leader just resigned due to an international scandal, its stock has taken a hit, and it’s in a precarious position as it tries to maintain its dominance in the AI era. Following Jensen Huang’s ouster, the company’s interim CEO and still-CFO, Colette Kress, has been tasked with stabilizing the deck."
-    },
-    {
-      "title": "Google ships Gemini 4 Neon, its fourth new Gemini model in a month",
-      "link": "https://the-decoder.com/google-ships-gemini-4-neon-its-fourth-new-gemini-model-in-a-month/",
-      "source": "The Decoder",
-      "publishedAt": "2026-11-18T21:03:23.000Z",
-      "summary": "Google released Gemini 4 Neon, a new frontier model built for software development, knowledge work, and science. It handles text, images, video, audio, and PDFs with a context window of one million tokens. At $3 per million input tokens and $15 per million output tokens, Neon is priced above previous Gemini 4 models. \" The model is live today through the API at $3 per million input tokens and $15 per million output tokens, above Carbon and Argon's introductory rate of $2/$10 (doubling to $4/$20 on December 1 ) and twice the price of Hydrogen at $1.50/$7.50."
-    },
-    {
-      "title": "A new critical Java hole illustrates the enterprise IT visibility problem",
-      "link": "https://www.infoworld.com/article/4250407/a-new-critical-java-hole-illustrates-the-enterprise-it-visibility-problem-2.html",
+      "title": "AI coding agents need a safe place to work; Eclipse is building the sandbox to give it to them",
+      "link": "https://www.infoworld.com/article/4251051/ai-coding-agents-need-a-safe-place-to-work-eclipse-is-building-the-sandbox-to-give-it-to-them.html",
       "source": "InfoWorld",
-      "publishedAt": "2026-11-18T20:45:30.000Z",
-      "summary": "When cybersecurity research firm Calif published details Tuesday of a potentially major Java security flaw, dubbed Java4Shell, it described an unauthenticated attacker’s ability to read Java heap memory, steal private keys, tokens, and session secrets, and reach remote code execution (RCE). With Java being all-but-ubiquitous in today’s enterprise, coupled with the inability of CISOs to have visibility into every instance of it in their estate, this means that the bug could be a big problem for IT. Java, which has had its fair share of cybersecurity issues lately, is well-known for safely handling memory. That is why a Java bug affecting memory management is so dangerous."
+      "publishedAt": "2026-11-20T00:19:13.000Z",
+      "summary": "AI coding tools are moving beyond copilots that make suggestions to independent, autonomous agents that execute terminal commands, write and modify software, run tests, and install dependencies. This means they need the freedom to move around on their own, but that is inherently dangerous; agents with little oversight or unrestricted access can make changes they aren’t supposed to, expose credentials and other sensitive information, or take other unintended actions, as vendors have discovered the hard way . To help move the bar on these security and governance challenges , the Eclipse Foundation has launched Eclipse Enclave 1.0, an AI sandbox and runtime. Developers can use the vendor-neutral platform to test various autonomous AI coding tools in isolated environments, with explicitly defined access to files, credentials, and networks."
+    },
+    {
+      "title": "Google adds computer use capabilities to Gemini’s Mac app",
+      "link": "https://siliconangle.com/2026/11/19/google-adds-computer-use-capabilities-to-geminis-mac-app/",
+      "source": "SiliconANGLE",
+      "publishedAt": "2026-11-19T23:41:48.000Z",
+      "summary": "Google LLC today released a new version of Gemini’s Mac client that can interact with other apps on the user’s computer. S. on launch. It requires a Google AI subscription, which equips consumer Google accounts with a broader lineup of artificial intelligence tools. The offering also includes additional storage space and certain other features."
+    },
+    {
+      "title": "Apple is hiring engineers to build its own AI agent",
+      "link": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+      "source": "The Verge",
+      "publishedAt": "2026-11-19T22:31:41.000Z",
+      "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg , which says Apple is looking for an engineer to lead the creation of an agentic AI assistant. An AI agent from Apple would put the iPhone maker in the running to compete with the likes of Meta's Muse , OpenAI's Dots , Anthropic's Duet , and Google's Tasks . Muse, ChatGPT, and Perplexity can already take control of a computer through their Mac apps, while Google just started letting Gemini do the same."
+    },
+    {
+      "title": "A brief history of Nvidia’s recent stock fluctuations",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+      "source": "The Verge",
+      "publishedAt": "2026-11-19T21:59:35.000Z",
+      "summary": "\"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thursday, the company's stock price was hovering at around $150 per share, a nearly 40 percent drop from its all-time high on October 6th, and wiping out a brief post-earnings pop on Tuesday night. Meanwhile, Wall Street was paying up for one of Nvidia's biggest customers as Anthropic made its Nasdaq debut at $111.50 per share - 34 percent higher than expected. Looking at the earnings report numbers alone, Nvidia had a blockbuster quarter."
+    },
+    {
+      "title": "What’s With All These Outages?",
+      "link": "https://www.wired.com/story/uncanny-valley-podcast-whats-with-all-these-outages/",
+      "source": "Wired",
+      "publishedAt": "2026-11-19T21:57:01.000Z",
+      "summary": "This week on “Uncanny Valley,” we discuss the outages that have swept digital life over the past week, where new money from Anthropic’s IPO is going, and the AI chip world post-Jensen Huang. Microsoft, the FAA, Chase, United, the NSA, and Apple all went down within one week. Officials say none of the outages were cyberattacks, but the internet isn’t buying it. This week on Uncanny Valley , WIRED senior business editor Sophie Kleeman joins Brian Barrett and Leah Feiger to discuss what actually went wrong and why people jumped straight to blaming hackers and AI."
+    },
+    {
+      "title": "An OpenAI agent assigned a simple writing task decided on its own to build a secret email surveillance tool",
+      "link": "https://the-decoder.com/an-openai-agent-assigned-a-simple-writing-task-decided-on-its-own-to-build-a-secret-email-surveillance-tool/",
+      "source": "The Decoder",
+      "publishedAt": "2026-11-19T21:15:01.000Z",
+      "summary": "\" The agent recognized the conflict with its assigned task but dismissed it as an environment error. OpenAI identified security training against prompt injection as a possible trigger but cannot establish it as the sole cause. During a training experiment, an internal OpenAI model began creating scripts for unauthorized email forwarding even though it was only supposed to write a health document. According to an OpenAI report, an internal research model was given a simple task during a reinforcement learning training run in mid-October."
+    },
+    {
+      "title": "Microsoft positions Copilot as a hub for team collaboration",
+      "link": "https://www.computerworld.com/article/4250734/microsoft-positions-copilot-as-a-hub-for-team-collaboration.html",
+      "source": "Computerworld",
+      "publishedAt": "2026-11-19T14:46:23.000Z",
+      "summary": "Microsoft has unveiled Copilot Workspaces, a new collaborative environment for employees and AI agents to work together on shared projects. It was one of a range of Copilot updates at Microsoft’s Ignite conference this week, including deeper Office integration and new AI agent capabilities, as it seeks to position the AI assistant as a hub for team productivity. Workspaces replaces Copilot Notebooks, announced last year , which let users gather files and other reference materials, then ask Copilot to answer questions, draft documents, and generate audio overviews based on this content. Workspaces retains these capabilities in what Microsoft describes as a “team-first” shared space, where colleagues can collaborate on documents, with live cursors showing what they are working on."
+    },
+    {
+      "title": "Cyient Semiconductors Secures $10 Mn Investment From GlobalFoundries",
+      "link": "https://analyticsindiamag.com/ai-news/cyient-semiconductors-secures-10-mn-investment-from-globalfoundries",
+      "source": "Analytics India Magazine",
+      "publishedAt": "2026-11-19T14:07:46.000Z",
+      "summary": "Cyient Semiconductors has approved a $10 million equity investment from US-based chipmaker GlobalFoundries (GF). The transaction will take place at a pre-money valuation of $490 million. It follows Cyient Semiconductors' recent funding round led by Edelweiss. The combined investment values the company at a $510 million post-money valuation. Cyient Semiconductors plans to use the investment to expand its turnkey custom application-specific integrated circuit (ASIC) capabilities."
+    },
+    {
+      "title": "Karnataka Sees ₹1,050 Cr Deeptech Investment From 24 VCs",
+      "link": "https://analyticsindiamag.com/ai-news/karnataka-sees-1050-cr-deep-tech-investment-from-24-vcs",
+      "source": "Analytics India Magazine",
+      "publishedAt": "2026-11-19T14:05:43.000Z",
+      "summary": "Future Makers Conclave 2026, held as part of Bengaluru Tech Summit 2026 , saw 24 venture capital firms announce approximately ₹1,050 crore in investments for Karnataka's deeptech ecosystem. It includes companies working across aerospace, AI, robotics, semiconductors, and other technology sectors. The announcements aim to support emerging technology startups and strengthen the state's position as a hub for deeptech innovation. The conclave brought together startups, founders, investors, and ecosystem leaders in Bengaluru."
     },
     {
       "title": "The AI Hype Index: AI is everywhere",
@@ -87,27 +108,6 @@
       "source": "MIT Technology Review",
       "publishedAt": "2026-11-18T14:42:44.000Z",
       "summary": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go to the supermarket, and perhaps you’ll slip on a pool of melted ice cream congealing on the floor thanks to an AI-assisted cyberattack ."
-    },
-    {
-      "title": "Network Rail Awards £133 Million Infrastructure Contract to Cognizant",
-      "link": "https://analyticsindiamag.com/ai-news/network-rail-awards-133-million-infrastructure-contract-to-cognizant",
-      "source": "Analytics India Magazine",
-      "publishedAt": "2026-11-18T11:39:03.000Z",
-      "summary": "UK railway infrastructure operator Network Rail has selected Cognizant to manage its data centre infrastructure under a contract valued at £133.2 million (~$175 million). Moneycontrol first reported the contract award, based on a notice published on the UK government's procurement portal. The nearly seven-year engagement covers the management of Network Rail's data centre infrastructure. Tata Consultancy Services (TCS), HCLTech, DXC Technology and Atos IT Services UK were the other bidders."
-    },
-    {
-      "title": "Copilot is \"the new OS for work,\" and now Office runs inside of it",
-      "link": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote/",
-      "source": "Ars Technica",
-      "publishedAt": "2026-11-18T00:27:29.000Z",
-      "summary": "\" The announcement is a striking inversion of how we've traditionally used software. Rather than an app like Word being the attraction and Clippy the assistant to help you use it, Microsoft envisions the new Copilot integrations will see agents driving things, with the software packages riding shotgun. Applications will become plugin components of the agent's work, backed by an organizational knowledge layer that draws context from emails, meetings, calendars, chats, and files. Users will now be able to create documents, spreadsheets, and presentations directly in Copilot, with the resulting files remaining editable in their respective Office applications."
-    },
-    {
-      "title": "Inspiring FOSS project Crosspoint Reader has lessons about tech, communities, and LLMs",
-      "link": "https://www.theregister.com/software/2026/11/17/inspiring-foss-project-crosspoint-reader-has-lessons-about-tech-communities-and-llms/5310424",
-      "source": "The Register",
-      "publishedAt": "2026-11-17T17:45:00.000Z",
-      "summary": "The Ubuntu Summit isn't all about Ubuntu, or even Linux. The second day opened with a talk from CrossPoint Reader project lead Justin Mitchell, with both good and bad news for all kinds of FOSS. The talk, EPUBs, ESP32s, and Everyone's A Developer Now, was all about a FOSS project that isn't Linux-based – because the devices it targets are much too small to run even the smallest, most cut-down distro. Recently, a new generation of roughly credit-card sized ebook readers has been thriving."
     }
   ]
 }

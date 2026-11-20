@@ -22,6 +22,7 @@
     "Retrieval-Augmented Generation (RAG)",
     "Context Window",
     "Multimodal AI",
-    "Embedding"
+    "Embedding",
+    "Prompt Injection"
   ]
 }
