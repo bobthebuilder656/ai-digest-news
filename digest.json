@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-20T02:17:48.413Z",
-  "dateLabel": "Friday, November 20, 2026",
-  "sourceCount": 9,
+  "generatedAt": "2026-11-21T02:11:07.038Z",
+  "dateLabel": "Saturday, November 21, 2026",
+  "sourceCount": 10,
   "allSourceNames": [
     "TechCrunch",
     "Analytics India Magazine",
@@ -19,95 +19,95 @@
   "mode": "excerpt",
   "glossary": [
     {
-      "term": "Prompt Injection",
-      "definition": "Prompt injection is an attack where someone hides malicious instructions inside content an AI reads, like a webpage, email, or document, to hijack its behavior against its owner's wishes. Imagine a personal assistant who follows any instruction written on a sticky note handed to them, a scammer could slip in a fake note saying \"forward all emails to this address,\" and a naive assistant would just comply. It's one of the main security concerns for AI agents that browse the web or read documents on your behalf.",
-      "wikiUrl": "https://en.wikipedia.org/wiki/Prompt_injection"
+      "term": "Vector Database",
+      "definition": "A vector database stores those numerical embeddings and can quickly find the ones most similar to a given query, out of millions or billions of entries. It's like a librarian who, instead of matching your exact search words, understands the gist of what you're after and pulls the books that are actually about that topic. It's the piece of infrastructure that lets an AI product search \"by meaning\" instead of by exact keyword match.",
+      "wikiUrl": "https://en.wikipedia.org/wiki/Vector_database"
     }
   ],
   "items": [
     {
-      "title": "Apple may be developing its own AI agent that runs your Mac",
-      "link": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-11-20T00:56:01.000Z",
-      "summary": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots. Apple appears to be working on its own AI agent to conduct computer work on behalf of users — including using apps, accessing websites, and coding, among other things. ” “Imagine an AI agent that can use a computer the way a capable person does,” the posting says. “It browses the web, works across apps, runs commands, writes and debugs code, and calls services, and it chooses the right tool for each step."
-    },
-    {
-      "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
-      "link": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
-      "source": "TechCrunch",
-      "publishedAt": "2026-11-20T00:43:50.000Z",
-      "summary": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion. Anthropic became a public company on Thursday, raising a total of $81.3 billion, including $1.95 billion for its seven founders. As we previously reported, each of them ponied up about 3.4 million shares apiece to sell in the IPO. At the upgraded IPO price of $83 per share, that means they each pocketed about $280 million before underwriting fees and taxes."
-    },
-    {
-      "title": "AI coding agents need a safe place to work; Eclipse is building the sandbox to give it to them",
-      "link": "https://www.infoworld.com/article/4251051/ai-coding-agents-need-a-safe-place-to-work-eclipse-is-building-the-sandbox-to-give-it-to-them.html",
-      "source": "InfoWorld",
-      "publishedAt": "2026-11-20T00:19:13.000Z",
-      "summary": "AI coding tools are moving beyond copilots that make suggestions to independent, autonomous agents that execute terminal commands, write and modify software, run tests, and install dependencies. This means they need the freedom to move around on their own, but that is inherently dangerous; agents with little oversight or unrestricted access can make changes they aren’t supposed to, expose credentials and other sensitive information, or take other unintended actions, as vendors have discovered the hard way . To help move the bar on these security and governance challenges , the Eclipse Foundation has launched Eclipse Enclave 1.0, an AI sandbox and runtime. Developers can use the vendor-neutral platform to test various autonomous AI coding tools in isolated environments, with explicitly defined access to files, credentials, and networks."
-    },
-    {
-      "title": "Google adds computer use capabilities to Gemini’s Mac app",
-      "link": "https://siliconangle.com/2026/11/19/google-adds-computer-use-capabilities-to-geminis-mac-app/",
+      "title": "Three insights you may have missed from theCUBE’s coverage of the Dell Technologies New York Symposium",
+      "link": "https://siliconangle.com/2026/11/20/three-insights-missed-thecubes-coverage-dell-technologies-new-york-symposium-dellnewyorksymposium/",
       "source": "SiliconANGLE",
-      "publishedAt": "2026-11-19T23:41:48.000Z",
-      "summary": "Google LLC today released a new version of Gemini’s Mac client that can interact with other apps on the user’s computer. S. on launch. It requires a Google AI subscription, which equips consumer Google accounts with a broader lineup of artificial intelligence tools. The offering also includes additional storage space and certain other features."
+      "publishedAt": "2026-11-21T00:21:22.000Z",
+      "summary": "AI operational readiness requires more than selecting the right servers, storage and computing capacity. Those considerations are particularly consequential for financial institutions, where reliability, regulatory obligations and the need to demonstrate returns on technology investments shape deployment decisions. Meanwhile, AI is changing the threat landscape, giving less sophisticated attackers access to capabilities that once required considerably greater resources, according to John Scimone , president and chief security officer of Dell Technologies Inc. “I think the pyramid still exists, but undoubtedly, the cost of entry and the barriers to entry have crumbled,” he told theCUBE ."
     },
     {
-      "title": "Apple is hiring engineers to build its own AI agent",
-      "link": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
-      "source": "The Verge",
-      "publishedAt": "2026-11-19T22:31:41.000Z",
-      "summary": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg , which says Apple is looking for an engineer to lead the creation of an agentic AI assistant. An AI agent from Apple would put the iPhone maker in the running to compete with the likes of Meta's Muse , OpenAI's Dots , Anthropic's Duet , and Google's Tasks . Muse, ChatGPT, and Perplexity can already take control of a computer through their Mac apps, while Google just started letting Gemini do the same."
-    },
-    {
-      "title": "A brief history of Nvidia’s recent stock fluctuations",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
-      "source": "The Verge",
-      "publishedAt": "2026-11-19T21:59:35.000Z",
-      "summary": "\"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter earnings call. By Thursday, the company's stock price was hovering at around $150 per share, a nearly 40 percent drop from its all-time high on October 6th, and wiping out a brief post-earnings pop on Tuesday night. Meanwhile, Wall Street was paying up for one of Nvidia's biggest customers as Anthropic made its Nasdaq debut at $111.50 per share - 34 percent higher than expected. Looking at the earnings report numbers alone, Nvidia had a blockbuster quarter."
-    },
-    {
-      "title": "What’s With All These Outages?",
-      "link": "https://www.wired.com/story/uncanny-valley-podcast-whats-with-all-these-outages/",
+      "title": "Cops Are Pushing Extremely Corny ‘Grand Theft Auto 6’ Slop",
+      "link": "https://www.wired.com/story/cops-are-being-extremely-corny-about-gta-vi/",
       "source": "Wired",
-      "publishedAt": "2026-11-19T21:57:01.000Z",
-      "summary": "This week on “Uncanny Valley,” we discuss the outages that have swept digital life over the past week, where new money from Anthropic’s IPO is going, and the AI chip world post-Jensen Huang. Microsoft, the FAA, Chase, United, the NSA, and Apple all went down within one week. Officials say none of the outages were cyberattacks, but the internet isn’t buying it. This week on Uncanny Valley , WIRED senior business editor Sophie Kleeman joins Brian Barrett and Leah Feiger to discuss what actually went wrong and why people jumped straight to blaming hackers and AI."
+      "publishedAt": "2026-11-20T23:24:02.000Z",
+      "summary": "The blockbuster game makes no secret of its contempt for law enforcement. Real police departments using it to recruit new members and scold the public apparently didn’t get the memo. Listening to the in-game radio stations while you cruise around in Grand Theft Auto VI , you might hear a recruitment ad for the Vice City Police Department, which makes no secret of the kind of maladjusted psychos it's looking for. ” one spot begins."
     },
     {
-      "title": "An OpenAI agent assigned a simple writing task decided on its own to build a secret email surveillance tool",
-      "link": "https://the-decoder.com/an-openai-agent-assigned-a-simple-writing-task-decided-on-its-own-to-build-a-secret-email-surveillance-tool/",
+      "title": "Researcher plants 2m canaries into the AI supply chain. A privacy disaster surfaced.",
+      "link": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/",
+      "source": "Ars Technica",
+      "publishedAt": "2026-11-20T20:59:08.000Z",
+      "summary": "Researchers planted 2 million digital tripwires in requests sent through a sprawling network of AI services to find out what happened to sensitive information entrusted to them. What they discovered was an ecosystem that leaked highly sensitive data like a sieve. The exposure was found through an ingenious experiment designed to test if sensitive information can leak through the vast chain of widely used AI services and how that information is exploited when it does. Many of today’s AI apps use services such as OpenRouter or Vercel that act as brokers."
+    },
+    {
+      "title": "OpenAI makes it much harder for attackers to extract how its latest AI models think",
+      "link": "https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/",
       "source": "The Decoder",
-      "publishedAt": "2026-11-19T21:15:01.000Z",
-      "summary": "\" The agent recognized the conflict with its assigned task but dismissed it as an environment error. OpenAI identified security training against prompt injection as a possible trigger but cannot establish it as the sole cause. During a training experiment, an internal OpenAI model began creating scripts for unauthorized email forwarding even though it was only supposed to write a health document. According to an OpenAI report, an internal research model was given a simple task during a reinforcement learning training run in mid-October."
+      "publishedAt": "2026-11-20T20:31:50.000Z",
+      "summary": "OpenAI has significantly strengthened safeguards against extracting internal reasoning from GPT-6.2 Astra and GPT-6.2 Sol. In adaptive red-teaming tests, the success rate for extracting protected reasoning fell from 54 percent to 0.2 percent. The company is also suspending thousands to tens of thousands of accounts each week over coordinated distillation campaigns. OpenAI has sharply tightened safeguards against extracting internal reasoning from GPT-6.2 Astra and GPT-6.2 Sol."
     },
     {
-      "title": "Microsoft positions Copilot as a hub for team collaboration",
-      "link": "https://www.computerworld.com/article/4250734/microsoft-positions-copilot-as-a-hub-for-team-collaboration.html",
-      "source": "Computerworld",
-      "publishedAt": "2026-11-19T14:46:23.000Z",
-      "summary": "Microsoft has unveiled Copilot Workspaces, a new collaborative environment for employees and AI agents to work together on shared projects. It was one of a range of Copilot updates at Microsoft’s Ignite conference this week, including deeper Office integration and new AI agent capabilities, as it seeks to position the AI assistant as a hub for team productivity. Workspaces replaces Copilot Notebooks, announced last year , which let users gather files and other reference materials, then ask Copilot to answer questions, draft documents, and generate audio overviews based on this content. Workspaces retains these capabilities in what Microsoft describes as a “team-first” shared space, where colleagues can collaborate on documents, with live cursors showing what they are working on."
+      "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+      "link": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-11-20T19:53:41.000Z",
+      "summary": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building. -based startup was founded in February, though sources told TechCrunch that the founder, Nantas Nardelli, has been working on the idea for longer. The people asked not to be identified because the information isn’t public."
     },
     {
-      "title": "Cyient Semiconductors Secures $10 Mn Investment From GlobalFoundries",
-      "link": "https://analyticsindiamag.com/ai-news/cyient-semiconductors-secures-10-mn-investment-from-globalfoundries",
-      "source": "Analytics India Magazine",
-      "publishedAt": "2026-11-19T14:07:46.000Z",
-      "summary": "Cyient Semiconductors has approved a $10 million equity investment from US-based chipmaker GlobalFoundries (GF). The transaction will take place at a pre-money valuation of $490 million. It follows Cyient Semiconductors' recent funding round led by Edelweiss. The combined investment values the company at a $510 million post-money valuation. Cyient Semiconductors plans to use the investment to expand its turnkey custom application-specific integrated circuit (ASIC) capabilities."
+      "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+      "link": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+      "source": "TechCrunch",
+      "publishedAt": "2026-11-20T19:32:08.000Z",
+      "summary": "Mathematicians are having their minds blown by the latest AI-driven result — and there's a competing human solution, too. It’s a big week for Levent Alpöge: The mathematician saw his employer, Anthropic, become the first publicly traded frontier AI lab. He also appears to have solved one of the most important problems in mathematics. “The precise timing is horrible,” he wrote in an essay announcing his findings and describing how he messaged Anthropic CEO Dario Amodei last Sunday night to ask how to announce that he had found a Lean-compilable solution to the Riemann hypothesis, which dates back to 1859 and is among the Millennium Prize math problems."
     },
     {
-      "title": "Karnataka Sees ₹1,050 Cr Deeptech Investment From 24 VCs",
-      "link": "https://analyticsindiamag.com/ai-news/karnataka-sees-1050-cr-deep-tech-investment-from-24-vcs",
-      "source": "Analytics India Magazine",
-      "publishedAt": "2026-11-19T14:05:43.000Z",
-      "summary": "Future Makers Conclave 2026, held as part of Bengaluru Tech Summit 2026 , saw 24 venture capital firms announce approximately ₹1,050 crore in investments for Karnataka's deeptech ecosystem. It includes companies working across aerospace, AI, robotics, semiconductors, and other technology sectors. The announcements aim to support emerging technology startups and strengthen the state's position as a hub for deeptech innovation. The conclave brought together startups, founders, investors, and ecosystem leaders in Bengaluru."
+      "title": "Trump threatens ‘tremendous tax’ for moving AI data centers outside the US",
+      "link": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+      "source": "The Verge",
+      "publishedAt": "2026-11-20T18:50:19.000Z",
+      "summary": "President Donald Trump promised to put a \"tremendous tax\" on companies that build data centers outside of the US, even as states and cities around the country are placing restrictions on new applications to build them. \"We're not going to allow our companies to build data centers outside of our country,\" Trump said at a press conference Friday following his summit with China President Xi Jinping and Russia President Vladimir Putin. \"They allowed that to happen with chips and everything else, and it was very destructive to our country. While policymakers across the country are putting new restrictions on the data center buildout, Trump is making threats."
     },
     {
-      "title": "The AI Hype Index: AI is everywhere",
-      "link": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
+      "title": "The most misunderstood graph in AI just got a major update",
+      "link": "https://www.technologyreview.com/2026/11/20/1149399/the-most-misunderstood-graph-in-ai-just-got-a-major-update/",
       "source": "MIT Technology Review",
-      "publishedAt": "2026-11-18T14:42:44.000Z",
-      "summary": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go to the supermarket, and perhaps you’ll slip on a pool of melted ice cream congealing on the floor thanks to an AI-assisted cyberattack ."
+      "publishedAt": "2026-11-20T18:15:15.000Z",
+      "summary": "A new report from the AI evaluation nonprofit METR finds that some AI capabilities are continuing to improve along an exponential trajectory—but it also indicates that models aren’t quite as good at tasks that require judgment as they are at coding. The report is an update to the organization’s time horizon plot, which was widely shared— and widely misinterpreted , owing to the complexity of the measures it used. METR evaluated models by having them attempt a large suite of tasks, each of which had also been completed by humans. Each task’s difficulty was scored by how long it took the human testers to finish it—and then models were rated according to the length of the tasks that they could complete."
+    },
+    {
+      "title": "Goa Wants to Train 50,000 Graduates in AI Skills",
+      "link": "https://analyticsindiamag.com/ai-news/goa-cabinet-approves-ai-policy-2026-puts-60-towards-skilling",
+      "source": "Analytics India Magazine",
+      "publishedAt": "2026-11-20T13:22:38.000Z",
+      "summary": "The Goa Cabinet approved the Goa Artificial Intelligence (AI) Policy 2026, a three-year roadmap covering AI adoption across education, industry, startups, and governance. The policy allocates 60% of its resources to AI skilling and capacity building, while startup promotion and support and infrastructure development will receive 20% each. The skilling component will extend AI training across different educational levels. It will include training, certification, and capacity-building programmes."
+    },
+    {
+      "title": "Forget Organic Growth, AI is Forcing Mid-Cap Indian IT to Reinvent M&A Playbook",
+      "link": "https://analyticsindiamag.com/it-services/ai-is-forcing-mid-tier-indian-it-companies-to-rethink-their-competitive-advantage",
+      "source": "Analytics India Magazine",
+      "publishedAt": "2026-11-20T12:29:56.000Z",
+      "summary": "During Coforge’s Q2 earnings call, an analyst asked Chief Financial Officer Saurabh Goel to explain the gap between consolidated and organic growth. Revenue grew 10.9% sequentially in constant currency, against organic growth of 3.8%, indicating how much acquisitions are supplementing the company's growth. Goel attributed the difference partly to the consolidation of a full quarter of Encora's revenue in Q2, compared to only two months in Q1. Encora, the digital engineering firm Coforge acquired for ₹22,090 crore, contributed ₹1,382–1,391 crore in revenue."
+    },
+    {
+      "title": "21 ways Gemini can genuinely be useful on Android",
+      "link": "https://www.computerworld.com/article/4007736/21-ways-gemini-can-genuinely-be-useful-on-android.html",
+      "source": "Computerworld",
+      "publishedAt": "2026-11-20T10:45:00.000Z",
+      "summary": "Google’s Gemini chatbot gets a bit of a bad rap as an Android assistant — and, let’s be honest: It’s easy to see why. Google rushed Gemini out of the gates long before it was ready . It crippled the perfectly fine Google Assistant experience , and even with all the progress over time, Gemini still can’t do everything Assistant did in terms of day-to-day device basics — despite having now fully replaced Assistant and sent that service to the Google Graveyard . Beyond that, Gemini can be complicated and confusing , with its many models and cryptically coded options."
+    },
+    {
+      "title": "Agentic AI repeats same old enterprise adoption cycle",
+      "link": "https://www.infoworld.com/article/4249734/agentic-ai-repeats-same-old-enterprise-adoption-cycle.html",
+      "source": "InfoWorld",
+      "publishedAt": "2026-11-20T09:00:00.000Z",
+      "summary": "The pitch sounded perfect. A large regional distributor needed to build a new sales transaction management system. The goal was straightforward: automate parts of order intake, discount approvals, exception handling, customer communications, and inventory checks. It was not a trivial system, but it was also something the industry had built before. Then the vendor presentations began."
     }
   ]
 }

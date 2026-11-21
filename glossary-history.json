@@ -23,6 +23,7 @@
     "Context Window",
     "Multimodal AI",
     "Embedding",
-    "Prompt Injection"
+    "Prompt Injection",
+    "Vector Database"
   ]
 }
